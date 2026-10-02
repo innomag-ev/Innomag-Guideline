@@ -1,4 +1,4 @@
-name: Publish Quarto HTML
+name: Publish Quarto Book
 
 on:
   push:
@@ -26,9 +26,11 @@ jobs:
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
 
-      - name: Render German HTML book
-        run: quarto render de --to html
+      - name: Render German book
+        run: quarto render de
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5

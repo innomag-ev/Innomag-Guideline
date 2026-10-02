@@ -12,7 +12,10 @@ book:
     - "Michael Ortner"
     - "Rolf Slatter"
 
-  output-file: "latex-doc-de"
+  output-file: "Innomag-Guideline-de"
+
+  downloads:
+    - pdf
 
   chapters:
     - index.qmd
