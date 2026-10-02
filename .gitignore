@@ -1,1 +1,54 @@
+# Quarto working/cache directories
+.quarto/
+**/.quarto/
 
+# Quarto generated Jupyter notebooks
+*.quarto_ipynb
+**/*.quarto_ipynb
+
+# Generated website resources
+site_libs/
+**/site_libs/
+
+# Final rendered book/site
+_book/
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+
+**/.gitignore

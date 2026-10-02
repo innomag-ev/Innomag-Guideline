@@ -1,0 +1,43 @@
+---
+title: "Index"
+subtitle: "Terminologie, technische Darstellung, Einteilung, Messaufbau, Vermessung und Bewertung"
+author:
+  - "Michael Ortner"
+  - "Rolf Slatter"
+date: "2026-10-01"
+---
+
+# Vorwort {.unnumbered}
+
+Diese Richtlinie stellt eine einheitliche Terminologie und ein gemeinsames
+Framework zur Beschreibung, grafischen Darstellung, Messung und Qualifizierung
+magnetischer Maßverkörperungen für industrielle Weg- und Winkelmesssysteme bereit.
+
+# Anwendungsbereich {.unnumbered}
+
+Die Richtlinie behandelt insbesondere:
+
+- Terminologie magnetischer Maßverkörperungen,
+- grafische Darstellung magnetischer Strukturen,
+- Beschreibung relevanter Magnetfeldgrößen,
+- Messmethoden und Referenzbedingungen,
+- Qualifizierung und Vergleich magnetischer Maßverkörperungen.
+
+# Autoren {.unnumbered}
+
+**Michael Ortner**  
+Silicon Austria Labs
+
+**Rolf Slatter**  
+INNOMAG e.V.
+
+# Version {.unnumbered}
+
+Version 1.1
+
+# Lizenz {.unnumbered}
+
+© 2026 INNOMAG e.V.
+
+Dieses Werk steht, sofern nicht anders angegeben, unter der Lizenz
+Creative Commons Attribution 4.0 International (CC BY 4.0).

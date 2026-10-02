@@ -1,0 +1,36 @@
+project:
+  type: book
+  output-dir: ../_book/de
+
+lang: de
+
+book:
+  title: "Richtlinie zu Magnetischen Maßverkörperungen für Weg- und Winkelmesssysteme"
+  subtitle: "Terminologie, technische Darstellung, Einteilung, Messaufbau, Vermessung und Bewertung"
+
+  author:
+    - "Michael Ortner"
+    - "Rolf Slatter"
+
+  output-file: "latex-doc-de"
+
+  chapters:
+    - index.qmd
+    - kapitel01-einleitung.qmd
+    - kapitel02-beispiele.qmd
+    - literatur.qmd
+
+bibliography: ../bibliography.bib
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+
+  pdf:
+    documentclass: scrbook
+    papersize: a4
+    toc: true
+    number-sections: true
+    keep-tex: false
