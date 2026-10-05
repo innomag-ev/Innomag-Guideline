@@ -1,0 +1,30 @@
+a.quarto-navigation-tool[href$=".pdf"] {
+  display: inline-block;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.25rem 0.65rem;
+
+  margin-top: 1rem;
+  padding: 0.2rem 0.65rem;
+
+  background-color: #ffe4e1;
+  border: 1.5px solid #5c6062;
+  border-radius: 0.4rem;
+
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.quarto-navigation-tool[href$=".pdf"] i {
+  display: none;
+}
+
+a.quarto-navigation-tool[href$=".pdf"]::after {
+  content: "PDF herunterladen";
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.begriffstabelle {
+  font-size: 0.9rem;
+}

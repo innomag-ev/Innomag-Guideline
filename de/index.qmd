@@ -1,43 +1,111 @@
----
-title: "Index"
-subtitle: "Terminologie, technische Darstellung, Einteilung, Messaufbau, Vermessung und Bewertung"
-author:
-  - "Michael Ortner"
-  - "Rolf Slatter"
-date: "2026-10-01"
----
+
+::: {.content-visible when-format="html"}
+
+<div class="impressum-title">Impressum</div>
+
+**Version**: {{< meta version >}}
+
+**Publikationsdatum**: 2026-10-01
+
+**DOI**: 10.5281/zenodo.XXXXXXX
+
+**Autoren**: Michael Ortner, Rolf Slatter
+
+**Herausgeber**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
+
+**Lizenziert** unter Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
+
+Das Werk darf vervielfältigt, verbreitet, bearbeitet und für beliebige
+Zwecke, einschließlich kommerzieller Zwecke, verwendet werden, sofern eine
+angemessene Namensnennung erfolgt, auf die Lizenz verwiesen wird und
+Änderungen kenntlich gemacht werden.
+
+:::
+
+# Autorschaft und Beiträge {.unnumbered}
+
+## Autoren {.unlisted}
+
+Verantwortung für die jeweiligen Kapitel; Entwicklung und Ausarbeitung von Konzept, Struktur und Inhalten.
+
+| Name | Organisation | Beitrag |
+|---|---|---|
+| Michael Ortner | Silicon Austria Labs GmbH | Kapitel 2–8, Editor |
+| Rolf Slatter | INNOMAG e. V. | Kapitel 1 |
+
+## Fachliche Mitwirkung {.unlisted}
+
+Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; Rückmeldungen zu Inhalten; Review ausgewählter Abschnitte; Begleitung der konzeptionellen Weiterentwicklung.
+
+| Name | Organisation | Beitrag |
+|---|---|---|
+| Armin Pfeffer | Bogen Magnetics GmbH | Fachliche Mitwirkung |
+| Axel Bartos | TE Connectivity | Fachliche Mitwirkung |
+| Benjamin Wenzel | Matesy GmbH | Fachliche Mitwirkung |
+| Bernd Böhle | ELSOMA GmbH | Fachliche Mitwirkung |
+| Florian Slanovc | Silicon Austria Labs GmbH | Fachliche Mitwirkung |
+| Heiko Knoll | ITK Precisioning GmbH | Fachliche Mitwirkung |
+| Jürgen Gerber | INNOMAG e.V. | Fachliche Mitwirkung; Koordination |
+| Magnus Meier | IC-Haus GmbH | Fachliche Mitwirkung |
+| Mattias Pelkner | Bundesanstalt für Materialforschung und -prüfung | Fachliche Mitwirkung |
+| Michael Melzer | Bundesanstalt für Materialforschung und -prüfung | Fachliche Mitwirkung |
+| Michal Pham | Baumer Group | Fachliche Mitwirkung |
+| Pascal Hille | Sensitec GmbH | Fachliche Mitwirkung; Beitrag zu Kapitel 2 |
+| Phillip Beran | Fraunhofer Institut für Integrierte Schaltungen IIS | Fachliche Mitwirkung |
+| Ralph Bauer | Balluff GmbH | Fachliche Mitwirkung |
+| René Buß | Sensitec GmbH | Fachliche Mitwirkung |
+| Rocco Holzhey | Innovent GmbH | Fachliche Mitwirkung |
+| Sebastian Rivera | ITK Precisioning GmbH | Fachliche Mitwirkung |
+| Sibylle Sievers | Physikalisch-Technische Bundesanstalt | Fachliche Mitwirkung |
+| Stefan Herzog | ZF Friedrichshafen AG | Fachliche Mitwirkung; Beitrag zu Kapitel 2 |
+| Thomas Schliesch | Max Baermann GmbH | Fachliche Mitwirkung |
+| Werner Pessenhofer | Nanomag GmbH | Fachliche Mitwirkung |
 
 # Vorwort {.unnumbered}
 
-Diese Richtlinie stellt eine einheitliche Terminologie und ein gemeinsames
-Framework zur Beschreibung, grafischen Darstellung, Messung und Qualifizierung
-magnetischer Maßverkörperungen für industrielle Weg- und Winkelmesssysteme bereit.
+Magnetische Weg- und Winkelmesssysteme sind aus der modernen Automatisierungs-, Antriebs- und Fahrzeugtechnik nicht mehr wegzudenken. Ihr Herzstück – die magnetische Maßverkörperung – wird jedoch über die gesamte Wertschöpfungskette hinweg von sehr unterschiedlichen Akteuren entwickelt, gefertigt, magnetisiert und geprüft. Gerade an diesen Schnittstellen zeigt sich immer wieder, wie sehr eine gemeinsame, eindeutige Sprache fehlt.
 
-# Anwendungsbereich {.unnumbered}
+Einen ersten wichtigen Schritt zur Abhilfe stellte die DIN SPEC 91411 [@DIN91411] dar. Die praktische Arbeit mit dieser Spezifikation in den vergangenen Jahren hat den Wert einer einheitlichen Beschreibung eindrücklich bestätigt – zugleich aber gezeigt, dass einige zentrale Begriffe in der täglichen Anwendung unterschiedlich verstanden und ausgelegt wurden. Aus diesem Erfahrungsschatz heraus entstand der Wunsch, bestehende Definitionen zu schärfen, Lücken zu schließen und die Darstellungsregeln konsistent auf physikalische Grundlagen zurückzuführen.
 
-Die Richtlinie behandelt insbesondere:
+Die vorliegende Richtlinie ist das Ergebnis dieser Weiterentwicklung. Sie wurde von einem Konsortium aus Mitgliedsfirmen und -instituten des INNOMAG e. V. erarbeitet, dass Hersteller, Anwender und Forschungseinrichtungen an einen Tisch gebracht hat. In dieser Zusammensetzung spiegelt das Dokument die geballte Praxiserfahrung der Fachgemeinschaft wider und verfolgt ein klares Ziel: eine gemeinsame, allgemein verständliche Terminologie für magnetische Maßverkörperungen zu etablieren, die Missverständnisse vermeidet und den fachlichen Austausch über Unternehmens- und Ländergrenzen hinweg erleichtert.
 
-- Terminologie magnetischer Maßverkörperungen,
-- grafische Darstellung magnetischer Strukturen,
-- Beschreibung relevanter Magnetfeldgrößen,
-- Messmethoden und Referenzbedingungen,
-- Qualifizierung und Vergleich magnetischer Maßverkörperungen.
+Ein besonderer Dank gilt Herrn Dr. Michael Ortner von den Silicon Austria Labs, der sich in maßgeblicher Weise an der Erstellung dieser Richtlinie beteiligt hat. Ebenso danken wir allen mitwirkenden Autorinnen und Autoren sowie den beteiligten Unternehmen und Instituten, ohne deren Engagement dieses Dokument nicht möglich gewesen wäre.
 
-# Autoren {.unnumbered}
+Wir wünschen allen Leserinnen und Lesern eine anregende Lektüre und hoffen, dass diese Richtlinie in der Praxis ebenso breite Anwendung findet wie ihre Vorgängerin.
 
-**Michael Ortner**  
-Silicon Austria Labs
+::: {style="text-align: right;"}
 
-**Rolf Slatter**  
-INNOMAG e.V.
+Dr. Rolf Slatter, Vorstandsvorsitzender, INNOMAG e. V.
 
-# Version {.unnumbered}
+Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
 
-Version 1.1
+:::
 
-# Lizenz {.unnumbered}
+# Abkürzungen und Formelzeichen {.unnumbered}
 
-© 2026 INNOMAG e.V.
+## Abkürzungsverzeichnis {.unlisted}
 
-Dieses Werk steht, sofern nicht anders angegeben, unter der Lizenz
-Creative Commons Attribution 4.0 International (CC BY 4.0).
+| Abkürzung | Bedeutung |
+|---|---|
+| KS | Koordinatensystem |
+| IP | in-plane |
+| OOP | out-of-plane |
+
+## Symbolverzeichnis grundlegender Größen {.unlisted}
+
+| Symbol | Bedeutung | Einheit |
+|---|---|---|
+| $\vec{B}$ | magnetische Flussdichte, B-Feld | T |
+| $\vec{H}$ | magnetische Feldstärke, H-Feld | A/m |
+| $\vec{M}$ | Magnetisierung | A/m |
+| $\vec{J}$ | magnetische Polarisation | T |
+| $\mu_0$ | Vakuumpermeabilität | T m/A |
+| $p$ | Koordinate in Längsrichtung | m bzw. ° |
+| $o$ | Koordinate in Querrichtung | m |
+| $n$ | Koordinate in Abstandsrichtung; Messhöhe bei entsprechender Verwendung | m |
+| $o$ | Ursprung eines Koordinatensystems | – |
+| $\vec{e}_p$ | Einheitsvektor in $p$-Richtung | – |
+| $\vec{e}_o$ | Einheitsvektor in $o$-Richtung | – |
+| $\vec{e}_n$ | Einheitsvektor in $n$-Richtung | – |
+| $\vec{r}$ | Orts- bzw. Lagevektor | m |
+
