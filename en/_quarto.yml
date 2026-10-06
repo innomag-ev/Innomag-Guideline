@@ -26,6 +26,14 @@ book:
   chapters:
     - href: index.qmd
       text: "About this Document"
+    - sec01-Introduction.qmd
+    - sec02-Examples.qmd
+    - sec03-Fundamentals.qmd
+    - sec04-Structure.qmd
+    - sec05-Strayfield.qmd
+    - sec06-CharacterizationFundamentals.qmd
+    - sec07-Classification.qmd
+    - sec08-Sensors.qmd
     - literature.qmd
 
 bibliography: ../bibliography.bib
