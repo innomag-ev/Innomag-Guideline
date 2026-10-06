@@ -94,7 +94,7 @@ Wenn zwei Inkrementalspuren nebeneinander angeordnet sind und sich ihre Elementa
 
 ![Spurtypen – Noniusmuster I23:I24](abbildungen/07-Einteilung/11-nonius.png){#fig-ch07-11-nonius width=70%}
 
-Mit einem Pseudorandomcode kann die absolute Lage direkt bestimmt werden. Die erreichbare Auflösung ist jedoch begrenzt. Durch die Kombination mit einer Inkrementalspur können Messauflösung und -genauigkeit erhöht werden. Dabei liefert die Pseudorandomcode-Spur die absolute Lage, während die Inkrementalspur zur höher aufgelösten Feinbestimmung und gegebenenfalls zur Korrektur verwendet wird. Ein Beispiel ist in Abbildung 7.12 gezeigt.
+Mit einem Pseudorandomcode kann die absolute Lage direkt bestimmt werden. Die erreichbare Auflösung ist jedoch begrenzt. Durch die Kombination mit einer Inkrementalspur können Messauflösung und -genauigkeit erhöht werden. Dabei liefert die Pseudorandomcode-Spur die absolute Lage, während die Inkrementalspur zur höher aufgelösten Feinbestimmung und gegebenenfalls zur Korrektur verwendet wird. Ein Beispiel ist in @fig-ch07-12-inkremental_pseudo gezeigt.
 
 ![Spurtypen – Inkrementalspur mit Pseudorandomcode I24:P](abbildungen/07-Einteilung/12-inkremental-pseudo.png){#fig-ch07-12-inkremental_pseudo width=70%}
 
