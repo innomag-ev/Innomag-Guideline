@@ -27,9 +27,9 @@ Das **Datumssystem** wird nach ISO 5459:2024 ausschließlich aus geometrischen D
 
 Der **Koordinatenursprung** der Maßverkörperung $O_M$ wird aus diesem Datumssystem abgeleitet. Gemeinsam mit der Orientierung der Koordinatenrichtungen nach @sec-03-koordinatensystem_der_maßverkörperung können damit die magnetische Struktur und das Streufeld auf die experimentell ermittelte Bauteilgeometrie bezogen werden.
 
-![Mechanischer Bezug](figures/sec06/01-mech_bezug.png){#fig-ch06-01-mech_bezug width=80%}
+![Mechanischer Bezug](figures/sec06/01-mech_bezug.png){#fig-sec06-01-mech_bezug width=80%}
 
-@fig-ch06-01-mech_bezug zeigt zwei Beispiele zur Ableitung des Koordinatenursprungs $O_M$ aus geometrischen Datumssystemen. Teilbild (a) zeigt eine rotationssymmetrische Maßverkörperung, deren Datumssystem durch die Oberseite (rot), die Mantelfläche (grün) und eine Markierung auf der Mantelfläche (gelb) festgelegt ist. Teilbild (b) zeigt eine quaderförmige Maßverkörperung, bei der das Datumssystem aus drei orthogonalen Seitenflächen abgeleitet wird. Die Datumselemente können beispielsweise mit taktilen oder optischen Messverfahren ermittelt werden. Die farbliche Hervorhebung in der Abbildung dient ausschließlich ihrer besseren Unterscheidbarkeit.
+@fig-sec06-01-mech_bezug zeigt zwei Beispiele zur Ableitung des Koordinatenursprungs $O_M$ aus geometrischen Datumssystemen. Teilbild (a) zeigt eine rotationssymmetrische Maßverkörperung, deren Datumssystem durch die Oberseite (rot), die Mantelfläche (grün) und eine Markierung auf der Mantelfläche (gelb) festgelegt ist. Teilbild (b) zeigt eine quaderförmige Maßverkörperung, bei der das Datumssystem aus drei orthogonalen Seitenflächen abgeleitet wird. Die Datumselemente können beispielsweise mit taktilen oder optischen Messverfahren ermittelt werden. Die farbliche Hervorhebung in der Abbildung dient ausschließlich ihrer besseren Unterscheidbarkeit.
 
 ## Magneto-mechanischer Bezug und Feld-KS {#sec-06-mag_mech_bezug}
 
@@ -47,9 +47,9 @@ Als **Referenzlagen für den Ursprung** $O_F$ werden typischerweise in $p$-Richt
 
 Die Lage von $O_F$ im Maßverkörperungs-KS bildet den **magneto-mechanischen Bezug**, der das vermessene Streufeld mit der Bauteilgeometrie in Bezug setzt. Für die praktische Ermittlung sollte die ungefähre Lage von $O_F$ durch mechanische Merkmale, beispielsweise Bauteilkanten oder Markierungen, bekannt sein. Die genaue Lage kann anschließend durch Vermessung des Streufeldes in deren Umgebung bestimmt werden.
 
-![Magneto-mechanischer Bezug und Feld-KS](figures/sec06/02-mag_mech_bezug.png){#fig-ch06-02-mag_mech_bezug width=100%}
+![Magneto-mechanischer Bezug und Feld-KS](figures/sec06/02-mag_mech_bezug.png){#fig-sec06-02-mag_mech_bezug width=100%}
 
-@fig-ch06-02-mag_mech_bezug veranschaulicht den magneto-mechanischen Bezug und die Ermittlung eines Feld-KS. Dargestellt sind die Maßverkörperung aus @sec-05-streufeld_einer_maßverkörperung und darüber liegend eine binäre Felddarstellung der IP-Komponente des Streufeldes, das auf einer $p$-$o$-Messfläche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ ermittelt wurde. Die Felddarstellung ist dabei auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt.
+@fig-sec06-02-mag_mech_bezug veranschaulicht den magneto-mechanischen Bezug und die Ermittlung eines Feld-KS. Dargestellt sind die Maßverkörperung aus @sec-05-streufeld_einer_maßverkörperung und darüber liegend eine binäre Felddarstellung der IP-Komponente des Streufeldes, das auf einer $p$-$o$-Messfläche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ ermittelt wurde. Die Felddarstellung ist dabei auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt.
 
 In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nullstelle (blau), in $o$-Richtung durch die Mitte des Nutzbereichs (gelb) und in $n$-Richtung durch die funktionale Oberfläche der Maßverkörperung festgelegt. Markierungen an der Seite der Maßverkörperung zeigen die ungefähre Lage der ersten Nullstelle und der Mitte des Nutzbereichs an. Zur besseren Sichtbarkeit des Koordinatenkreuzes des Feld-KS, das auf der funktionalen Oberfläche der Maßverkörperung liegt, sind die ersten beiden Halbwellen der Felddarstellung transparent ausgeführt.
 
@@ -80,9 +80,9 @@ $$
 
 Da sich ein Versatz auf zwei Spurfelder bezieht, wird nach Indexkonvention in @sec-03-indexkonvention das Kürzel „FF“ für den Bezugsindex verwendet.
 
-![Spurfeldlage](figures/sec06/03-spurfeldlage.png){#fig-ch06-03-spurfeldlage width=100%}
+![Spurfeldlage](figures/sec06/03-spurfeldlage.png){#fig-sec06-03-spurfeldlage width=100%}
 
-@fig-ch06-03-spurfeldlage zeigt den in @fig-ch05-10-spurfeld dargestellten magnetischen Maßstab in Aufsicht. Die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ sind auf die funktionale Oberfläche des Maßstabs projiziert. Innerhalb der Nutzbereiche ist die $B_n$-Komponente des Magnetfeldes in binärer Darstellung wiedergegeben.
+@fig-sec06-03-spurfeldlage zeigt den in @fig-sec05-10-spurfeld dargestellten magnetischen Maßstab in Aufsicht. Die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ sind auf die funktionale Oberfläche des Maßstabs projiziert. Innerhalb der Nutzbereiche ist die $B_n$-Komponente des Magnetfeldes in binärer Darstellung wiedergegeben.
 
 Für jede Spur ist ein zugehöriges Spurfeld-KS eingezeichnet. Die Ursprünge $O_F^{(1)}$ und $O_F^{(2)}$ werden im Maßverkörperungs-KS durch die blau eingezeichneten Spurfeldlagen $\vec{r}_F^{(1)}$ und $\vec{r}_F^{(2)}$ beschrieben. Im dargestellten Beispiel werden ihre Lagen in $p$-Richtung durch die jeweils erste Nullstelle und in $o$-Richtung durch die Mitte des zugehörigen Nutzbereichs (gelb) festgelegt.
 
@@ -102,9 +102,9 @@ w_{FF}^{(i_1,i_2)}
 \frac{w_F^{(i_1)} + w_F^{(i_2)}}{2}
 $$
 
-Die folgende @fig-ch06-04-spurfeldbreite zeigt den magnetischen Maßstab aus @fig-ch06-03-spurfeldlage in Aufsicht. Zusätzlich wurde ein Materialdefekt simuliert, der im ausgewiesenen Bereich zu einer Verringerung der Polarisation auf $80\,\%$ ihres ursprünglichen Wertes führt.
+Die folgende @fig-sec06-04-spurfeldbreite zeigt den magnetischen Maßstab aus @fig-sec06-03-spurfeldlage in Aufsicht. Zusätzlich wurde ein Materialdefekt simuliert, der im ausgewiesenen Bereich zu einer Verringerung der Polarisation auf $80\,\%$ ihres ursprünglichen Wertes führt.
 
-![Spurbreite und Spurfeldbreite](figures/sec06/04-spurfeldbreite.png){#fig-ch06-04-spurfeldbreite width=100%}
+![Spurbreite und Spurfeldbreite](figures/sec06/04-spurfeldbreite.png){#fig-sec06-04-spurfeldbreite width=100%}
 
 In der Abbildung sind die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ auf die funktionale Oberfläche des Maßstabs projiziert und blau dargestellt. Die darunterliegenden Spuren sind gelb umrandet; ihre Betriebsabschnitte sind gelb ausgefüllt.
 

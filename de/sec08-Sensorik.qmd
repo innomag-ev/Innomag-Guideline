@@ -20,11 +20,11 @@ Ein Package kann unmittelbar das äußere **Sensorgehäuse** bilden oder zusamme
 
 Die genannten Integrationsebenen sind nicht bei allen Sensoren getrennt ausgeführt und stellen keine zwingende Aufbauhierarchie dar. Die Begriffe dienen der eindeutigen Bezeichnung der jeweils betrachteten funktionalen beziehungsweise konstruktiven Ebene.
 
-![Beispielhafter Aufbau eines Sensormoduls[^fig-sensormodul_aufbau]](figures/sec08/01-sensormodul_aufbau.png){#fig-ch08-01-sensormodul_aufbau width=100%}
+![Beispielhafter Aufbau eines Sensormoduls[^fig-sensormodul_aufbau]](figures/sec08/01-sensormodul_aufbau.png){#fig-sec08-01-sensormodul_aufbau width=100%}
 
 [^fig-sensormodul_aufbau]: Quelle der Abbildungen: Infineon AG, Augustin Group GmbH und mit freundlicher Genehmigung von U. Ausserlechner; redaktionelle Aufbereitung durch Autoren.
 
-@fig-ch08-01-sensormodul_aufbau zeigt beispielhaft den Aufbau eines Sensormoduls in Halbleitertechnik und veranschaulicht die Integrationsebenen vom Sensorelement über Sensorchip, Package und Sensorgehäuse bis zum Sensormodul.
+@fig-sec08-01-sensormodul_aufbau zeigt beispielhaft den Aufbau eines Sensormoduls in Halbleitertechnik und veranschaulicht die Integrationsebenen vom Sensorelement über Sensorchip, Package und Sensorgehäuse bis zum Sensormodul.
 
 ## Lagebeziehung des Sensors {#sec-08-lagebeziehung-sensor}
 
@@ -52,9 +52,9 @@ Die **Sensororientierung** bezeichnet die Orientierung des Sensor-KS relativ zum
 
 Abweichungen von der nominalen Ausrichtung werden durch die **Sensordrehwinkel** $\alpha$ (Rotation um $\vec{e}_p$), $\beta$ (Rotation um $\vec{e}_o$) und $\gamma$ (Rotation um $\vec{e}_n$) beschrieben. Drehungen mit $\alpha$ und $\beta$ führen zu einer Verkippung des Sensors gegenüber der funktionalen Oberfläche, während eine Drehung mit $\gamma$ einer Verdrehung innerhalb der zur funktionalen Oberfläche parallelen Ebene entspricht. Treten mehrere endliche Sensordrehwinkel gleichzeitig auf, ist die verwendete Reihenfolge der Drehungen anzugeben.
 
-![Lagebeziehung des Sensors](figures/sec08/02-sensor_lage.png){#fig-ch08-02-sensor_lage width=100%}
+![Lagebeziehung des Sensors](figures/sec08/02-sensor_lage.png){#fig-sec08-02-sensor_lage width=100%}
 
-@fig-ch08-02-sensor_lage veranschaulicht die Lagebeziehung zwischen Sensor und Maßverkörperung. Teilbild (a) zeigt die Größen Luftspalt, Wirkabstand und auf die Sensorreferenz bezogene Messhöhe. Teilbild (b) zeigt die Sensordrehwinkel.
+@fig-sec08-02-sensor_lage veranschaulicht die Lagebeziehung zwischen Sensor und Maßverkörperung. Teilbild (a) zeigt die Größen Luftspalt, Wirkabstand und auf die Sensorreferenz bezogene Messhöhe. Teilbild (b) zeigt die Sensordrehwinkel.
 
 ::: {.begriffstabelle}
 

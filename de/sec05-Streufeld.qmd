@@ -8,23 +8,23 @@ Zur Beschreibung und Charakterisierung des Streufeldes wird dieses an räumliche
 
 Ein eindimensionaler Ermittlungsbereich wird als **Messpfad** bezeichnet. Verläuft ein Messpfad entlang einer einzelnen Koordinatenrichtung, wird entsprechend von einem **$p$-Pfad**, **$o$-Pfad** oder **$n$-Pfad** gesprochen. Ein $p$-Pfad folgt damit der $p$-Richtung und kann bei zylindrischen Anordnungen gekrümmt verlaufen.
 
-Beispielsweise beschreibt die Parametrisierung $(p,o,n) = (t, 0{,}1\,\mathrm{mm})$ mit $t \in [0\,\mathrm{mm}, 5\,\mathrm{mm}]$ einen geradlinigen, $5\,\mathrm{mm}$ langen $p$-Pfad bei einer Messhöhe von $1\,\mathrm{mm}$. Ein entsprechender Messpfad ist in @fig-ch05-00-ermittlungsbereiche (a) dargestellt.
+Beispielsweise beschreibt die Parametrisierung $(p,o,n) = (t, 0{,}1\,\mathrm{mm})$ mit $t \in [0\,\mathrm{mm}, 5\,\mathrm{mm}]$ einen geradlinigen, $5\,\mathrm{mm}$ langen $p$-Pfad bei einer Messhöhe von $1\,\mathrm{mm}$. Ein entsprechender Messpfad ist in @fig-sec05-00-ermittlungsbereiche (a) dargestellt.
 
 Ein zweidimensionaler Ermittlungsbereich wird als **Messfläche**, ein dreidimensionaler Ermittlungsbereich als **Messvolumen** bezeichnet. Analog zu Messpfaden können Messflächen anhand der variierten Koordinatenrichtungen bezeichnet werden. Eine $p$-$o$-Messfläche wird beispielsweise durch Variation von $p$ und $o$ bei konstantem $n$ gebildet.
 
-Die Parametrisierung $(p,o,n) = (t,u,1\,\mathrm{mm})$ mit $t \in [0^\circ, 360^\circ]$ und $u \in [-1\,\mathrm{mm}, 1\,\mathrm{mm}]$ beschreibt beispielsweise eine $2\,\mathrm{mm}$ breite $p$-$o$-Messfläche bei einer Messhöhe von $1\,\mathrm{mm}$. Diese Messfläche ist in @fig-ch05-00-ermittlungsbereiche (e) in einer radialen Anordnung und in Teilbild (f) in einer axialen Anordnung dargestellt.
+Die Parametrisierung $(p,o,n) = (t,u,1\,\mathrm{mm})$ mit $t \in [0^\circ, 360^\circ]$ und $u \in [-1\,\mathrm{mm}, 1\,\mathrm{mm}]$ beschreibt beispielsweise eine $2\,\mathrm{mm}$ breite $p$-$o$-Messfläche bei einer Messhöhe von $1\,\mathrm{mm}$. Diese Messfläche ist in @fig-sec05-00-ermittlungsbereiche (e) in einer radialen Anordnung und in Teilbild (f) in einer axialen Anordnung dargestellt.
 
-![Ermittlungsbereiche](figures/sec05/00-ermittlungsbereiche.png){#fig-ch05-00-ermittlungsbereiche width=100%}
+![Ermittlungsbereiche](figures/sec05/00-ermittlungsbereiche.png){#fig-sec05-00-ermittlungsbereiche width=100%}
 
-@fig-ch05-00-ermittlungsbereiche zeigt beispielhafte Ermittlungsbereiche für lineare, radiale und axiale Anordnungen. In den Teilbildern (a) bis (c) sind $p$-Pfade bei konstanten $o$ und $n$, in den Teilbildern (d) bis (f) $p$-$o$-Messflächen bei konstanten Messhöhen $n$ dargestellt.
+@fig-sec05-00-ermittlungsbereiche zeigt beispielhafte Ermittlungsbereiche für lineare, radiale und axiale Anordnungen. In den Teilbildern (a) bis (c) sind $p$-Pfade bei konstanten $o$ und $n$, in den Teilbildern (d) bis (f) $p$-$o$-Messflächen bei konstanten Messhöhen $n$ dargestellt.
 
 ## Streufeld einer Maßverkörperung {#sec-05-streufeld_einer_maßverkörperung}
 
 Wie in @sec-04-magnetpole erläutert, lässt sich die Streufeldcharakteristik einer magnetischen Maßverkörperung qualitativ durch den Austritt der magnetischen Feldlinien an den Nordpolen und ihren Eintritt an den Südpolen beschreiben. Die einzelnen Komponenten $B_p$ und $B_n$ weisen dabei in $p$-Richtung typischerweise einen wellenförmigen Verlauf mit Maxima, Minima und Nullstellen auf. Mit zunehmendem Abstand von der magnetischen Struktur nimmt die Amplitude des Streufeldes ab. Dieser Abfall erfolgt im Fernfeld einzelner Zonen näherungsweise kubisch und bei der Überlagerung der Streufelder mehrerer alternierender Zonen näherungsweise exponentiell [@ausserlechner2012closed].
 
-![Ermittlungsbereiche](figures/sec05/01-streufeldcharakteristik.png){#fig-ch05-01-streufeldcharakteristik width=100%}
+![Ermittlungsbereiche](figures/sec05/01-streufeldcharakteristik.png){#fig-sec05-01-streufeldcharakteristik width=100%}
 
-@fig-ch05-01-streufeldcharakteristik zeigt das **Simulationsergebnis** eines Multipolmagneten aus acht homogenen, alternierend OOP-polarisierten Zonen mit Polarisationsamplituden $J_Z = 300\,\mathrm{mT}$, Längen $\ell_Z = 1\,\mathrm{mm}$, Breiten $w_Z = 3\,\mathrm{mm}$ und Tiefen $d_Z = 200\,\mu\mathrm{m}$. Die Maßverkörperung ist in Poldarstellung gezeigt. Das resultierende Streufeld ist in Form von Feldlinien mittig über der Maßverkörperung sowie einer blauen Konturdarstellung der Streufeldamplitude in einer $o$-$n$-Ebene dargestellt. In beiden Darstellungen codiert die blaue Farbskala den Wert der Streufeldamplitude in Millitesla. Zur Veranschaulichung der Streufeldcharakteristik sind zusätzlich Feldverläufe entlang der eingezeichneten Messpfade in den Teilbildern abgebildet.
+@fig-sec05-01-streufeldcharakteristik zeigt das **Simulationsergebnis** eines Multipolmagneten aus acht homogenen, alternierend OOP-polarisierten Zonen mit Polarisationsamplituden $J_Z = 300\,\mathrm{mT}$, Längen $\ell_Z = 1\,\mathrm{mm}$, Breiten $w_Z = 3\,\mathrm{mm}$ und Tiefen $d_Z = 200\,\mu\mathrm{m}$. Die Maßverkörperung ist in Poldarstellung gezeigt. Das resultierende Streufeld ist in Form von Feldlinien mittig über der Maßverkörperung sowie einer blauen Konturdarstellung der Streufeldamplitude in einer $o$-$n$-Ebene dargestellt. In beiden Darstellungen codiert die blaue Farbskala den Wert der Streufeldamplitude in Millitesla. Zur Veranschaulichung der Streufeldcharakteristik sind zusätzlich Feldverläufe entlang der eingezeichneten Messpfade in den Teilbildern abgebildet.
 
 **In $p$-Richtung** spiegelt das Streufeld die periodische Struktur des Polmusters wider. Die charakteristische Oszillation der Komponenten $B_p$ und $B_n$ des Streufeldes entlang des eingezeichneten $p$-Pfades ist im Längsprofil erkennbar. Die Komponenten sind gegeneinander typischerweise um etwa $90^\circ$ phasenverschoben, eine Eigenschaft, die in vielen Anwendungen zur Positionsbestimmung genutzt wird.
 
@@ -68,9 +68,9 @@ $$
 
 Da die Feldverläufe im Allgemeinen nicht streng periodisch sind, handelt es sich bei der magnetischen Halbperiode und der magnetischen Periode um lokale Größen, deren Werte entlang des Feldverlaufs variieren können.
 
-![Feldverlauf entlang eines $p$-Pfades](figures/sec05/02-langsprofil.png){#fig-ch05-02-langsprofil width=100%}
+![Feldverlauf entlang eines $p$-Pfades](figures/sec05/02-langsprofil.png){#fig-sec05-02-langsprofil width=100%}
 
-@fig-ch05-02-langsprofil zeigt das Längsprofil $B_n(p)$ entlang des in @fig-ch05-01-streufeldcharakteristik dargestellten $p$-Pfades in detaillierter Form. Peaklagen, Nullstellenlagen, magnetische Halbperioden und magnetische Perioden sind eingezeichnet. Positive und negative Halbwellen sind zur Veranschaulichung rot beziehungsweise grün hervorgehoben.
+@fig-sec05-02-langsprofil zeigt das Längsprofil $B_n(p)$ entlang des in @fig-sec05-01-streufeldcharakteristik dargestellten $p$-Pfades in detaillierter Form. Peaklagen, Nullstellenlagen, magnetische Halbperioden und magnetische Perioden sind eingezeichnet. Positive und negative Halbwellen sind zur Veranschaulichung rot beziehungsweise grün hervorgehoben.
 
 Die **Halbwelle** benennt den Abschnitt eines Feldverlaufs, der zwischen zwei benachbarten Nullstellen liegt. Innerhalb einer Halbwelle weist die betrachtete Feldkomponente ein einheitliches Vorzeichen auf. Der Begriff ermöglicht eine eindeutige Bezugnahme auf einzelne Abschnitte des Feldverlaufs und wird für deren Beschreibung und Vermessung verwendet.
 
@@ -80,9 +80,9 @@ Halbwellen werden, beginnend mit 1, entlang der positiven $p$-Richtung fortlaufe
 
 Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Messpfades. Die **Nutzbereichsbreite** $w_G(p)$ entspricht dessen Ausdehnung in $o$-Richtung an der Position $p$. Wird die Nutzbereichsbreite innerhalb einer Halbwelle $j$ bestimmt, wird sie als **Nutzbreite der Halbwelle** $w_G^{(j)}(p)$ bezeichnet.
 
-![Feldverlauf entlang eines $o$-Pfades](figures/sec05/03-querprofil.png){#fig-ch05-03-querprofil width=70%}
+![Feldverlauf entlang eines $o$-Pfades](figures/sec05/03-querprofil.png){#fig-sec05-03-querprofil width=70%}
 
-@fig-ch05-03-querprofil zeigt das Querprofil $B(o)$ entlang des in @fig-ch05-01-streufeldcharakteristik dargestellten $o$-Pfades in detaillierter Form. Ein unterer Amplitudengrenzwert $B_G$ definiert einen Nutzbereich. Die beiden resultierenden Amplitudengrenzpunkte sind blau eingezeichnet. Ihre $o$-Lagen entsprechen den Amplitudengrenzlagen $o_G^{(1)}$ und $o_G^{(2)}$, die den Nutzbereich begrenzen.
+@fig-sec05-03-querprofil zeigt das Querprofil $B(o)$ entlang des in @fig-sec05-01-streufeldcharakteristik dargestellten $o$-Pfades in detaillierter Form. Ein unterer Amplitudengrenzwert $B_G$ definiert einen Nutzbereich. Die beiden resultierenden Amplitudengrenzpunkte sind blau eingezeichnet. Ihre $o$-Lagen entsprechen den Amplitudengrenzlagen $o_G^{(1)}$ und $o_G^{(2)}$, die den Nutzbereich begrenzen.
 
 ::: {.callout-note}
 ## HINWEIS
@@ -113,17 +113,17 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 **Messflächen** geben einen zweidimensionalen Einblick in die Streufeldcharakteristik. Besonders zweckmäßig ist dafür die Darstellung einer anwendungsrelevanten Streufeldkomponente auf einer $p$-$o$-Messfläche bei konstanter Messhöhe $n$. Amplitudengrenzen, die den Nutzbereich eingrenzen, erscheinen auf einer solchen Messfläche als Konturlinien der Feldamplitude und werden dem Feldverlauf häufig ergänzend überlagert.
 
-![Feldverlauf auf $p$-$o$-Messfläche](figures/sec05/04-feldverlauf_2D.png){#fig-ch05-04-feldverlauf_2D width=75%}
+![Feldverlauf auf $p$-$o$-Messfläche](figures/sec05/04-feldverlauf_2D.png){#fig-sec05-04-feldverlauf_2D width=75%}
 
-@fig-ch05-04-feldverlauf_2D zeigt den Feldverlauf $B_n(p,o)$ der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Projektion der darunterliegenden Zonen, die das Streufeld erzeugen, ist grau umrandet. Zusätzlich sind die Konturlinien der Feldamplitude für die Amplitudengrenzwerte $B_G = 7\,\mathrm{mT}$ und $B_G = 15\,\mathrm{mT}$ eingezeichnet. Sie veranschaulichen die Abgrenzung möglicher Nutzbereiche auf der Messfläche. Die Farbwahl bei der Darstellung des Feldverlaufs folgt der in @sec-04-darstellungskonventionen festgelegten Darstellungskonvention.
+@fig-sec05-04-feldverlauf_2D zeigt den Feldverlauf $B_n(p,o)$ der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Projektion der darunterliegenden Zonen, die das Streufeld erzeugen, ist grau umrandet. Zusätzlich sind die Konturlinien der Feldamplitude für die Amplitudengrenzwerte $B_G = 7\,\mathrm{mT}$ und $B_G = 15\,\mathrm{mT}$ eingezeichnet. Sie veranschaulichen die Abgrenzung möglicher Nutzbereiche auf der Messfläche. Die Farbwahl bei der Darstellung des Feldverlaufs folgt der in @sec-04-darstellungskonventionen festgelegten Darstellungskonvention.
 
-@fig-ch05-04-feldverlauf_2D veranschaulicht zwei **grundlegende Eigenschaften** des Feldverlaufs. In $p$-Richtung oszilliert die dargestellte Feldkomponente, wobei positive Halbwellen rot und negative Halbwellen grün dargestellt sind. Über die seitliche Begrenzung der magnetischen Struktur hinaus nimmt die Amplitude des Feldes rasch ab.
+@fig-sec05-04-feldverlauf_2D veranschaulicht zwei **grundlegende Eigenschaften** des Feldverlaufs. In $p$-Richtung oszilliert die dargestellte Feldkomponente, wobei positive Halbwellen rot und negative Halbwellen grün dargestellt sind. Über die seitliche Begrenzung der magnetischen Struktur hinaus nimmt die Amplitude des Feldes rasch ab.
 
 Für Kommunikationszwecke wird der zweidimensionale Feldverlauf häufig auf ein binäres Farbmuster reduziert, was eine kompakte und anschauliche Darstellung der wesentlichen Feldmerkmale ermöglicht. Bei den Amplitudengrenzen handelt es sich um zweidimensionale Fortsetzungen der auf Messpfaden auftretenden Grenzpunkte. Gleichermaßen setzen sich die Nullstellen auf der Messfläche zu **Nulllinien** fort. Sie bilden die Grenzen benachbarter Halbwellen. Peaklagen setzen sich zu **Peaklinien** fort, bei denen es sich mathematisch um Extremwertlinien in $p$-Richtung handelt.
 
-![Feldverlauf auf $p$-$o$-Messfläche in binärer Form](figures/sec05/05-feldverlauf_2D_binar.png){#fig-ch05-05-feldverlauf_2D_binar width=75%}
+![Feldverlauf auf $p$-$o$-Messfläche in binärer Form](figures/sec05/05-feldverlauf_2D_binar.png){#fig-sec05-05-feldverlauf_2D_binar width=75%}
 
-@fig-ch05-05-feldverlauf_2D_binar zeigt den Feldverlauf $B_n(p,o)$ aus @fig-ch05-04-feldverlauf_2D in binärer Farbdarstellung. Dem Farbmuster sind die Feldmerkmale in Form von Nulllinien und Peaklinien sowie die Amplitudengrenzlinie für $B_G = 15\,\mathrm{mT}$ überlagert. Der durch diesen Amplitudengrenzwert festgelegte Nutzbereich ist farblich hervorgehoben. Die Nulllinien gliedern ihn sichtbar in positive und negative Halbwellen.
+@fig-sec05-05-feldverlauf_2D_binar zeigt den Feldverlauf $B_n(p,o)$ aus @fig-sec05-04-feldverlauf_2D in binärer Farbdarstellung. Dem Farbmuster sind die Feldmerkmale in Form von Nulllinien und Peaklinien sowie die Amplitudengrenzlinie für $B_G = 15\,\mathrm{mT}$ überlagert. Der durch diesen Amplitudengrenzwert festgelegte Nutzbereich ist farblich hervorgehoben. Die Nulllinien gliedern ihn sichtbar in positive und negative Halbwellen.
 
 Innerhalb des Nutzbereichs weisen die Komponenten $B_p$ und $B_n$ typischerweise eine geordnete, **wellenförmige Struktur** auf, die eine eindeutige Abgrenzung und Zuordnung der Halbwellen ermöglicht. Außerhalb des Nutzbereichs ist diese geordnete Struktur nicht notwendigerweise erhalten, wie auch in der Abbildung erkennbar. Nulllinien können dort zusammenlaufen oder sich so verändern, dass einzelne Halbwellen nicht mehr eindeutig abgegrenzt und fortlaufend zugeordnet werden können. Für die anwendungsbezogene Referenzierung nach @sec-05-feldmerkmale_auf_messpfaden werden auf Messflächen daher vorrangig die innerhalb des Nutzbereichs liegenden Halbwellen betrachtet.
 
@@ -151,9 +151,9 @@ Wenn Messpfade und Messflächen diese räumlichen Flächen schneiden, entstehen 
 
 Im dreidimensionalen Raum wird der **Nutzbereich** durch Amplitudengrenzflächen begrenzt und durch Nullstellenflächen in Halbwellen unterteilt.
 
-![Feldverlauf im Raum](figures/sec05/06-feldverlauf_3D.png){#fig-ch05-06-feldverlauf_3D width=100%}
+![Feldverlauf im Raum](figures/sec05/06-feldverlauf_3D.png){#fig-sec05-06-feldverlauf_3D width=100%}
 
-@fig-ch05-06-feldverlauf_3D veranschaulicht die räumliche Anordnung ausgewählter Merkmale der OOP-Komponente des Streufeldes über der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung. Die Amplitudengrenzfläche des durch $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereichs ist blau dargestellt. Sie bildet eine blasenförmige Hüllfläche über der Maßverkörperung, die in der Abbildung zur besseren Sichtbarkeit nach vorne hin aufgeschnitten dargestellt ist. In der Abbildung ist die $n$-Koordinate um einen Faktor 2 gestreckt, damit die Feldverteilung besser erkennbar ist.
+@fig-sec05-06-feldverlauf_3D veranschaulicht die räumliche Anordnung ausgewählter Merkmale der OOP-Komponente des Streufeldes über der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung. Die Amplitudengrenzfläche des durch $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereichs ist blau dargestellt. Sie bildet eine blasenförmige Hüllfläche über der Maßverkörperung, die in der Abbildung zur besseren Sichtbarkeit nach vorne hin aufgeschnitten dargestellt ist. In der Abbildung ist die $n$-Koordinate um einen Faktor 2 gestreckt, damit die Feldverteilung besser erkennbar ist.
 
 Innerhalb des Nutzbereichs ist die Feldkomponente $B_n$ auf den $p$-$o$-Messflächen bei $n = 0{,}4\,\mathrm{mm}$, $n = 0{,}5\,\mathrm{mm}$ und $n = 0{,}6\,\mathrm{mm}$ in binärer Farbdarstellung gezeigt. Die Schnittlinien dieser Messflächen mit der Amplitudengrenzfläche bilden die zugehörigen Amplitudengrenzlinien und sind hellblau hervorgehoben.
 
@@ -172,15 +172,15 @@ Im Sinne dieses Dokuments bezeichnet eine **Felddarstellung** ausschließlich ei
 
 Diese Form der Felddarstellung dient der Kommunikation der Feldverläufe und Feldmerkmale magnetischer Maßverkörperungen. Sie ist insbesondere an der **Schnittstelle** zwischen Maßverkörperungshersteller und Systemhersteller von Bedeutung. Einerseits kann damit die für die Systemauslegung erforderlichen Feldverläufe spezifiziert werden. Andererseits lassen sich die von einer konkreten Maßverkörperung tatsächlich erzeugten Feldverläufe beschreiben. In beiden Fällen wird das Magnetfeld als Eigenschaft der Maßverkörperung und unabhängig von den Eigenschaften eines bestimmten Sensors betrachtet.
 
-Besonders **zweckmäßig** ist die Felddarstellung auf einer $p$-$o$-Messfläche bei festgelegter Messhöhe $n$. Für Kommunikation eignet sich die binäre Form nach @fig-ch05-05-feldverlauf_2D_binar, da sie die wesentlichen Feldmerkmale kompakt und anschaulich vermittelt.
+Besonders **zweckmäßig** ist die Felddarstellung auf einer $p$-$o$-Messfläche bei festgelegter Messhöhe $n$. Für Kommunikation eignet sich die binäre Form nach @fig-sec05-05-feldverlauf_2D_binar, da sie die wesentlichen Feldmerkmale kompakt und anschaulich vermittelt.
 
 In einer Felddarstellung muss die dargestellte Streufeldkomponente eindeutig erkennbar sein. Dazu werden die in @sec-04-darstellungskonventionen festgelegten **Richtungssymbole** verwendet, welche die Ausrichtung der Feldkomponente und die Vorzeichen der dargestellten Halbwellen eindeutig kennzeichnen.
 
-![Felddarstellung von IP- und OOP-Komponenten](figures/sec05/07-feldprofil_ip_op.png){#fig-ch05-07-feldprofil_ip_op width=100%}
+![Felddarstellung von IP- und OOP-Komponenten](figures/sec05/07-feldprofil_ip_op.png){#fig-sec05-07-feldprofil_ip_op width=100%}
 
-@fig-ch05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt.
+@fig-sec05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt.
 
-Bei Felddarstellungen auf $p$-$o$-Messflächen nimmt die Messhöhe $n$ eine zentrale Stellung ein, da sie Lage und Form der dargestellten Feldmerkmale wesentlich beeinflusst. Felddarstellungen werden aber häufig in Aufsicht gezeigt, sodass sich der Abstand der Messfläche von der Maßverkörperung aus der Darstellung nicht unmittelbar erschließen lässt. Es wird daher empfohlen, die **Messhöhe unmittelbar in der Felddarstellung anzugeben**, wie in @fig-ch05-07-feldprofil_ip_op gezeigt. Diese Angabe ermöglicht zugleich eine eindeutige Abgrenzung gegenüber der Poldarstellung.
+Bei Felddarstellungen auf $p$-$o$-Messflächen nimmt die Messhöhe $n$ eine zentrale Stellung ein, da sie Lage und Form der dargestellten Feldmerkmale wesentlich beeinflusst. Felddarstellungen werden aber häufig in Aufsicht gezeigt, sodass sich der Abstand der Messfläche von der Maßverkörperung aus der Darstellung nicht unmittelbar erschließen lässt. Es wird daher empfohlen, die **Messhöhe unmittelbar in der Felddarstellung anzugeben**, wie in @fig-sec05-07-feldprofil_ip_op gezeigt. Diese Angabe ermöglicht zugleich eine eindeutige Abgrenzung gegenüber der Poldarstellung.
 
 ::: {.callout-note}
 ## HINWEIS
@@ -191,17 +191,17 @@ Bei Felddarstellungen auf $p$-$o$-Messflächen nimmt die Messhöhe $n$ eine zent
 
 Eine Felddarstellung wird häufig auf die funktionale Oberfläche der Maßverkörperung **projiziert**, um einen unmittelbaren örtlichen Bezug zwischen Feldmerkmalen und Bauteilgeometrie herzustellen. Je nach Bedarf kann sie dabei unabhängig von Amplitudengrenzen auf einen **relevanten Ausschnitt** beschränkt werden.
 
-![Felddarstellung in Projektion auf die Maßverkörperung](figures/sec05/08-felddarstellung_projektion.png){#fig-ch05-08-felddarstellung_projektion width=100%}
+![Felddarstellung in Projektion auf die Maßverkörperung](figures/sec05/08-felddarstellung_projektion.png){#fig-sec05-08-felddarstellung_projektion width=100%}
 
-@fig-ch05-08-felddarstellung_projektion veranschaulicht die Projektion einer Felddarstellung auf die funktionale Oberfläche der Maßverkörperung. Teilbild (a) zeigt die in @sec-05-streufeld_einer_maßverkörperung beschriebene Maßverkörperung in Zonendarstellung. Darüber ist die aus einer Simulation ermittelte Feldkomponente $B_n$ auf mehreren, parallel zur funktionalen Oberfläche angeordneten Messflächen binär dargestellt. Jede Fläche ist dabei auf den Nutzbereich $B > 15\,\mathrm{mT}$ beschränkt. Der Abstand zwischen der Maßverkörperung und der untersten Messfläche ist zur besseren Sichtbarkeit künstlich vergrößert.
+@fig-sec05-08-felddarstellung_projektion veranschaulicht die Projektion einer Felddarstellung auf die funktionale Oberfläche der Maßverkörperung. Teilbild (a) zeigt die in @sec-05-streufeld_einer_maßverkörperung beschriebene Maßverkörperung in Zonendarstellung. Darüber ist die aus einer Simulation ermittelte Feldkomponente $B_n$ auf mehreren, parallel zur funktionalen Oberfläche angeordneten Messflächen binär dargestellt. Jede Fläche ist dabei auf den Nutzbereich $B > 15\,\mathrm{mT}$ beschränkt. Der Abstand zwischen der Maßverkörperung und der untersten Messfläche ist zur besseren Sichtbarkeit künstlich vergrößert.
 
 Teilbild (b) zeigt die Messfläche bei $n = 0{,}5\,\mathrm{mm}$ in Aufsicht. Ein für die Anwendung relevanter Ausschnitt, beispielsweise der Bereich der vorgesehenen Sensorpositionierung, ist hellgrün strichliert umrahmt. Teilbild (c) zeigt die Maßverkörperung mit der auf ihre funktionale Oberfläche projizierten Felddarstellung. Die Projektion ist auf den in Teilbild (b) gekennzeichneten Ausschnitt beschränkt.
 
 Die bisher gezeigten Felddarstellungen geben ermittelte Feldverläufe konkreter Maßverkörperungen wieder und sind daher als **Ist-Darstellungen** zu verstehen. Die Ermittlung kann durch Messung oder durch Simulation erfolgen. An der Schnittstelle zwischen Systemhersteller und Maßverkörperungshersteller werden Felddarstellungen dagegen häufig als **Soll-Darstellungen** eingesetzt. Sie beschreiben geforderte Feldverläufe und dienen der Spezifikation und Kommunikation, ohne eine konkrete Realisierung vorauszusetzen.
 
-![Felddarstellung Soll und Ist](figures/sec05/09-felddarstellung_soll_ist.png){#fig-ch05-09-felddarstellung_soll_ist width=100%}
+![Felddarstellung Soll und Ist](figures/sec05/09-felddarstellung_soll_ist.png){#fig-sec05-09-felddarstellung_soll_ist width=100%}
 
-@fig-ch05-09-felddarstellung_soll_ist zeigt ein magnetisches Schachbrettmuster in verschiedenen Darstellungsformen. Teilbild (a) zeigt die Maßverkörperung in farbcodierter Zonendarstellung. Zu sehen ist eine graue Halterung mit eingepressten kubischen Magneten, zwischen denen schmale Spalte erkennbar sind. Die Magnete bilden drei parallele Spuren. Die Darstellung beschreibt den strukturellen Aufbau und die Anordnung der magnetisierten Zonen.
+@fig-sec05-09-felddarstellung_soll_ist zeigt ein magnetisches Schachbrettmuster in verschiedenen Darstellungsformen. Teilbild (a) zeigt die Maßverkörperung in farbcodierter Zonendarstellung. Zu sehen ist eine graue Halterung mit eingepressten kubischen Magneten, zwischen denen schmale Spalte erkennbar sind. Die Magnete bilden drei parallele Spuren. Die Darstellung beschreibt den strukturellen Aufbau und die Anordnung der magnetisierten Zonen.
 
 Teilbild (b) zeigt eine Ist-Felddarstellung in binärer Form. Sie ist auf einen amplitudenbezogenen Nutzbereich beschränkt und auf die Maßverkörperung projiziert. Der zugrunde liegende Feldverlauf wurde durch Simulation des Magnetfeldes der in Teilbild (a) gezeigten Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 1\,\mathrm{mm}$ ermittelt.
 
@@ -220,9 +220,9 @@ Die bisherigen Unterkapitel beschreiben das Streufeld einer Maßverkörperung un
 
 Bei der Vermessung einer Spur ist auf den **Einfluss benachbarter Spurfelder** zu achten, da experimentell grundsätzlich das Gesamtfeld erfasst wird. In vielen praktischen Anwendungen wird deshalb der Spurabstand so gewählt, dass dieser Einfluss gering bleibt. Dies wird durch den raschen Abfall der Spurfelder über die seitlichen Begrenzungen der jeweiligen Spur hinaus begünstigt. Bei geeignet gewähltem Spurabstand können die Nutzbereiche, die aus dem Gesamtfeld ermittelt werden, räumlich voneinander getrennt sein und den darunterliegenden Spuren eindeutig zugeordnet werden.
 
-![Spurfelder und Nutzbereiche mehrspuriger Maßstäbe](figures/sec05/10-spurfeld.png){#fig-ch05-10-spurfeld width=100%}
+![Spurfelder und Nutzbereiche mehrspuriger Maßstäbe](figures/sec05/10-spurfeld.png){#fig-sec05-10-spurfeld width=100%}
 
-@fig-ch05-10-spurfeld zeigt die Simulation eines magnetischen Maßstabs mit zwei parallelen OOP-polarisierten Linearspuren: einer vollbeschriebenen Inkrementalspur und einer segmentierten Spur mit drei Referenzbereichen. In der Simulation wurden die Zonen als homogen, mit einer Polarisation von $J_Z = 350\,\mathrm{mT}$ modelliert. Die Spurbreiten betragen $w_T = 3\,\mathrm{mm}$, der Spurabstand $w_{TT} = 1\,\mathrm{mm}$. Die Zonenlängen betragen $\ell_Z = 1\,\mathrm{mm}$ und die Zonentiefe $d_Z = 200\,\mu\mathrm{m}$. Die für den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ ermittelten Nutzbereiche sind durch ihre Amplitudengrenzflächen als blaue, blasenförmige Hüllflächen über dem Maßstab dargestellt.
+@fig-sec05-10-spurfeld zeigt die Simulation eines magnetischen Maßstabs mit zwei parallelen OOP-polarisierten Linearspuren: einer vollbeschriebenen Inkrementalspur und einer segmentierten Spur mit drei Referenzbereichen. In der Simulation wurden die Zonen als homogen, mit einer Polarisation von $J_Z = 350\,\mathrm{mT}$ modelliert. Die Spurbreiten betragen $w_T = 3\,\mathrm{mm}$, der Spurabstand $w_{TT} = 1\,\mathrm{mm}$. Die Zonenlängen betragen $\ell_Z = 1\,\mathrm{mm}$ und die Zonentiefe $d_Z = 200\,\mu\mathrm{m}$. Die für den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ ermittelten Nutzbereiche sind durch ihre Amplitudengrenzflächen als blaue, blasenförmige Hüllflächen über dem Maßstab dargestellt.
 
 Das Querprofil der Feldamplitude $|\vec{B}|$ entlang des eingezeichneten $o$-Pfades bei einer Messhöhe von $0{,}5\,\mathrm{mm}$ ist in einem Teilbild gezeigt. Aufgrund des starken seitlichen Abfalls der Feldamplitude über die Spuren hinaus ergeben sich unter den gewählten Ermittlungsbedingungen voneinander **getrennte Nutzbereiche**. Das Querprofil zeigt, dass die Nutzbereichsbreiten $w_G$ bei dieser Messhöhe für beide Spuren geringer sind als die jeweiligen Spurbreiten $w_T$.
 
