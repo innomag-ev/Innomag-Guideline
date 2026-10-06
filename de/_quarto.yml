@@ -29,6 +29,7 @@ book:
     - sec05-Streufeld.qmd
     - sec06-Vermessungsgrundlagen.qmd
     - sec07-Einteilung.qmd
+    - sec08-Sensorik.qmd
     - literatur.qmd
 
 bibliography: ../bibliography.bib
