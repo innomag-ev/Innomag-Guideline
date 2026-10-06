@@ -17,19 +17,19 @@ Um diese strukturellen Einheiten präzise beschreiben und individuell referenzie
 
 Besonders anschaulich wird diese Einteilung, wenn eine Maßverkörperung aus mehreren homogenen Dipolmagneten aufgebaut ist – in diesem Fall entspricht jeder einzelne Dipolmagnet einer eigenen Zone. Ebenso entsteht bei magnetischen Maßstäben, deren Polarisationsmuster durch schrittweises Einschreiben magnetisierter Bereiche erzeugt wird, bei jedem Schreibvorgang eine Zone in der unmittelbaren Umgebung des Schreibkopfes.
 
-![Magnetische Polarisation und magnetisierte Zonen](abbildungen/04-Struktur/01-zone_sketch1.png){#fig-ch04-01-zone_sketch1 width=90%}
+![Magnetische Polarisation und magnetisierte Zonen](figures/sec04/01-zone_sketch1.png){#fig-ch04-01-zone_sketch1 width=90%}
 
 In @fig-ch04-01-zone_sketch1 sind Beispiele für typische magnetisierte Strukturen skizziert. Teilbild (a) zeigt einen homogen magnetisierten Dipolmagneten, der eine einzige Zone bildet. Teilbild (b) zeigt einen Multipolmagneten mit alternierender Polarisation entlang der Längsachse. Die unterschiedlich polarisierten Bereiche sind durch Schattierung hervorgehoben und veranschaulichen eine sinnvolle Zoneneinteilung. (c) zeigt einen Quadrupolring mit stark inhomogener Polarisation. Aufgrund seiner periodischen Struktur kann dennoch eine sinnvolle Zoneneinteilung vorgenommen werden.
 
 Die mittlere **Polarisation einer Zone** $\vec{J}_Z$ ergibt sich aus dem Integralmittel des Polarisationsvektorfeldes über das Zonenvolumen. Verläuft $\vec{J}_Z$ in $p$-Richtung, spricht man nach @sec-03-orientierung_magnetischer_größen von einer IP-Zone; verläuft sie hingegen in $n$-Richtung, von einer OOP-Zone. Eine symmetrische IP-Zone erzeugt demnach mittig über ihrer Oberfläche ein Magnetfeld, das in $p$-Richtung orientiert ist; symmetrische OOP-Zonen ein Magnetfeld in $n$-Richtung.
 
-![IP-Zonen und OOP-Zonen](abbildungen/04-Struktur/02-zone_sketch2.png){#fig-ch04-02-zone_sketch2 width=90%}
+![IP-Zonen und OOP-Zonen](figures/sec04/02-zone_sketch2.png){#fig-ch04-02-zone_sketch2 width=90%}
 
 @fig-ch04-02-zone_sketch2 zeigt schematische Beispiele für das Magnetfeld (Blau) und die Polarisation (Schwarz) verschiedener symmetrischer IP- und OOP-Zonen (Orange). Teilbilder (a) und (d) zeigen homogene Zonen mit gleichmäßiger Polarisation. In der Praxis tritt jedoch häufig eine „bündelförmige“ (bundle-shaped) Verteilung auf, die beispielsweise durch magnetostatische Selbstwechselwirkungen entsteht, siehe (b) und (e). Wird die Polarisation hingegen mit einem Schreibkopf schrittweise in ein dickes isotropes Material eingeschrieben, entstehen typischerweise harmonisch verlaufende Muster, wie in (c) und (f) skizziert. Die dargestellten Fälle verdeutlichen, dass Zonen auch dann sinnvoll als IP- oder OOP-Zone klassifiziert werden können, wenn die tatsächliche Polarisation nicht homogen ist.
 
 In vielen Fällen ist die **Zoneneinteilung nicht eindeutig**; häufig existieren mehrere plausible Möglichkeiten, eine gegebene Polarisation sinnvoll zu zerlegen. Die gewählte Einteilung sollte daher stets der praktischen Anwendung, dem Verständnis und der eindeutigen Kommunikation dienen. In der Praxis ist dies meist bei einer Zerlegung in IP- oder OOP-Zonen gegeben.
 
-![Wahl der Zoneneinteilung](abbildungen/04-Struktur/03-zone_sketch3.png){#fig-ch04-03-zone_sketch3 width=90%}
+![Wahl der Zoneneinteilung](figures/sec04/03-zone_sketch3.png){#fig-ch04-03-zone_sketch3 width=90%}
 
 In @fig-ch04-03-zone_sketch3 sind Beispiele für verschiedene sinnvolle Zerlegungen derselben Polarisation skizziert. In (a) und (b) wird eine harmonische Polarisation einmal in IP-Zonen und einmal in OOP-Zonen unterteilt. Die Teilbilder (c) und (d) zeigen, dass auch die Polarisation eines Quadrupolrings sinnvoll sowohl in IP-Zonen als auch in OOP-Zonen zerlegt werden kann.
 
@@ -41,7 +41,7 @@ Formal wird hierzu die **Normalkomponente** des Magnetfeldes an der Oberfläche 
 
 Für eine **Poldarstellung** wird die kontinuierliche Normalkomponente auf der Oberfläche durch einen festgelegten Schwellenwert auf die Zustände Nord, Null und Süd reduziert. Das resultierende Polmuster stellt damit eine diskrete Repräsentation der Normalkomponente dar, aus der sich die Streufeldverteilung qualitativ ableiten lässt. Der Nutzen der Poldarstellung liegt in einer anschaulichen qualitativen Beschreibung der Streufeldverteilung eines Körpers.
 
-![Streufeld und Normalkomponente bei gegebener Polarisation](abbildungen/04-Struktur/04-magnetpole.png){#fig-ch04-04-magnetpole width=100%}
+![Streufeld und Normalkomponente bei gegebener Polarisation](figures/sec04/04-magnetpole.png){#fig-ch04-04-magnetpole width=100%}
 
 In @fig-ch04-04-magnetpole werden das mittels Simulation ermittelte Streufeld und die Normalkomponente zweier Magnete im Querschnitt dargestellt. Die Polarisation der Magnete ist in Schwarz gezeigt. Das Streufeld ist durch Feldlinien sowie durch eine blaue Farbkontur dargestellt. Die Normalkomponente an der Oberfläche der Körper ist in einer rot-grau-grünen Farbskala gezeigt.
 
@@ -55,7 +55,7 @@ Da feldbezogene Magnetpole aus der Normalkomponente des Streufeldes abgeleitet w
 
 Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte, häufig vereinfachte, Darstellung der Polarisationsstruktur dar. Die Gesamtheit aller Pole einer Maßverkörperung wird als **Polmuster** bezeichnet. Es dient der qualitativen Beschreibung der Streufeldverteilung. Zonenmuster und Polmuster sind **abstrahierte Darstellungen** der magnetischen Struktur zur anschaulichen und zweckmäßigen Kommunikation.
 
-![Magnetische Struktur und physikalische Grundlage](abbildungen/04-Struktur/05-magnetische_struktur.png){#fig-ch04-05-magnetische_struktur width=100%}
+![Magnetische Struktur und physikalische Grundlage](figures/sec04/05-magnetische_struktur.png){#fig-ch04-05-magnetische_struktur width=100%}
 
 @fig-ch04-05-magnetische_struktur zeigt eine Gegenüberstellung zwischen der vollständigen physikalischen Beschreibung (vergleiche mit der Simulation in @fig-ch04-04-magnetpole) und den daraus abgeleiteten Zonen- und Polmustern. Dargestellt sind (a) lineare Anordnung mit OOP-Polarisationsmuster, (b) lineare Anordnung mit IP-Polarisationsmuster, (c) lineare Anordnung mit inhomogener Polarisation, (d) lineare Halbach-Anordnung und (e) ein zylindrischer Quadrupolmagnet. In Unterbild (c) ist die Zerlegung in Zonen nicht eindeutig; daher sind beide Möglichkeiten dargestellt. Die Pole befinden sich jedoch an derselben Stelle.
 
@@ -65,7 +65,7 @@ Ein wichtiges Beispiel sind **einseitig ausgeprägte Pole**. Diese können sowoh
 
 Abschließend sei darauf hingewiesen, dass die Polarisation die vollständige magnetische Beschreibung der Maßverkörperung bildet. Aus ihr lassen sich alle anderen Größen ableiten. Umgekehrt lässt sich die zugrunde liegende Polarisation und damit auch das Zonenmuster aus dem bekannten Magnetfeld nicht eindeutig rekonstruieren. Dies ist eine Folge des magnetostatischen inversen Problems [@bruckner2017inverse]. In der Praxis ist die Polarisation jedoch häufig nicht als experimentelle Größe zugänglich.
 
-![Zusammenhang der magnetischen Größen](abbildungen/04-Struktur/06-begriffe_diagramm.png){#fig-ch04-06-begriffe_diagramm width=90%}
+![Zusammenhang der magnetischen Größen](figures/sec04/06-begriffe_diagramm.png){#fig-ch04-06-begriffe_diagramm width=90%}
 
 Der Zusammenhang zwischen Polarisation, Magnetfeld, Normalkomponente sowie den daraus abgeleiteten Zonen- und Polmustern ist in @fig-ch04-06-begriffe_diagramm dargestellt. Die Pfeile geben an, welche Größen jeweils aus welchen anderen Größen abgeleitet werden können.
 
@@ -75,11 +75,11 @@ Die magnetische Struktur magnetischer Maßstäbe ist in einem oder mehreren stre
 
 Die **Spurausrichtung** richtet sich nach der geometrischen Anordnung des Messsystems nach @sec-03-anordnung_des_messsystems. Entsprechend werden **Linearspuren**, **Radialspuren** und **Axialspuren** unterschieden. Linearspuren verlaufen geradlinig entlang der funktionalen Oberfläche. Radialspuren liegen an einer Innen- oder Außenmantelfläche einer rotationssymmetrischen Maßverkörperung. Axialspuren liegen an einer Stirnfläche einer rotationssymmetrischen Maßverkörperung. Beispielhafte Ausführungen sind in @fig-ch04-07-spuren_ausrichtung dargestellt.
  
-![Spurenausrichtung](abbildungen/04-Struktur/07-spuren_ausrichtung.png){#fig-ch04-07-spuren_ausrichtung width=100%}
+![Spurenausrichtung](figures/sec04/07-spuren_ausrichtung.png){#fig-ch04-07-spuren_ausrichtung width=100%}
 
 Der **Beschreibungsgrad** einer Spur kennzeichnet, in welchem Maß sie entlang der $p$-Richtung magnetisch wirksam beschrieben ist. Eine Spur ist **vollbeschrieben**, wenn sie entlang ihrer gesamten Länge magnetische Zonen aufweist. Eine **teilbeschriebene** Spur liegt vor, wenn nur ein begrenzter Abschnitt magnetisch wirksam beschrieben ist. Ein typisches Beispiel hierfür ist eine Spur mit einem Referenzbereich. Eine weitere Ausprägung ist die **segmentiert** beschriebene Spur, bei der mehrere voneinander getrennte, aufeinanderfolgende Bereiche magnetisch wirksam beschrieben sind. Beispielhafte Ausführungen sind in @fig-ch04-08-beschreibungsgrad dargestellt.
  
-![Beschreibungsgrad einer Spur](abbildungen/04-Struktur/08-beschreibungsgrad.png){#fig-ch04-08-beschreibungsgrad width=100%}
+![Beschreibungsgrad einer Spur](figures/sec04/08-beschreibungsgrad.png){#fig-ch04-08-beschreibungsgrad width=100%}
 
 Die **Polarisationsart einer Spur** ergibt sich aus der Polarisationsrichtung ihrer Zonen. Besteht die Spur ausschließlich aus IP-Zonen, spricht man von einer IP-polarisierten Spur oder **IP-Spur**. Ist sie ausschließlich aus OOP-Zonen zusammengesetzt, spricht man von einer OOP-polarisierten Spur oder **OOP-Spur**.
 
@@ -93,13 +93,13 @@ Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrisc
 
 Für die **Darstellung der Polarisation** (Zonenmuster) sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole ⊙ und ⊗ Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
 
-![Darstellung der Polarisation](abbildungen/04-Struktur/09-darstellung_J.png){#fig-ch04-09-darstellung_J width=70%}
+![Darstellung der Polarisation](figures/sec04/09-darstellung_J.png){#fig-ch04-09-darstellung_J width=70%}
 
 @fig-ch04-09-darstellung_J (a) zeigt die in diesem Dokument verwendeten Pfeilsymbole zur Darstellung der Polarisationsrichtung an Seitenflächen. Teilbild (b) zeigt eine skizzenhafte Maßverkörperung bestehend aus zwei klar abgegrenzten Zonen alternierender Polarisation. Teilbild (c) zeigt eine Zone mit nicht flächenparalleler Polarisation, dargestellt durch Komponenten einer orthogonalen Projektion auf die Deckfläche.
 
 Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellung) wird der Wert einer ausgewählten Feldkomponente auf einer Bezugsfläche mittels Rot-Grau-Grün-Farbskala visualisiert. In Schwarzweißdarstellungen kann entsprechend eine Weiß-Grau-Schwarz-Skala verwendet werden. Als Bezugsflächen kommen zum Beispiel Zonenseiten, Körperflächen der Maßverkörperung oder Messflächen in Frage. Die Farbskala kann je nach Bedarf kontinuierlich oder diskret ausgeführt werden, wobei binäre und ternäre Ausführungen vor allem für Poldarstellungen und Felddarstellungen nach XXXKapitel 5.5XXX eingesetzt werden. Besonders bei diskreten Darstellungen sollte die dargestellte Feldkomponente durch zusätzliche Richtungssymbole gekennzeichnet werden. Die dafür verwendeten Symbole unterscheiden sich von den Richtungspfeilen der Polarisation, um Verwechslung zu vermeiden.
  
-![Darstellung des Magnetfeldes](abbildungen/04-Struktur/10-darstellung_B.png){#fig-ch04-10-darstellung_B width=100%}
+![Darstellung des Magnetfeldes](figures/sec04/10-darstellung_B.png){#fig-ch04-10-darstellung_B width=100%}
 
 @fig-ch04-10-darstellung_B skizziert die Regeln zur Darstellung des Magnetfeldes. Teilbild (a) zeigt die in diesem Dokument verwendeten Farbskalen in kontinuierlicher und diskreter Form. Die eingesetzten Farbcodes sind #EE5544 für Rot, #E6E6E6 für Grau und #118866 für Grün. Teilbild (b) zeigt die Richtungssymbole zur Kennzeichnung von IP- und OOP-Komponenten des Magnetfeldes. Teilbild (c) zeigt beispielhaft eine Maßverkörperung in Poldarstellung. Dabei ist die auf der Deckfläche ermittelte Normalkomponente mittels dreigeteilter Farbskala dargestellt.
 
@@ -109,7 +109,7 @@ Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellu
 *In wissenschaftlich-technischen Darstellungen wird die Farbkombination Rot–Grün üblicherweise vermieden, da sie für viele Personen mit einer häufig auftretenden Rot-Grün-Sehschwäche nur eingeschränkt unterscheidbar ist [@crameri2020misuse]. In dieser Richtlinie wird diese Farbwahl jedoch aus historischen Gründen beibehalten. Die hier gewählten Farben unterscheiden sich deutlich in Helligkeit und Sättigung, um eine zuverlässige visuelle Unterscheidbarkeit sicherzustellen.*
 :::
 
-![Darstellungsbeispiele Zonen- und Poldarstellung](abbildungen/04-Struktur/11-zonen_und_poldarstellung.png){#fig-ch04-11-zonen_und_poldarstellung width=75%}
+![Darstellungsbeispiele Zonen- und Poldarstellung](figures/sec04/11-zonen_und_poldarstellung.png){#fig-ch04-11-zonen_und_poldarstellung width=75%}
 
 @fig-ch04-11-zonen_und_poldarstellung demonstriert die beiden Darstellungsformen am Beispiel eines Quadrupolrings, wie er typischerweise als magnetische Maßverkörperung in radial angeordneten Winkelmesssystemen mit außen liegenden Sensoren verwendet wird. Die zugehörige inhomogene Polarisation ist in @fig-ch04-01-zone_sketch1 (c) skizziert.
 
@@ -120,13 +120,13 @@ Teilbild (b) zeigt den Quadrupolring in Poldarstellung. Das Polmuster ist auf de
 
 Eine **kombinierte Darstellung** von Zonen- und Polmuster ermöglicht es sowohl Polarisationsstruktur als auch Feldwirkung einer Maßverkörperung zu vermitteln. Das ist besonders bei komplexen Anordnungen, bei denen sich die Lage der Pole nicht offensichtlich aus dem Zonenmuster erschließt, hilfreich. Dabei können Pole gegenüber Zonengrenzen verschoben sein, sich über mehrere Zonen erstrecken oder sich einseitig ausprägen.
 
-![Darstellungsbeispiele kombinierte Darstellung](abbildungen/04-Struktur/12-kombinierte_darstellung.png){#fig-ch04-12-kombinierte_darstellung width=90%}
+![Darstellungsbeispiele kombinierte Darstellung](figures/sec04/12-kombinierte_darstellung.png){#fig-ch04-12-kombinierte_darstellung width=90%}
 
 @fig-ch04-12-kombinierte_darstellung zeigt zwei Beispiele solcher kombinierter Darstellungen. Teilbild (a) zeigt einen Linearmaßstab mit Halbach-Polarisation. Die Pfeile an den Seitenflächen kennzeichnen das Zonenmuster, während das auf der Oberseite binär dargestellte Polmuster die daraus resultierende Feldwirkung veranschaulicht. Teilbild (b) zeigt einen Halbach-Ring. Die Überlagerung von Zonen- und Polmuster macht die Ausrichtung des Magnetfeldes im Inneren des Rings unmittelbar erkennbar.
 
 Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zonendarstellung**. Dabei werden die Zonen entlang ihrer Polarisationsrichtung mit der kontinuierlichen Magnetfeld-Farbskala eingefärbt. Diese Einfärbung entspricht näherungsweise der Normalkomponente des Magnetfeldes, die eine isoliert betrachtete Zone auf ihren Seiten erzeugen würde, wie in @sec-04-magnetpole ausgeführt. Bei Zusammensetzung der so eingefärbten Zonen ergibt sich in vielen Fällen eine anschauliche Näherung des Polmusters. Voraussetzung ist, dass sich dessen Ausprägung durch die Überlagerung der Feldbeiträge benachbarter Zonen nicht wesentlich verändert.
 
-![Darstellungsbeispiele farbcodierte Zonendarstellung](abbildungen/04-Struktur/13-farbcodierte_zonendarstellung.png){#fig-ch04-13-farbcodierte_zonendarstellung width=100%}
+![Darstellungsbeispiele farbcodierte Zonendarstellung](figures/sec04/13-farbcodierte_zonendarstellung.png){#fig-ch04-13-farbcodierte_zonendarstellung width=100%}
 
 @fig-ch04-13-farbcodierte_zonendarstellung demonstriert die farbcodierte Zonendarstellung anhand verschiedener Beispiele. Teilbild (a) zeigt unterschiedliche Dipolmagnete, deren erwartete Feldwirkung durch die Einfärbung der Körperflächen hervorgehoben wird. Teilbild (b) zeigt zweireihig axial gestapelte Würfelmagnete. Die einzelnen Zonen sind klar voneinander abgegrenzt; ihre Einfärbung veranschaulicht das auf Ober- und Unterseite erwartete Polmuster. Teilbild (c) zeigt, wie mit der farbcodierten Zonendarstellung eine einseitige Ausprägung der Pole vermittelt werden kann. Die mögliche zugrunde liegende inhomogene Polarisationsverteilung wird in den @sec-04-magnetisierte_zonen und @sec-04-magnetpole näher beschrieben.
 
@@ -140,7 +140,7 @@ Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zone
 
 Spuren können bei Bedarf durch eine **Umrahmung** und durch die Hervorhebung nichtmagnetisierter Bereiche gekennzeichnet werden. Die Kennzeichnung ermöglicht die eindeutige Zuordnung der zugehörigen Zonen und Pole und verdeutlicht, ob sich eine Spur auch über nichtmagnetisierte Abschnitte erstreckt.
  
-![Darstellungsbeispiele Spuren](abbildungen/04-Struktur/14-darstellung_spuren.png){#fig-ch04-14-darstellung_spuren width=100%}
+![Darstellungsbeispiele Spuren](figures/sec04/14-darstellung_spuren.png){#fig-ch04-14-darstellung_spuren width=100%}
 
 @fig-ch04-14-darstellung_spuren zeigt drei exemplarische Darstellungen magnetischer Maßstäbe. Teilbild (a) zeigt einen typischen Linearmaßstab zur Positionserfassung von Linearachsen. Er weist eine inkrementelle OOP-Spur auf, die in reiner Zonendarstellung gezeigt ist. Teilbild (b) zeigt einen Rotationsmaßstab mit einer radial außen liegenden inkrementellen IP-Spur in farbcodierter Zonendarstellung. Derartige Maßverkörperungen werden häufig in Drehgebern eingesetzt. Teilbild (c) zeigt einen Rotationsmaßstab mit zwei axial angeordneten Spuren in Poldarstellung. Die äußere Spur ist eine vollbeschriebene Inkrementalspur. Die innere Spur ist eine teilbeschriebene Spur mit Referenzpolen. Eine solche Kombination wird oft zur absoluten Positionserfassung eingesetzt.
 
@@ -156,7 +156,7 @@ Ist das Struktur-KS einer magnetischen Spur zugeordnet, wird es als **Spur-KS** 
 
 Als zweckmäßige **Konvention** wird empfohlen, den Ursprung $O_T$ in $o$-Richtung mittig zur beschriebenen magnetischen Struktur und in $n$-Richtung auf der funktionalen Oberfläche der Maßverkörperung anzuordnen. Die $p$-Lage wird anhand eines eindeutig festgelegten Strukturbezugs gewählt, typischerweise am Beginn der ersten genutzten Zone oder des ersten genutzten Pols. Bei einem Spur-KS wird hierfür vorzugsweise der Beginn der Spur verwendet.
 
-![Struktur-KS am Beispiel einer magnetischen Spur](abbildungen/04-Struktur/15-spurKS.png){#fig-ch04-15-spurKS width=90%}
+![Struktur-KS am Beispiel einer magnetischen Spur](figures/sec04/15-spurKS.png){#fig-ch04-15-spurKS width=90%}
 
 @fig-ch04-15-spurKS veranschaulicht die Festlegung eines Struktur-KS. Entsprechend der Konvention liegt dessen Ursprung in $o$-Richtung mittig zur magnetischen Struktur, in $p$-Richtung am Beginn der magnetischen Struktur und in $n$-Richtung auf der funktionalen Oberfläche der Maßverkörperung.
 
@@ -178,11 +178,11 @@ Auf eine Zone kann in $p$-Richtung ein Zwischenraum folgen, der keiner Zone zuge
 
 Die **Zonenlage** $\vec{r}_Z$ bezeichnet die Position des geometrischen Mittelpunkts des Begrenzungsboxkörpers. Ihre Koordinaten sind $p_Z$, $o_Z$ und $n_Z$.
 
-![Strukturbeschreibung des Zonenmusters eines Multipolquaders](abbildungen/04-Struktur/16-struktur_mp_quader.png){#fig-ch04-16-struktur_mp_quader width=90%}
+![Strukturbeschreibung des Zonenmusters eines Multipolquaders](figures/sec04/16-struktur_mp_quader.png){#fig-ch04-16-struktur_mp_quader width=90%}
 
 @fig-ch04-16-struktur_mp_quader zeigt eine beispielhafte Strukturbeschreibung einer magnetischen Maßverkörperung mittels Zonen in kartesischen Koordinaten. Die Maßverkörperung besteht aus einer Halterung mit vier eingesetzten würfelförmigen Dipolmagneten, die in einem OOP-Muster angeordnet sind. Die Halterung ist zur besseren Sichtbarkeit teilweise aufgeschnitten dargestellt. Jeder Dipolmagnet wird dabei als eine Zone aufgefasst. Die Zonen sind in positiver $p$-Richtung nummeriert und zugeordnete Größen mit einem entsprechenden Ordnungsindex versehen. Der Ursprung des Struktur-KS $O_T$ liegt entsprechend der Konvention in $o$-Richtung mittig zur Zonenstruktur, in $n$-Richtung auf der funktionalen Oberfläche der Maßverkörperung und in $p$-Richtung am Beginn der ersten Zone.
  
-![Strukturbeschreibung des Zonenmusters eines axialen Multipolrings](abbildungen/04-Struktur/17-struktur_mp_ring.png){#fig-ch04-17-struktur_mp_ring width=80%}
+![Strukturbeschreibung des Zonenmusters eines axialen Multipolrings](figures/sec04/17-struktur_mp_ring.png){#fig-ch04-17-struktur_mp_ring width=80%}
 
 In @fig-ch04-17-struktur_mp_ring ist das Zonenmuster eines axial gestapelten Multipolrings mit $N_Z=8$ dargestellt. Derartige Maßverkörperungen können zur Detektion axialer Verschiebungen entlang der Systemachse eingesetzt werden. Der Ursprung des Struktur-KS ist auf der Mantelfläche in $o$-Richtung mittig und in $p$-Richtung am Beginn der ersten Zone festgelegt.
 
@@ -211,7 +211,7 @@ Pole werden zu Referenzierungszwecken aufsteigend in positiver $p$-Richtung mit 
 
 Die **Pollage** $\vec{r}_P$ bezeichnet die Position des geometrischen Mittelpunkts der Begrenzungsbox. Ihre Koordinaten sind $p_P$ und $o_P$.
 
-![Strukturbeschreibung des Polmusters](abbildungen/04-Struktur/18-struktur_pole.png){#fig-ch04-18-struktur_pole width=100%}
+![Strukturbeschreibung des Polmusters](figures/sec04/18-struktur_pole.png){#fig-ch04-18-struktur_pole width=100%}
 
 @fig-ch04-18-struktur_pole zeigt eine beispielhafte Strukturbeschreibung von Polmustern in zylindrischen Begrenzungsbox-Geometrien. Dargestellt sind zwei Polräder mit Pseudo-Random-Codierung. In Teilbild (a) ist eine außenliegende Radialspur mit $N_P = 36$ nummerierten Polen gezeigt; in Teilbild (b) eine Axialspur mit $N_P = 30$ nummerierten Polen. Bei radial außenliegenden Spuren wie in Teilbild (a) ist es zweckmäßig, $p_P$ und $\ell_P$ als Bogenlängen anzugeben. Bei der Axialspur in Teilbild (b) ist dies aufgrund des über die Spurbreite veränderlichen Radius hingegen nicht zweckmäßig.
 
@@ -250,11 +250,11 @@ $$
 
 Für Größen, die sich auf zwei Spuren beziehen, wird nach @sec-03-indexkonvention der Bezugsindex „TT“ verwendet. Der **Spurabstand** $w_{TT}$ bezeichnet den Abstand in $o$-Richtung zwischen zwei benachbarten Spuren.
 
-![Strukturbeschreibung von magnetischen Spuren](abbildungen/04-Struktur/19-struktur_spuren.png){#fig-ch04-19-struktur_spuren width=100%}
+![Strukturbeschreibung von magnetischen Spuren](figures/sec04/19-struktur_spuren.png){#fig-ch04-19-struktur_spuren width=100%}
 
 @fig-ch04-19-struktur_spuren veranschaulicht die eingeführten Spurbegriffe anhand einer schematischen Darstellung eines magnetischen Maßstabs mit zwei parallelen Linearspuren, die gelb hervorgehoben sind. Die Ursprünge der Spur-KS sind entsprechend der eingeführten Konvention in $p$-Richtung am Beginn der jeweiligen Spur und mittig in $o$-Richtung festgelegt. Die relevanten Spurgrößen, insbesondere Spurlage, Spurabmessungen, Spurversätze und Spurabstand, sind in der Abbildung eingezeichnet.
 
-![Strukturbeschreibung eines Rotationsmaßstabs mit mehreren Spuren](abbildungen/04-Struktur/20-struktur_spuren2.png){#fig-ch04-20-struktur_spuren2 width=100%}
+![Strukturbeschreibung eines Rotationsmaßstabs mit mehreren Spuren](figures/sec04/20-struktur_spuren2.png){#fig-ch04-20-struktur_spuren2 width=100%}
 
 @fig-ch04-20-struktur_spuren2 zeigt einen magnetischen Rotationsmaßstab mit drei axialen Spuren in Poldarstellung. Spur 1 ist als inkrementelle Spur mit $N_P^{(1)} = 72$ Polen ausgeführt, Spur 2 als inkrementelle Spur mit $N_P^{(2)} = 30$ Polen. Spur 3 dient als Referenzspur und enthält ein einzelnes Referenz-Polpaar.
 

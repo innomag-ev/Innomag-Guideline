@@ -18,7 +18,7 @@ Zur **Herstellung** magnetischer Maßverkörperungen werden Rohlinge in einem Ma
 
 Herstellung und Prüfung magnetischer Maßverkörperungen bilden einen wesentlichen Abschnitt der Wertschöpfungskette „Vom Rohstoff bis zur Anwendung“, die in @fig-ch01-value_chain dargestellt ist.
 
-![Wertschöpfungskette „Vom Rohstoff bis zur Anwendung“](abbildungen/01-Einleitung/01-value_chain.png){#fig-ch01-value_chain width=100%}
+![Wertschöpfungskette „Vom Rohstoff bis zur Anwendung“](figures/sec01/01-value_chain.png){#fig-ch01-value_chain width=100%}
 
 Da die einzelnen Prozessschritte häufig von unterschiedlichen Akteuren durchgeführt werden, entstehen an den Übergängen Schnittstellen hinsichtlich der mechanischen und magnetischen Eigenschaften der Maßverkörperung sowie ihrer Prüfung. Für diese Schnittstellen fehlen bislang eine einheitliche **Terminologie** zur Beschreibung magnetischer Maßverkörperungen, standardisierte **Darstellungsregeln** sowie abgestimmte Verfahren zu ihrer **Vermessung** und **Bewertung**. Eine zuverlässige Qualitätsbewertung setzt insbesondere voraus, dass die verwendeten Prüfverfahren eindeutig beschrieben und vergleichbar angewendet werden können.
 
