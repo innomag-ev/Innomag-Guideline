@@ -1,7 +1,16 @@
+/* =========================================================
+   INNOMAG Guideline - shared HTML styles
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   Sidebar navigation tools: PDF + language switcher
+   --------------------------------------------------------- */
+
 /* Common style */
 a.quarto-navigation-tool[href$=".pdf"],
-a.quarto-navigation-tool[href$="de/index.html"],
-a.quarto-navigation-tool[href$="en/index.html"] {
+a.quarto-navigation-tool[aria-label="English"],
+a.quarto-navigation-tool[aria-label="Deutsch"] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +18,7 @@ a.quarto-navigation-tool[href$="en/index.html"] {
   margin-top: 1.2rem;
   padding: 0 0.65rem;
 
-  border: 1px solid #000;
+  border: 1px solid #000000;
   border-radius: 0.3rem;
 
   text-decoration: none;
@@ -17,51 +26,73 @@ a.quarto-navigation-tool[href$="en/index.html"] {
   font-size: 0;
 }
 
-/* Abstand zwischen Sprache und PDF */
-a.quarto-navigation-tool[href$="de/index.html"],
-a.quarto-navigation-tool[href$="en/index.html"] {
+
+/* Space between language button and PDF */
+a.quarto-navigation-tool[aria-label="English"],
+a.quarto-navigation-tool[aria-label="Deutsch"] {
   margin-right: 0.4rem;
 }
 
-/* Icons ausblenden */
+
+/* Hide original icons */
 a.quarto-navigation-tool[href$=".pdf"] i,
-a.quarto-navigation-tool[href$="de/index.html"] i,
-a.quarto-navigation-tool[href$="en/index.html"] i {
+a.quarto-navigation-tool[aria-label="English"] i,
+a.quarto-navigation-tool[aria-label="Deutsch"] i {
   display: none !important;
 }
 
-/* PDF */
+
+/* ---------------------------------------------------------
+   PDF button
+   --------------------------------------------------------- */
+
 a.quarto-navigation-tool[href$=".pdf"] {
   background-color: #ecd2cf;
-  color: #000;
+  color: #000000;
 }
 
 a.quarto-navigation-tool[href$=".pdf"]::after {
   content: "PDF";
   font-size: 0.9rem;
+  font-weight: 500;
 }
 
-/* English */
-a.quarto-navigation-tool[href$="en/index.html"] {
+
+/* ---------------------------------------------------------
+   English language button
+   --------------------------------------------------------- */
+
+a.quarto-navigation-tool[aria-label="English"] {
   background-color: #b7daf8;
-  color: #000;
+  color: #000000;
 }
 
-a.quarto-navigation-tool[href$="en/index.html"]::after {
+a.quarto-navigation-tool[aria-label="English"]::after {
   content: "English";
   font-size: 0.9rem;
+  font-weight: 500;
 }
 
-/* Deutsch */
-a.quarto-navigation-tool[href$="de/index.html"] {
+
+/* ---------------------------------------------------------
+   German language button
+   --------------------------------------------------------- */
+
+a.quarto-navigation-tool[aria-label="Deutsch"] {
   background-color: #b7daf8;
-  color: #000;
+  color: #000000;
 }
 
-a.quarto-navigation-tool[href$="de/index.html"]::after {
+a.quarto-navigation-tool[aria-label="Deutsch"]::after {
   content: "Deutsch";
   font-size: 0.9rem;
+  font-weight: 500;
 }
+
+
+/* ---------------------------------------------------------
+   Tables
+   --------------------------------------------------------- */
 
 .begriffstabelle {
   font-size: 0.9rem;
