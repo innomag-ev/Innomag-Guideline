@@ -7,8 +7,8 @@ lang: en
 version: 1.1
 
 book:
-  title: "Guideline for Magnetic Measurement Scales for Position and Angle Measurement"
-  subtitle: "Terminology, Technical Representation, Classification, Measurement Setup, Measurement, and Evaluation"
+  title: "Magnetic Measurement Scales for Linear and Angular Measurement Systems"
+  subtitle: "Terminology, Technical Representation, Classification, Characterization and Evaluation"
 
   sidebar:
     title: "INNOMAG Guideline"
