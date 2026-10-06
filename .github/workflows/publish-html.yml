@@ -32,6 +32,9 @@ jobs:
       - name: Render German book
         run: quarto render de
 
+      - name: Render English book
+        run: quarto render en
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
