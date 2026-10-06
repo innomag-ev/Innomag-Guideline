@@ -27,6 +27,7 @@ book:
     - kapitel03-grundlagen.qmd
     - kapitel04-struktur.qmd
     - kapitel05-streufeld.qmd
+    - kapitel06-vermessungsgrundlagen.qmd
     - literatur.qmd
 
 bibliography: ../bibliography.bib
