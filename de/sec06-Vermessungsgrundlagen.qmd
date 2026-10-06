@@ -135,7 +135,7 @@ Experimentell ermittelte magnetische Größen beziehen sich auf das Streufeld na
 
 :::
 
-Die Felddarstellung nach @sec-05-sec-05-felddarstellung unterstützt die Trennung der Begriffsebenen, indem in Abbildungen die Messhöhe angegeben wird und für Feldkomponenten unterschiedliche Richtungssymbole eingesetzt werden.
+Die Felddarstellung nach @sec-05-felddarstellung unterstützt die Trennung der Begriffsebenen, indem in Abbildungen die Messhöhe angegeben wird und für Feldkomponenten unterschiedliche Richtungssymbole eingesetzt werden.
 
 Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Bereiche an der physischen Oberfläche der Maßverkörperung und die Normalkomponente des Streufeldes. In der Praxis wird er häufig auch zur Beschreibung von Feldmerkmalen von OOP- und IP-Komponenten in endlicher Messhöhe verwendet.
 

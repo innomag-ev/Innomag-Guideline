@@ -22,12 +22,13 @@ book:
   chapters:
     - href: index.qmd
       text: "Über das Dokument"
-    - kapitel01-einleitung.qmd
-    - kapitel02-beispiele.qmd
-    - kapitel03-grundlagen.qmd
-    - kapitel04-struktur.qmd
-    - kapitel05-streufeld.qmd
-    - kapitel06-vermessungsgrundlagen.qmd
+    - sec01-Einleitung.qmd
+    - sec02-Beispiele.qmd
+    - sec03-Grundlagen.qmd
+    - sec04-Struktur.qmd
+    - sec05-Streufeld.qmd
+    - sec06-Vermessungsgrundlagen.qmd
+    - sec07-Einteilung.qmd
     - literatur.qmd
 
 bibliography: ../bibliography.bib
