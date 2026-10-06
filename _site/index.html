@@ -7,80 +7,118 @@
   <title>INNOMAG Guideline</title>
 
   <style>
+    html,
     body {
-      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
+
+    body {
+      background: #f7f7f7;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+    }
+
+    .innomag-landing-page {
       min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #f7f7f7;
-      color: #222;
+      box-sizing: border-box;
+      padding: 2rem;
     }
 
-    .landing {
+    .innomag-landing-card {
+      width: 100%;
+      max-width: 720px;
       text-align: center;
-      max-width: 760px;
-      padding: 3rem 2rem;
+      background: white;
+      padding: 3rem 2.5rem;
+      box-sizing: border-box;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
     }
 
-    h1 {
+    .innomag-landing-title {
+      margin: 0 0 0.75rem 0;
       font-size: 2rem;
-      margin-bottom: 0.5rem;
+      font-weight: 600;
     }
 
-    .subtitle {
-      font-size: 1.1rem;
+    .innomag-landing-subtitle {
+      margin: 0 auto 2.5rem auto;
+      max-width: 600px;
+      font-size: 1.05rem;
+      line-height: 1.5;
       color: #555;
-      margin-bottom: 2.5rem;
     }
 
-    .buttons {
+    .innomag-language-buttons {
       display: flex;
-      gap: 1rem;
       justify-content: center;
+      gap: 1rem;
       flex-wrap: wrap;
     }
 
-    .language-button {
+    .innomag-language-button {
       display: inline-block;
-      padding: 0.65rem 1.2rem;
-      border: 1px solid #444;
+      min-width: 110px;
+      padding: 0.65rem 1.1rem;
+
+      border: 1px solid #555;
       border-radius: 0.35rem;
+
       text-decoration: none;
+      font-size: 1rem;
       font-weight: 600;
-      color: #111;
-      background: #b7daf8;
+      color: #222;
     }
 
-    .language-button:hover {
+    .innomag-language-button-de {
+      background-color: #ecd2cf;
+    }
+
+    .innomag-language-button-en {
+      background-color: #b7daf8;
+    }
+
+    .innomag-language-button:hover {
       filter: brightness(0.95);
-    }
-
-    .de {
-      background: #ecd2cf;
     }
   </style>
 </head>
 
 <body>
 
-  <main class="landing">
+  <main class="innomag-landing-page">
 
-    <h1>INNOMAG Guideline</h1>
+    <div class="innomag-landing-card">
 
-    <div class="subtitle">
-      Magnetic Measurement Scales for Position and Angle Measurement
-    </div>
+      <h1 class="innomag-landing-title">
+        INNOMAG Guideline
+      </h1>
 
-    <div class="buttons">
-      <a class="language-button de" href="de/index.html">
-        Deutsch
-      </a>
+      <p class="innomag-landing-subtitle">
+        Magnetic Measurement Scales for Position and Angle Measurement
+      </p>
 
-      <a class="language-button" href="en/index.html">
-        English
-      </a>
+      <div class="innomag-language-buttons">
+
+        <a
+          class="innomag-language-button innomag-language-button-de"
+          href="de/index.html">
+          Deutsch
+        </a>
+
+        <a
+          class="innomag-language-button innomag-language-button-en"
+          href="en/index.html">
+          English
+        </a>
+
+      </div>
+
     </div>
 
   </main>
