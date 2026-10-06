@@ -1,0 +1,106 @@
+::: {.content-visible when-format="html"}
+
+<div class="impressum-title">Imprint</div>
+
+**Version**: {{< meta version >}}
+
+**Publication date**: 2026-10-01
+
+**DOI**: 10.5281/zenodo.XXXXXXX
+
+**Authors**: Michael Ortner, Rolf Slatter
+
+**Publisher**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
+
+**Licensed** under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Third-party content is excluded unless explicitly stated otherwise.
+
+This work may be copied, distributed, adapted, and used for any purpose, including commercial purposes, provided that appropriate attribution is given, a reference to the license is included, and any changes made are indicated.
+
+:::
+
+# Authorship and Contributions {.unnumbered}
+
+## Authors {.unlisted}
+
+Responsibility for the respective chapters; development and elaboration of the concept, structure, and content.
+
+| Name | Organization | Contribution |
+|---|---|---|
+| Michael Ortner | Silicon Austria Labs GmbH | Chapters 2–8, Editor |
+| Rolf Slatter | INNOMAG e. V. | Chapter 1 |
+
+## Technical Contributions {.unlisted}
+
+Technical exchange and discussion; technical contributions to individual chapters; feedback on content; review of selected sections; support in the further conceptual development.
+
+| Name | Organization | Contribution |
+|---|---|---|
+| Armin Pfeffer | Bogen Magnetics GmbH | Technical contribution |
+| Axel Bartos | TE Connectivity | Technical contribution |
+| Benjamin Wenzel | Matesy GmbH | Technical contribution |
+| Bernd Böhle | ELSOMA GmbH | Technical contribution |
+| Florian Slanovc | Silicon Austria Labs GmbH | Technical contribution |
+| Heiko Knoll | ITK Precisioning GmbH | Technical contribution |
+| Jürgen Gerber | INNOMAG e.V. | Technical contribution; coordination |
+| Magnus Meier | IC-Haus GmbH | Technical contribution |
+| Mattias Pelkner | Bundesanstalt für Materialforschung und -prüfung | Technical contribution |
+| Michael Melzer | Bundesanstalt für Materialforschung und -prüfung | Technical contribution |
+| Michal Pham | Baumer Group | Technical contribution |
+| Pascal Hille | Sensitec GmbH | Technical contribution; contribution to Chapter 2 |
+| Phillip Beran | Fraunhofer Institut für Integrierte Schaltungen IIS | Technical contribution |
+| Ralph Bauer | Balluff GmbH | Technical contribution |
+| René Buß | Sensitec GmbH | Technical contribution |
+| Rocco Holzhey | Innovent GmbH | Technical contribution |
+| Sebastian Rivera | ITK Precisioning GmbH | Technical contribution |
+| Sibylle Sievers | Physikalisch-Technische Bundesanstalt | Technical contribution |
+| Stefan Herzog | ZF Friedrichshafen AG | Technical contribution; contribution to Chapter 2 |
+| Thomas Schliesch | Max Baermann GmbH | Technical contribution |
+| Werner Pessenhofer | Nanomag GmbH | Technical contribution |
+
+# Foreword {.unnumbered}
+
+Magnetic linear and angular position measurement systems have become indispensable in modern automation, drive, and automotive technology. Their core component—the magnetic measurement scale—is, however, developed, manufactured, magnetized, and tested by very different stakeholders across the entire value chain. It is precisely at these interfaces that the lack of a common and unambiguous language repeatedly becomes apparent.
+
+DIN SPEC 91411 [@DIN91411] represented an important first step toward addressing this issue. Practical work with this specification over the past years has clearly confirmed the value of a uniform description, while at the same time showing that several key terms were understood and interpreted differently in everyday use. This experience gave rise to the desire to sharpen existing definitions, close gaps, and consistently derive the representation rules from physical principles.
+
+The present guideline is the result of this further development. It was prepared by a consortium of member companies and institutes of INNOMAG e. V., bringing manufacturers, users, and research institutions together. In this composition, the document reflects the collective practical experience of the professional community and pursues a clear objective: to establish a common and generally understandable terminology for magnetic measurement scales that avoids misunderstandings and facilitates technical exchange across company and national boundaries.
+
+Special thanks are due to Dr. Michael Ortner of Silicon Austria Labs, who made a major contribution to the preparation of this guideline. We also thank all contributing authors as well as the participating companies and institutes, without whose commitment this document would not have been possible.
+
+We wish all readers an informative and stimulating read and hope that this guideline will find as broad a practical application as its predecessor.
+
+::: {style="text-align: right;"}
+
+Dr. Rolf Slatter, Chairman of the Board, INNOMAG e. V.
+
+Dr. Jürgen Gerber, Managing Director, INNOMAG e. V.
+
+:::
+
+# Abbreviations and Symbols {.unnumbered}
+
+## List of Abbreviations {.unlisted}
+
+| Abbreviation | Meaning |
+|---|---|
+| CS | coordinate system |
+| IP | in-plane |
+| OOP | out-of-plane |
+
+## List of Symbols for Fundamental Quantities {.unlisted}
+
+| Symbol | Meaning | Unit |
+|---|---|---|
+| $\vec{B}$ | magnetic flux density, B-field | T |
+| $\vec{H}$ | magnetic field strength, H-field | A/m |
+| $\vec{M}$ | magnetization | A/m |
+| $\vec{J}$ | magnetic polarization | T |
+| $\mu_0$ | vacuum permeability | T m/A |
+| $p$ | coordinate in longitudinal direction | m or ° |
+| $o$ | coordinate in transverse direction | m |
+| $n$ | coordinate in normal direction; measurement height where applicable | m |
+| $o$ | origin of a coordinate system | – |
+| $\vec{e}_p$ | unit vector in $p$-direction | – |
+| $\vec{e}_o$ | unit vector in $o$-direction | – |
+| $\vec{e}_n$ | unit vector in $n$-direction | – |
+| $\vec{r}$ | position vector | m |

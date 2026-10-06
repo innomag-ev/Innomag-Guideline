@@ -53,3 +53,5 @@ desktop.ini
 
 **/.gitignore
 /.quarto/
+_site
+

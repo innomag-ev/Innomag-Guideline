@@ -1,40 +1,33 @@
 project:
   type: book
-  output-dir: ../_site/de
+  output-dir: ../_site/en
 
-lang: de
+lang: en
 
 version: 1.1
 
 book:
-  title: "Richtlinie zu Magnetischen Maßverkörperungen für Weg- und Winkelmesssysteme"
-  subtitle: "Terminologie, technische Darstellung, Einteilung, Messaufbau, Vermessung und Bewertung"
+  title: "Guideline for Magnetic Measurement Scales for Position and Angle Measurement"
+  subtitle: "Terminology, Technical Representation, Classification, Measurement Setup, Measurement, and Evaluation"
 
   sidebar:
     title: "INNOMAG Guideline"
     search: true
     tools:
       - icon: translate
-        text: English
-        href: ../en/index.html
+        text: Deutsch
+        href: ../de/index.html
 
-  output-file: "Innomag-Guideline-de"
+  output-file: "Innomag-Guideline-en"
 
   downloads:
     - pdf
 
   chapters:
     - href: index.qmd
-      text: "Über das Dokument"
-    - sec01-Einleitung.qmd
-    - sec02-Beispiele.qmd
-    - sec03-Grundlagen.qmd
-    - sec04-Struktur.qmd
-    - sec05-Streufeld.qmd
-    - sec06-Vermessungsgrundlagen.qmd
-    - sec07-Einteilung.qmd
-    - sec08-Sensorik.qmd
-    - literatur.qmd
+      text: "Preface"
+    - index.qmd
+    - literature.qmd
 
 bibliography: ../bibliography.bib
 
