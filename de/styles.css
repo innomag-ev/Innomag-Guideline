@@ -1,15 +1,15 @@
 /* Common style */
 a.quarto-navigation-tool[href$=".pdf"],
-a.quarto-navigation-tool[href$="/de/index.html"],
-a.quarto-navigation-tool[href$="/en/index.html"] {
+a.quarto-navigation-tool[href$="de/index.html"],
+a.quarto-navigation-tool[href$="en/index.html"] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
 
   margin-top: 1.2rem;
-  padding: 0.0rem 0.65rem;
+  padding: 0 0.65rem;
 
-  border: 1px solid #000000;
+  border: 1px solid #000;
   border-radius: 0.3rem;
 
   text-decoration: none;
@@ -17,53 +17,50 @@ a.quarto-navigation-tool[href$="/en/index.html"] {
   font-size: 0;
 }
 
-/* Space between language button and PDF */
-a.quarto-navigation-tool[href$="/en/index.html"],
-a.quarto-navigation-tool[href$="/de/index.html"] {
+/* Abstand zwischen Sprache und PDF */
+a.quarto-navigation-tool[href$="de/index.html"],
+a.quarto-navigation-tool[href$="en/index.html"] {
   margin-right: 0.4rem;
 }
 
-/* Hide icons */
+/* Icons ausblenden */
 a.quarto-navigation-tool[href$=".pdf"] i,
-a.quarto-navigation-tool[href$="/de/index.html"] i,
-a.quarto-navigation-tool[href$="/en/index.html"] i {
-  display: none;
+a.quarto-navigation-tool[href$="de/index.html"] i,
+a.quarto-navigation-tool[href$="en/index.html"] i {
+  display: none !important;
 }
 
 /* PDF */
 a.quarto-navigation-tool[href$=".pdf"] {
   background-color: #ecd2cf;
-  color: #000000;
+  color: #000;
 }
 
 a.quarto-navigation-tool[href$=".pdf"]::after {
   content: "PDF";
   font-size: 0.9rem;
-  font-weight: 500;
 }
 
 /* English */
-a.quarto-navigation-tool[href$="/en/index.html"] {
+a.quarto-navigation-tool[href$="en/index.html"] {
   background-color: #b7daf8;
-  color: #000000;
+  color: #000;
 }
 
-a.quarto-navigation-tool[href$="/en/index.html"]::after {
+a.quarto-navigation-tool[href$="en/index.html"]::after {
   content: "English";
   font-size: 0.9rem;
-  font-weight: 500;
 }
 
 /* Deutsch */
-a.quarto-navigation-tool[href$="/de/index.html"] {
+a.quarto-navigation-tool[href$="de/index.html"] {
   background-color: #b7daf8;
-  color: #000000;
+  color: #000;
 }
 
-a.quarto-navigation-tool[href$="/de/index.html"]::after {
+a.quarto-navigation-tool[href$="de/index.html"]::after {
   content: "Deutsch";
   font-size: 0.9rem;
-  font-weight: 500;
 }
 
 .begriffstabelle {
