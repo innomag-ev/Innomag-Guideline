@@ -59,15 +59,15 @@ Technical exchange and discussion; technical contributions to individual chapter
 
 # Foreword {.unnumbered}
 
-Magnetic linear and angular position measurement systems have become indispensable in modern automation, drive, and automotive technology. Their core component—the magnetic measurement scale—is, however, developed, manufactured, magnetized, and tested by very different stakeholders across the entire value chain. It is precisely at these interfaces that the lack of a common and unambiguous language repeatedly becomes apparent.
+Magnetic linear and angular measurement systems have become indispensable in modern automation, drive and automotive engineering. Their core element – the magnetic measurement scale – is, however, developed, manufactured, magnetized and tested by a wide variety of actors along the entire value chain. It is precisely at these interfaces that the lack of a common, unambiguous language becomes apparent time and again.
 
-DIN SPEC 91411 [@DIN91411] represented an important first step toward addressing this issue. Practical work with this specification over the past years has clearly confirmed the value of a uniform description, while at the same time showing that several key terms were understood and interpreted differently in everyday use. This experience gave rise to the desire to sharpen existing definitions, close gaps, and consistently derive the representation rules from physical principles.
+An important first step towards remedying this situation was DIN SPEC 91411 [@DIN91411]. Practical experience with this specification over recent years has convincingly confirmed the value of a uniform description – but has also revealed that several key terms have been understood and interpreted differently in day-to-day use. This body of experience gave rise to the wish to sharpen existing definitions, to close gaps and to derive the representation rules consistently from physical principles.
 
-The present guideline is the result of this further development. It was prepared by a consortium of member companies and institutes of INNOMAG e. V., bringing manufacturers, users, and research institutions together. In this composition, the document reflects the collective practical experience of the professional community and pursues a clear objective: to establish a common and generally understandable terminology for magnetic measurement scales that avoids misunderstandings and facilitates technical exchange across company and national boundaries.
+The present guideline is the outcome of this further development. It was prepared by a consortium of member companies and institutes of INNOMAG e. V. that brought manufacturers, users and research institutions together around one table. Owing to this composition, the document reflects the combined practical experience of the professional community and pursues a clear objective: to establish a common, generally comprehensible terminology for magnetic measurement scales that avoids misunderstandings and facilitates technical exchange across company and national boundaries.
 
-Special thanks are due to Dr. Michael Ortner of Silicon Austria Labs, who made a major contribution to the preparation of this guideline. We also thank all contributing authors as well as the participating companies and institutes, without whose commitment this document would not have been possible.
+Special thanks are due to Dr. Michael Ortner of Silicon Austria Labs, who contributed decisively to the preparation of this guideline. We likewise thank all contributing authors as well as the participating companies and institutes, without whose commitment this document would not have been possible.
 
-We wish all readers an informative and stimulating read and hope that this guideline will find as broad a practical application as its predecessor.
+We wish all readers a stimulating read and hope that this guideline will find as broad an application in practice as its predecessor.
 
 ::: {style="text-align: right;"}
 
