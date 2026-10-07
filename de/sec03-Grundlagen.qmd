@@ -20,11 +20,11 @@ Die Größen $\vec{M}, \vec{J}, \vec{H}$ und $\vec{B}$ entsprechen den gleichnam
 
 Das Magnetfeld eines Körpers ergibt sich aus der Überlagerung der Magnetfelder seiner mikroskopischen Dipolmomente, die seine Polarisation ausmachen. Bei homogener Polarisation weist insbesondere das Streufeld des Körpers eine hohe Ähnlichkeit mit dem Feld eines elementaren Dipols auf und wird im allgemeinen Sprachgebrauch dann häufig vereinfachend als **Dipolfeld** bezeichnet.
 
-![Physikalische Grundbegriffe](figures/sec03/01-magnet_und_magnetfeld.png){#fig-sec03-01-magnet_und_magnetfeld width=90%}
+![Physikalische Grundbegriffe](figures/sec03/01-magnet_und_magnetfeld.png){#fig-sec03-01-magnet_und_magnetfeld width=90% fig-pos="h"}
 
 @fig-sec03-01-magnet_und_magnetfeld (a) zeigt das Feld eines Punktdipols. Teilbild (b) zeigt das Streufeld und die Polarisation eines würfelförmigen Dauermagneten im Querschnitt; die homogene magnetische Polarisation ist durch schwarze Pfeile dargestellt. Die dargestellten Feldlinien basieren auf einer numerischen Simulation. Es wird deutlich, dass das Streufeld eines endlichen Magneten in großem Abstand eine hohe Ähnlichkeit mit dem Dipolfeld aufweist, im Nahbereich jedoch deutliche Abweichungen zeigt.
 
-Dauermagnete können komplexe Polarisation aufweisen. **Dipolmagnete** sind Dauermagnete, deren Magnetfeld im betrachteten Bereich vom Dipolanteil dominiert wird, siehe auch @fig-sec03-01-magnet_und_magnetfeld (b). Typischerweise handelt es sich dabei um Körper mit quasi-homogener Polarisation. **Multipolmagnete** weisen mehrere Polarisationsbereiche auf. Sie können beispielsweise aus mehreren Dipolmagneten zusammengesetzt sein. **Magnetische Maßstäbe** sind hingegen Dauermagnete mit einem typischerweise entlang der Oberfläche verlaufenden streifenförmigen Polarisationsmuster. Diese Einteilung dient vorwiegend der groben Unterscheidung des Komplexitätsgrades eines Dauermagneten und wird in @fig-sec07 näher ausgeführt.
+Dauermagnete können komplexe Polarisation aufweisen. **Dipolmagnete** sind Dauermagnete, deren Magnetfeld im betrachteten Bereich vom Dipolanteil dominiert wird, siehe auch @fig-sec03-01-magnet_und_magnetfeld (b). Typischerweise handelt es sich dabei um Körper mit quasi-homogener Polarisation. **Multipolmagnete** weisen mehrere Polarisationsbereiche auf. Sie können beispielsweise aus mehreren Dipolmagneten zusammengesetzt sein. **Magnetische Maßstäbe** sind hingegen Dauermagnete mit einem typischerweise entlang der Oberfläche verlaufenden streifenförmigen Polarisationsmuster. Diese Einteilung dient vorwiegend der groben Unterscheidung des Komplexitätsgrades eines Dauermagneten und wird in @sec-07 näher ausgeführt.
 
 ## Anordnung des Messsystems {#sec-03-anordnung_des_messsystems}
 
@@ -37,7 +37,7 @@ Ausgehend von der Messaufgabe und den damit verbundenen geometrischen Randbeding
 3. **Axiale Anordnung**: Eine rotationssymmetrische Maßverkörperung rotiert um ihre Rotationsachse. Der Sensor ist stirnseitig zur Rotationsachse an einer Stirnfläche der Maßverkörperung angeordnet.
 4. **Allgemeine Anordnung**: Geometrische Anordnungen, die keiner der drei zuvor genannten Gruppen zweckmäßig zugeordnet werden.
 
-![Geometrische Anordnungen eines Messsystems](figures/sec03/02-geometrische_anordnung.png){#fig-sec03-02-geometrische_anordnung width=100%}
+![Geometrische Anordnungen eines Messsystems](figures/sec03/02-geometrische_anordnung.png){#fig-sec03-02-geometrische_anordnung width=100% fig-pos="h"}
 
 @fig-sec03-02-geometrische_anordnung veranschaulicht die vier geometrischen Anordnungstypen: (a) eine lineare, (b) eine radiale, (c) eine axiale und (d) eine allgemeine Anordnung. Die allgemeine Anordnung ist hier anhand einer typischen eindimensionalen „Joystick-Realisierung“ dargestellt, bei der sich während der Bewegung sowohl die relative Orientierung als auch der Abstand zwischen Maßverkörperung und Sensor verändern.
 
@@ -63,7 +63,7 @@ Die funktionale Oberfläche der Maßverkörperung entspricht dann n=0; die n-Koo
 
 Bei linearen Anordnungen wird eine kartesische, bei radialen und axialen Anordnungen eine zylindrische Koordinatendarstellung verwendet. In den zylindrischen Fällen beschreibt die p-Koordinate die Winkelposition. Da diese in der Praxis häufig als zugehörige Bogenlänge angegeben wird, ist auf die **verwendeten Einheiten** entsprechend zu achten.
 
-![Wahl der Koordinatenrichtungen](figures/sec03/03_koordinatenrichtungen.png){#fig-sec03-03-koordinatenrichtungen width=90%}
+![Wahl der Koordinatenrichtungen](figures/sec03/03_koordinatenrichtungen.png){#fig-sec03-03-koordinatenrichtungen width=90% fig-pos="h"}
 
 @fig-sec03-03-koordinatenrichtungen zeigt verschiedene Anordnungen von Sensor und Maßverkörperung sowie eine jeweils zweckmäßige Wahl des Maßverkörperungs-KS. Die Teilbilder (a) und (b) zeigen lineare Anordnungen, Teilbild (c) eine radiale und Teilbild (d) eine axiale Anordnung.
 
