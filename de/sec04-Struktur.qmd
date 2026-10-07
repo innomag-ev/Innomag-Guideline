@@ -197,7 +197,7 @@ Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine line
 | **Zonenspalt**  | $\bar{\ell}_Z^{(j)}$ | Ausdehnung des einer Zone $j$ folgenden, keiner Zone zugeordneten Zwischenraums in $p$-Richtung |
 | **Zonenlage**   | $\vec{r}_Z^{(j)}$ | Position des geometrischen Mittelpunkts des Begrenzungsboxkörpers der Zone $j$; Koordinaten $p_Z^{(j)}$, $o_Z^{(j)}$ und $n_Z^{(j)}$ |
 
-: Begriffe Zonen {#tbl-begriffe_zonen .zebra_blue tbl-colwidths="[20,15,55]"}
+: Begriffe Zonen {#tbl-begriffe_zonen .zebra_blue tbl-colwidths="[25,15,60]"}
 
 ### Strukturbegriffe magnetischer Pole {#sec-04-strukturbegriffe_pole}
 
@@ -218,7 +218,7 @@ Die **Pollage** $\vec{r}_P$ bezeichnet die Position des geometrischen Mittelpunk
 | **Polbreite** | $w_P^{(j)}$ | Ausdehnung des Pols $j$ in $o$-Richtung |
 | **Pollage**   | $\vec{r}_P^{(j)}$ | Position des geometrischen Mittelpunkts der Begrenzungsbox des Pols $j$; Koordinaten $p_P^{(j)}$ und $o_P^{(j)}$ |
 
-: Begriffe Pole {#tbl-begriffe_pole .zebra_blue tbl-colwidths="[20,15,55]"}
+: Begriffe Pole {#tbl-begriffe_pole .zebra_blue tbl-colwidths="[25,15,60]"}
 
 ### Strukturbegriffe magnetischer Spuren {#sec-04-strukturbegriffe_spuren}
 
@@ -263,8 +263,8 @@ Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch 
 | **Spurbreite** | $w_T^{(i)}$ | Ausdehnung der Spur $i$ in $o$-Richtung |
 | **Spurtiefe** | $d_T^{(i)}$ | Ausdehnung der Spur $i$ in $n$-Richtung |
 | **Spurlage** | $\vec{r}_T^{(i)}$ | Position des Spur-KS-Ursprungs $O_T^{(i)}$ der Spur $i$ im Maßverkörperungs-KS; Koordinaten $p_T^{(i)}$, $o_T^{(i)}$ und $n_T^{(i)}$ |
-| **Spur-Längsversatz, Spur-$p$-Versatz** | $p_{TT}^{(i_1,i_2)}$ | Versatz in $p$-Richtung von Spur $i_1$ zu Spur $i_2$ |
-| **Spur-Querversatz, Spur-$o$-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
+| **Spur-Längsversatz**, **Spur-$p$-Versatz** | $p_{TT}^{(i_1,i_2)}$ | Versatz in $p$-Richtung von Spur $i_1$ zu Spur $i_2$ |
+| **Spur-Querversatz**, **Spur-$o$-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
 | **Spurabstand** | $w_{TT}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spuren |
 
-: Begriffe Spuren {#tbl-begriffe_spuren .zebra_blue tbl-colwidths="[20,15,55]"}
+: Begriffe Spuren {#tbl-begriffe_spuren .zebra_blue tbl-colwidths="[25,15,60]"}

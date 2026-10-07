@@ -113,12 +113,12 @@ Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhal
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Spurfeldlage** | $\vec{r}_F^{(i)}$ | Lage des Ursprungs des Spurfeld-KS $i$ im Maßverkörperungs-KS |
-| **Spurfeld-Längsversatz,**<br>**Spurfeld-$p$-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
-| **Spurfeld-Querversatz,**<br>**Spurfeld-$o$-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
+| **Spurfeld-Längsversatz**, **Spurfeld-$p$-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
+| **Spurfeld-Querversatz**, **Spurfeld-$o$-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
 | **Spurfeldbreite** | $w_F^{(i)}$ | Kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte des Spurfeldes $i$ |
 | **Spurfeldabstand** | $w_{FF}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spurfeldern |
 
-: Begriffe Spurfeld {#tbl-begriffe-spurfeld .zebra_blue tbl-colwidths="[20,15,55]"}
+: Begriffe Spurfeld {#tbl-begriffe-spurfeld .zebra_blue tbl-colwidths="[26,15,59]"}
 
 ## Strukturbegriffe und Feldgrößen {#sec-06-strukturbegriffe-feldgroessen}
 

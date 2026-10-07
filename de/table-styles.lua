@@ -65,8 +65,6 @@ local function fix_outer_table_padding(tex)
   -- ...@{}}
   -- becomes
   -- ...}
-  --
-  -- Only replace the first occurrence after begin{longtable}.
 
   local begin_pos = tex:find(
     "\\begin{longtable}",
@@ -190,9 +188,6 @@ end
 
 local function apply_table_style(tex, style)
 
-  -- Give the table normal outer column padding.
-  -- This lets rowcolor fill the whole width cleanly.
-
   tex = fix_outer_table_padding(tex)
 
 
@@ -236,13 +231,30 @@ local function apply_table_style(tex, style)
   )
 
 
-  -- Compact layout
+  -- -------------------------------------------------------
+  -- Table typography and spacing
+  -- -------------------------------------------------------
+  --
+  -- footnotesize:
+  --   smaller than normal body text
+  --
+  -- baselinestretch:
+  --   increases spacing between wrapped text lines
+  --
+  -- extrarowheight:
+  --   adds vertical padding to every table row
+  --
+  -- arraystretch:
+  --   slightly increases the normal table row strut
+  --
 
   tex =
     "\\begingroup\n" ..
-    "\\small\n" ..
+    "\\footnotesize\n" ..
+    "\\renewcommand{\\baselinestretch}{1.12}\\selectfont\n" ..
     "\\setlength{\\tabcolsep}{5pt}\n" ..
-    "\\renewcommand{\\arraystretch}{1.10}\n" ..
+    "\\setlength{\\extrarowheight}{2.5pt}\n" ..
+    "\\renewcommand{\\arraystretch}{1.15}\n" ..
     tex ..
     "\n\\endgroup"
 
@@ -339,8 +351,6 @@ local function renderer(float)
     "}\\tabularnewline\n"
 
 
-  -- Fix outer padding before adding styling
-
   tex = fix_outer_table_padding(tex)
 
 
@@ -383,13 +393,17 @@ local function renderer(float)
   )
 
 
-  -- Compact layout
+  -- -------------------------------------------------------
+  -- Table typography and spacing
+  -- -------------------------------------------------------
 
   tex =
     "\\begingroup\n" ..
-    "\\small\n" ..
+    "\\footnotesize\n" ..
+    "\\renewcommand{\\baselinestretch}{1.12}\\selectfont\n" ..
     "\\setlength{\\tabcolsep}{5pt}\n" ..
-    "\\renewcommand{\\arraystretch}{1.10}\n" ..
+    "\\setlength{\\extrarowheight}{2.5pt}\n" ..
+    "\\renewcommand{\\arraystretch}{1.15}\n" ..
     tex ..
     "\n\\endgroup"
 

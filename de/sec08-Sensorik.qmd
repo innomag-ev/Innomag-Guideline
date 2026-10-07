@@ -64,4 +64,4 @@ Abweichungen von der nominalen Ausrichtung werden durch die **Sensordrehwinkel**
 | **Messhöhe** | $n$ | $n$-Koordinate im Maßverkörperungs-KS; Abstand von der funktionalen Oberfläche |
 | **Sensordrehwinkel** | $\alpha, \beta, \gamma$ | Drehwinkel zur Beschreibung der Orientierung des Sensors gegenüber der nominalen Ausrichtung |
 
-: Begriffe Sensorlage {#tbl-begriffe-sensorlage .zebra_blue tbl-colwidths="[20,15,55]"}
+: Begriffe Sensorlage {#tbl-begriffe-sensorlage .zebra_blue tbl-colwidths="[25,15,60]"}
