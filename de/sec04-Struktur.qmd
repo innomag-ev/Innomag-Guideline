@@ -87,7 +87,7 @@ Einen wichtigen Sonderfall stellt dabei die **Halbach-Polarisation** dar. Hier r
 
 ## Darstellungskonventionen {#sec-04-darstellungskonventionen}
 
-Dieses Unterkapitel enthält **Empfehlungen zur Darstellung** von magnetischen Maßverkörperungen. Es wird durch Ausführungen zur Felddarstellung in XXXKapitel 5.5XXX ergänzt.
+Dieses Unterkapitel enthält **Empfehlungen zur Darstellung** von magnetischen Maßverkörperungen. Es wird durch Ausführungen zur Felddarstellung in @sec-05-felddarstellung ergänzt.
 
 Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrische Form** einer Maßverkörperung sowie die ihrer Elemente vollständig erkennbar ist. Hierbei sollten normative Vorgaben, beispielsweise nach ISO 5456, berücksichtigt werden, in denen zulässige Projektionsmethoden geometrischer Körper festgelegt sind.
 
@@ -97,7 +97,7 @@ Für die **Darstellung der Polarisation** (Zonenmuster) sollten benachbarte Zone
 
 @fig-sec04-09-darstellung_J (a) zeigt die in diesem Dokument verwendeten Pfeilsymbole zur Darstellung der Polarisationsrichtung an Seitenflächen. Teilbild (b) zeigt eine skizzenhafte Maßverkörperung bestehend aus zwei klar abgegrenzten Zonen alternierender Polarisation. Teilbild (c) zeigt eine Zone mit nicht flächenparalleler Polarisation, dargestellt durch Komponenten einer orthogonalen Projektion auf die Deckfläche.
 
-Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellung) wird der Wert einer ausgewählten Feldkomponente auf einer Bezugsfläche mittels Rot-Grau-Grün-Farbskala visualisiert. In Schwarzweißdarstellungen kann entsprechend eine Weiß-Grau-Schwarz-Skala verwendet werden. Als Bezugsflächen kommen zum Beispiel Zonenseiten, Körperflächen der Maßverkörperung oder Messflächen in Frage. Die Farbskala kann je nach Bedarf kontinuierlich oder diskret ausgeführt werden, wobei binäre und ternäre Ausführungen vor allem für Poldarstellungen und Felddarstellungen nach XXXKapitel 5.5XXX eingesetzt werden. Besonders bei diskreten Darstellungen sollte die dargestellte Feldkomponente durch zusätzliche Richtungssymbole gekennzeichnet werden. Die dafür verwendeten Symbole unterscheiden sich von den Richtungspfeilen der Polarisation, um Verwechslung zu vermeiden.
+Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellung) wird der Wert einer ausgewählten Feldkomponente auf einer Bezugsfläche mittels Rot-Grau-Grün-Farbskala visualisiert. In Schwarzweißdarstellungen kann entsprechend eine Weiß-Grau-Schwarz-Skala verwendet werden. Als Bezugsflächen kommen zum Beispiel Zonenseiten, Körperflächen der Maßverkörperung oder Messflächen in Frage. Die Farbskala kann je nach Bedarf kontinuierlich oder diskret ausgeführt werden, wobei binäre und ternäre Ausführungen vor allem für Poldarstellungen und Felddarstellungen nach @sec-05-felddarstellung eingesetzt werden. Besonders bei diskreten Darstellungen sollte die dargestellte Feldkomponente durch zusätzliche Richtungssymbole gekennzeichnet werden. Die dafür verwendeten Symbole unterscheiden sich von den Richtungspfeilen der Polarisation, um Verwechslung zu vermeiden.
  
 ![Darstellung des Magnetfeldes](figures/sec04/10-darstellung_B.png){#fig-sec04-10-darstellung_B width=100%}
 
