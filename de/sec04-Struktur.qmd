@@ -188,7 +188,7 @@ In @fig-sec04-17-struktur_mp_ring ist das Zonenmuster eines axial gestapelten Mu
 
 Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine lineare Anordnung. In diesem Beispiel ist der Begriff der Zonenlänge sinnvoll anwendbar, da die Zonen entlang der $p$-Richtung gestapelt sind. Die Begriffe Zonenbreite und Zonentiefe sind aufgrund der ringförmigen Geometrie hingegen nicht zweckmäßig. Zur Beschreibung der Geometrie der Maßverkörperung werden stattdessen Innen- und Außenradius des Rings genutzt.
 
-| Begriff         | Symbol                | Beschreibung |
+| **Begriff**         | **Symbol**                | **Beschreibung** |
 |:----------------|:---------------------:|:-------------|
 | **Zonenanzahl** | $N_Z$ | Gesamtzahl der nummerierten Zonen |
 | **Zonenlänge**  | $\ell_Z^{(j)}$ | Ausdehnung der Zone $j$ in $p$-Richtung |
@@ -197,7 +197,7 @@ Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine line
 | **Zonenspalt**  | $\bar{\ell}_Z^{(j)}$ | Ausdehnung des einer Zone $j$ folgenden, keiner Zone zugeordneten Zwischenraums in $p$-Richtung |
 | **Zonenlage**   | $\vec{r}_Z^{(j)}$ | Position des geometrischen Mittelpunkts des Begrenzungsboxkörpers der Zone $j$; Koordinaten $p_Z^{(j)}$, $o_Z^{(j)}$ und $n_Z^{(j)}$ |
 
-: Begriffe Zonen {.zebra_blue #tbl-begriffe_zonen tbl-colwidths="[20,15,55]"}
+: Begriffe Zonen {#tbl-begriffe_zonen .zebra_blue tbl-colwidths="[20,15,55]"}
 
 ### Strukturbegriffe magnetischer Pole {#sec-04-strukturbegriffe_pole}
 
@@ -211,14 +211,14 @@ Die **Pollage** $\vec{r}_P$ bezeichnet die Position des geometrischen Mittelpunk
 
 @fig-sec04-18-struktur_pole zeigt eine beispielhafte Strukturbeschreibung von Polmustern in zylindrischen Begrenzungsbox-Geometrien. Dargestellt sind zwei Polräder mit Pseudo-Random-Codierung. In Teilbild (a) ist eine außenliegende Radialspur mit $N_P = 36$ nummerierten Polen gezeigt; in Teilbild (b) eine Axialspur mit $N_P = 30$ nummerierten Polen. Bei radial außenliegenden Spuren wie in Teilbild (a) ist es zweckmäßig, $p_P$ und $\ell_P$ als Bogenlängen anzugeben. Bei der Axialspur in Teilbild (b) ist dies aufgrund des über die Spurbreite veränderlichen Radius hingegen nicht zweckmäßig.
 
-| Begriff      | Symbol              | Beschreibung |
+| **Begriff**      | **Symbol**              | **Beschreibung** |
 |:-------------|:-------------------:|:-------------|
 | **Polanzahl** | $N_P$ | Gesamtzahl der nummerierten Pole |
 | **Pollänge**  | $\ell_P^{(j)}$ | Ausdehnung des Pols $j$ in $p$-Richtung |
 | **Polbreite** | $w_P^{(j)}$ | Ausdehnung des Pols $j$ in $o$-Richtung |
 | **Pollage**   | $\vec{r}_P^{(j)}$ | Position des geometrischen Mittelpunkts der Begrenzungsbox des Pols $j$; Koordinaten $p_P^{(j)}$ und $o_P^{(j)}$ |
 
-: Begriffe Pole {.zebra_blue #tbl-begriffe_pole tbl-colwidths="[20,15,55]"}
+: Begriffe Pole {#tbl-begriffe_pole .zebra_blue tbl-colwidths="[20,15,55]"}
 
 ### Strukturbegriffe magnetischer Spuren {#sec-04-strukturbegriffe_spuren}
 
@@ -256,7 +256,7 @@ Der Beginn des ersten Pols der Spur 1 ist blau hervorgehoben und dient hier als 
 
 Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch dargestellte Pollängen tragen sowohl den Ordnungsindex der Spur als auch den des jeweiligen Pols und veranschaulichen damit die Verwendung mehrerer Ordnungsindizes für spurbezogene Polgrößen.
 
-| Begriff | Symbol | Beschreibung |
+| **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Spuranzahl** | $N_T$ | Gesamtzahl der nummerierten Spuren |
 | **Spurlänge** | $\ell_T^{(i)}$ | Ausdehnung der Spur $i$ in $p$-Richtung |
@@ -267,4 +267,4 @@ Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch 
 | **Spur-Querversatz, Spur-$o$-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
 | **Spurabstand** | $w_{TT}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spuren |
 
-: Begriffe Spuren {.zebra_blue #tbl-begriffe_spuren tbl-colwidths="[20,15,55]"}
+: Begriffe Spuren {#tbl-begriffe_spuren .zebra_blue tbl-colwidths="[20,15,55]"}

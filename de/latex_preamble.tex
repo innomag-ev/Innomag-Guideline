@@ -1,12 +1,33 @@
 \usepackage{tabularx}
 \usepackage{array}
-\usepackage[table]{xcolor}
 \usepackage{etoolbox}
+\usepackage{colortbl}
+\usepackage{booktabs}
 
-\AtBeginEnvironment{longtable}{
-  \rowcolors{2}{white}{gray!10}
-}
+% ---------------------------------------------------------
+% Tables
+% ---------------------------------------------------------
 
-\AtBeginEnvironment{tabular}{
-  \rowcolors{2}{white}{gray!10}
-}
+% Gray zebra
+\definecolor{zebrahead}{HTML}{E2E2E2}
+\definecolor{zebralight}{HTML}{F8F8F8}
+\definecolor{zebradark}{HTML}{EEEEEE}
+
+% Blue zebra
+\definecolor{zebrabluehead}{HTML}{D7E6F3}
+\definecolor{zebrabluelight}{HTML}{F4F8FC}
+\definecolor{zebrabluedark}{HTML}{E6F0F8}
+
+% Table rule colors
+\definecolor{tableline}{HTML}{D0D0D0}
+\definecolor{tableheadrule}{HTML}{A8A8A8}
+\definecolor{tableouterrule}{HTML}{B8B8B8}
+
+% Thin, subtle rules
+\setlength{\heavyrulewidth}{0.35pt}
+\setlength{\lightrulewidth}{0.25pt}
+\setlength{\cmidrulewidth}{0.25pt}
+
+% No large booktabs gaps around rules
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}

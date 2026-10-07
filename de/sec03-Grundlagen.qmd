@@ -87,7 +87,7 @@ Bei den in dieser Richtlinie betrachteten linearen, radialen und axialen Anordnu
 
 Viele der in diesem Dokument verwendeten Größen beziehen sich auf bestimmte Elemente magnetischer Messsysteme oder auf charakteristische Merkmale des Magnetfeldes. Zur Kennzeichnung dieses Bezugs werden die Kürzel in @tbl-bezugsindizes als untere Bezugsindizes verwendet.
 
-| Kürzel | Bezug             | Kürzel | Bezug        |
+| **Kürzel** | **Bezug**             | **Kürzel** | **Bezug**        |
 |:------:|:------------------|:------:|:-------------|
 | **M**  | Maßverkörperung   | **F**  | Feld         |
 | **S**  | Sensor            | **P**  | Pol          |
@@ -95,7 +95,7 @@ Viele der in diesem Dokument verwendeten Größen beziehen sich auf bestimmte El
 | **Z**  | Zone              | **A**  | Peak (apex)  |
 |        |                   | **G**  | Grenzwert    |
 
-: Kürzel für Bezugsindizes {.zebra #tbl-bezugsindizes}
+: Kürzel für Bezugsindizes {#tbl-bezugsindizes .zebra}
 
 Darüber hinaus werden **Ordnungsindizes** verwendet, um einzelne Objekte oder Merkmale zu nummerieren und eindeutig zu kennzeichnen. Sie werden als obere Indizes in runden Klammern geführt.
 

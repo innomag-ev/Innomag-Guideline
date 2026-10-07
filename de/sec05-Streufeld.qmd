@@ -91,7 +91,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 :::
 
-| Begriff | Symbol | Beschreibung |
+| **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Peaklage** | $p_A^{(j)}$ | $p$-Position des Peaks $j$ |
 | **Peakamplitude** | $B_A^{(j)}$ | Wert der betrachteten Feldkomponente am Peak $j$ |
@@ -103,7 +103,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 | **Nutzbereichsbreite** | $w_G(p)$ | Ausdehnung des Nutzbereichs in $o$-Richtung an der Position $p$ |
 | **Nutzbreite der Halbwelle** | $w_G^{(j)}(p)$ | Nutzbereichsbreite innerhalb der Halbwelle $j$ |
 
-: Begriffe Feldmerkmale {.zebra_blue #tbl-begriffe-feldmerkmale tbl-colwidths="[20,15,55]"}
+: Begriffe Feldmerkmale {#tbl-begriffe-feldmerkmale .zebra_blue tbl-colwidths="[20,15,55]"}
 
 ## Feldmerkmale auf Messflächen und im Raum {#sec-05-feldmerkmale_flaechen_raum}
 

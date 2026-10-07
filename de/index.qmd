@@ -28,18 +28,22 @@ angemessene Namensnennung erfolgt, auf die Lizenz verwiesen wird und
 
 Verantwortung für die jeweiligen Kapitel; Entwicklung und Ausarbeitung von Konzept, Struktur und Inhalten.
 
-| Name | Organisation | Beitrag |
+::: {.zebra tbl-colwidths="[20,40,40]"}
+
+| **Name** | **Organisation** | **Beitrag** |
 |---|---|---|
 | Michael Ortner | Silicon Austria Labs GmbH | Kapitel 2–8, Editor |
 | Rolf Slatter | INNOMAG e. V. | Kapitel 1 |
 
-: {.zebra tbl-colwidths="[20,40,40]"}
+:::
 
 ## Fachliche Mitwirkung {.unlisted}
 
 Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; Rückmeldungen zu Inhalten; Review ausgewählter Abschnitte; Begleitung der konzeptionellen Weiterentwicklung.
 
-| Name | Organisation | Beitrag |
+::: {.zebra tbl-colwidths="[20,40,40]"}
+
+| **Name** | **Organisation** | **Beitrag** |
 |---|---|---|
 | Armin Pfeffer | Bogen Magnetics GmbH | Fachliche Mitwirkung |
 | Axel Bartos | TE Connectivity | Fachliche Mitwirkung |
@@ -63,7 +67,7 @@ Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; 
 | Thomas Schliesch | Max Baermann GmbH | Fachliche Mitwirkung |
 | Werner Pessenhofer | Nanomag GmbH | Fachliche Mitwirkung |
 
-: {.zebra tbl-colwidths="[20,40,40]"}
+:::
 
 # Vorwort {.unnumbered}
 
@@ -89,17 +93,21 @@ Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
 
 ## Abkürzungsverzeichnis {.unlisted}
 
-| Abkürzung | Bedeutung |
+::: {.zebra tbl-colwidths="[20,80]"}
+
+| **Abkürzung** | **Bedeutung** |
 |---|---|
 | KS | Koordinatensystem |
 | IP | in-plane |
 | OOP | out-of-plane |
 
-: {.zebra tbl-colwidths="[20,80]"}
+:::
 
 ## Symbolverzeichnis grundlegender Größen {.unlisted}
 
-| Symbol | Bedeutung | Einheit |
+::: {.zebra tbl-colwidths="[20,60,20]"}
+
+| **Symbol** | **Bedeutung** | **Einheit** |
 |---|---|---|
 | $\vec{B}$ | magnetische Flussdichte, B-Feld | T |
 | $\vec{H}$ | magnetische Feldstärke, H-Feld | A/m |
@@ -115,4 +123,4 @@ Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
 | $\vec{e}_n$ | Einheitsvektor in $n$-Richtung | – |
 | $\vec{r}$ | Orts- bzw. Lagevektor | m |
 
-: {.zebra tbl-colwidths="[20,60,20]"}
+:::

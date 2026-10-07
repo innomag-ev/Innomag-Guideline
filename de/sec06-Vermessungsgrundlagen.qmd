@@ -110,7 +110,7 @@ In der Abbildung sind die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\math
 
 Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhalb der Betriebsabschnitte. Die Positionen, an denen diese Mindestbreiten auftreten, sind durch rote Sterne markiert. Die sich daraus ergebenden feldbezogenen Spurabmessungen sind grün strichliert umrandet. Breiten und Abstände von Nutzbereich (lokal), Spur und Spurfeld sind entsprechend eingezeichnet.
 
-| Begriff | Symbol | Beschreibung |
+| **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Spurfeldlage** | $\vec{r}_F^{(i)}$ | Lage des Ursprungs des Spurfeld-KS $i$ im Maßverkörperungs-KS |
 | **Spurfeld-Längsversatz,**<br>**Spurfeld-$p$-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
@@ -118,7 +118,7 @@ Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhal
 | **Spurfeldbreite** | $w_F^{(i)}$ | Kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte des Spurfeldes $i$ |
 | **Spurfeldabstand** | $w_{FF}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spurfeldern |
 
-: Begriffe Spurfeld {.zebra_blue #tbl-begriffe-spurfeld  tbl-colwidths="[20,15,55]"}
+: Begriffe Spurfeld {#tbl-begriffe-spurfeld .zebra_blue tbl-colwidths="[20,15,55]"}
 
 ## Strukturbegriffe und Feldgrößen {#sec-06-strukturbegriffe-feldgroessen}
 
@@ -135,18 +135,18 @@ Die Felddarstellung nach @sec-05-felddarstellung unterstützt die Trennung der B
 
 Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Bereiche an der physischen Oberfläche der Maßverkörperung und die Normalkomponente des Streufeldes. In der Praxis wird er häufig auch zur Beschreibung von Feldmerkmalen von OOP- und IP-Komponenten in endlicher Messhöhe verwendet.
 
-| Begriff | Empfehlung für feldbezogene Größen in endlicher Messhöhe |
+| **Begriff** | **Empfehlung für feldbezogene Größen in endlicher Messhöhe** |
 |:--------|:----------------------------------------------------------|
 | **Magnetpol** | Zur Beschreibung von OOP- und IP-Feldkomponenten in endlicher Messhöhe wird der Begriff **Halbwelle** nach @sec-05-feldmerkmale_flaechen_raum empfohlen. |
 | **Pollänge** | Zur Beschreibung der Länge einer Halbwelle wird der Begriff **Halbperiode** nach @sec-05-feldmerkmale_auf_messpfaden empfohlen. |
 | **Polbreite** | Zur Beschreibung der Breite einer Halbwelle bzw. eines Nutzbereichs werden **Nutzbreite einer Halbwelle** bzw. **Nutzbereichsbreite** nach @sec-05-feldmerkmale_auf_messpfaden und @sec-05-feldmerkmale_flaechen_raum empfohlen. |
 | **Pollage** | Zur Beschreibung der Lage einer Nullstelle in endlicher Messhöhe wird der Begriff **Nullstellenlage** nach @sec-05-feldmerkmale_auf_messpfaden empfohlen. |
 
-: Begriffsklärung zu Magnetpol {.zebra #tbl-begriffsklaerung-magnetpol}
+: Begriffsklärung zu Magnetpol {#tbl-begriffsklaerung-magnetpol .zebra}
 
 Der Begriff **Spur** bezeichnet in diesem Dokument ausschließlich ein Strukturelement der Maßverkörperung. In der Praxis werden dessen Lage und Abmessungen häufig mit Lage und Abmessungen des zugehörigen Spurfeldes gleichgesetzt. In diesem Fall ermöglicht die symmetrische Benennung der struktur- und feldbezogenen Größen eine einfache Zuordnung.
 
-| Begriff | Empfehlung für feldbezogene Größen in endlicher Messhöhe |
+| **Begriff** | **Empfehlung für feldbezogene Größen in endlicher Messhöhe** |
 |:--------|:----------------------------------------------------------|
 | **Spur** | Zur Beschreibung des Streufeldes wird der Begriff **Spurfeld** nach @sec-05-spurfelder empfohlen. |
 | **Spurbreite** | Zur Beschreibung der Breite des Spurfeldes wird der Begriff **Spurfeldbreite** nach @sec-06-spurfeldlage_abmessungen empfohlen. |
@@ -154,4 +154,4 @@ Der Begriff **Spur** bezeichnet in diesem Dokument ausschließlich ein Strukture
 | **Spurversatz** | Zur Beschreibung eines Versatzes zwischen Spurfeldern wird der Begriff **Spurfeldversatz** nach @sec-06-spurfeldlage_abmessungen empfohlen. |
 | **Spurabstand** | Zur Beschreibung des Abstands zwischen Spurfeldern wird der Begriff **Spurfeldabstand** nach @sec-06-spurfeldlage_abmessungen empfohlen. |
 
-: Begriffsklärung zu Spur {.zebra #tbl-begriffsklaerung-spur}
+: Begriffsklärung zu Spur {#tbl-begriffsklaerung-spur .zebra}

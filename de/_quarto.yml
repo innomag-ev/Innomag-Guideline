@@ -38,6 +38,10 @@ book:
 
 bibliography: ../bibliography.bib
 
+filters:
+  - at: post-quarto
+    path: table-styles.lua
+
 format:
   html:
     toc: true
