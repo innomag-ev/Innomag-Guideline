@@ -33,6 +33,8 @@ Verantwortung für die jeweiligen Kapitel; Entwicklung und Ausarbeitung von Konz
 | Michael Ortner | Silicon Austria Labs GmbH | Kapitel 2–8, Editor |
 | Rolf Slatter | INNOMAG e. V. | Kapitel 1 |
 
+: {.zebra tbl-colwidths="[20,40,40]"}
+
 ## Fachliche Mitwirkung {.unlisted}
 
 Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; Rückmeldungen zu Inhalten; Review ausgewählter Abschnitte; Begleitung der konzeptionellen Weiterentwicklung.
@@ -60,6 +62,8 @@ Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; 
 | Stefan Herzog | ZF Friedrichshafen AG | Fachliche Mitwirkung; Beitrag zu Kapitel 2 |
 | Thomas Schliesch | Max Baermann GmbH | Fachliche Mitwirkung |
 | Werner Pessenhofer | Nanomag GmbH | Fachliche Mitwirkung |
+
+: {.zebra tbl-colwidths="[20,40,40]"}
 
 # Vorwort {.unnumbered}
 
@@ -91,6 +95,8 @@ Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
 | IP | in-plane |
 | OOP | out-of-plane |
 
+: {.zebra tbl-colwidths="[20,80]"}
+
 ## Symbolverzeichnis grundlegender Größen {.unlisted}
 
 | Symbol | Bedeutung | Einheit |
@@ -109,3 +115,4 @@ Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
 | $\vec{e}_n$ | Einheitsvektor in $n$-Richtung | – |
 | $\vec{r}$ | Orts- bzw. Lagevektor | m |
 
+: {.zebra tbl-colwidths="[20,60,20]"}

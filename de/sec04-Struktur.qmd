@@ -8,7 +8,7 @@ Magnetische Maßverkörperungen weisen häufig **periodisch strukturierte** oder
 
 Um diese strukturellen Einheiten präzise beschreiben und individuell referenzieren zu können, wird der Begriff der **magnetisierten Zone** eingeführt. Eine magnetisierte Zone ist ein zusammenhängendes, geometrisch einfaches magnetisiertes Volumen, in dem die magnetische Polarisation in ihrer räumlichen Verteilung bekannt ist und einen endlichen Mittelwert aufweist. Zonen dienen der systematischen Zerlegung der Polarisation einer Maßverkörperung in klar definierte Abschnitte, die einzeln analysiert, nummeriert und im Zuge einer Vermessung oder Modellbildung charakterisiert werden. Die Zerlegung einer Polarisationsverteilung in Zonen entspricht mathematisch einer Diskretisierung.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Die **magnetisierte Zone** ist begrifflich klar von der **magnetischen Domäne** (Weißsche Bezirke) abzugrenzen. Domänen sind meist kleine Bereiche einheitlicher Polarisation, die infolge mikromagnetischer Wechselwirkungen entstehen, während Zonen im Sinne dieses Dokuments strukturelle Einheiten zur Beschreibung der Polarisationsverteilung darstellen. Eine Übereinstimmung ist im Einzelfall möglich, im Allgemeinen jedoch nicht gegeben.*
@@ -103,7 +103,7 @@ Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellu
 
 @fig-sec04-10-darstellung_B skizziert die Regeln zur Darstellung des Magnetfeldes. Teilbild (a) zeigt die in diesem Dokument verwendeten Farbskalen in kontinuierlicher und diskreter Form. Die eingesetzten Farbcodes sind #EE5544 für Rot, #E6E6E6 für Grau und #118866 für Grün. Teilbild (b) zeigt die Richtungssymbole zur Kennzeichnung von IP- und OOP-Komponenten des Magnetfeldes. Teilbild (c) zeigt beispielhaft eine Maßverkörperung in Poldarstellung. Dabei ist die auf der Deckfläche ermittelte Normalkomponente mittels dreigeteilter Farbskala dargestellt.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *In wissenschaftlich-technischen Darstellungen wird die Farbkombination Rot–Grün üblicherweise vermieden, da sie für viele Personen mit einer häufig auftretenden Rot-Grün-Sehschwäche nur eingeschränkt unterscheidbar ist [@crameri2020misuse]. In dieser Richtlinie wird diese Farbwahl jedoch aus historischen Gründen beibehalten. Die hier gewählten Farben unterscheiden sich deutlich in Helligkeit und Sättigung, um eine zuverlässige visuelle Unterscheidbarkeit sicherzustellen.*
@@ -130,7 +130,7 @@ Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zone
 
 @fig-sec04-13-farbcodierte_zonendarstellung demonstriert die farbcodierte Zonendarstellung anhand verschiedener Beispiele. Teilbild (a) zeigt unterschiedliche Dipolmagnete, deren erwartete Feldwirkung durch die Einfärbung der Körperflächen hervorgehoben wird. Teilbild (b) zeigt zweireihig axial gestapelte Würfelmagnete. Die einzelnen Zonen sind klar voneinander abgegrenzt; ihre Einfärbung veranschaulicht das auf Ober- und Unterseite erwartete Polmuster. Teilbild (c) zeigt, wie mit der farbcodierten Zonendarstellung eine einseitige Ausprägung der Pole vermittelt werden kann. Die mögliche zugrunde liegende inhomogene Polarisationsverteilung wird in den @sec-04-magnetisierte_zonen und @sec-04-magnetpole näher beschrieben.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Weicht das resultierende Polmuster deutlich von der Zonenstruktur ab, wie bei den Beispielen in @fig-sec04-12-kombinierte_darstellung, ist die farbcodierte Zonendarstellung ungeeignet und kann zu **irreführenden Farbzuordnungen** führen.*
@@ -162,7 +162,7 @@ Als zweckmäßige **Konvention** wird empfohlen, den Ursprung $O_T$ in $o$-Richt
 
 Lage und Abmessungen magnetisierter Zonen, von Magnetpolen und magnetischen Spuren können in vielen Fällen näherungsweise durch **Begrenzungsboxkörper** erfasst werden. In kartesischen Koordinaten sind dies achsenparallele Quader, bei zylindrischer Koordinatendarstellung Zylinder- oder Ringsegmente. Angaben in $p$-Richtung können dabei nach @sec-03 als Länge oder Winkel angegeben werden.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Die nachfolgenden Strukturbegriffe werden verwendet, soweit sich die magnetische Struktur mit der zugrunde liegenden Begrenzungsbox-Geometrie zweckmäßig beschreiben lässt. Für andere Geometrien sind geeignete alternative Größen zu verwenden, wie beispielhaft in @fig-sec04-17-struktur_mp_ring gezeigt.*
@@ -188,8 +188,6 @@ In @fig-sec04-17-struktur_mp_ring ist das Zonenmuster eines axial gestapelten Mu
 
 Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine lineare Anordnung. In diesem Beispiel ist der Begriff der Zonenlänge sinnvoll anwendbar, da die Zonen entlang der $p$-Richtung gestapelt sind. Die Begriffe Zonenbreite und Zonentiefe sind aufgrund der ringförmigen Geometrie hingegen nicht zweckmäßig. Zur Beschreibung der Geometrie der Maßverkörperung werden stattdessen Innen- und Außenradius des Rings genutzt.
 
-::: {.begriffstabelle}
-
 | Begriff         | Symbol                | Beschreibung |
 |:----------------|:---------------------:|:-------------|
 | **Zonenanzahl** | $N_Z$ | Gesamtzahl der nummerierten Zonen |
@@ -199,9 +197,7 @@ Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine line
 | **Zonenspalt**  | $\bar{\ell}_Z^{(j)}$ | Ausdehnung des einer Zone $j$ folgenden, keiner Zone zugeordneten Zwischenraums in $p$-Richtung |
 | **Zonenlage**   | $\vec{r}_Z^{(j)}$ | Position des geometrischen Mittelpunkts des Begrenzungsboxkörpers der Zone $j$; Koordinaten $p_Z^{(j)}$, $o_Z^{(j)}$ und $n_Z^{(j)}$ |
 
-: Begriffe Zonen {#tbl-begriffe_zonen tbl-colwidths="[20,15,55]"}
-
-:::
+: Begriffe Zonen {.zebra_blue #tbl-begriffe_zonen tbl-colwidths="[20,15,55]"}
 
 ### Strukturbegriffe magnetischer Pole {#sec-04-strukturbegriffe_pole}
 
@@ -215,8 +211,6 @@ Die **Pollage** $\vec{r}_P$ bezeichnet die Position des geometrischen Mittelpunk
 
 @fig-sec04-18-struktur_pole zeigt eine beispielhafte Strukturbeschreibung von Polmustern in zylindrischen Begrenzungsbox-Geometrien. Dargestellt sind zwei Polräder mit Pseudo-Random-Codierung. In Teilbild (a) ist eine außenliegende Radialspur mit $N_P = 36$ nummerierten Polen gezeigt; in Teilbild (b) eine Axialspur mit $N_P = 30$ nummerierten Polen. Bei radial außenliegenden Spuren wie in Teilbild (a) ist es zweckmäßig, $p_P$ und $\ell_P$ als Bogenlängen anzugeben. Bei der Axialspur in Teilbild (b) ist dies aufgrund des über die Spurbreite veränderlichen Radius hingegen nicht zweckmäßig.
 
-::: {.begriffstabelle}
-
 | Begriff      | Symbol              | Beschreibung |
 |:-------------|:-------------------:|:-------------|
 | **Polanzahl** | $N_P$ | Gesamtzahl der nummerierten Pole |
@@ -224,9 +218,7 @@ Die **Pollage** $\vec{r}_P$ bezeichnet die Position des geometrischen Mittelpunk
 | **Polbreite** | $w_P^{(j)}$ | Ausdehnung des Pols $j$ in $o$-Richtung |
 | **Pollage**   | $\vec{r}_P^{(j)}$ | Position des geometrischen Mittelpunkts der Begrenzungsbox des Pols $j$; Koordinaten $p_P^{(j)}$ und $o_P^{(j)}$ |
 
-: Begriffe Pole {#tbl-begriffe_pole tbl-colwidths="[20,15,55]"}
-
-:::
+: Begriffe Pole {.zebra_blue #tbl-begriffe_pole tbl-colwidths="[20,15,55]"}
 
 ### Strukturbegriffe magnetischer Spuren {#sec-04-strukturbegriffe_spuren}
 
@@ -264,8 +256,6 @@ Der Beginn des ersten Pols der Spur 1 ist blau hervorgehoben und dient hier als 
 
 Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch dargestellte Pollängen tragen sowohl den Ordnungsindex der Spur als auch den des jeweiligen Pols und veranschaulichen damit die Verwendung mehrerer Ordnungsindizes für spurbezogene Polgrößen.
 
-::: {.begriffstabelle}
-
 | Begriff | Symbol | Beschreibung |
 |:--------|:------:|:-------------|
 | **Spuranzahl** | $N_T$ | Gesamtzahl der nummerierten Spuren |
@@ -277,7 +267,4 @@ Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch 
 | **Spur-Querversatz, Spur-$o$-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
 | **Spurabstand** | $w_{TT}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spuren |
 
-: Begriffe Spuren {#tbl-begriffe_spuren tbl-colwidths="[20,15,55]"}
-
-:::
-
+: Begriffe Spuren {.zebra_blue #tbl-begriffe_spuren tbl-colwidths="[20,15,55]"}

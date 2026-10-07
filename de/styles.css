@@ -94,6 +94,46 @@ a.quarto-navigation-tool[aria-label="Deutsch"]::after {
    Tables
    --------------------------------------------------------- */
 
-.begriffstabelle {
-  font-size: 0.9rem;
+/* Zebra table */
+.zebra {
+  font-size: 0.88em;
+}
+
+.zebra th,
+.zebra td {
+  padding: 0.25rem 0.5rem;
+}
+
+.zebra tbody tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.zebra tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.zebra thead {
+  background-color: #e2e2e2;
+}
+
+/* Compact table */
+.zebra_blue {
+  font-size: 0.88em;
+}
+
+.zebra_blue th,
+.zebra_blue td {
+  padding: 0.25rem 0.5rem;
+}
+
+.zebra_blue tbody tr:nth-child(odd) {
+  background-color: #f4f8fc;
+}
+
+.zebra_blue tbody tr:nth-child(even) {
+  background-color: #e6f0f8;
+}
+
+.zebra_blue thead {
+  background-color: #d7e6f3;
 }

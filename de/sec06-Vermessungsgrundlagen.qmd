@@ -12,7 +12,7 @@ Unmittelbar **experimentell erfasst** werden die Komponenten des Magnetfeldes. A
 
 Die ermittelten Feldgrößen sind stets gemeinsam mit den zugehörigen **Ermittlungsbedingungen** anzugeben. Dazu zählen insbesondere die betrachtete Feldkomponente oder Feldamplitude, die Messhöhe, Lage und Orientierung des Ermittlungsbereichs sowie gegebenenfalls der verwendete Amplitudengrenzwert. Eigenschaften des eingesetzten Prüfsystems können das Messergebnis zusätzlich beeinflussen, sind jedoch nicht Gegenstand der in diesem Kapitel diskutierten sensorunabhängigen Ermittlungs- und Auswerteprozeduren.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Die experimentell ermittelten Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den Strukturgrößen nach @sec-04 zu unterscheiden. Eine **begriffliche Zuordnung** wird in @sec-06-strukturbegriffe-feldgroessen behandelt.*
@@ -53,7 +53,7 @@ Die Lage von $O_F$ im Maßverkörperungs-KS bildet den **magneto-mechanischen Be
 
 In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nullstelle (blau), in $o$-Richtung durch die Mitte des Nutzbereichs (gelb) und in $n$-Richtung durch die funktionale Oberfläche der Maßverkörperung festgelegt. Markierungen an der Seite der Maßverkörperung zeigen die ungefähre Lage der ersten Nullstelle und der Mitte des Nutzbereichs an. Zur besseren Sichtbarkeit des Koordinatenkreuzes des Feld-KS, das auf der funktionalen Oberfläche der Maßverkörperung liegt, sind die ersten beiden Halbwellen der Felddarstellung transparent ausgeführt.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Das **Feld-KS** ist grundsätzlich gleich aufgebaut wie das **Struktur-KS** nach @sec-04-darstellungskonventionen. Sie unterscheiden sich in der Festlegung des Ursprungs und in ihrem Verwendungszweck. Der Ursprung $O_T$ wird anhand der magnetischen Strukturmerkmale festgelegt. Das Struktur-KS dient der Beschreibung der magnetischen Struktur einer Maßverkörperung. Der Ursprung $O_F$ wird dagegen anhand von Feldmerkmalen festgelegt. Das Feld-KS dient der Vermessung des Streufeldes.*
@@ -110,8 +110,6 @@ In der Abbildung sind die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\math
 
 Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhalb der Betriebsabschnitte. Die Positionen, an denen diese Mindestbreiten auftreten, sind durch rote Sterne markiert. Die sich daraus ergebenden feldbezogenen Spurabmessungen sind grün strichliert umrandet. Breiten und Abstände von Nutzbereich (lokal), Spur und Spurfeld sind entsprechend eingezeichnet.
 
-::: {.begriffstabelle}
-
 | Begriff | Symbol | Beschreibung |
 |:--------|:------:|:-------------|
 | **Spurfeldlage** | $\vec{r}_F^{(i)}$ | Lage des Ursprungs des Spurfeld-KS $i$ im Maßverkörperungs-KS |
@@ -120,15 +118,13 @@ Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhal
 | **Spurfeldbreite** | $w_F^{(i)}$ | Kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte des Spurfeldes $i$ |
 | **Spurfeldabstand** | $w_{FF}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spurfeldern |
 
-: Begriffe Spurfeld {#tbl-begriffe-spurfeld  tbl-colwidths="[20,15,55]"}
-
-:::
+: Begriffe Spurfeld {.zebra_blue #tbl-begriffe-spurfeld  tbl-colwidths="[20,15,55]"}
 
 ## Strukturbegriffe und Feldgrößen {#sec-06-strukturbegriffe-feldgroessen}
 
 Experimentell ermittelte magnetische Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den in @sec-04 eingeführten Strukturgrößen der Maßverkörperung zu unterscheiden. In der Praxis werden beide Begriffsebenen aufgrund ihrer engen physikalischen Zusammenhänge jedoch häufig miteinander vermischt. Dies kann zu **Missverständnissen** führen und insbesondere dazu, dass die für feldbezogene Größen wesentlichen Ermittlungsbedingungen nicht ausreichend berücksichtigt werden.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Für eine **eindeutige Kommunikation** wird empfohlen, Strukturbegriffe und Feldgrößen in endlicher Messhöhe konsequent voneinander zu unterscheiden.*
@@ -139,8 +135,6 @@ Die Felddarstellung nach @sec-05-felddarstellung unterstützt die Trennung der B
 
 Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Bereiche an der physischen Oberfläche der Maßverkörperung und die Normalkomponente des Streufeldes. In der Praxis wird er häufig auch zur Beschreibung von Feldmerkmalen von OOP- und IP-Komponenten in endlicher Messhöhe verwendet.
 
-::: {.begriffstabelle}
-
 | Begriff | Empfehlung für feldbezogene Größen in endlicher Messhöhe |
 |:--------|:----------------------------------------------------------|
 | **Magnetpol** | Zur Beschreibung von OOP- und IP-Feldkomponenten in endlicher Messhöhe wird der Begriff **Halbwelle** nach @sec-05-feldmerkmale_flaechen_raum empfohlen. |
@@ -148,13 +142,9 @@ Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Be
 | **Polbreite** | Zur Beschreibung der Breite einer Halbwelle bzw. eines Nutzbereichs werden **Nutzbreite einer Halbwelle** bzw. **Nutzbereichsbreite** nach @sec-05-feldmerkmale_auf_messpfaden und @sec-05-feldmerkmale_flaechen_raum empfohlen. |
 | **Pollage** | Zur Beschreibung der Lage einer Nullstelle in endlicher Messhöhe wird der Begriff **Nullstellenlage** nach @sec-05-feldmerkmale_auf_messpfaden empfohlen. |
 
-: Begriffsklärung zu Magnetpol {#tbl-begriffsklaerung-magnetpol}
-
-:::
+: Begriffsklärung zu Magnetpol {.zebra #tbl-begriffsklaerung-magnetpol}
 
 Der Begriff **Spur** bezeichnet in diesem Dokument ausschließlich ein Strukturelement der Maßverkörperung. In der Praxis werden dessen Lage und Abmessungen häufig mit Lage und Abmessungen des zugehörigen Spurfeldes gleichgesetzt. In diesem Fall ermöglicht die symmetrische Benennung der struktur- und feldbezogenen Größen eine einfache Zuordnung.
-
-::: {.begriffstabelle}
 
 | Begriff | Empfehlung für feldbezogene Größen in endlicher Messhöhe |
 |:--------|:----------------------------------------------------------|
@@ -164,6 +154,4 @@ Der Begriff **Spur** bezeichnet in diesem Dokument ausschließlich ein Strukture
 | **Spurversatz** | Zur Beschreibung eines Versatzes zwischen Spurfeldern wird der Begriff **Spurfeldversatz** nach @sec-06-spurfeldlage_abmessungen empfohlen. |
 | **Spurabstand** | Zur Beschreibung des Abstands zwischen Spurfeldern wird der Begriff **Spurfeldabstand** nach @sec-06-spurfeldlage_abmessungen empfohlen. |
 
-: Begriffsklärung zu Spur {#tbl-begriffsklaerung-spur}
-
-:::
+: Begriffsklärung zu Spur {.zebra #tbl-begriffsklaerung-spur}

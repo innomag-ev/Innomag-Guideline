@@ -56,8 +56,6 @@ Abweichungen von der nominalen Ausrichtung werden durch die **Sensordrehwinkel**
 
 @fig-sec08-02-sensor_lage veranschaulicht die Lagebeziehung zwischen Sensor und Maßverkörperung. Teilbild (a) zeigt die Größen Luftspalt, Wirkabstand und auf die Sensorreferenz bezogene Messhöhe. Teilbild (b) zeigt die Sensordrehwinkel.
 
-::: {.begriffstabelle}
-
 | Begriff | Symbol | Beschreibung |
 |:--------|:------:|:-------------|
 | **Sensorlage** | $\vec{r}_S$ | Lage der Sensorreferenz im Maßverkörperungs-KS |
@@ -66,6 +64,4 @@ Abweichungen von der nominalen Ausrichtung werden durch die **Sensordrehwinkel**
 | **Messhöhe** | $n$ | $n$-Koordinate im Maßverkörperungs-KS; Abstand von der funktionalen Oberfläche |
 | **Sensordrehwinkel** | $\alpha, \beta, \gamma$ | Drehwinkel zur Beschreibung der Orientierung des Sensors gegenüber der nominalen Ausrichtung |
 
-: Begriffe Sensorlage {#tbl-begriffe-sensorlage tbl-colwidths="[20,15,55]"}
-
-:::
+: Begriffe Sensorlage {.zebra_blue #tbl-begriffe-sensorlage tbl-colwidths="[20,15,55]"}

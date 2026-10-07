@@ -84,14 +84,12 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 @fig-sec05-03-querprofil zeigt das Querprofil $B(o)$ entlang des in @fig-sec05-01-streufeldcharakteristik dargestellten $o$-Pfades in detaillierter Form. Ein unterer Amplitudengrenzwert $B_G$ definiert einen Nutzbereich. Die beiden resultierenden Amplitudengrenzpunkte sind blau eingezeichnet. Ihre $o$-Lagen entsprechen den Amplitudengrenzlagen $o_G^{(1)}$ und $o_G^{(2)}$, die den Nutzbereich begrenzen.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Die in diesem Kapitel dargestellten Feldverläufe zeigen idealisierte beziehungsweise für viele Anwendungen angestrebte Kurven mit eindeutig ausgeprägten und gut auswertbaren Feldmerkmalen. Reale Feldverläufe können hiervon infolge von Fertigungsabweichungen, Materialinhomogenitäten und Randeffekten abweichen. Insbesondere bei sehr kleinen Messhöhen, $n \ll \ell_P$, treten höhere räumliche Harmonische deutlicher hervor, wodurch beispielsweise zusätzliche Peaks und Nullstellen, **Doppelpeaks** oder komplexere Feldverläufe auftreten können.*
 
 :::
-
-::: {.begriffstabelle}
 
 | Begriff | Symbol | Beschreibung |
 |:--------|:------:|:-------------|
@@ -105,9 +103,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 | **Nutzbereichsbreite** | $w_G(p)$ | Ausdehnung des Nutzbereichs in $o$-Richtung an der Position $p$ |
 | **Nutzbreite der Halbwelle** | $w_G^{(j)}(p)$ | Nutzbereichsbreite innerhalb der Halbwelle $j$ |
 
-: Begriffe Feldmerkmale {#tbl-begriffe-feldmerkmale tbl-colwidths="[20,15,55]"}
-
-:::
+: Begriffe Feldmerkmale {.zebra_blue #tbl-begriffe-feldmerkmale tbl-colwidths="[20,15,55]"}
 
 ## Feldmerkmale auf Messflächen und im Raum {#sec-05-feldmerkmale_flaechen_raum}
 
@@ -159,7 +155,7 @@ Innerhalb des Nutzbereichs ist die Feldkomponente $B_n$ auf den $p$-$o$-Messflä
 
 Die Nullstellenflächen unterteilen den Nutzbereich in Halbwellen. Die Schnittlinien der Nullstellenflächen mit den Messflächen erscheinen als schwarz hervorgehobene Nulllinien, welche die Halbwellen auf den jeweiligen Messflächen voneinander trennen. Die Schnittlinien der Nullstellenflächen mit der Amplitudengrenzfläche sind grau hervorgehoben. Sie besitzen in diesem Beispiel keine eigenständige technische Bedeutung und dienen ausschließlich der besseren Erkennbarkeit der räumlichen Anordnung.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Die vorangehenden Unterkapitel verdeutlichen, dass Feldverläufe und die daraus abgeleiteten Feldmerkmale wesentlich von den jeweiligen **Ermittlungsbedingungen** abhängen. Hierzu zählen insbesondere die Feldkomponente sowie Lage, Orientierung und Abmessungen des Ermittlungsbereichs und gegebenenfalls die verwendeten Amplitudengrenzwerte. Eine korrekte Interpretation eines Feldverlaufs ist nur bei Angabe der Ermittlungsbedingungen möglich.*
@@ -182,7 +178,7 @@ In einer Felddarstellung muss die dargestellte Streufeldkomponente eindeutig erk
 
 Bei Felddarstellungen auf $p$-$o$-Messflächen nimmt die Messhöhe $n$ eine zentrale Stellung ein, da sie Lage und Form der dargestellten Feldmerkmale wesentlich beeinflusst. Felddarstellungen werden aber häufig in Aufsicht gezeigt, sodass sich der Abstand der Messfläche von der Maßverkörperung aus der Darstellung nicht unmittelbar erschließen lässt. Es wird daher empfohlen, die **Messhöhe unmittelbar in der Felddarstellung anzugeben**, wie in @fig-sec05-07-feldprofil_ip_op gezeigt. Diese Angabe ermöglicht zugleich eine eindeutige Abgrenzung gegenüber der Poldarstellung.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Die Poldarstellung sowie die Darstellung der Normalkomponente nach @sec-04-darstellungskonventionen sind **Spezialfälle der Felddarstellung**. Beide Darstellungen zeigen die OOP-Komponente des Magnetfeldes auf der Oberfläche der Maßverkörperung ($n = 0$).*
@@ -207,7 +203,7 @@ Teilbild (b) zeigt eine Ist-Felddarstellung in binärer Form. Sie ist auf einen 
 
 Teilbild (c) zeigt eine Soll-Felddarstellung in binärer Form. Sie stellt weder einen Ausschnitt des in Teilbild (b) dargestellten Feldverlaufs noch das Ergebnis einer Messung oder Simulation dar. Vielmehr dient sie der Beschreibung gewünschter Feldmerkmale und könnte beispielsweise eine Bedarfsanforderung oder Zielvorgabe für die Auslegung einer Maßverkörperung repräsentieren.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## HINWEIS
 
 *Die vorgestellten **Darstellungsformen** können sich in ihrer grafischen Erscheinung stark ähneln, unterscheiden sich jedoch grundlegend hinsichtlich ihrer Bedeutung und ihres Informationsgehalts. Bei der **Interpretation** ist besonders darauf zu achten, welche Darstellungsform vorliegt.*

@@ -1,0 +1,12 @@
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{etoolbox}
+
+\AtBeginEnvironment{longtable}{
+  \rowcolors{2}{white}{gray!10}
+}
+
+\AtBeginEnvironment{tabular}{
+  \rowcolors{2}{white}{gray!10}
+}

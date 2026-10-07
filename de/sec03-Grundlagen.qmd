@@ -6,7 +6,7 @@ In diesem Kapitel werden wichtige Grundlagen magnetischer Weg- und Winkelmesssys
 
 Die **Magnetisierung** $\vec{M}$ (Einheit A/m) beschreibt den magnetischen Zustand eines Materials infolge der Ausrichtung seiner mikroskopischen magnetischen Dipolmomente und entspricht dem magnetischen Moment pro Volumeneinheit. Die **magnetische Polarisation** $\vec{J}$ (Einheit T) ist eine dazu proportionale Größe, $\vec{J}=μ_0 \vec{M}$. Ein Körper mit permanenter Magnetisierung wird als **Dauermagnet** bezeichnet [@jackson1998classical; @petrascheck2023elektrodynamik].
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Für den in diesem Dokument bevorzugt verwendeten Begriff **Polarisation** wird in der Fachliteratur und Praxis meist der proportionale Begriff **Magnetisierung** verwendet. Der Begriff Polarisation wird in dieser Richtlinie bevorzugt, weil er eine eindeutige Abgrenzung gegenüber dem Prozess der Magnetisierung sicherstellt. Darüber hinaus entspricht diese Wahl der in der Praxis verbreiteten Angabe der magnetischen Stärke von Dauermagneten in Tesla.*
@@ -41,7 +41,7 @@ Ausgehend von der Messaufgabe und den damit verbundenen geometrischen Randbeding
 
 @fig-sec03-02-geometrische_anordnung veranschaulicht die vier geometrischen Anordnungstypen: (a) eine lineare, (b) eine radiale, (c) eine axiale und (d) eine allgemeine Anordnung. Die allgemeine Anordnung ist hier anhand einer typischen eindimensionalen „Joystick-Realisierung“ dargestellt, bei der sich während der Bewegung sowohl die relative Orientierung als auch der Abstand zwischen Maßverkörperung und Sensor verändern.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Der **Fokus der Richtlinie** liegt auf linearen, radialen und axialen Anordnungen, die einen großen Teil magnetischer Weg- und Winkelmesssysteme abdecken. Die in dieser Richtlinie eingeführte Terminologie ist in weiten Teilen auf allgemeine Anordnungen übertragbar. Die nachfolgend eingeführte Koordinatenwahl ist jedoch insbesondere für lineare, radiale und axiale Anordnungen zweckmäßig.*
@@ -71,7 +71,7 @@ Die funktionale Oberfläche der Maßverkörperung ist in der Abbildung blau herv
 
 Aus der funktionalen Oberfläche und der Vorwärtsbewegung werden die Koordinatenrichtungen p, o und n wie beschrieben festgelegt. Das daraus resultierende Maßverkörperungs-KS ist rot dargestellt; sein beispielhaft gewählter Ursprung $O_M$ ist gelb markiert. Zusätzlich sind die Koordinatenrichtungen an der jeweiligen Sensorlage eingezeichnet.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Im allgemeinen Sprachgebrauch wird häufig von **Achsen** anstelle von Koordinatenrichtungen gesprochen. Davon wird hier abgeraten, da bei radialen und axialen Anordnungen einzelne Koordinatenrichtungen ortsabhängig sind und sich ihre Orientierung ändern kann. Der Begriff Achse kann daher fälschlich eine feste Raumrichtung suggerieren.*
@@ -95,7 +95,7 @@ Viele der in diesem Dokument verwendeten Größen beziehen sich auf bestimmte El
 | **Z**  | Zone              | **A**  | Peak (apex)  |
 |        |                   | **G**  | Grenzwert    |
 
-: Kürzel für Bezugsindizes {#tbl-bezugsindizes}
+: Kürzel für Bezugsindizes {.zebra #tbl-bezugsindizes}
 
 Darüber hinaus werden **Ordnungsindizes** verwendet, um einzelne Objekte oder Merkmale zu nummerieren und eindeutig zu kennzeichnen. Sie werden als obere Indizes in runden Klammern geführt.
 
@@ -105,7 +105,7 @@ Sind zur Beschreibung eines Objekts innerhalb einer Spur mehrere Ordnungsindizes
 
 Bei Größen, die sich auf zwei Spuren oder Spurfelder beziehen, wird der jeweilige Bezugsindex doppelt geführt. So kennzeichnet „TT“ eine Beziehung zwischen zwei Spuren und „FF“ eine Beziehung zwischen zwei Spurfeldern. Beispielsweise bezeichnet $w_{TT}^{(3,4)}$ den Spurabstand zwischen Spur 3 und Spur 4. Bei gerichteten Größen wie dem Versatz ist die Reihenfolge der Ordnungsindizes zu beachten.
 
-::: {.callout-note}
+::: {.callout-tip}
 ## Hinweis
 
 *Zur Verbesserung der Lesbarkeit sollen Ordnungsindizes weggelassen werden, sofern die Zuordnung aus dem Kontext eindeutig hervorgeht. Besitzt ein magnetischer Maßstab beispielsweise nur eine Spur, soll anstelle von $w_T^{(1)}$ die verkürzte Schreibweise $w_T$ verwendet werden.*

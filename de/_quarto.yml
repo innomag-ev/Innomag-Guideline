@@ -55,7 +55,4 @@ format:
     keep-tex: false
     number-sections: true
     include-before-body: impressum.tex
-    include-in-header:
-      text: |
-        \usepackage{tabularx}
-        \usepackage{array}
+    include-in-header: latex_preamble.tex
