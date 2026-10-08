@@ -16,7 +16,7 @@ Auf der **fünften Ebene** wird die Beschreibung weiter spezifiziert und **quant
 
 Zur kompakten Kennzeichnung wird eine **Kurznotation** eingeführt. Sie fasst die wesentlichen Merkmale in der Reihenfolge der Einteilungsebenen zusammen. Zunächst werden die Angaben zu Art, Form und geometrischer Anordnung aufgeführt. Anschließend wird die magnetische Ausprägung angegeben, bei zonenbezogener Beschreibung in eckigen Klammern und bei feldbezogener Beschreibung in runden Klammern. Abschließend werden weiterführende Spezifikation und Quantifizierung angehängt. Sind innerhalb einer Einteilungsebene mehrere Angaben erforderlich, beispielsweise bei mehreren Spuren, werden diese durch einen Doppelpunkt getrennt. Beispiele für die Kurznotation sind in @fig-sec07-01-kurznotation gezeigt.
 
-![Kurznotation zur Einteilung](figures/sec07/01-kurznotation.png){#fig-sec07-01-kurznotation width=80% fig-pos="h"}
+![Kurznotation zur Einteilung](figures/sec07/01-kurznotation.png){#fig-sec07-01-kurznotation width=85% fig-pos="h"}
 
 Die Einteilung in fünf Ebenen bezieht sich auf die **Repräsentation einer Maßverkörperung**. Insbesondere auf der vierten Ebene kann dieselbe Maßverkörperung je nach Zweck zonenbezogen über ein Zonenmuster oder feldbezogen über ein Polmuster beziehungsweise die Ausprägung der Halbwellen beschrieben werden. Beispielsweise können Ra[OOP]48 und Ra(iP)48 dieselbe Maßverkörperung einmal in zonenbezogener und einmal in feldbezogener Repräsentation bezeichnen.
 

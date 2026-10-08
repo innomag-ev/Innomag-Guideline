@@ -13,6 +13,8 @@
 
 **Herausgeber**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
 
+
+
 **Lizenziert** unter Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
 
 Das Werk darf vervielfältigt, verbreitet, bearbeitet und für beliebige
@@ -22,7 +24,13 @@ angemessene Namensnennung erfolgt, auf die Lizenz verwiesen wird und
 
 :::
 
-# Autorschaft und Beiträge {.unnumbered}
+# Mitwirkung und Autorschaft {.unnumbered}
+
+## Mitwirkung {.unlisted}
+
+Diese Richtlinie bildet einen **gemeinsamen Rahmen** für die Beschreibung, Darstellung und Bewertung magnetischer Maßverkörperungen und soll unter Einbeziehung von Anwendern, Entwicklern und Fachleuten kontinuierlich weiterentwickelt werden.
+
+**Hinweise** auf Unklarheiten, Korrekturvorschläge, Ergänzungen und Vorschläge zur Weiterentwicklung sind ausdrücklich willkommen. Rückmeldungen können per E-Mail an [**guideline@innomag.org**](mailto:guideline@innomag.org) gesendet oder über die Diskussionsmöglichkeiten im GitHub-Repository [github.com/innomag-ev/Innomag-Guideline](https://github.com/innomag-ev/Innomag-Guideline) eingebracht werden.
 
 ## Autoren {.unlisted}
 
