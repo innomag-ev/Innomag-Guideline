@@ -29,7 +29,7 @@ Unvollständige Informationen und uneinheitliche Bezeichnungen können an den Sc
 ::: {.callout-tip}
 ## Hinweis
 
-*Diese Richtlinie ist als **lebendes Dokument** angelegt. In der vorliegenden Fassung 1.0 liegt der Schwerpunkt auf Terminologie, Beschreibung, Darstellung, Einteilung und Grundlagen der Vermessung magnetischer Maßverkörperungen. Weiterführende Inhalte, insbesondere zu Prüfaufbau und Bewertung, werden in späteren Fassungen ergänzt.*
+*Diese Richtlinie ist als **lebendes Dokument** angelegt. In der vorliegenden Fassung 1.x liegt der Schwerpunkt auf Terminologie, Beschreibung, Darstellung, Einteilung und Grundlagen der Vermessung magnetischer Maßverkörperungen. Weiterführende Inhalte, insbesondere zu Prüfaufbau und Bewertung, werden in späteren Fassungen ergänzt.*
 :::
 
 ## Geltungsbereich
