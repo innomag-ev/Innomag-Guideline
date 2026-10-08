@@ -2,7 +2,7 @@
 
 Das Streufeld einer Maßverkörperung ergibt sich aus ihrer Polarisation und Geometrie. Im Folgenden werden das Streufeld und charakteristische Feldmerkmale beschrieben, die für die magnetische Vermessung und Bewertung von magnetischen Maßverkörperungen relevant sind.
 
-## Ermittlungsbereich und Feldverläufe {#sec-05-ermittlungsbereich_und_feldverläufe}
+## Ermittlungsbereich und Feldverläufe {#sec-05-ermittlungsbereich_und_feldverlaufe}
 
 Zur Beschreibung und Charakterisierung des Streufeldes wird dieses an räumlichen Lagen relativ zur Maßverkörperung betrachtet. Die Gesamtheit der dabei berücksichtigten Lagen wird als **Ermittlungsbereich** bezeichnet. Ein Ermittlungsbereich kann sich unmittelbar aus der Messaufgabe und der vorgesehenen Relativbewegung nach @sec-03 ergeben oder gezielt für die Vermessung und Charakterisierung der Maßverkörperung festgelegt werden. Seine Lage und Orientierung werden im Maßverkörperungs-KS oder in einem zugeordneten Struktur-KS angegeben.
 
@@ -18,7 +18,7 @@ Die Parametrisierung $(p,o,n) = (t,u,1\,\mathrm{mm})$ mit $t \in [0^\circ, 360^\
 
 @fig-sec05-00-ermittlungsbereiche zeigt beispielhafte Ermittlungsbereiche für lineare, radiale und axiale Anordnungen. In den Teilbildern (a) bis (c) sind $p$-Pfade bei konstanten $o$ und $n$, in den Teilbildern (d) bis (f) $p$-$o$-Messflächen bei konstanten Messhöhen $n$ dargestellt.
 
-## Streufeld einer Maßverkörperung {#sec-05-streufeld_einer_maßverkörperung}
+## Streufeld einer Maßverkörperung {#sec-05-streufeld_einer_massverkoerperung}
 
 Wie in @sec-04-magnetpole erläutert, lässt sich die Streufeldcharakteristik einer magnetischen Maßverkörperung qualitativ durch den Austritt der magnetischen Feldlinien an den Nordpolen und ihren Eintritt an den Südpolen beschreiben. Die einzelnen Komponenten $B_p$ und $B_n$ weisen dabei in $p$-Richtung typischerweise einen wellenförmigen Verlauf mit Maxima, Minima und Nullstellen auf. Mit zunehmendem Abstand von der magnetischen Struktur nimmt die Amplitude des Streufeldes ab. Dieser Abfall erfolgt im Fernfeld einzelner Zonen näherungsweise kubisch und bei der Überlagerung der Streufelder mehrerer alternierender Zonen näherungsweise exponentiell [@ausserlechner2012closed].
 
@@ -111,7 +111,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 ![Feldverlauf auf $p$-$o$-Messfläche](figures/sec05/04-feldverlauf_2D.png){#fig-sec05-04-feldverlauf_2D width=75% fig-pos="h"}
 
-@fig-sec05-04-feldverlauf_2D zeigt den Feldverlauf $B_n(p,o)$ der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Projektion der darunterliegenden Zonen, die das Streufeld erzeugen, ist grau umrandet. Zusätzlich sind die Konturlinien der Feldamplitude für die Amplitudengrenzwerte $B_G = 7\,\mathrm{mT}$ und $B_G = 15\,\mathrm{mT}$ eingezeichnet. Sie veranschaulichen die Abgrenzung möglicher Nutzbereiche auf der Messfläche. Die Farbwahl bei der Darstellung des Feldverlaufs folgt der in @sec-04-darstellungskonventionen festgelegten Darstellungskonvention.
+@fig-sec05-04-feldverlauf_2D zeigt den Feldverlauf $B_n(p,o)$ der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Projektion der darunterliegenden Zonen, die das Streufeld erzeugen, ist grau umrandet. Zusätzlich sind die Konturlinien der Feldamplitude für die Amplitudengrenzwerte $B_G = 7\,\mathrm{mT}$ und $B_G = 15\,\mathrm{mT}$ eingezeichnet. Sie veranschaulichen die Abgrenzung möglicher Nutzbereiche auf der Messfläche. Die Farbwahl bei der Darstellung des Feldverlaufs folgt der in @sec-04-darstellungskonventionen festgelegten Darstellungskonvention.
 
 @fig-sec05-04-feldverlauf_2D veranschaulicht zwei **grundlegende Eigenschaften** des Feldverlaufs. In $p$-Richtung oszilliert die dargestellte Feldkomponente, wobei positive Halbwellen rot und negative Halbwellen grün dargestellt sind. Über die seitliche Begrenzung der magnetischen Struktur hinaus nimmt die Amplitude des Feldes rasch ab.
 
@@ -149,7 +149,7 @@ Im dreidimensionalen Raum wird der **Nutzbereich** durch Amplitudengrenzflächen
 
 ![Feldverlauf im Raum](figures/sec05/06-feldverlauf_3D.png){#fig-sec05-06-feldverlauf_3D width=100% fig-pos="h"}
 
-@fig-sec05-06-feldverlauf_3D veranschaulicht die räumliche Anordnung ausgewählter Merkmale der OOP-Komponente des Streufeldes über der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung. Die Amplitudengrenzfläche des durch $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereichs ist blau dargestellt. Sie bildet eine blasenförmige Hüllfläche über der Maßverkörperung, die in der Abbildung zur besseren Sichtbarkeit nach vorne hin aufgeschnitten dargestellt ist. In der Abbildung ist die $n$-Koordinate um einen Faktor 2 gestreckt, damit die Feldverteilung besser erkennbar ist.
+@fig-sec05-06-feldverlauf_3D veranschaulicht die räumliche Anordnung ausgewählter Merkmale der OOP-Komponente des Streufeldes über der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung. Die Amplitudengrenzfläche des durch $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereichs ist blau dargestellt. Sie bildet eine blasenförmige Hüllfläche über der Maßverkörperung, die in der Abbildung zur besseren Sichtbarkeit nach vorne hin aufgeschnitten dargestellt ist. In der Abbildung ist die $n$-Koordinate um einen Faktor 2 gestreckt, damit die Feldverteilung besser erkennbar ist.
 
 Innerhalb des Nutzbereichs ist die Feldkomponente $B_n$ auf den $p$-$o$-Messflächen bei $n = 0{,}4\,\mathrm{mm}$, $n = 0{,}5\,\mathrm{mm}$ und $n = 0{,}6\,\mathrm{mm}$ in binärer Farbdarstellung gezeigt. Die Schnittlinien dieser Messflächen mit der Amplitudengrenzfläche bilden die zugehörigen Amplitudengrenzlinien und sind hellblau hervorgehoben.
 
@@ -174,7 +174,7 @@ In einer Felddarstellung muss die dargestellte Streufeldkomponente eindeutig erk
 
 ![Felddarstellung von IP- und OOP-Komponenten](figures/sec05/07-feldprofil_ip_op.png){#fig-sec05-07-feldprofil_ip_op width=100% fig-pos="h"}
 
-@fig-sec05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_maßverkörperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt.
+@fig-sec05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt.
 
 Bei Felddarstellungen auf $p$-$o$-Messflächen nimmt die Messhöhe $n$ eine zentrale Stellung ein, da sie Lage und Form der dargestellten Feldmerkmale wesentlich beeinflusst. Felddarstellungen werden aber häufig in Aufsicht gezeigt, sodass sich der Abstand der Messfläche von der Maßverkörperung aus der Darstellung nicht unmittelbar erschließen lässt. Es wird daher empfohlen, die **Messhöhe unmittelbar in der Felddarstellung anzugeben**, wie in @fig-sec05-07-feldprofil_ip_op gezeigt. Diese Angabe ermöglicht zugleich eine eindeutige Abgrenzung gegenüber der Poldarstellung.
 
@@ -189,7 +189,7 @@ Eine Felddarstellung wird häufig auf die funktionale Oberfläche der Maßverkö
 
 ![Felddarstellung in Projektion auf die Maßverkörperung](figures/sec05/08-felddarstellung_projektion.png){#fig-sec05-08-felddarstellung_projektion width=100% fig-pos="h"}
 
-@fig-sec05-08-felddarstellung_projektion veranschaulicht die Projektion einer Felddarstellung auf die funktionale Oberfläche der Maßverkörperung. Teilbild (a) zeigt die in @sec-05-streufeld_einer_maßverkörperung beschriebene Maßverkörperung in Zonendarstellung. Darüber ist die aus einer Simulation ermittelte Feldkomponente $B_n$ auf mehreren, parallel zur funktionalen Oberfläche angeordneten Messflächen binär dargestellt. Jede Fläche ist dabei auf den Nutzbereich $B > 15\,\mathrm{mT}$ beschränkt. Der Abstand zwischen der Maßverkörperung und der untersten Messfläche ist zur besseren Sichtbarkeit künstlich vergrößert.
+@fig-sec05-08-felddarstellung_projektion veranschaulicht die Projektion einer Felddarstellung auf die funktionale Oberfläche der Maßverkörperung. Teilbild (a) zeigt die in @sec-05-streufeld_einer_massverkoerperung beschriebene Maßverkörperung in Zonendarstellung. Darüber ist die aus einer Simulation ermittelte Feldkomponente $B_n$ auf mehreren, parallel zur funktionalen Oberfläche angeordneten Messflächen binär dargestellt. Jede Fläche ist dabei auf den Nutzbereich $B > 15\,\mathrm{mT}$ beschränkt. Der Abstand zwischen der Maßverkörperung und der untersten Messfläche ist zur besseren Sichtbarkeit künstlich vergrößert.
 
 Teilbild (b) zeigt die Messfläche bei $n = 0{,}5\,\mathrm{mm}$ in Aufsicht. Ein für die Anwendung relevanter Ausschnitt, beispielsweise der Bereich der vorgesehenen Sensorpositionierung, ist hellgrün strichliert umrahmt. Teilbild (c) zeigt die Maßverkörperung mit der auf ihre funktionale Oberfläche projizierten Felddarstellung. Die Projektion ist auf den in Teilbild (b) gekennzeichneten Ausschnitt beschränkt.
 

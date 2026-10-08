@@ -21,7 +21,7 @@ Besonders anschaulich wird diese Einteilung, wenn eine Maßverkörperung aus meh
 
 In @fig-sec04-01-zone_sketch1 sind Beispiele für typische magnetisierte Strukturen skizziert. Teilbild (a) zeigt einen homogen magnetisierten Dipolmagneten, der eine einzige Zone bildet. Teilbild (b) zeigt einen Multipolmagneten mit alternierender Polarisation entlang der Längsachse. Die unterschiedlich polarisierten Bereiche sind durch Schattierung hervorgehoben und veranschaulichen eine sinnvolle Zoneneinteilung. (c) zeigt einen Quadrupolring mit stark inhomogener Polarisation. Aufgrund seiner periodischen Struktur kann dennoch eine sinnvolle Zoneneinteilung vorgenommen werden.
 
-Die mittlere **Polarisation einer Zone** $\vec{J}_Z$ ergibt sich aus dem Integralmittel des Polarisationsvektorfeldes über das Zonenvolumen. Verläuft $\vec{J}_Z$ in $p$-Richtung, spricht man nach @sec-03-orientierung_magnetischer_größen von einer IP-Zone; verläuft sie hingegen in $n$-Richtung, von einer OOP-Zone. Eine symmetrische IP-Zone erzeugt demnach mittig über ihrer Oberfläche ein Magnetfeld, das in $p$-Richtung orientiert ist; symmetrische OOP-Zonen ein Magnetfeld in $n$-Richtung.
+Die mittlere **Polarisation einer Zone** $\vec{J}_Z$ ergibt sich aus dem Integralmittel des Polarisationsvektorfeldes über das Zonenvolumen. Verläuft $\vec{J}_Z$ in $p$-Richtung, spricht man nach @sec-03-orientierung_magnetischer_groessen von einer IP-Zone; verläuft sie hingegen in $n$-Richtung, von einer OOP-Zone. Eine symmetrische IP-Zone erzeugt demnach mittig über ihrer Oberfläche ein Magnetfeld, das in $p$-Richtung orientiert ist; symmetrische OOP-Zonen ein Magnetfeld in $n$-Richtung.
 
 ![IP-Zonen und OOP-Zonen](figures/sec04/02-zone_sketch2.png){#fig-sec04-02-zone_sketch2 width=90% fig-pos="h"}
 

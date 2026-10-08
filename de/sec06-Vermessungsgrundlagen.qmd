@@ -25,7 +25,7 @@ Für die eindeutige Beschreibung der Lage magnetischer Strukturen und Feldmerkma
 
 Das **Datumssystem** wird nach ISO 5459:2024 ausschließlich aus geometrischen Datumsmerkmalen der Maßverkörperung abgeleitet, beispielsweise aus Flächen, Kanten, Achsen oder geeigneten Markierungen. Es beschreibt damit die mechanische Lage und Orientierung der Maßverkörperung unabhängig von ihren magnetischen Eigenschaften. Die Wahl des Datumssystems sollte sich nach den für Herstellung, Montage und Vermessung relevanten geometrischen Bezugsmerkmalen richten.
 
-Der **Koordinatenursprung** der Maßverkörperung $O_M$ wird aus diesem Datumssystem abgeleitet. Gemeinsam mit der Orientierung der Koordinatenrichtungen nach @sec-03-koordinatensystem_der_maßverkörperung können damit die magnetische Struktur und das Streufeld auf die experimentell ermittelte Bauteilgeometrie bezogen werden.
+Der **Koordinatenursprung** der Maßverkörperung $O_M$ wird aus diesem Datumssystem abgeleitet. Gemeinsam mit der Orientierung der Koordinatenrichtungen nach @sec-03-koordinatensystem_der_massverkoerperung können damit die magnetische Struktur und das Streufeld auf die experimentell ermittelte Bauteilgeometrie bezogen werden.
 
 ![Mechanischer Bezug](figures/sec06/01-mech_bezug.png){#fig-sec06-01-mech_bezug width=80% fig-pos="h"}
 
@@ -49,7 +49,7 @@ Die Lage von $O_F$ im Maßverkörperungs-KS bildet den **magneto-mechanischen Be
 
 ![Magneto-mechanischer Bezug und Feld-KS](figures/sec06/02-mag_mech_bezug.png){#fig-sec06-02-mag_mech_bezug width=100% fig-pos="h"}
 
-@fig-sec06-02-mag_mech_bezug veranschaulicht den magneto-mechanischen Bezug und die Ermittlung eines Feld-KS. Dargestellt sind die Maßverkörperung aus @sec-05-streufeld_einer_maßverkörperung und darüber liegend eine binäre Felddarstellung der IP-Komponente des Streufeldes, das auf einer $p$-$o$-Messfläche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ ermittelt wurde. Die Felddarstellung ist dabei auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt.
+@fig-sec06-02-mag_mech_bezug veranschaulicht den magneto-mechanischen Bezug und die Ermittlung eines Feld-KS. Dargestellt sind die Maßverkörperung aus @sec-05-streufeld_einer_massverkoerperung und darüber liegend eine binäre Felddarstellung der IP-Komponente des Streufeldes, das auf einer $p$-$o$-Messfläche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ ermittelt wurde. Die Felddarstellung ist dabei auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt.
 
 In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nullstelle (blau), in $o$-Richtung durch die Mitte des Nutzbereichs (gelb) und in $n$-Richtung durch die funktionale Oberfläche der Maßverkörperung festgelegt. Markierungen an der Seite der Maßverkörperung zeigen die ungefähre Lage der ersten Nullstelle und der Mitte des Nutzbereichs an. Zur besseren Sichtbarkeit des Koordinatenkreuzes des Feld-KS, das auf der funktionalen Oberfläche der Maßverkörperung liegt, sind die ersten beiden Halbwellen der Felddarstellung transparent ausgeführt.
 

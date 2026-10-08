@@ -28,7 +28,7 @@ Die genannten Integrationsebenen sind nicht bei allen Sensoren getrennt ausgefü
 
 ## Lagebeziehung des Sensors {#sec-08-lagebeziehung-sensor}
 
-Die in @sec-05-ermittlungsbereich_und_feldverläufe eingeführten Ermittlungsbereiche beschreiben die räumlichen Bereiche, in denen das Streufeld betrachtet beziehungsweise vermessen wird. In einem realen Messaufbau werden sie durch eine entsprechende Lagebeziehung zwischen Sensor und Maßverkörperung realisiert. In diesem Unterkapitel wird die hierfür erforderliche Terminologie eingeführt.
+Die in @sec-05-ermittlungsbereich_und_feldverlaufe eingeführten Ermittlungsbereiche beschreiben die räumlichen Bereiche, in denen das Streufeld betrachtet beziehungsweise vermessen wird. In einem realen Messaufbau werden sie durch eine entsprechende Lagebeziehung zwischen Sensor und Maßverkörperung realisiert. In diesem Unterkapitel wird die hierfür erforderliche Terminologie eingeführt.
 
 Als **Sensorreferenz** $O_S$ wird ein zweckmäßiger Bezugspunkt für die Sensorelemente festgelegt. Er sollte die Lage der Sensorelemente möglichst repräsentativ beschreiben, beispielsweise in der geometrischen Mitte der Sensorelemente beziehungsweise des von ihnen eingenommenen sensitiven Bereichs. Mit der Sensorreferenz als Ursprung wird ein rechtshändiges **Sensor-KS** mit den Koordinatenrichtungen $x$, $y$ und $z$ definiert.
 

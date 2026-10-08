@@ -47,7 +47,7 @@ Ausgehend von der Messaufgabe und den damit verbundenen geometrischen Randbeding
 *Der **Fokus der Richtlinie** liegt auf linearen, radialen und axialen Anordnungen, die einen großen Teil magnetischer Weg- und Winkelmesssysteme abdecken. Die in dieser Richtlinie eingeführte Terminologie ist in weiten Teilen auf allgemeine Anordnungen übertragbar. Die nachfolgend eingeführte Koordinatenwahl ist jedoch insbesondere für lineare, radiale und axiale Anordnungen zweckmäßig.*
 :::
 
-## Koordinatensystem der Maßverkörperung {#sec-03-koordinatensystem_der_maßverkörperung}
+## Koordinatensystem der Maßverkörperung {#sec-03-koordinatensystem_der_massverkoerperung}
 
 Aus der geometrischen Anordnung ergibt sich eine **zweckmäßige Koordinatenwahl** zur Beschreibung des Messsystems.
 
@@ -77,7 +77,7 @@ Aus der funktionalen Oberfläche und der Vorwärtsbewegung werden die Koordinate
 *Im allgemeinen Sprachgebrauch wird häufig von **Achsen** anstelle von Koordinatenrichtungen gesprochen. Davon wird hier abgeraten, da bei radialen und axialen Anordnungen einzelne Koordinatenrichtungen ortsabhängig sind und sich ihre Orientierung ändern kann. Der Begriff Achse kann daher fälschlich eine feste Raumrichtung suggerieren.*
 :::
 
-## Orientierung magnetischer Größen {#sec-03-orientierung_magnetischer_größen}
+## Orientierung magnetischer Größen {#sec-03-orientierung_magnetischer_groessen}
 
 Zur Beschreibung der Orientierung magnetischer Größen relativ zur funktionalen Oberfläche werden häufig die Bezeichnungen **in-plane (IP)** und **out-of-plane (OOP)** verwendet. Eine magnetische Größe ist IP-orientiert, wenn sie parallel zur funktionalen Oberfläche liegt, und OOP-orientiert, wenn sie senkrecht dazu steht. Das bedeutet, dass sowohl die $p$- als auch die $o$-Richtung in-plane liegen, während die n-Richtung out-of-plane orientiert ist. Entsprechend sind beispielsweise die Polarisationskomponenten $J_p$ und $J_o$ IP-Komponenten und $J_n$ eine OOP-Komponente.
 
