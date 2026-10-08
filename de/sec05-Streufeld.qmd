@@ -80,7 +80,7 @@ Halbwellen werden, beginnend mit 1, entlang der positiven $p$-Richtung fortlaufe
 
 Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Messpfades. Die **Nutzbereichsbreite** $w_G(p)$ entspricht dessen Ausdehnung in $o$-Richtung an der Position $p$. Wird die Nutzbereichsbreite innerhalb einer Halbwelle $j$ bestimmt, wird sie als **Nutzbreite der Halbwelle** $w_G^{(j)}(p)$ bezeichnet.
 
-![Feldverlauf entlang eines $o$-Pfades](figures/sec05/03-querprofil.png){#fig-sec05-03-querprofil width=70% fig-pos="h"}
+![Feldverlauf entlang eines $o$-Pfades](figures/sec05/03-querprofil.png){#fig-sec05-03-querprofil width=70% fig-pos="H"}
 
 @fig-sec05-03-querprofil zeigt das Querprofil $B(o)$ entlang des in @fig-sec05-01-streufeldcharakteristik dargestellten $o$-Pfades in detaillierter Form. Ein unterer Amplitudengrenzwert $B_G$ definiert einen Nutzbereich. Die beiden resultierenden Amplitudengrenzpunkte sind blau eingezeichnet. Ihre $o$-Lagen entsprechen den Amplitudengrenzlagen $o_G^{(1)}$ und $o_G^{(2)}$, die den Nutzbereich begrenzen.
 
@@ -90,6 +90,11 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 *Die in diesem Kapitel dargestellten Feldverläufe zeigen idealisierte beziehungsweise für viele Anwendungen angestrebte Kurven mit eindeutig ausgeprägten und gut auswertbaren Feldmerkmalen. Reale Feldverläufe können hiervon infolge von Fertigungsabweichungen, Materialinhomogenitäten und Randeffekten abweichen. Insbesondere bei sehr kleinen Messhöhen, $n \ll \ell_P$, treten höhere räumliche Harmonische deutlicher hervor, wodurch beispielsweise zusätzliche Peaks und Nullstellen, **Doppelpeaks** oder komplexere Feldverläufe auftreten können.*
 
 :::
+
+<!-- avoid table bleeding into hinweis -->
+```{=latex}
+\vspace{1em}
+```
 
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
