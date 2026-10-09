@@ -61,9 +61,6 @@ format:
     keep-tex: false
     number-sections: true
 
-    include-before-body:
-      - latex_impressum.tex
-
     include-in-header:
       - latex_preamble.tex
 

@@ -1,19 +1,11 @@
 
 ::: {.content-visible when-format="html"}
 
-<div class="impressum-title">Impressum</div>
-
 **Version**: {{< meta version >}}
-
-**Publikationsdatum**: 2026-10-01
-
-**DOI**: 10.5281/zenodo.XXXXXXX
 
 **Autoren**: Michael Ortner, Rolf Slatter
 
 **Herausgeber**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
-
-
 
 **Lizenziert** unter Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
 

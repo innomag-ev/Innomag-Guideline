@@ -3,6 +3,33 @@ $if(has-frontmatter)$
 $endif$
 
 % ---------------------------------------------------------
+% Metadata from Quarto
+% ---------------------------------------------------------
+
+\newcommand{\guidelinetitle}{$title$}
+\newcommand{\guidelinesubtitle}{$subtitle$}
+
+$if(version)$
+\newcommand{\guidelineversion}{$version$}
+$else$
+\newcommand{\guidelineversion}{}
+$endif$
+
+$if(date)$
+\newcommand{\guidelinedate}{$date$}
+$else$
+\newcommand{\guidelinedate}{}
+$endif$
+
+$if(doi)$
+\newcommand{\guidelinedoi}{$doi$}
+$else$
+\newcommand{\guidelinedoi}{}
+$endif$
+
+
+
+% ---------------------------------------------------------
 % Custom title page
 % ---------------------------------------------------------
 
@@ -39,4 +66,8 @@ $endif$
 
 \end{titlepage}
 
-\clearpage
+% ---------------------------------------------------------
+% Impressum
+% ---------------------------------------------------------
+
+\input{latex_impressum.tex}
