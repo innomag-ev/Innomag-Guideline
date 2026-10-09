@@ -4,18 +4,24 @@
 
 
 /* ---------------------------------------------------------
-   Sidebar navigation tools: PDF + language switcher
+   Sidebar navigation tools: language + PDF + GitHub
    --------------------------------------------------------- */
 
-/* Common style */
+/* Common button style */
 a.quarto-navigation-tool[href$=".pdf"],
 a.quarto-navigation-tool[aria-label="English"],
-a.quarto-navigation-tool[aria-label="Deutsch"] {
+a.quarto-navigation-tool[aria-label="Deutsch"],
+.sidebar-tools-main a:has(.bi-github) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
 
   margin-top: 1.2rem;
+  margin-right: 0.4rem;
+
+  height: 30px;
+  box-sizing: border-box;
+
   padding: 0 0.65rem;
 
   border: 1px solid #000000;
@@ -23,18 +29,31 @@ a.quarto-navigation-tool[aria-label="Deutsch"] {
 
   text-decoration: none;
   font-weight: 500;
-  font-size: 0;
 }
 
 
-/* Space between language button and PDF */
+/* Explicit order:
+   Language -> PDF -> GitHub
+*/
 a.quarto-navigation-tool[aria-label="English"],
 a.quarto-navigation-tool[aria-label="Deutsch"] {
-  margin-right: 0.4rem;
+  order: 1;
+}
+
+a.quarto-navigation-tool[href$=".pdf"] {
+  order: 2;
+}
+
+.sidebar-tools-main a:has(.bi-github) {
+  order: 3;
+  margin-right: 0;
 }
 
 
-/* Hide original icons */
+/* ---------------------------------------------------------
+   Hide original icons for language and PDF buttons
+   --------------------------------------------------------- */
+
 a.quarto-navigation-tool[href$=".pdf"] i,
 a.quarto-navigation-tool[aria-label="English"] i,
 a.quarto-navigation-tool[aria-label="Deutsch"] i {
@@ -49,6 +68,8 @@ a.quarto-navigation-tool[aria-label="Deutsch"] i {
 a.quarto-navigation-tool[href$=".pdf"] {
   background-color: #ecd2cf;
   color: #000000;
+
+  font-size: 0;
 }
 
 a.quarto-navigation-tool[href$=".pdf"]::after {
@@ -65,6 +86,8 @@ a.quarto-navigation-tool[href$=".pdf"]::after {
 a.quarto-navigation-tool[aria-label="English"] {
   background-color: #b7daf8;
   color: #000000;
+
+  font-size: 0;
 }
 
 a.quarto-navigation-tool[aria-label="English"]::after {
@@ -81,6 +104,8 @@ a.quarto-navigation-tool[aria-label="English"]::after {
 a.quarto-navigation-tool[aria-label="Deutsch"] {
   background-color: #b7daf8;
   color: #000000;
+
+  font-size: 0;
 }
 
 a.quarto-navigation-tool[aria-label="Deutsch"]::after {
@@ -91,8 +116,36 @@ a.quarto-navigation-tool[aria-label="Deutsch"]::after {
 
 
 /* ---------------------------------------------------------
+   GitHub button
+   --------------------------------------------------------- */
+
+.sidebar-tools-main a:has(.bi-github) {
+  min-width: 36px;
+
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
+
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.sidebar-tools-main .bi-github {
+  display: inline-block;
+
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.sidebar-tools-main a:has(.bi-github):hover {
+  background-color: #e6e6e6;
+}
+
+
+/* ---------------------------------------------------------
    Tables
    --------------------------------------------------------- */
+
 
 /* ---------------------------------------------------------
    Zebra tables - gray
@@ -168,9 +221,10 @@ table.zebra_blue tbody tr:nth-child(even),
 }
 
 
+/* ---------------------------------------------------------
+   Hide automatically generated date and DOI metadata
+   --------------------------------------------------------- */
 
-
-/* Automatische Titel-Metadaten Datum und DOI komplett ausblenden */
 .quarto-title-meta > div:has(.date),
 .quarto-title-meta > div:has(.doi) {
   display: none;

@@ -20,6 +20,10 @@ book:
         text: English
         href: ../en/index.html
 
+      - icon: github
+        text: GitHub
+        href: https://github.com/innomag-ev/Innomag-Guideline
+
   output-file: "Innomag-Guideline-de"
 
   downloads:
