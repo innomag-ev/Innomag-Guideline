@@ -166,3 +166,12 @@ table.zebra_blue tbody tr:nth-child(even),
 .zebra_blue table tbody tr:nth-child(even) {
   background-color: #e6f0f8;
 }
+
+
+
+
+/* Automatische Titel-Metadaten Datum und DOI komplett ausblenden */
+.quarto-title-meta > div:has(.date),
+.quarto-title-meta > div:has(.doi) {
+  display: none;
+}

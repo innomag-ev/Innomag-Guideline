@@ -7,6 +7,10 @@
 
 **Herausgeber**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
 
+**Publikationsdatum**: {{< meta date >}}
+
+**DOI**: {{< meta doi >}}
+
 **Lizenziert** unter Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
 
 Das Werk darf vervielfältigt, verbreitet, bearbeitet und für beliebige
