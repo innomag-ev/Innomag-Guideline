@@ -5,6 +5,8 @@ project:
 lang: de
 
 version: 1.1
+date: 2026-10-01
+doi: 10.5281/zenodo.XXXXXXX
 
 book:
   title: "Magnetischen Maßverkörperungen für Weg- und Winkelmesssysteme"
@@ -58,5 +60,12 @@ format:
     lot: true
     keep-tex: false
     number-sections: true
-    include-before-body: impressum.tex
-    include-in-header: latex_preamble.tex
+
+    include-before-body:
+      - latex_impressum.tex
+
+    include-in-header:
+      - latex_preamble.tex
+
+    template-partials:
+      - before-body.tex

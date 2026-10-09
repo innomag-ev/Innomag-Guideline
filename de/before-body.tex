@@ -1,0 +1,42 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+
+% ---------------------------------------------------------
+% Custom title page
+% ---------------------------------------------------------
+
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+
+\vspace*{1.5cm}
+
+{\Huge\bfseries $title$\par}
+
+\vspace{0.6cm}
+
+{\Large $subtitle$\par}
+
+\vspace{0.4cm}
+
+$if(version)$
+{\large Version $version$\par}
+$endif$
+
+\vspace{1.5cm}
+
+
+\makebox[\textwidth][c]{%
+  \includegraphics[
+    width=0.5\paperwidth
+  ]{figures/coverpage.png}%
+}
+
+\vfill
+
+\vspace{1cm}
+
+\end{titlepage}
+
+\clearpage
