@@ -85,12 +85,20 @@ Ein besonderer Dank gilt Herrn Dr. Michael Ortner von den Silicon Austria Labs, 
 
 Wir wünschen allen Leserinnen und Lesern eine anregende Lektüre und hoffen, dass diese Richtlinie in der Praxis ebenso breite Anwendung findet wie ihre Vorgängerin.
 
-::: {style="text-align: right;"}
-
+::: {.content-visible when-format="html" style="text-align: right;"}
 Dr. Rolf Slatter, Vorstandsvorsitzender, INNOMAG e. V.
 
 Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
+:::
 
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{flushright}
+Dr. Rolf Slatter, Vorstandsvorsitzender, INNOMAG e. V.
+
+Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
+\end{flushright}
+```
 :::
 
 # Abkürzungen und Formelzeichen {.unnumbered}
