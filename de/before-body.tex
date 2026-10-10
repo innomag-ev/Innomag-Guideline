@@ -35,34 +35,55 @@ $endif$
 
 \begin{titlepage}
 \thispagestyle{empty}
-\centering
+\raggedright
 
-\vspace*{1.5cm}
+\vspace*{1.0cm}
 
-{\Huge\bfseries $title$\par}
+% ---------------------------------------------------------
+% Header: Richtlinie + Logo
+% ---------------------------------------------------------
 
-\vspace{0.6cm}
-
-{\Large $subtitle$\par}
-
-\vspace{0.4cm}
-
-$if(version)$
-{\large Version $version$\par}
-$endif$
-
-\vspace{1.5cm}
-
-
-\makebox[\textwidth][c]{%
+\noindent
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+  \vspace{0pt}
+  \raggedleft
   \includegraphics[
-    width=0.5\paperwidth
-  ]{figures/coverpage.png}%
-}
+    width=0.85\linewidth
+  ]{figures/coverpage/innomag_logo.jpg}
+\end{minipage}
+
+
+\begin{minipage}[t]{0.55\textwidth}
+  {\huge Richtlinie\par}
+  
+  \vspace{2.0cm}
+
+  {\LARGE\bfseries \guidelinetitle \par}
+  \vspace{0.45cm}
+
+  {\large \guidelinesubtitle \par}
+  \vspace{0.45cm}
+
+  {\normalsize Version \guidelineversion\par}
+\end{minipage}
+
+
+% ---------------------------------------------------------
+% Main cover image
+% ---------------------------------------------------------
+
+\vspace{2.5cm}
+
+\begin{center}
+\includegraphics[
+  width=0.65\textwidth,
+  keepaspectratio
+]{figures/coverpage/coverpage_image.png}
+\end{center}
+
 
 \vfill
-
-\vspace{1cm}
 
 \end{titlepage}
 
