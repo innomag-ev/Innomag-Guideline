@@ -80,7 +80,7 @@ Halbwellen werden, beginnend mit 1, entlang der positiven $p$-Richtung fortlaufe
 
 Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Messpfades. Die **Nutzbereichsbreite** $w_G(p)$ entspricht dessen Ausdehnung in $o$-Richtung an der Position $p$. Wird die Nutzbereichsbreite innerhalb einer Halbwelle $j$ bestimmt, wird sie als **Nutzbreite der Halbwelle** $w_G^{(j)}(p)$ bezeichnet.
 
-![Feldverlauf entlang eines $o$-Pfades](figures/sec05/03-querprofil.png){#fig-sec05-03-querprofil width=70% fig-pos="H"}
+![Feldverlauf entlang eines $o$-Pfades](figures/sec05/03-querprofil.png){#fig-sec05-03-querprofil width=65% fig-pos="H"}
 
 @fig-sec05-03-querprofil zeigt das Querprofil $B(o)$ entlang des in @fig-sec05-01-streufeldcharakteristik dargestellten $o$-Pfades in detaillierter Form. Ein unterer Amplitudengrenzwert $B_G$ definiert einen Nutzbereich. Die beiden resultierenden Amplitudengrenzpunkte sind blau eingezeichnet. Ihre $o$-Lagen entsprechen den Amplitudengrenzlagen $o_G^{(1)}$ und $o_G^{(2)}$, die den Nutzbereich begrenzen.
 
@@ -122,7 +122,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 Für Kommunikationszwecke wird der zweidimensionale Feldverlauf häufig auf ein binäres Farbmuster reduziert, was eine kompakte und anschauliche Darstellung der wesentlichen Feldmerkmale ermöglicht. Bei den Amplitudengrenzen handelt es sich um zweidimensionale Fortsetzungen der auf Messpfaden auftretenden Grenzpunkte. Gleichermaßen setzen sich die Nullstellen auf der Messfläche zu **Nulllinien** fort. Sie bilden die Grenzen benachbarter Halbwellen. Peaklagen setzen sich zu **Peaklinien** fort, bei denen es sich mathematisch um Extremwertlinien in $p$-Richtung handelt.
 
-![Feldverlauf auf $p$-$o$-Messfläche in binärer Form](figures/sec05/05-feldverlauf_2D_binar.png){#fig-sec05-05-feldverlauf_2D_binar width=75% fig-pos="h"}
+![Feldverlauf auf $p$-$o$-Messfläche in binärer Form](figures/sec05/05-feldverlauf_2D_binar.png){#fig-sec05-05-feldverlauf_2D_binar width=65% fig-pos="h"}
 
 @fig-sec05-05-feldverlauf_2D_binar zeigt den Feldverlauf $B_n(p,o)$ aus @fig-sec05-04-feldverlauf_2D in binärer Farbdarstellung. Dem Farbmuster sind die Feldmerkmale in Form von Nulllinien und Peaklinien sowie die Amplitudengrenzlinie für $B_G = 15\,\mathrm{mT}$ überlagert. Der durch diesen Amplitudengrenzwert festgelegte Nutzbereich ist farblich hervorgehoben. Die Nulllinien gliedern ihn sichtbar in positive und negative Halbwellen.
 

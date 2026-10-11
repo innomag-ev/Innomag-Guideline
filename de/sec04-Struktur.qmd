@@ -17,13 +17,13 @@ Um diese strukturellen Einheiten präzise beschreiben und individuell referenzie
 
 Besonders anschaulich wird diese Einteilung, wenn eine Maßverkörperung aus mehreren homogenen Dipolmagneten aufgebaut ist – in diesem Fall entspricht jeder einzelne Dipolmagnet einer eigenen Zone. Ebenso entsteht bei magnetischen Maßstäben, deren Polarisationsmuster durch schrittweises Einschreiben magnetisierter Bereiche erzeugt wird, bei jedem Schreibvorgang eine Zone in der unmittelbaren Umgebung des Schreibkopfes.
 
-![Magnetische Polarisation und magnetisierte Zonen](figures/sec04/01-zone_sketch1.png){#fig-sec04-01-zone_sketch1 width=90% fig-pos="h"}
+![Magnetische Polarisation und magnetisierte Zonen](figures/sec04/01-zone_sketch1.png){#fig-sec04-01-zone_sketch1 width=83% fig-pos="h"}
 
 In @fig-sec04-01-zone_sketch1 sind Beispiele für typische magnetisierte Strukturen skizziert. Teilbild (a) zeigt einen homogen magnetisierten Dipolmagneten, der eine einzige Zone bildet. Teilbild (b) zeigt einen Multipolmagneten mit alternierender Polarisation entlang der Längsachse. Die unterschiedlich polarisierten Bereiche sind durch Schattierung hervorgehoben und veranschaulichen eine sinnvolle Zoneneinteilung. (c) zeigt einen Quadrupolring mit stark inhomogener Polarisation. Aufgrund seiner periodischen Struktur kann dennoch eine sinnvolle Zoneneinteilung vorgenommen werden.
 
 Die mittlere **Polarisation einer Zone** $\vec{J}_Z$ ergibt sich aus dem Integralmittel des Polarisationsvektorfeldes über das Zonenvolumen. Verläuft $\vec{J}_Z$ in $p$-Richtung, spricht man nach @sec-03-orientierung_magnetischer_groessen von einer IP-Zone; verläuft sie hingegen in $n$-Richtung, von einer OOP-Zone. Eine symmetrische IP-Zone erzeugt demnach mittig über ihrer Oberfläche ein Magnetfeld, das in $p$-Richtung orientiert ist; symmetrische OOP-Zonen ein Magnetfeld in $n$-Richtung.
 
-![IP-Zonen und OOP-Zonen](figures/sec04/02-zone_sketch2.png){#fig-sec04-02-zone_sketch2 width=90% fig-pos="h"}
+![IP-Zonen und OOP-Zonen](figures/sec04/02-zone_sketch2.png){#fig-sec04-02-zone_sketch2 width=85% fig-pos="h"}
 
 @fig-sec04-02-zone_sketch2 zeigt schematische Beispiele für das Magnetfeld (Blau) und die Polarisation (Schwarz) verschiedener symmetrischer IP- und OOP-Zonen (Orange). Teilbilder (a) und (d) zeigen homogene Zonen mit gleichmäßiger Polarisation. In der Praxis tritt jedoch häufig eine „bündelförmige“ (bundle-shaped) Verteilung auf, die beispielsweise durch magnetostatische Selbstwechselwirkungen entsteht, siehe (b) und (e). Wird die Polarisation hingegen mit einem Schreibkopf schrittweise in ein dickes isotropes Material eingeschrieben, entstehen typischerweise harmonisch verlaufende Muster, wie in (c) und (f) skizziert. Die dargestellten Fälle verdeutlichen, dass Zonen auch dann sinnvoll als IP- oder OOP-Zone klassifiziert werden können, wenn die tatsächliche Polarisation nicht homogen ist.
 
@@ -93,13 +93,13 @@ Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrisc
 
 Für die **Darstellung der Polarisation** (Zonenmuster) sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole ⊙ und ⊗ Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
 
-![Darstellung der Polarisation](figures/sec04/09-darstellung_J.png){#fig-sec04-09-darstellung_J width=70% fig-pos="h"}
+![Darstellung der Polarisation](figures/sec04/09-darstellung_J.png){#fig-sec04-09-darstellung_J width=65% fig-pos="h"}
 
 @fig-sec04-09-darstellung_J (a) zeigt die in diesem Dokument verwendeten Pfeilsymbole zur Darstellung der Polarisationsrichtung an Seitenflächen. Teilbild (b) zeigt eine skizzenhafte Maßverkörperung bestehend aus zwei klar abgegrenzten Zonen alternierender Polarisation. Teilbild (c) zeigt eine Zone mit nicht flächenparalleler Polarisation, dargestellt durch Komponenten einer orthogonalen Projektion auf die Deckfläche.
 
 Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellung) wird der Wert einer ausgewählten Feldkomponente auf einer Bezugsfläche mittels Rot-Grau-Grün-Farbskala visualisiert. In Schwarzweißdarstellungen kann entsprechend eine Weiß-Grau-Schwarz-Skala verwendet werden. Als Bezugsflächen kommen zum Beispiel Zonenseiten, Körperflächen der Maßverkörperung oder Messflächen in Frage. Die Farbskala kann je nach Bedarf kontinuierlich oder diskret ausgeführt werden, wobei binäre und ternäre Ausführungen vor allem für Poldarstellungen und Felddarstellungen nach @sec-05-felddarstellung eingesetzt werden. Besonders bei diskreten Darstellungen sollte die dargestellte Feldkomponente durch zusätzliche Richtungssymbole gekennzeichnet werden. Die dafür verwendeten Symbole unterscheiden sich von den Richtungspfeilen der Polarisation, um Verwechslung zu vermeiden.
  
-![Darstellung des Magnetfeldes](figures/sec04/10-darstellung_B.png){#fig-sec04-10-darstellung_B width=100% fig-pos="h"}
+![Darstellung des Magnetfeldes](figures/sec04/10-darstellung_B.png){#fig-sec04-10-darstellung_B width=90% fig-pos="h"}
 
 @fig-sec04-10-darstellung_B skizziert die Regeln zur Darstellung des Magnetfeldes. Teilbild (a) zeigt die in diesem Dokument verwendeten Farbskalen in kontinuierlicher und diskreter Form. Die eingesetzten Farbcodes sind #EE5544 für Rot, #E6E6E6 für Grau und #118866 für Grün. Teilbild (b) zeigt die Richtungssymbole zur Kennzeichnung von IP- und OOP-Komponenten des Magnetfeldes. Teilbild (c) zeigt beispielhaft eine Maßverkörperung in Poldarstellung. Dabei ist die auf der Deckfläche ermittelte Normalkomponente mittels dreigeteilter Farbskala dargestellt.
 
@@ -109,7 +109,7 @@ Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellu
 *In wissenschaftlich-technischen Darstellungen wird die Farbkombination Rot–Grün üblicherweise vermieden, da sie für viele Personen mit einer häufig auftretenden Rot-Grün-Sehschwäche nur eingeschränkt unterscheidbar ist [@crameri2020misuse]. In dieser Richtlinie wird diese Farbwahl jedoch aus historischen Gründen beibehalten. Die hier gewählten Farben unterscheiden sich deutlich in Helligkeit und Sättigung, um eine zuverlässige visuelle Unterscheidbarkeit sicherzustellen.*
 :::
 
-![Darstellungsbeispiele Zonen- und Poldarstellung](figures/sec04/11-zonen_und_poldarstellung.png){#fig-sec04-11-zonen_und_poldarstellung width=75% fig-pos="h"}
+![Darstellungsbeispiele Zonen- und Poldarstellung](figures/sec04/11-zonen_und_poldarstellung.png){#fig-sec04-11-zonen_und_poldarstellung width=65% fig-pos="h"}
 
 @fig-sec04-11-zonen_und_poldarstellung demonstriert die beiden Darstellungsformen am Beispiel eines Quadrupolrings, wie er typischerweise als magnetische Maßverkörperung in radial angeordneten Winkelmesssystemen mit außen liegenden Sensoren verwendet wird. Die zugehörige inhomogene Polarisation ist in @fig-sec04-01-zone_sketch1 (c) skizziert.
 
@@ -120,7 +120,7 @@ Teilbild (b) zeigt den Quadrupolring in Poldarstellung. Das Polmuster ist auf de
 
 Eine **kombinierte Darstellung** von Zonen- und Polmuster ermöglicht es sowohl Polarisationsstruktur als auch Feldwirkung einer Maßverkörperung zu vermitteln. Das ist besonders bei komplexen Anordnungen, bei denen sich die Lage der Pole nicht offensichtlich aus dem Zonenmuster erschließt, hilfreich. Dabei können Pole gegenüber Zonengrenzen verschoben sein, sich über mehrere Zonen erstrecken oder sich einseitig ausprägen.
 
-![Darstellungsbeispiele kombinierte Darstellung](figures/sec04/12-kombinierte_darstellung.png){#fig-sec04-12-kombinierte_darstellung width=90% fig-pos="h"}
+![Darstellungsbeispiele kombinierte Darstellung](figures/sec04/12-kombinierte_darstellung.png){#fig-sec04-12-kombinierte_darstellung width=85% fig-pos="h"}
 
 @fig-sec04-12-kombinierte_darstellung zeigt zwei Beispiele solcher kombinierter Darstellungen. Teilbild (a) zeigt einen Linearmaßstab mit Halbach-Polarisation. Die Pfeile an den Seitenflächen kennzeichnen das Zonenmuster, während das auf der Oberseite binär dargestellte Polmuster die daraus resultierende Feldwirkung veranschaulicht. Teilbild (b) zeigt einen Halbach-Ring. Die Überlagerung von Zonen- und Polmuster macht die Ausrichtung des Magnetfeldes im Inneren des Rings unmittelbar erkennbar.
 

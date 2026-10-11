@@ -8,7 +8,7 @@ Die Hinterachslenkung in einem Automobil bezeichnet das zusätzliche Mitlenken d
 
 Für die Regelung der Hinterachslenkung ist eine robuste und berührungslose Wegerfassung der Aktuatorposition erforderlich. Ein magnetisches Messsystem kann hierfür die Verstellung auch unter fahrzeugtypischen Umgebungsbedingungen wie Vibration, Temperaturänderung, Verschmutzung und begrenztem Bauraum zuverlässig erfassen.
 
-![Beispiel Wegmessung bei einer Hinterachslenkung[^fig-hinterachslenkung-zf]](figures/sec02/01-linearweg_hinterachsenlenkung.png){#fig-sec02-01-linearweg_hinterachsenlenkung width=100% fig-pos="h"}
+![Beispiel Wegmessung bei einer Hinterachslenkung[^fig-hinterachslenkung-zf]](figures/sec02/01-linearweg_hinterachsenlenkung.png){#fig-sec02-01-linearweg_hinterachsenlenkung width=95% fig-pos="h"}
 
 [^fig-hinterachslenkung-zf]: Quelle: ZF Friedrichshafen AG [@zf2026akc]; redaktionelle Bearbeitung durch die Autoren.
 
@@ -34,6 +34,6 @@ Die Bestimmung von Drehwinkel und Drehzahl ist eine zentrale Voraussetzung für 
 
 Das Sensormodul besitzt auf seiner Oberseite einen GMR-Sensor zur Erfassung der Referenzspur und auf seiner Unterseite einen AMR-Sensor zur Erfassung der Inkrementalspur. Es gibt nach interner Signalaufbereitung und Interpolation ein quadraturcodiertes A/B-Signal mit 4096 Flanken pro Umdrehung sowie einen Referenzpuls Z pro Umdrehung aus, siehe @fig-sec02-04-emotor_drehgeber2 (a). Eine typische Fehlerkurve des vollständigen Messsystems ist in Teilbild (b) gezeigt.
 
-![Ausgangssignale und Winkelfehler des magnetischen Drehgebers[^fig-emotor-sensitec]](figures/sec02/04-emotor_drehgeber2.png){#fig-sec02-04-emotor_drehgeber2 width=100% fig-pos="h"}
+![Ausgangssignale und Winkelfehler des magnetischen Drehgebers[^fig-emotor-sensitec]](figures/sec02/04-emotor_drehgeber2.png){#fig-sec02-04-emotor_drehgeber2 width=88% fig-pos="h"}
 
 Das Beispiel veranschaulicht die reale Einbausituation und das Zusammenwirken mehrerer magnetischer Spuren mit unterschiedlichen Funktionen für die Realisierung eines magnetischen Winkelmesssystems.
