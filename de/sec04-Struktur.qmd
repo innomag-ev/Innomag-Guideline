@@ -207,6 +207,11 @@ Pole werden zu Referenzierungszwecken aufsteigend in positiver $p$-Richtung mit 
 
 Die **Pollage** $\vec{r}_P$ bezeichnet die Position des geometrischen Mittelpunkts der Begrenzungsbox. Ihre Koordinaten sind $p_P$ und $o_P$.
 
+```{=latex}
+% Manual page break for layout reasons
+\newpage
+```
+
 ![Strukturbeschreibung des Polmusters](figures/sec04/18-struktur_pole.png){#fig-sec04-18-struktur_pole width=100% fig-pos="h"}
 
 @fig-sec04-18-struktur_pole zeigt eine beispielhafte Strukturbeschreibung von Polmustern in zylindrischen Begrenzungsbox-Geometrien. Dargestellt sind zwei Polräder mit Pseudo-Random-Codierung. In Teilbild (a) ist eine außenliegende Radialspur mit $N_P = 36$ nummerierten Polen gezeigt; in Teilbild (b) eine Axialspur mit $N_P = 30$ nummerierten Polen. Bei radial außenliegenden Spuren wie in Teilbild (a) ist es zweckmäßig, $p_P$ und $\ell_P$ als Bogenlängen anzugeben. Bei der Axialspur in Teilbild (b) ist dies aufgrund des über die Spurbreite veränderlichen Radius hingegen nicht zweckmäßig.
@@ -228,13 +233,13 @@ Spuren werden zu Referenzierungszwecken mit dem Ordnungsindex $i = 1, \ldots, N_
 
 Die **Spurlage** $\vec{r}_T$ bezeichnet die Position des Spur-KS-Ursprungs $O_T$ im Maßverkörperungs-KS. Ihre Koordinaten sind $p_T$, $o_T$ und $n_T$. Mit der üblichen Festlegung von $O_T$ auf der funktionalen Oberfläche der Maßverkörperung gilt $n_T = 0$.
 
-Die relative Lage zweier Spuren wird durch ihre Versätze beschrieben. Der **Spur-Längsversatz** $p_{TT}$, auch **Spur-$p$-Versatz**, bezeichnet den Versatz in $p$-Richtung. Für die Spuren mit den Ordnungsindizes $i_1$ und $i_2$ gilt:
+Die relative Lage zweier Spuren wird durch ihre Versätze beschrieben. Der **Spur-Längsversatz** $p_{TT}$, auch **Spur-$\boldsymbol{p}$-Versatz**, bezeichnet den Versatz in $p$-Richtung. Für die Spuren mit den Ordnungsindizes $i_1$ und $i_2$ gilt:
 
 $$
 p_{TT}^{(i_1,i_2)} = p_T^{(i_2)} - p_T^{(i_1)}.
 $$
 
-Der **Spur-Querversatz** $o_{TT}$, auch **Spur-$o$-Versatz**, bezeichnet entsprechend den Versatz in $o$-Richtung:
+Der **Spur-Querversatz** $o_{TT}$, auch **Spur-$\boldsymbol{o}$-Versatz**, bezeichnet entsprechend den Versatz in $o$-Richtung:
 
 $$
 o_{TT}^{(i_1,i_2)} = o_T^{(i_2)} - o_T^{(i_1)}.

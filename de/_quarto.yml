@@ -63,15 +63,15 @@ format:
 
     geometry:
       - inner=28mm
-      - outer=19mm
-      - top=21mm
-      - bottom=26mm
+      - outer=21mm
+      - top=22mm
+      - bottom=27mm
     
     toc: true
     toc-depth: 2
     lof: true
     lot: true
-    keep-tex: false
+    keep-tex: true
     number-sections: true
 
     include-in-header:

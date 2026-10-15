@@ -12,9 +12,15 @@
 % ---------------------------------------------------------
 
 \AtBeginDocument{
+
+  % Quarto writes the local option "breakable" into every
+  % tcolorbox callout. Disable that option globally so that
+  % short callouts remain together on one page.
   \tcbset{
+    breakable/.style={},
     fonttitle=\bfseries
   }
+
 }
 
 % ---------------------------------------------------------
@@ -51,3 +57,12 @@
 
 \setmainfont{TeX Gyre Termes}
 \setsansfont{TeX Gyre Heros}
+
+% ---------------------------------------------------------
+% Place floats at the top of float-only pages
+% ---------------------------------------------------------
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother

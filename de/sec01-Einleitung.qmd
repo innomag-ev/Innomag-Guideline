@@ -4,7 +4,7 @@
 
 **Magnetische Weg- und Winkelmesssysteme** erfassen die Relativposition zweier Bauteile entlang einer festgelegten Bewegungskoordinate. Bei Wegmesssystemen wird diese als Weg entlang eines Pfads, bei Winkelmesssystemen als Drehwinkel um eine mechanische Achse angegeben. Sie machen einen großen Teil der magnetischen Positionsmesssysteme in industriellen Anwendungen aus.
 
-Typischerweise bestehen magnetische Weg- und Winkelmesssysteme aus einem felderzeugenden Dauermagneten – der **magnetischen Maßverkörperung** – und einem **magnetischen Sensor**. Der Sensor erfasst das von der Maßverkörperung erzeugte Magnetfeld und wandelt die darin enthaltene Positionsinformation in elektrische Ausgangssignale um. Aus diesen Signalen wird die relative Position zwischen Sensor und Maßverkörperung bestimmt.
+Typischerweise bestehen magnetische Weg- und Winkelmesssysteme aus einem felderzeugenden Dauermagneten – der **magnetischen Maßverkörperung** – und einem **magnetischen Sensor**. Der Sensor erfasst das von der Maßverkörperung erzeugte Magnetfeld und wandelt es in elektrische Ausgangssignale um. Aus diesen Signalen bestimmt das Messsystem die darin enthaltene relative Positionsinformation.
 
 ::: {.callout-tip}
 ## Hinweis

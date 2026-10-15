@@ -36,8 +36,8 @@ Verantwortung für die jeweiligen Kapitel; Entwicklung und Ausarbeitung von Konz
 
 | **Name** | **Organisation** | **Beitrag** |
 |---|---|---|
-| Michael Ortner | Silicon Austria Labs GmbH | Kapitel 2–8, Editor |
-| Rolf Slatter | INNOMAG e. V. | Kapitel 1 |
+| Michael Ortner | Silicon Austria Labs GmbH | Kapitel 2–8; Editor |
+| Rolf Slatter | INNOMAG e. V. | Kapitel 1; Übersetzung ins Englische |
 
 :::
 
@@ -55,7 +55,7 @@ Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; 
 | Bernd Böhle | ELSOMA GmbH | Fachliche Mitwirkung |
 | Florian Slanovc | Silicon Austria Labs GmbH | Fachliche Mitwirkung |
 | Heiko Knoll | ITK Precisioning GmbH | Fachliche Mitwirkung |
-| Jürgen Gerber | INNOMAG e.V. | Fachliche Mitwirkung; Koordination |
+| Jürgen Gerber | INNOMAG e.V. | Fachliche Mitwirkung; Koordination; Buchdruck |
 | Magnus Meier | IC-Haus GmbH | Fachliche Mitwirkung |
 | Mattias Pelkner | Bundesanstalt für Materialforschung und -prüfung | Fachliche Mitwirkung |
 | Michael Melzer | Bundesanstalt für Materialforschung und -prüfung | Fachliche Mitwirkung |

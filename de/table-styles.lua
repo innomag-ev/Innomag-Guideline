@@ -26,17 +26,19 @@ local function get_style(el)
 
   if has_class(el, "zebra") then
     return {
-      head  = "zebrahead",
+      head = "zebrahead",
       light = "zebralight",
-      dark  = "zebradark"
+      dark = "zebradark",
+      unbreakable = false
     }
   end
 
   if has_class(el, "zebra_blue") then
     return {
-      head  = "zebrabluehead",
+      head = "zebrabluehead",
       light = "zebrabluelight",
-      dark  = "zebrabluedark"
+      dark = "zebrabluedark",
+      unbreakable = true
     }
   end
 
@@ -51,8 +53,11 @@ end
 local function fix_outer_table_padding(tex)
 
   -- Beginning:
+  --
   -- \begin{longtable}[]{@{}...
+  --
   -- becomes
+  --
   -- \begin{longtable}[]{...
 
   tex = tex:gsub(
@@ -61,9 +66,13 @@ local function fix_outer_table_padding(tex)
     1
   )
 
+
   -- End of column definition:
+  --
   -- ...@{}}
+  --
   -- becomes
+  --
   -- ...}
 
   local begin_pos = tex:find(
@@ -81,61 +90,79 @@ local function fix_outer_table_padding(tex)
     )
 
     if end_pos then
+
       tex =
         tex:sub(1, end_pos - 1) ..
         "}" ..
         tex:sub(end_pos + 4)
+
     end
 
   end
+
 
   return tex
 end
 
 
 -- ---------------------------------------------------------
--- Color body rows
+-- Color body rows of Pandoc longtable
 -- ---------------------------------------------------------
 
-local function color_body_rows(tex, lightcolor, darkcolor)
+local function color_body_rows(
+  tex,
+  lightcolor,
+  darkcolor
+)
 
-  local marker = "\\endlastfoot"
+  local marker =
+    "\\endlastfoot"
 
-  local _, marker_end = tex:find(
-    marker,
-    1,
-    true
-  )
+
+  local _, marker_end =
+    tex:find(
+      marker,
+      1,
+      true
+    )
+
 
   if marker_end == nil then
     return tex
   end
 
 
-  local table_end = tex:find(
-    "\\end{longtable}",
-    marker_end + 1,
-    true
-  )
+  local table_end =
+    tex:find(
+      "\\end{longtable}",
+      marker_end + 1,
+      true
+    )
+
 
   if table_end == nil then
     return tex
   end
 
 
-  local before = tex:sub(
-    1,
-    marker_end
-  )
+  local before =
+    tex:sub(
+      1,
+      marker_end
+    )
 
-  local body = tex:sub(
-    marker_end + 1,
-    table_end - 1
-  )
 
-  local after = tex:sub(
-    table_end
-  )
+  local body =
+    tex:sub(
+      marker_end + 1,
+      table_end - 1
+    )
+
+
+  local after =
+    tex:sub(
+      table_end
+    )
 
 
   body = body:gsub(
@@ -152,6 +179,7 @@ local function color_body_rows(tex, lightcolor, darkcolor)
     function(row)
 
       n = n + 1
+
 
       local color
 
@@ -183,28 +211,53 @@ end
 
 
 -- ---------------------------------------------------------
--- Apply common styling
+-- Apply colors/rules to Pandoc longtable
 -- ---------------------------------------------------------
 
-local function apply_table_style(tex, style)
+local function style_longtable(
+  tex,
+  style,
+  caption_latex
+)
 
-  tex = fix_outer_table_padding(tex)
+  tex =
+    fix_outer_table_padding(
+      tex
+    )
 
 
-  -- Top rule + header background
+  -- -------------------------------------------------------
+  -- Top rule + optional caption + header background
+  -- -------------------------------------------------------
 
-  tex = replace_once(
-    tex,
-    "\\toprule\\noalign{}",
+  local top_content = ""
+
+
+  if caption_latex ~= nil then
+    top_content =
+      caption_latex
+  end
+
+
+  top_content =
+    top_content ..
     "\\arrayrulecolor{tableouterrule}\n" ..
     "\\toprule\\noalign{}\n" ..
     "\\rowcolor{" ..
     style.head ..
     "}"
+
+
+  tex = replace_once(
+    tex,
+    "\\toprule\\noalign{}",
+    top_content
   )
 
 
-  -- Slightly stronger rule below header
+  -- -------------------------------------------------------
+  -- Header separator
+  -- -------------------------------------------------------
 
   tex = tex:gsub(
     "\\midrule\\noalign{}",
@@ -213,7 +266,9 @@ local function apply_table_style(tex, style)
   )
 
 
-  -- Subtle bottom rule
+  -- -------------------------------------------------------
+  -- Bottom rule
+  -- -------------------------------------------------------
 
   tex = tex:gsub(
     "\\bottomrule\\noalign{}",
@@ -222,33 +277,185 @@ local function apply_table_style(tex, style)
   )
 
 
-  -- Alternating body rows + subtle separators
+  -- -------------------------------------------------------
+  -- Body rows
+  -- -------------------------------------------------------
 
-  tex = color_body_rows(
+  tex =
+    color_body_rows(
+      tex,
+      style.light,
+      style.dark
+    )
+
+
+  return tex
+end
+
+
+-- ---------------------------------------------------------
+-- Convert a Pandoc longtable into an ordinary tabular
+--
+-- Important:
+--
+-- Pandoc generates special material for longtable:
+--
+--   \endfirsthead
+--   \endhead
+--   \endfoot
+--   \endlastfoot
+--
+-- That material exists only to support page breaking and
+-- repeated table headers.
+--
+-- For zebra_blue we remove it and retain:
+--
+--   first header
+--   body
+--
+-- The resulting tabular is one indivisible TeX object.
+-- ---------------------------------------------------------
+
+local function longtable_to_tabular(tex)
+
+  -- -------------------------------------------------------
+  -- Determine where Pandoc's longtable header/footer
+  -- material begins.
+  -- -------------------------------------------------------
+
+  local remove_start = nil
+
+
+  local firsthead_start =
+    tex:find(
+      "\\endfirsthead",
+      1,
+      true
+    )
+
+
+  local head_start =
+    tex:find(
+      "\\endhead",
+      1,
+      true
+    )
+
+
+  if firsthead_start ~= nil then
+
+    -- Pandoc supplied a special first header.
+    -- Keep the first header and discard everything beginning
+    -- with \endfirsthead through \endlastfoot.
+
+    remove_start =
+      firsthead_start
+
+  elseif head_start ~= nil then
+
+    -- Normal Pandoc table.
+    -- Keep everything before \endhead.
+
+    remove_start =
+      head_start
+
+  end
+
+
+  local _, lastfoot_end =
+    tex:find(
+      "\\endlastfoot",
+      1,
+      true
+    )
+
+
+  if remove_start ~= nil
+      and lastfoot_end ~= nil then
+
+    tex =
+      tex:sub(
+        1,
+        remove_start - 1
+      ) ..
+      "\n" ..
+      tex:sub(
+        lastfoot_end + 1
+      )
+
+  end
+
+
+  -- -------------------------------------------------------
+  -- Convert environment
+  -- -------------------------------------------------------
+
+  tex = replace_once(
     tex,
-    style.light,
-    style.dark
+    "\\begin{longtable}[]{",
+    "\\begin{tabular}{"
+  )
+
+
+  -- Fallback in case Pandoc did not emit [].
+
+  tex = replace_once(
+    tex,
+    "\\begin{longtable}{",
+    "\\begin{tabular}{"
   )
 
 
   -- -------------------------------------------------------
-  -- Table typography and spacing
+  -- longtable's bottom rule was part of its footer and was
+  -- removed above. Add our normal bottom rule explicitly.
   -- -------------------------------------------------------
-  --
-  -- footnotesize:
-  --   smaller than normal body text
-  --
-  -- baselinestretch:
-  --   increases spacing between wrapped text lines
-  --
-  -- extrarowheight:
-  --   adds vertical padding to every table row
-  --
-  -- arraystretch:
-  --   slightly increases the normal table row strut
-  --
 
-  tex =
+  tex = replace_once(
+    tex,
+    "\\end{longtable}",
+    "\\arrayrulecolor{tableouterrule}\n" ..
+    "\\specialrule{0.30pt}{0pt}{0pt}\n" ..
+    "\\end{tabular}"
+  )
+
+
+  -- -------------------------------------------------------
+  -- Defensive cleanup
+  -- -------------------------------------------------------
+
+  tex = tex:gsub(
+    "\\endfirsthead%s*",
+    ""
+  )
+
+  tex = tex:gsub(
+    "\\endhead%s*",
+    ""
+  )
+
+  tex = tex:gsub(
+    "\\endfoot%s*",
+    ""
+  )
+
+  tex = tex:gsub(
+    "\\endlastfoot%s*",
+    ""
+  )
+
+
+  return tex
+end
+
+
+-- ---------------------------------------------------------
+-- Common typography / spacing wrapper
+-- ---------------------------------------------------------
+
+local function wrap_table_typography(tex)
+
+  return
     "\\begingroup\n" ..
     "\\footnotesize\n" ..
     "\\renewcommand{\\baselinestretch}{1.12}\\selectfont\n" ..
@@ -258,13 +465,17 @@ local function apply_table_style(tex, style)
     tex ..
     "\n\\endgroup"
 
-
-  return tex
 end
 
 
 -- =========================================================
--- Unnumbered tables inside ::: {.zebra}
+-- Unnumbered tables inside:
+--
+-- ::: {.zebra}
+--
+-- or
+--
+-- ::: {.zebra_blue}
 -- =========================================================
 
 function Div(div)
@@ -274,29 +485,74 @@ function Div(div)
   end
 
 
-  local style = get_style(div)
+  local style =
+    get_style(
+      div
+    )
+
 
   if style == nil then
     return div
   end
 
 
-  local tex = pandoc.write(
-    pandoc.Pandoc(div.content),
-    "latex"
-  )
+  local tex =
+    pandoc.write(
+      pandoc.Pandoc(
+        div.content
+      ),
+      "latex"
+    )
 
 
-  tex = apply_table_style(
+  -- Remove Pandoc's unnumbered longtable marker if present.
+
+  tex = replace_once(
     tex,
-    style
+    "\\def\\LTcaptype{none} % do not increment counter\n",
+    ""
   )
 
 
-  return pandoc.RawBlock(
-    "latex",
-    tex
-  )
+  -- -------------------------------------------------------
+  -- Apply existing table styling
+  -- -------------------------------------------------------
+
+  tex =
+    style_longtable(
+      tex,
+      style,
+      nil
+    )
+
+
+  -- -------------------------------------------------------
+  -- zebra_blue:
+  --
+  -- Make table unbreakable.
+  -- -------------------------------------------------------
+
+  if style.unbreakable then
+
+    tex =
+      longtable_to_tabular(
+        tex
+      )
+
+  end
+
+
+  tex =
+    wrap_table_typography(
+      tex
+    )
+
+
+  return
+    pandoc.RawBlock(
+      "latex",
+      tex
+    )
 
 end
 
@@ -317,16 +573,24 @@ end
 
 local function renderer(float)
 
-  local style = get_style(float)
+  local style =
+    get_style(
+      float
+    )
 
 
-  local tex = pandoc.write(
-    pandoc.Pandoc(float.content),
-    "latex"
-  )
+  local tex =
+    pandoc.write(
+      pandoc.Pandoc(
+        float.content
+      ),
+      "latex"
+    )
 
 
+  -- -------------------------------------------------------
   -- Remove Pandoc's unnumbered longtable marker
+  -- -------------------------------------------------------
 
   tex = replace_once(
     tex,
@@ -335,12 +599,73 @@ local function renderer(float)
   )
 
 
-  -- Restore caption + label
+  -- -------------------------------------------------------
+  -- Caption
+  -- -------------------------------------------------------
 
   local caption =
     pandoc.utils.stringify(
       float.caption_long
     )
+
+
+  -- =======================================================
+  -- zebra_blue
+  --
+  -- Unbreakable table.
+  --
+  -- Caption belongs to the outer table float.
+  -- The actual table is converted to ordinary tabular.
+  -- =======================================================
+
+  if style.unbreakable then
+
+    tex =
+      style_longtable(
+        tex,
+        style,
+        nil
+      )
+
+
+    tex =
+      longtable_to_tabular(
+        tex
+      )
+
+
+    tex =
+      wrap_table_typography(
+        tex
+      )
+
+
+    tex =
+      "\\begin{table}[!htbp]\n" ..
+      "\\centering\n" ..
+      "\\caption{" ..
+      caption ..
+      "}\\label{" ..
+      float.identifier ..
+      "}\n" ..
+      tex ..
+      "\n\\end{table}"
+
+
+    return
+      pandoc.RawBlock(
+        "latex",
+        tex
+      )
+
+  end
+
+
+  -- =======================================================
+  -- zebra
+  --
+  -- Existing breakable longtable behaviour.
+  -- =======================================================
 
 
   local caption_latex =
@@ -351,67 +676,25 @@ local function renderer(float)
     "}\\tabularnewline\n"
 
 
-  tex = fix_outer_table_padding(tex)
+  tex =
+    style_longtable(
+      tex,
+      style,
+      caption_latex
+    )
 
-
-  tex = replace_once(
-    tex,
-    "\\toprule\\noalign{}",
-    caption_latex ..
-    "\\arrayrulecolor{tableouterrule}\n" ..
-    "\\toprule\\noalign{}\n" ..
-    "\\rowcolor{" ..
-    style.head ..
-    "}"
-  )
-
-
-  -- Slightly stronger header separator
-
-  tex = tex:gsub(
-    "\\midrule\\noalign{}",
-    "\\arrayrulecolor{tableheadrule}\n" ..
-    "\\specialrule{0.35pt}{0pt}{0pt}"
-  )
-
-
-  -- Bottom rule
-
-  tex = tex:gsub(
-    "\\bottomrule\\noalign{}",
-    "\\arrayrulecolor{tableouterrule}\n" ..
-    "\\specialrule{0.30pt}{0pt}{0pt}"
-  )
-
-
-  -- Body rows
-
-  tex = color_body_rows(
-    tex,
-    style.light,
-    style.dark
-  )
-
-
-  -- -------------------------------------------------------
-  -- Table typography and spacing
-  -- -------------------------------------------------------
 
   tex =
-    "\\begingroup\n" ..
-    "\\footnotesize\n" ..
-    "\\renewcommand{\\baselinestretch}{1.12}\\selectfont\n" ..
-    "\\setlength{\\tabcolsep}{5pt}\n" ..
-    "\\setlength{\\extrarowheight}{2.5pt}\n" ..
-    "\\renewcommand{\\arraystretch}{1.15}\n" ..
-    tex ..
-    "\n\\endgroup"
+    wrap_table_typography(
+      tex
+    )
 
 
-  return pandoc.RawBlock(
-    "latex",
-    tex
-  )
+  return
+    pandoc.RawBlock(
+      "latex",
+      tex
+    )
 
 end
 
