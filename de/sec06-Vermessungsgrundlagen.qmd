@@ -113,8 +113,8 @@ Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhal
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Spurfeldlage** | $\vec{r}_F^{(i)}$ | Lage des Ursprungs des Spurfeld-KS $i$ im Maßverkörperungs-KS |
-| **Spurfeld-Längsversatz**, **Spurfeld-$\boldsymbol{p}$-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
-| **Spurfeld-Querversatz**, **Spurfeld-$\boldsymbol{o}$-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
+| **Spurfeld-Längsversatz**, **Spurfeld-$\symbfit{{p}$-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
+| **Spurfeld-Querversatz**, **Spurfeld-$\symbfit{{o}$-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
 | **Spurfeldbreite** | $w_F^{(i)}$ | Kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte des Spurfeldes $i$ |
 | **Spurfeldabstand** | $w_{FF}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spurfeldern |
 

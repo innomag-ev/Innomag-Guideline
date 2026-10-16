@@ -71,7 +71,7 @@ format:
     toc-depth: 2
     lof: true
     lot: true
-    keep-tex: true
+    keep-tex: false
     number-sections: true
 
     include-in-header:

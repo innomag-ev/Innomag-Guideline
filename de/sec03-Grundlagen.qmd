@@ -51,17 +51,17 @@ Ausgehend von der Messaufgabe und den damit verbundenen geometrischen Randbeding
 
 Aus der geometrischen Anordnung ergibt sich eine **zweckmäßige Koordinatenwahl** zur Beschreibung des Messsystems.
 
-Für die Beschreibung des Messsystems wird eine Bewegungsrichtung des Sensors oder der Maßverkörperung als **Vorwärtsbewegung** festgelegt. Die **$\boldsymbol{p}$-Richtung** mit dem Richtungsvektor $\vec{e}_p$ zeigt in Richtung der daraus resultierenden relativen Bewegung des Sensors und wird als **Längsrichtung** bezeichnet.
+Für die Beschreibung des Messsystems wird eine Bewegungsrichtung des Sensors oder der Maßverkörperung als **Vorwärtsbewegung** festgelegt. Die **$\symbfit{{p}$-Richtung** mit dem Richtungsvektor $\vec{e}_p$ zeigt in Richtung der daraus resultierenden relativen Bewegung des Sensors und wird als **Längsrichtung** bezeichnet.
 
-Die **funktionale Oberfläche** der Maßverkörperung ist die dem Sensor zugewandte, für die magnetische Abtastung maßgebende Bezugsfläche. Bei linearen Anordnungen verläuft sie parallel zur Relativbewegung von Sensor und Maßverkörperung; bei radialen und axialen Anordnungen entspricht sie der dem Sensor zugewandten Mantel- beziehungsweise Stirnfläche. Sie kann mit einer physischen Oberfläche der Maßverkörperung zusammenfallen oder als gedachte Bezugsfläche festgelegt werden. Die **$\boldsymbol{n}$-Richtung** mit dem Richtungsvektor $\vec{e}_n$ steht senkrecht zur funktionalen Oberfläche und zeigt zum Sensor.
+Die **funktionale Oberfläche** der Maßverkörperung ist die dem Sensor zugewandte, für die magnetische Abtastung maßgebende Bezugsfläche. Bei linearen Anordnungen verläuft sie parallel zur Relativbewegung von Sensor und Maßverkörperung; bei radialen und axialen Anordnungen entspricht sie der dem Sensor zugewandten Mantel- beziehungsweise Stirnfläche. Sie kann mit einer physischen Oberfläche der Maßverkörperung zusammenfallen oder als gedachte Bezugsfläche festgelegt werden. Die **$\symbfit{{n}$-Richtung** mit dem Richtungsvektor $\vec{e}_n$ steht senkrecht zur funktionalen Oberfläche und zeigt zum Sensor.
 
-Bei linearen, radialen und axialen Anordnungen stehen die Richtungsvektoren $\vec{e}_p$ und $\vec{e}_n$ damit immer senkrecht zueinander. Die **$\boldsymbol{o}$-Richtung** mit dem Richtungsvektor $\vec{e}_o$ wird als dritte rechtshändige Koordinatenrichtung festgelegt. Sie verläuft parallel zur funktionalen Oberfläche und wird als **Querrichtung** bezeichnet.
+Bei linearen, radialen und axialen Anordnungen stehen die Richtungsvektoren $\vec{e}_p$ und $\vec{e}_n$ damit immer senkrecht zueinander. Die **$\symbfit{{o}$-Richtung** mit dem Richtungsvektor $\vec{e}_o$ wird als dritte rechtshändige Koordinatenrichtung festgelegt. Sie verläuft parallel zur funktionalen Oberfläche und wird als **Querrichtung** bezeichnet.
 
 Mit einem festgelegten **Ursprung** $O_M$, der auf der funktionalen Oberfläche liegt, bilden die Richtungen $p$, $o$ und $n$ ein rechtshändiges Koordinatensystem (KS), das als **Maßverkörperungs-KS** bezeichnet wird. Es bildet den Bezug für die Beschreibung von Geometrie und magnetischer Struktur der Maßverkörperung, ihres Streufeldes sowie der Positionierung des Sensors.
 
-Die funktionale Oberfläche der Maßverkörperung entspricht dann n=0; die n-Koordinate gibt den Abstand von ihr an und wird als Messhöhe bezeichnet. Die **Messhöhe** des Sensors ist in linearen, radialen und axialen Anwendungen typischerweise konstant.
+Die funktionale Oberfläche der Maßverkörperung entspricht dann $n=0$; die $n$-Koordinate gibt den Abstand von ihr an und wird als Messhöhe bezeichnet. Die **Messhöhe** des Sensors ist in linearen, radialen und axialen Anwendungen typischerweise konstant.
 
-Bei linearen Anordnungen wird eine kartesische, bei radialen und axialen Anordnungen eine zylindrische Koordinatendarstellung verwendet. In den zylindrischen Fällen beschreibt die p-Koordinate die Winkelposition. Da diese in der Praxis häufig als zugehörige Bogenlänge angegeben wird, ist auf die **verwendeten Einheiten** entsprechend zu achten.
+Bei linearen Anordnungen wird eine kartesische, bei radialen und axialen Anordnungen eine zylindrische Koordinatendarstellung verwendet. In den zylindrischen Fällen beschreibt die $p$-Koordinate die Winkelposition. Da diese in der Praxis häufig als zugehörige Bogenlänge angegeben wird, ist auf die **verwendeten Einheiten** entsprechend zu achten.
 
 ![Wahl der Koordinatenrichtungen](figures/sec03/03_koordinatenrichtungen.png){#fig-sec03-03-koordinatenrichtungen width=80% fig-pos="h"}
 
@@ -69,7 +69,7 @@ Bei linearen Anordnungen wird eine kartesische, bei radialen und axialen Anordnu
 
 Die funktionale Oberfläche der Maßverkörperung ist in der Abbildung blau hervorgehoben. In Teilbild (b) ist sie als gedachte Fortsetzung über die Seitenfläche der Maßverkörperung hinaus dargestellt. Die Vorwärtsbewegung ist grün eingezeichnet. Sie bezieht sich in Teilbild (a) auf die Bewegung des Sensors und in den übrigen Teilbildern auf die Bewegung der Maßverkörperung.
 
-Aus der funktionalen Oberfläche und der Vorwärtsbewegung werden die Koordinatenrichtungen p, o und n wie beschrieben festgelegt. Das daraus resultierende Maßverkörperungs-KS ist rot dargestellt; sein beispielhaft gewählter Ursprung $O_M$ ist gelb markiert. Zusätzlich sind die Koordinatenrichtungen an der jeweiligen Sensorlage eingezeichnet.
+Aus der funktionalen Oberfläche und der Vorwärtsbewegung werden die Koordinatenrichtungen $p$, $o$ und $n$ wie beschrieben festgelegt. Das daraus resultierende Maßverkörperungs-KS ist rot dargestellt; sein beispielhaft gewählter Ursprung $O_M$ ist gelb markiert. Zusätzlich sind die Koordinatenrichtungen an der jeweiligen Sensorlage eingezeichnet.
 
 ::: {.callout-tip}
 ## Hinweis
@@ -79,9 +79,9 @@ Aus der funktionalen Oberfläche und der Vorwärtsbewegung werden die Koordinate
 
 ## Orientierung magnetischer Größen {#sec-03-orientierung_magnetischer_groessen}
 
-Zur Beschreibung der Orientierung magnetischer Größen relativ zur funktionalen Oberfläche werden häufig die Bezeichnungen **in-plane (IP)** und **out-of-plane (OOP)** verwendet. Eine magnetische Größe ist IP-orientiert, wenn sie parallel zur funktionalen Oberfläche liegt, und OOP-orientiert, wenn sie senkrecht dazu steht. Das bedeutet, dass sowohl die $p$- als auch die $o$-Richtung in-plane liegen, während die n-Richtung out-of-plane orientiert ist. Entsprechend sind beispielsweise die Polarisationskomponenten $J_p$ und $J_o$ IP-Komponenten und $J_n$ eine OOP-Komponente.
+Zur Beschreibung der Orientierung magnetischer Größen relativ zur funktionalen Oberfläche werden häufig die Bezeichnungen **in-plane (IP)** und **out-of-plane (OOP)** verwendet. Eine magnetische Größe ist IP-orientiert, wenn sie parallel zur funktionalen Oberfläche liegt, und OOP-orientiert, wenn sie senkrecht dazu steht. Das bedeutet, dass sowohl die $p$- als auch die $o$-Richtung in-plane liegen, während die $n$-Richtung out-of-plane orientiert ist. Entsprechend sind beispielsweise die Polarisationskomponenten $J_p$ und $J_o$ IP-Komponenten und $J_n$ eine OOP-Komponente.
 
-Bei den in dieser Richtlinie betrachteten linearen, radialen und axialen Anordnungen werden für die Positionsmessung jedoch **überwiegend magnetische Größen in $\boldsymbol{p}$- und $\boldsymbol{n}$-Richtung** genutzt. Die $o$-Komponente der Polarisation beziehungsweise des Magnetfeldes spielt für die betrachteten Messprinzipien in der Regel keine unmittelbare Rolle. Die Bezeichnung IP wird daher in dieser Richtlinie überwiegend für in $p$-Richtung orientierte Polarisationen beziehungsweise für die $p$-Komponente des Magnetfeldes verwendet. Die Bezeichnung OOP bezieht sich entsprechend auf die $n$-Richtung.
+Bei den in dieser Richtlinie betrachteten linearen, radialen und axialen Anordnungen werden für die Positionsmessung jedoch **überwiegend magnetische Größen in $\symbfit{{p}$- und $\symbfit{{n}$-Richtung** genutzt. Die $o$-Komponente der Polarisation beziehungsweise des Magnetfeldes spielt für die betrachteten Messprinzipien in der Regel keine unmittelbare Rolle. Die Bezeichnung IP wird daher in dieser Richtlinie überwiegend für in $p$-Richtung orientierte Polarisationen beziehungsweise für die $p$-Komponente des Magnetfeldes verwendet. Die Bezeichnung OOP bezieht sich entsprechend auf die $n$-Richtung.
 
 ## Indexkonventionen {#sec-03-indexkonvention}
 
