@@ -66,13 +66,13 @@ Bei mehrspurigen Maßstäben werden die nachfolgend beschriebenen Spurfeldgröß
 
 Um mehrere Spurfelder räumlich zueinander in Bezug zu setzen, wird die **Spurfeldlage** $\vec{r}_F^{(i)}$ als Lage des Ursprungs $O_F^{(i)}$ des $i$-ten Spurfeld-KS im Maßverkörperungs-KS festgelegt. Ihre Koordinaten sind $p_F^{(i)}$, $o_F^{(i)}$ und $n_F^{(i)}$. Da $O_F^{(i)}$ auf der funktionalen Oberfläche liegt, gilt $n_F^{(i)} = 0$.
 
-Die relative Lage zweier Spurfelder wird durch ihre Versätze beschrieben. Als **Spurfeld-Längsversatz** $p_{FF}$ wird der Versatz in $p$-Richtung bezeichnet. Es gilt
+Die relative Lage zweier Spurfelder wird durch ihre Versätze beschrieben. Als **Spurfeld-Längsversatz** $p_{FF}$, auch **Spurfeld-**$\symbfit{p}$**-Versatz**, wird der Versatz in $p$-Richtung bezeichnet. Es gilt
 
 $$
 p_{FF}^{(i_1,i_2)} = p_F^{(i_2)} - p_F^{(i_1)}.
 $$
 
-Der **Spurfeld-Querversatz** $o_{FF}$ bezeichnet entsprechend den Versatz in $o$-Richtung,
+Der **Spurfeld-Querversatz** $o_{FF}$, auch **Spurfeld-**$\symbfit{o}$**-Versatz**, bezeichnet entsprechend den Versatz in $o$-Richtung,
 
 $$
 o_{FF}^{(i_1,i_2)} = o_F^{(i_2)} - o_F^{(i_1)}.
@@ -113,8 +113,8 @@ Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhal
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Spurfeldlage** | $\vec{r}_F^{(i)}$ | Lage des Ursprungs des Spurfeld-KS $i$ im Maßverkörperungs-KS |
-| **Spurfeld-Längsversatz**, **Spurfeld-$\symbfit{{p}$-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
-| **Spurfeld-Querversatz**, **Spurfeld-$\symbfit{{o}$-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
+| **Spurfeld-Längsversatz**, **Spurfeld-**$\symbfit{p}$**-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
+| **Spurfeld-Querversatz**, **Spurfeld-**$\symbfit{o}$**-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
 | **Spurfeldbreite** | $w_F^{(i)}$ | Kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte des Spurfeldes $i$ |
 | **Spurfeldabstand** | $w_{FF}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spurfeldern |
 

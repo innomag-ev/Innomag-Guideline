@@ -109,7 +109,7 @@ Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellu
 *In wissenschaftlich-technischen Darstellungen wird die Farbkombination Rot–Grün üblicherweise vermieden, da sie für viele Personen mit einer häufig auftretenden Rot-Grün-Sehschwäche nur eingeschränkt unterscheidbar ist [@crameri2020misuse]. In dieser Richtlinie wird diese Farbwahl jedoch aus historischen Gründen beibehalten. Die hier gewählten Farben unterscheiden sich deutlich in Helligkeit und Sättigung, um eine zuverlässige visuelle Unterscheidbarkeit sicherzustellen.*
 :::
 
-![Darstellungsbeispiele Zonen- und Poldarstellung](figures/sec04/11-zonen_und_poldarstellung.png){#fig-sec04-11-zonen_und_poldarstellung width=65% fig-pos="h"}
+![Darstellungsbeispiele Zonen- und Poldarstellung](figures/sec04/11-zonen_und_poldarstellung.png){#fig-sec04-11-zonen_und_poldarstellung width=60% fig-pos="h"}
 
 @fig-sec04-11-zonen_und_poldarstellung demonstriert die beiden Darstellungsformen am Beispiel eines Quadrupolrings, wie er typischerweise als magnetische Maßverkörperung in radial angeordneten Winkelmesssystemen mit außen liegenden Sensoren verwendet wird. Die zugehörige inhomogene Polarisation ist in @fig-sec04-01-zone_sketch1 (c) skizziert.
 
@@ -120,7 +120,7 @@ Teilbild (b) zeigt den Quadrupolring in Poldarstellung. Das Polmuster ist auf de
 
 Eine **kombinierte Darstellung** von Zonen- und Polmuster ermöglicht es sowohl Polarisationsstruktur als auch Feldwirkung einer Maßverkörperung zu vermitteln. Das ist besonders bei komplexen Anordnungen, bei denen sich die Lage der Pole nicht offensichtlich aus dem Zonenmuster erschließt, hilfreich. Dabei können Pole gegenüber Zonengrenzen verschoben sein, sich über mehrere Zonen erstrecken oder sich einseitig ausprägen.
 
-![Darstellungsbeispiele kombinierte Darstellung](figures/sec04/12-kombinierte_darstellung.png){#fig-sec04-12-kombinierte_darstellung width=85% fig-pos="h"}
+![Darstellungsbeispiele kombinierte Darstellung](figures/sec04/12-kombinierte_darstellung.png){#fig-sec04-12-kombinierte_darstellung width=80% fig-pos="h"}
 
 @fig-sec04-12-kombinierte_darstellung zeigt zwei Beispiele solcher kombinierter Darstellungen. Teilbild (a) zeigt einen Linearmaßstab mit Halbach-Polarisation. Die Pfeile an den Seitenflächen kennzeichnen das Zonenmuster, während das auf der Oberseite binär dargestellte Polmuster die daraus resultierende Feldwirkung veranschaulicht. Teilbild (b) zeigt einen Halbach-Ring. Die Überlagerung von Zonen- und Polmuster macht die Ausrichtung des Magnetfeldes im Inneren des Rings unmittelbar erkennbar.
 
@@ -233,13 +233,13 @@ Spuren werden zu Referenzierungszwecken mit dem Ordnungsindex $i = 1, \ldots, N_
 
 Die **Spurlage** $\vec{r}_T$ bezeichnet die Position des Spur-KS-Ursprungs $O_T$ im Maßverkörperungs-KS. Ihre Koordinaten sind $p_T$, $o_T$ und $n_T$. Mit der üblichen Festlegung von $O_T$ auf der funktionalen Oberfläche der Maßverkörperung gilt $n_T = 0$.
 
-Die relative Lage zweier Spuren wird durch ihre Versätze beschrieben. Der **Spur-Längsversatz** $p_{TT}$, auch **Spur-$\symbfit{{p}$-Versatz**, bezeichnet den Versatz in $p$-Richtung. Für die Spuren mit den Ordnungsindizes $i_1$ und $i_2$ gilt:
+Die relative Lage zweier Spuren wird durch ihre Versätze beschrieben. Der **Spur-Längsversatz** $p_{TT}$, auch **Spur-**$\symbfit{p}$**-Versatz**, bezeichnet den Versatz in $p$-Richtung. Für die Spuren mit den Ordnungsindizes $i_1$ und $i_2$ gilt:
 
 $$
 p_{TT}^{(i_1,i_2)} = p_T^{(i_2)} - p_T^{(i_1)}.
 $$
 
-Der **Spur-Querversatz** $o_{TT}$, auch **Spur-$\symbfit{{o}$-Versatz**, bezeichnet entsprechend den Versatz in $o$-Richtung:
+Der **Spur-Querversatz** $o_{TT}$, auch **Spur-**$\symbfit{o}$**-Versatz**, bezeichnet entsprechend den Versatz in $o$-Richtung:
 
 $$
 o_{TT}^{(i_1,i_2)} = o_T^{(i_2)} - o_T^{(i_1)}.
@@ -268,8 +268,8 @@ Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch 
 | **Spurbreite** | $w_T^{(i)}$ | Ausdehnung der Spur $i$ in $o$-Richtung |
 | **Spurtiefe** | $d_T^{(i)}$ | Ausdehnung der Spur $i$ in $n$-Richtung |
 | **Spurlage** | $\vec{r}_T^{(i)}$ | Position des Spur-KS-Ursprungs $O_T^{(i)}$ der Spur $i$ im Maßverkörperungs-KS; Koordinaten $p_T^{(i)}$, $o_T^{(i)}$ und $n_T^{(i)}$ |
-| **Spur-Längsversatz**, **Spur-$p$-Versatz** | $p_{TT}^{(i_1,i_2)}$ | Versatz in $p$-Richtung von Spur $i_1$ zu Spur $i_2$ |
-| **Spur-Querversatz**, **Spur-$o$-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
+| **Spur-Längsversatz**, **Spur-**$symbfit{p}$**-Versatz** | $p_{TT}^{(i_1,i_2)}$ | Versatz in $p$-Richtung von Spur $i_1$ zu Spur $i_2$ |
+| **Spur-Querversatz**, **Spur-**$symbfit{o}$**-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
 | **Spurabstand** | $w_{TT}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spuren |
 
 : Begriffe Spuren {#tbl-begriffe_spuren .zebra_blue tbl-colwidths="[25,15,60]"}
