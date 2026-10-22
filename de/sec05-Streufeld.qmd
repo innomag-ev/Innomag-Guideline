@@ -84,8 +84,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 @fig-sec05-03-querprofil zeigt das Querprofil $B(o)$ entlang des in @fig-sec05-01-streufeldcharakteristik dargestellten $o$-Pfades in detaillierter Form. Ein unterer Amplitudengrenzwert $B_G$ definiert einen Nutzbereich. Die beiden resultierenden Amplitudengrenzpunkte sind blau eingezeichnet. Ihre $o$-Lagen entsprechen den Amplitudengrenzlagen $o_G^{(1)}$ und $o_G^{(2)}$, die den Nutzbereich begrenzen.
 
-::: {.callout-tip}
-## HINWEIS
+::: {#tip-05-doppelpeaks .callout-tip}
 
 *Die in diesem Kapitel dargestellten Feldverläufe zeigen idealisierte beziehungsweise für viele Anwendungen angestrebte Kurven mit eindeutig ausgeprägten und gut auswertbaren Feldmerkmalen. Reale Feldverläufe können hiervon infolge von Fertigungsabweichungen, Materialinhomogenitäten und Randeffekten abweichen. Insbesondere bei sehr kleinen Messhöhen, $n \ll \ell_P$, treten höhere räumliche Harmonische deutlicher hervor, wodurch beispielsweise zusätzliche Peaks und Nullstellen, **Doppelpeaks** oder komplexere Feldverläufe auftreten können.*
 
@@ -116,7 +115,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 
 ![Feldverlauf auf $p$-$o$-Messfläche](figures/sec05/04-feldverlauf_2D.png){#fig-sec05-04-feldverlauf_2D width=75% fig-pos="h"}
 
-@fig-sec05-04-feldverlauf_2D zeigt den Feldverlauf $B_n(p,o)$ der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Projektion der darunterliegenden Zonen, die das Streufeld erzeugen, ist grau umrandet. Zusätzlich sind die Konturlinien der Feldamplitude für die Amplitudengrenzwerte $B_G = 7\,\mathrm{mT}$ und $B_G = 15\,\mathrm{mT}$ eingezeichnet. Sie veranschaulichen die Abgrenzung möglicher Nutzbereiche auf der Messfläche. Die Farbwahl bei der Darstellung des Feldverlaufs folgt der in @sec-04-darstellungskonventionen festgelegten Darstellungskonvention.
+@fig-sec05-04-feldverlauf_2D zeigt den Feldverlauf $B_n(p,o)$ der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Projektion der darunterliegenden Zonen, die das Streufeld erzeugen, ist grau umrandet. Zusätzlich sind die Konturlinien der Feldamplitude für die Amplitudengrenzwerte $B_G = 7\,\mathrm{mT}$ und $B_G = 15\,\mathrm{mT}$ eingezeichnet. Sie veranschaulichen die Abgrenzung möglicher Nutzbereiche auf der Messfläche. Die Farbgebung des Feldverlaufs folgt bewusst der in @sec-04-magnetpole verwendeten Rot-Gelb-Grün-Farbskala zur Darstellung der Normalkomponente.
 
 @fig-sec05-04-feldverlauf_2D veranschaulicht zwei **grundlegende Eigenschaften** des Feldverlaufs. In $p$-Richtung oszilliert die dargestellte Feldkomponente, wobei positive Halbwellen rot und negative Halbwellen grün dargestellt sind. Über die seitliche Begrenzung der magnetischen Struktur hinaus nimmt die Amplitude des Feldes rasch ab.
 
@@ -160,8 +159,7 @@ Innerhalb des Nutzbereichs ist die Feldkomponente $B_n$ auf den $p$-$o$-Messflä
 
 Die Nullstellenflächen unterteilen den Nutzbereich in Halbwellen. Die Schnittlinien der Nullstellenflächen mit den Messflächen erscheinen als schwarz hervorgehobene Nulllinien, welche die Halbwellen auf den jeweiligen Messflächen voneinander trennen. Die Schnittlinien der Nullstellenflächen mit der Amplitudengrenzfläche sind grau hervorgehoben. Sie besitzen in diesem Beispiel keine eigenständige technische Bedeutung und dienen ausschließlich der besseren Erkennbarkeit der räumlichen Anordnung.
 
-::: {.callout-tip}
-## HINWEIS
+::: {#tip-05-ermittlungsbedingungen .callout-tip}
 
 *Die vorangehenden Unterkapitel verdeutlichen, dass Feldverläufe und die daraus abgeleiteten Feldmerkmale wesentlich von den jeweiligen **Ermittlungsbedingungen** abhängen. Hierzu zählen insbesondere die Feldkomponente sowie Lage, Orientierung und Abmessungen des Ermittlungsbereichs und gegebenenfalls die verwendeten Amplitudengrenzwerte. Eine korrekte Interpretation eines Feldverlaufs ist nur bei Angabe der Ermittlungsbedingungen möglich.*
 
@@ -169,26 +167,29 @@ Die Nullstellenflächen unterteilen den Nutzbereich in Halbwellen. Die Schnittli
 
 ## Felddarstellung {#sec-05-felddarstellung}
 
-Im Sinne dieses Dokuments bezeichnet eine **Felddarstellung** ausschließlich eine nach @sec-04-darstellungskonventionen farbcodierte Darstellung einer ausgewählten Feldkomponente auf einer Messfläche.
+Im Sinne dieses Dokuments bezeichnet eine **Felddarstellung** ausschließlich eine farbcodierte Darstellung einer ausgewählten Feldkomponente auf einer Messfläche.
 
-Diese Form der Felddarstellung dient der Kommunikation der Feldverläufe und Feldmerkmale magnetischer Maßverkörperungen. Sie ist insbesondere an der **Schnittstelle** zwischen Maßverkörperungshersteller und Systemhersteller von Bedeutung. Einerseits kann damit die für die Systemauslegung erforderlichen Feldverläufe spezifiziert werden. Andererseits lassen sich die von einer konkreten Maßverkörperung tatsächlich erzeugten Feldverläufe beschreiben. In beiden Fällen wird das Magnetfeld als Eigenschaft der Maßverkörperung und unabhängig von den Eigenschaften eines bestimmten Sensors betrachtet.
+Diese Form der Felddarstellung dient der Kommunikation der Feldverläufe und Feldmerkmale magnetischer Maßverkörperungen. Sie ist insbesondere an der **Schnittstelle** zwischen Maßverkörperungshersteller und Systemhersteller von Bedeutung. Einerseits lassen sich damit die für die Systemauslegung erforderlichen Feldverläufe spezifizieren. Andererseits lassen sich die von einer konkreten Maßverkörperung tatsächlich erzeugten Feldverläufe beschreiben. In beiden Fällen wird das Magnetfeld als Eigenschaft der Maßverkörperung und unabhängig von den Eigenschaften eines bestimmten Sensors betrachtet.
 
-Besonders **zweckmäßig** ist die Felddarstellung auf einer $p$-$o$-Messfläche bei festgelegter Messhöhe $n$. Für Kommunikation eignet sich die binäre Form nach @fig-sec05-05-feldverlauf_2D_binar, da sie die wesentlichen Feldmerkmale kompakt und anschaulich vermittelt.
+In Anlehnung an die Darstellungskonventionen in @sec-04-darstellungskonventionen werden in der **binären Felddarstellung** positive Halbwellen rot und negative Halbwellen grün eingefärbt. Die verwendeten Farbcodes sind #EE5544 für Rot und #118866 für Grün. In Schwarzweißdarstellungen werden entsprechende Graustufen verwendet, wobei positive Halbwellen hell und negative Halbwellen dunkel dargestellt werden. 
 
-In einer Felddarstellung muss die dargestellte Streufeldkomponente eindeutig erkennbar sein. Dazu werden die in @sec-04-darstellungskonventionen festgelegten **Richtungssymbole** verwendet, welche die Ausrichtung der Feldkomponente und die Vorzeichen der dargestellten Halbwellen eindeutig kennzeichnen.
+Zur eindeutigen Kennzeichnung der dargestellten Streufeldkomponente werden **Richtungssymbole** verwendet, welche die Ausrichtung der Feldkomponente (IP oder OOP) sowie das Vorzeichen der dargestellten Halbwellen vermitteln. Um Verwechslungen zu vermeiden, unterscheiden sich diese Symbole bewusst von den Richtungssymbolen der Zonendarstellung nach @sec-04-darstellungskonventionen.
+
+![Konvention für binäre Felddarstellung](figures/sec05/07a-konvention_felddarstellung.png){#fig-sec05-07a-felddarstellung width=95% fig-pos="h"}
+
+@fig-sec05-07a-felddarstellung veranschaulicht die Konventionen der binären Felddarstellung. Teilbild (a) zeigt die verwendeten Farben und Richtungssymbole für positive und negative IP- und OOP-Komponenten. Insbesondere unterscheiden sich die OOP-Symbole durch das Fehlen der Kreisumrandung von den entsprechenden Polarisationssymbolen der Zonendarstellung. Die Teilbilder (b) und (c) zeigen schematische Felddarstellungen der OOP-Komponente $B_n$ beziehungsweise der IP-Komponente $B_p$ auf einer $p$-$o$-Messfläche oberhalb einer Maßverkörperung.
+
+::: {#tip-05-poldarstellung .callout-tip}
+
+*Die Poldarstellung nach @sec-04-darstellungskonventionen ist ein **Spezialfall der Felddarstellung** in der die OOP-Komponente des Streufeldes binär auf der Oberfläche der Maßverkörperung ($n = 0$) gezeigt ist. Bei gleicher Wahl der Amplitudengrenzwerte entsprechen die innerhalb des Nutzbereichs liegenden positiven und negativen Halbwellen den Nord- und Südpolbereichen.*
+
+:::
+
+Die binäre Felddarstellung auf einer $p$-$o$-Messfläche ist besonders **zweckmäßig** für die Kommunikation von Feldverläufen, da sie die wesentlichen Feldmerkmale kompakt und anschaulich vermittelt. In dieser Darstellung nimmt die Messhöhe $n$ eine zentrale Stellung ein, da sie Lage und Form der dargestellten Feldmerkmale wesentlich beeinflusst. Felddarstellungen werden aber häufig in Aufsicht gezeigt, sodass sich der Abstand der Messfläche von der Maßverkörperung aus der Darstellung nicht unmittelbar erschließen lässt. Es wird daher empfohlen, die **Messhöhe unmittelbar in der Felddarstellung anzugeben**, wie in @fig-sec05-07-feldprofil_ip_op gezeigt.
 
 ![Felddarstellung von IP- und OOP-Komponenten](figures/sec05/07-feldprofil_ip_op.png){#fig-sec05-07-feldprofil_ip_op width=85% fig-pos="h"}
 
 @fig-sec05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt.
-
-Bei Felddarstellungen auf $p$-$o$-Messflächen nimmt die Messhöhe $n$ eine zentrale Stellung ein, da sie Lage und Form der dargestellten Feldmerkmale wesentlich beeinflusst. Felddarstellungen werden aber häufig in Aufsicht gezeigt, sodass sich der Abstand der Messfläche von der Maßverkörperung aus der Darstellung nicht unmittelbar erschließen lässt. Es wird daher empfohlen, die **Messhöhe unmittelbar in der Felddarstellung anzugeben**, wie in @fig-sec05-07-feldprofil_ip_op gezeigt. Diese Angabe ermöglicht zugleich eine eindeutige Abgrenzung gegenüber der Poldarstellung.
-
-::: {.callout-tip}
-## HINWEIS
-
-*Die Poldarstellung sowie die Darstellung der Normalkomponente nach @sec-04-darstellungskonventionen sind **Spezialfälle der Felddarstellung**. Beide Darstellungen zeigen die OOP-Komponente des Magnetfeldes auf der Oberfläche der Maßverkörperung ($n = 0$).*
-
-:::
 
 Eine Felddarstellung wird häufig auf die funktionale Oberfläche der Maßverkörperung **projiziert**, um einen unmittelbaren örtlichen Bezug zwischen Feldmerkmalen und Bauteilgeometrie herzustellen. Je nach Bedarf kann sie dabei unabhängig von Amplitudengrenzen auf einen **relevanten Ausschnitt** beschränkt werden.
 
@@ -208,10 +209,11 @@ Teilbild (b) zeigt eine Ist-Felddarstellung in binärer Form. Sie ist auf einen 
 
 Teilbild (c) zeigt eine Soll-Felddarstellung in binärer Form. Sie stellt weder einen Ausschnitt des in Teilbild (b) dargestellten Feldverlaufs noch das Ergebnis einer Messung oder Simulation dar. Vielmehr dient sie der Beschreibung gewünschter Feldmerkmale und könnte beispielsweise eine Bedarfsanforderung oder Zielvorgabe für die Auslegung einer Maßverkörperung repräsentieren.
 
-::: {.callout-tip}
-## HINWEIS
+::: {#tip-05-darstellung_zonen-soll .callout-tip}
 
 *Die vorgestellten **Darstellungsformen** können sich in ihrer grafischen Erscheinung stark ähneln, unterscheiden sich jedoch grundlegend hinsichtlich ihrer Bedeutung und ihres Informationsgehalts. Bei der **Interpretation** ist besonders darauf zu achten, welche Darstellungsform vorliegt.*
+
+*Die in @sec-04-magnetische_strukturbeschreibung mittels Begrenzungsbox-Geometrien beschriebenen **Zonen- und Polmuster** stellen häufig idealisierte Soll-Beschreibungen dar. Ihnen können entsprechend ermittelte Ist-Beschreibungen gegenübergestellt werden.*
 
 :::
 

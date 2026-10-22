@@ -48,6 +48,10 @@ filters:
   - at: post-quarto
     path: table-styles.lua
 
+language:
+  callout-tip-title: "Hinweis"
+  crossref-tip-prefix: "Hinweis"
+
 format:
   html:
     toc: true

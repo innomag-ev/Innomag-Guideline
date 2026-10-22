@@ -8,8 +8,7 @@ Magnetische Maßverkörperungen weisen häufig **periodisch strukturierte** oder
 
 Um diese strukturellen Einheiten präzise beschreiben und individuell referenzieren zu können, wird der Begriff der **magnetisierten Zone** eingeführt. Eine magnetisierte Zone ist ein zusammenhängendes, geometrisch einfaches magnetisiertes Volumen, in dem die magnetische Polarisation in ihrer räumlichen Verteilung bekannt ist und einen endlichen Mittelwert aufweist. Zonen dienen der systematischen Zerlegung der Polarisation einer Maßverkörperung in klar definierte Abschnitte, die einzeln analysiert, nummeriert und im Zuge einer Vermessung oder Modellbildung charakterisiert werden. Die Zerlegung einer Polarisationsverteilung in Zonen entspricht mathematisch einer Diskretisierung.
 
-::: {.callout-tip}
-## Hinweis
+::: {#tip-04-domain .callout-tip}
 
 *Die **magnetisierte Zone** ist begrifflich klar von der **magnetischen Domäne** (Weißsche Bezirke) abzugrenzen. Domänen sind meist kleine Bereiche einheitlicher Polarisation, die infolge mikromagnetischer Wechselwirkungen entstehen, während Zonen im Sinne dieses Dokuments strukturelle Einheiten zur Beschreibung der Polarisationsverteilung darstellen. Eine Übereinstimmung ist im Einzelfall möglich, im Allgemeinen jedoch nicht gegeben.*
 
@@ -37,23 +36,27 @@ In @fig-sec04-03-zone_sketch3 sind Beispiele für verschiedene sinnvolle Zerlegu
 
 Als **Magnetpol** wird im allgemeinen Sprachgebrauch ein Teilbereich der Oberfläche eines magnetisierten Körpers bezeichnet, an dem das Magnetfeld aus dem Körper austritt oder in ihn eintritt. Bereiche, an denen das Feld austritt, werden als **Nordpole** bezeichnet; Bereiche, an denen es eintritt, als **Südpole**.
 
-Formal wird hierzu die **Normalkomponente** des Magnetfeldes an der Oberfläche des Körpers betrachtet. Ist diese auf der gesamten Oberfläche bekannt, so kann nach dem Eindeutigkeitssatz der Potentialtheorie das Streufeld im quellenfreien Außenraum aus ihr eindeutig bestimmt werden [@jackson1998classical].
-
-Für eine **Poldarstellung** wird die kontinuierliche Normalkomponente auf der Oberfläche durch einen festgelegten Schwellenwert auf die Zustände Nord, Null und Süd reduziert. Das resultierende Polmuster stellt damit eine diskrete Repräsentation der Normalkomponente dar, aus der sich die Streufeldverteilung qualitativ ableiten lässt. Der Nutzen der Poldarstellung liegt in einer anschaulichen qualitativen Beschreibung der Streufeldverteilung eines Körpers.
+Formal wird hierfür die **Normalkomponente** des Magnetfeldes an der Oberfläche des Körpers betrachtet. Ihr Vorzeichen unterscheidet Oberflächenbereiche, an denen das Feld austritt (Nord), von solchen, an denen es eintritt (Süd). Als Pole gelten jedoch nur jene Bereiche, in denen auch die Feldamplitude einen festgelegten Amplitudengrenzwert überschreitet. Bereiche unterhalb des Grenzwerts gelten als polneutral. Die Grenzen der Pole ergeben sich somit aus dem Vorzeichenwechsel der Normalkomponente (zwischen Nord- und Südpolen) sowie den Amplitudengrenzlinien (zwischen Polen und polneutralen Bereichen). Diese Formalisierung wird in @sec-05-feldmerkmale_flaechen_raum im Detail ausgeführt.
 
 ![Streufeld und Normalkomponente bei gegebener Polarisation](figures/sec04/04-magnetpole.png){#fig-sec04-04-magnetpole width=100% fig-pos="h"}
 
-In @fig-sec04-04-magnetpole werden das mittels Simulation ermittelte Streufeld und die Normalkomponente zweier Magnete im Querschnitt dargestellt. Die Polarisation der Magnete ist in Schwarz gezeigt. Das Streufeld ist durch Feldlinien sowie durch eine blaue Farbkontur dargestellt. Die Normalkomponente an der Oberfläche der Körper ist in einer rot-grau-grünen Farbskala gezeigt.
+In @fig-sec04-04-magnetpole werden das mittels Simulation ermittelte Streufeld und die Normalkomponente zweier Magnete im Querschnitt dargestellt. Die Polarisation der Magnete ist schwarz eingezeichnet. Die Normalkomponente an der Körperoberfläche ist mittels einer Rot-Gelb-Grün-Farbskala dargestellt, das Streufeld durch Feldlinien sowie eine blaue Farbkontur. Die schwarz gestrichelte Konturlinie kennzeichnet einen Amplitudengrenzwert, anhand dessen die Polbereiche von den polneutralen Bereichen abgegrenzt werden.
 
-In (a) ist ein Würfel mit homogener Polarisation simuliert. An seinen Enden bilden sich die klassischen Polflächen aus. In (b) ist ein Quader mit inhomogener Polarisation simuliert. Die charakteristischen Polflächen bilden sich hier einseitig aus. In beiden Teilbildern ist rechts unten zusätzlich eine repräsentative Nord-Null-Süd-Darstellung der Magnete gezeigt.
+Teilbild (a) zeigt einen Würfel mit homogener Polarisation. An seinen Enden bilden sich die klassischen Polflächen aus. Teilbild (b) zeigt einen Quader mit inhomogener Polarisation, bei dem sich die Pole einseitig ausprägen. In beiden Teilbildern ist rechts unten zusätzlich eine repräsentative Poldarstellung der Magnete gezeigt.
 
-Die in diesem Dokument verwendete feldbezogene Poldefinition ist von der **feldtheoretischen Beschreibung** über magnetische Ersatzladungen zu unterscheiden [@cullity2008introduction; @saslow2022magneticpoles]. Bei einfachen Magneten, insbesondere bei homogen und normal zur Oberfläche polarisierten Körpern, stimmen beide Beschreibungen häufig näherungsweise überein. Bei komplexeren Polarisationsverteilungen, beispielsweise bei IP-Zonenanordnungen, ist diese Übereinstimmung im Allgemeinen nicht gegeben. Gleiches gilt, wenn die betrachtete Oberfläche der Maßverkörperung, etwa aufgrund einer Schutzschicht, nicht mit den Oberflächen der magnetisierten Zonen zusammenfällt. Für magnetische Maßverkörperungen ist die feldbezogene Definition besonders zweckmäßig, da sie unmittelbar die anwendungsrelevante Streufeldverteilung beschreibt.
+Die **Poldarstellung** kennzeichnet die Nord- und Südpolbereiche auf der Oberfläche der Maßverkörperung. Aus ihrer räumlichen Anordnung lassen sich qualitative Rückschlüsse auf die Streufeldverteilung ziehen. Die einfache und anschauliche Darstellung eignet sich besonders für Kommunikationszwecke.
 
-Da feldbezogene Magnetpole aus der Normalkomponente des Streufeldes abgeleitet werden, tragen alle Zonen der Maßverkörperung zu ihrer Ausbildung bei. Pole müssen daher nicht zwingend an den Grenzen einzelner Zonen liegen. Benachbarte **Zonen können Polbereiche verschieben**, verstärken, abschwächen oder sogar auflösen. Ein anschauliches Beispiel sind Halbach-Anordnungen, bei denen benachbarte Zonen so ausgerichtet sind, dass die Polausprägung auf einer Seite der Anordnung verstärkt und auf der gegenüberliegenden Seite abgeschwächt wird.
+Die in diesem Dokument formalisierte **feldbezogene Poldefinition** beruht auf dem Magnetfeld an der Körperoberfläche. Die besondere Bedeutung der Normalkomponente ergibt sich aus dem Eindeutigkeitssatz der Potentialtheorie, nach dem das Streufeld eines Körpers eindeutig bestimmt ist, wenn die Normalkomponente auf seiner gesamten Oberfläche bekannt ist [@jackson1998classical].
+
+Diese Poldefinition ist von der feldtheoretischen Beschreibung über **magnetische Ersatzladungen** zu unterscheiden [@cullity2008introduction; @saslow2022magneticpoles]. Bei einfachen Magneten, insbesondere bei homogen und normal zur Oberfläche polarisierten Körpern, stimmen beide Beschreibungen häufig näherungsweise überein. Bei komplexeren Polarisationsverteilungen, beispielsweise bei IP-Zonenanordnungen, ist diese Übereinstimmung im Allgemeinen nicht gegeben. Gleiches gilt, wenn die betrachtete Oberfläche der Maßverkörperung, etwa aufgrund einer Schutzschicht, nicht mit den Oberflächen der magnetisierten Zonen zusammenfällt. Für magnetische Maßverkörperungen ist die feldbezogene Definition jedoch besonders zweckmäßig, da sie sich unmittelbar auf die anwendungsrelevante Streufeldverteilung bezieht.
+
+Eine wichtige Folge der feldbezogenen Poldefinition ist, dass alle Zonen der Maßverkörperung zur Ausbildung der Pole beitragen. Pole müssen daher nicht zwingend an den Grenzen einzelner Zonen liegen. Benachbarte **Zonen können Polbereiche verschieben**, verstärken, abschwächen oder sogar auflösen. Ein anschauliches Beispiel sind Halbach-Anordnungen, bei denen benachbarte Zonen so ausgerichtet sind, dass die Polausprägung auf einer Seite der Anordnung verstärkt und auf der gegenüberliegenden Seite weitgehend unterdrückt wird.
 
 ## Zonenmuster und Polmuster {#sec-04-zonenmuster_und_polmuster}
 
-Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte, häufig vereinfachte, Darstellung der Polarisationsstruktur dar. Die Gesamtheit aller Pole einer Maßverkörperung wird als **Polmuster** bezeichnet. Es dient der qualitativen Beschreibung der Streufeldverteilung. Zonenmuster und Polmuster sind **abstrahierte Darstellungen** der magnetischen Struktur zur anschaulichen und zweckmäßigen Kommunikation.
+Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte, häufig vereinfachte, Darstellung der Polarisationsstruktur dar.
+
+Die Gesamtheit aller Pole einer Maßverkörperung wird als **Polmuster** bezeichnet. Es dient der qualitativen Beschreibung der Streufeldverteilung. Obwohl das Polmuster aus dem Magnetfeld abgeleitet wird, wird es in dieser Richtlinie aus praktischen Gründen als **strukturbezogenes Oberflächenmerkmal** der Maßverkörperung behandelt und in @sec-04-strukturbegriffe_pole geometrisch beschrieben, dimensioniert und indiziert.
 
 ![Magnetische Struktur und physikalische Grundlage](figures/sec04/05-magnetische_struktur.png){#fig-sec04-05-magnetische_struktur width=100% fig-pos="h"}
 
@@ -65,7 +68,7 @@ Ein wichtiges Beispiel sind **einseitig ausgeprägte Pole**. Diese können sowoh
 
 Abschließend sei darauf hingewiesen, dass die Polarisation die vollständige magnetische Beschreibung der Maßverkörperung bildet. Aus ihr lassen sich alle anderen Größen ableiten. Umgekehrt lässt sich die zugrunde liegende Polarisation und damit auch das Zonenmuster aus dem bekannten Magnetfeld nicht eindeutig rekonstruieren. Dies ist eine Folge des magnetostatischen inversen Problems [@bruckner2017inverse]. In der Praxis ist die Polarisation jedoch häufig nicht als experimentelle Größe zugänglich.
 
-![Zusammenhang der magnetischen Größen](figures/sec04/06-begriffe_diagramm.png){#fig-sec04-06-begriffe_diagramm width=90% fig-pos="h"}
+![Zusammenhang der magnetischen Größen](figures/sec04/06-begriffe_diagramm.png){#fig-sec04-06-begriffe_diagramm width=65% fig-pos="h"}
 
 Der Zusammenhang zwischen Polarisation, Magnetfeld, Normalkomponente sowie den daraus abgeleiteten Zonen- und Polmustern ist in @fig-sec04-06-begriffe_diagramm dargestellt. Die Pfeile geben an, welche Größen jeweils aus welchen anderen Größen abgeleitet werden können.
 
@@ -87,26 +90,26 @@ Einen wichtigen Sonderfall stellt dabei die **Halbach-Polarisation** dar. Hier r
 
 ## Darstellungskonventionen {#sec-04-darstellungskonventionen}
 
-Dieses Unterkapitel enthält **Empfehlungen zur Darstellung** von magnetischen Maßverkörperungen. Es wird durch Ausführungen zur Felddarstellung in @sec-05-felddarstellung ergänzt.
+Dieses Unterkapitel legt **Empfehlungen zur Zonendarstellung** und **Poldarstellung** magnetischer Maßverkörperungen fest. Die Zonendarstellung dient der Veranschaulichung der Polarisationsstruktur, während die Poldarstellung die räumliche Anordnung der Magnetpole auf der Oberfläche der Maßverkörperung beschreibt. Die farbcodierte Darstellung des Magnetfeldes auf definierten Messflächen wird als **Felddarstellung** bezeichnet und in @sec-05-felddarstellung behandelt.
 
 Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrische Form** einer Maßverkörperung sowie die ihrer Elemente vollständig erkennbar ist. Hierbei sollten normative Vorgaben, beispielsweise nach ISO 5456, berücksichtigt werden, in denen zulässige Projektionsmethoden geometrischer Körper festgelegt sind.
 
-Für die **Darstellung der Polarisation** (Zonenmuster) sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole ⊙ und ⊗ Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
+Für die **Zonendarstellung** sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche, nicht feldbezogene Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole „⊙“ (heraus) und „⊗“ (hinein) Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
 
-![Darstellung der Polarisation](figures/sec04/09-darstellung_J.png){#fig-sec04-09-darstellung_J width=65% fig-pos="h"}
+![Konvention für die Zonendarstellung](figures/sec04/09-darstellung_J.png){#fig-sec04-09-darstellung_J width=65% fig-pos="h"}
 
-@fig-sec04-09-darstellung_J (a) zeigt die in diesem Dokument verwendeten Pfeilsymbole zur Darstellung der Polarisationsrichtung an Seitenflächen. Teilbild (b) zeigt eine skizzenhafte Maßverkörperung bestehend aus zwei klar abgegrenzten Zonen alternierender Polarisation. Teilbild (c) zeigt eine Zone mit nicht flächenparalleler Polarisation, dargestellt durch Komponenten einer orthogonalen Projektion auf die Deckfläche.
+@fig-sec04-09-darstellung_J (a) zeigt die in diesem Dokument verwendeten Pfeilsymbole zur Darstellung der Polarisationsrichtung an Seitenflächen von Zonen. Teilbild (b) zeigt eine skizzenhafte Maßverkörperung bestehend aus zwei klar abgegrenzten Zonen alternierender Polarisation. Teilbild (c) zeigt eine Zone mit nicht flächenparalleler Polarisation, dargestellt durch Komponenten einer orthogonalen Projektion auf die Deckfläche.
 
-Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellung) wird der Wert einer ausgewählten Feldkomponente auf einer Bezugsfläche mittels Rot-Grau-Grün-Farbskala visualisiert. In Schwarzweißdarstellungen kann entsprechend eine Weiß-Grau-Schwarz-Skala verwendet werden. Als Bezugsflächen kommen zum Beispiel Zonenseiten, Körperflächen der Maßverkörperung oder Messflächen in Frage. Die Farbskala kann je nach Bedarf kontinuierlich oder diskret ausgeführt werden, wobei binäre und ternäre Ausführungen vor allem für Poldarstellungen und Felddarstellungen nach @sec-05-felddarstellung eingesetzt werden. Besonders bei diskreten Darstellungen sollte die dargestellte Feldkomponente durch zusätzliche Richtungssymbole gekennzeichnet werden. Die dafür verwendeten Symbole unterscheiden sich von den Richtungspfeilen der Polarisation, um Verwechslung zu vermeiden.
- 
-![Darstellung des Magnetfeldes](figures/sec04/10-darstellung_B.png){#fig-sec04-10-darstellung_B width=90% fig-pos="h"}
+Für die **Poldarstellung** werden Polbereiche auf der Oberfläche einer Maßverkörperung farblich gekennzeichnet. Nordpole werden rot eingefärbt und mit dem Symbol „N“ versehen, Südpole grün und mit dem Symbol „S“. In der Schwarzweißdarstellung werden entsprechende Graustufen verwendet, wobei Nordpole weiß oder hell und Südpole schwarz oder dunkel dargestellt werden. Polneutrale Bereiche werden nicht gesondert gekennzeichnet.
 
-@fig-sec04-10-darstellung_B skizziert die Regeln zur Darstellung des Magnetfeldes. Teilbild (a) zeigt die in diesem Dokument verwendeten Farbskalen in kontinuierlicher und diskreter Form. Die eingesetzten Farbcodes sind #EE5544 für Rot, #E6E6E6 für Grau und #118866 für Grün. Teilbild (b) zeigt die Richtungssymbole zur Kennzeichnung von IP- und OOP-Komponenten des Magnetfeldes. Teilbild (c) zeigt beispielhaft eine Maßverkörperung in Poldarstellung. Dabei ist die auf der Deckfläche ermittelte Normalkomponente mittels dreigeteilter Farbskala dargestellt.
+![Konvention für die Poldarstellung](figures/sec04/10-poldarstellung.png){#fig-sec04-10-poldarstellung width=60% fig-pos="h"}
 
-::: {.callout-tip}
-## Hinweis
+@fig-sec04-10-poldarstellung veranschaulicht die Konventionen zur Poldarstellung. Teilbild (a) zeigt die in diesem Dokument verwendeten Farbskalen sowie die Symbole „N“ und „S“. Die eingesetzten Farbcodes sind #EE5544 für Rot und #118866 für Grün. Teilbild (b) zeigt die beispielhafte Poldarstellung einer Maßverkörperung mit zwei Polbereichen auf ihrer Deckfläche.
 
-*In wissenschaftlich-technischen Darstellungen wird die Farbkombination Rot–Grün üblicherweise vermieden, da sie für viele Personen mit einer häufig auftretenden Rot-Grün-Sehschwäche nur eingeschränkt unterscheidbar ist [@crameri2020misuse]. In dieser Richtlinie wird diese Farbwahl jedoch aus historischen Gründen beibehalten. Die hier gewählten Farben unterscheiden sich deutlich in Helligkeit und Sättigung, um eine zuverlässige visuelle Unterscheidbarkeit sicherzustellen.*
+::: {#tip-04-polVSfeld .callout-tip}
+
+*Die Poldarstellung ist ein **Spezialfall der Felddarstellung** nach @sec-05-felddarstellung. Wird die OOP-Komponente des Magnetfeldes auf der Oberfläche der Maßverkörperung \(n=0\) dargestellt, stimmen beide Darstellungen bei gleicher Wahl der Grenzwerte hinsichtlich der farbcodierten Bereiche überein.*
+
 :::
 
 ![Darstellungsbeispiele Zonen- und Poldarstellung](figures/sec04/11-zonen_und_poldarstellung.png){#fig-sec04-11-zonen_und_poldarstellung width=60% fig-pos="h"}
@@ -115,8 +118,7 @@ Zur **Darstellung des Magnetfeldes** (Normalkomponente, Polmuster, Felddarstellu
 
 Teilbild (a) zeigt den Quadrupolring in Zonendarstellung. Im Vordergrund steht der strukturelle Aufbau des Magneten, also Anordnung, Form und Zusammensetzung seiner magnetisierten Zonen.
 
-Teilbild (b) zeigt den Quadrupolring in Poldarstellung. Das Polmuster ist auf der Mantelfläche binär dargestellt. Es veranschaulicht das nach außen wirksame Magnetfeld, ohne dabei Information über die innere magnetische Struktur zu enthalten. Zur besseren Anschaulichkeit wurde die Farbcodierung über die sichtbare Kante hinweg auf die angrenzende Deckfläche fortgeführt. Dadurch kann das Polmuster entlang des gesamten Ringumfangs leichter nachvollzogen werden.
-
+Teilbild (b) zeigt den Quadrupolring in Poldarstellung. Der Fokus liegt am nach außen wirksamen Streufeld, ohne dabei Information über die innere magnetische Struktur zu enthalten. Zur besseren Anschaulichkeit wurde die Farbcodierung **über die sichtbare Kante hinweg** auf die angrenzende Deckfläche fortgeführt. Dadurch kann das Polmuster entlang des gesamten Ringumfangs leichter nachvollzogen werden.
 
 Eine **kombinierte Darstellung** von Zonen- und Polmuster ermöglicht es sowohl Polarisationsstruktur als auch Feldwirkung einer Maßverkörperung zu vermitteln. Das ist besonders bei komplexen Anordnungen, bei denen sich die Lage der Pole nicht offensichtlich aus dem Zonenmuster erschließt, hilfreich. Dabei können Pole gegenüber Zonengrenzen verschoben sein, sich über mehrere Zonen erstrecken oder sich einseitig ausprägen.
 
@@ -124,18 +126,17 @@ Eine **kombinierte Darstellung** von Zonen- und Polmuster ermöglicht es sowohl 
 
 @fig-sec04-12-kombinierte_darstellung zeigt zwei Beispiele solcher kombinierter Darstellungen. Teilbild (a) zeigt einen Linearmaßstab mit Halbach-Polarisation. Die Pfeile an den Seitenflächen kennzeichnen das Zonenmuster, während das auf der Oberseite binär dargestellte Polmuster die daraus resultierende Feldwirkung veranschaulicht. Teilbild (b) zeigt einen Halbach-Ring. Die Überlagerung von Zonen- und Polmuster macht die Ausrichtung des Magnetfeldes im Inneren des Rings unmittelbar erkennbar.
 
-Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zonendarstellung**. Dabei werden die Zonen entlang ihrer Polarisationsrichtung mit der kontinuierlichen Magnetfeld-Farbskala eingefärbt. Diese Einfärbung entspricht näherungsweise der Normalkomponente des Magnetfeldes, die eine isoliert betrachtete Zone auf ihren Seiten erzeugen würde, wie in @sec-04-magnetpole ausgeführt. Bei Zusammensetzung der so eingefärbten Zonen ergibt sich in vielen Fällen eine anschauliche Näherung des Polmusters. Voraussetzung ist, dass sich dessen Ausprägung durch die Überlagerung der Feldbeiträge benachbarter Zonen nicht wesentlich verändert.
+Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zonendarstellung**. Dabei werden die Zonen entlang ihrer Polarisationsrichtung mit einer Magnetfeld-Farbskala eingefärbt. Diese Einfärbung entspricht näherungsweise der Normalkomponente des Magnetfeldes, die eine isoliert betrachtete Zone auf ihren Seiten erzeugen würde, wie in @sec-04-magnetpole ausgeführt. Bei Zusammensetzung der so eingefärbten Zonen ergibt sich in vielen Fällen eine anschauliche Näherung des Polmusters. Voraussetzung ist, dass sich dessen Ausprägung durch die Überlagerung der Feldbeiträge benachbarter Zonen nicht wesentlich verändert.
 
 ![Darstellungsbeispiele farbcodierte Zonendarstellung](figures/sec04/13-farbcodierte_zonendarstellung.png){#fig-sec04-13-farbcodierte_zonendarstellung width=100% fig-pos="h"}
 
 @fig-sec04-13-farbcodierte_zonendarstellung demonstriert die farbcodierte Zonendarstellung anhand verschiedener Beispiele. Teilbild (a) zeigt unterschiedliche Dipolmagnete, deren erwartete Feldwirkung durch die Einfärbung der Körperflächen hervorgehoben wird. Teilbild (b) zeigt zweireihig axial gestapelte Würfelmagnete. Die einzelnen Zonen sind klar voneinander abgegrenzt; ihre Einfärbung veranschaulicht das auf Ober- und Unterseite erwartete Polmuster. Teilbild (c) zeigt, wie mit der farbcodierten Zonendarstellung eine einseitige Ausprägung der Pole vermittelt werden kann. Die mögliche zugrunde liegende inhomogene Polarisationsverteilung wird in den @sec-04-magnetisierte_zonen und @sec-04-magnetpole näher beschrieben.
 
-::: {.callout-tip}
-## Hinweis
+::: {#tip-04-polverschiebung_darstellung .callout-tip}
 
 *Weicht das resultierende Polmuster deutlich von der Zonenstruktur ab, wie bei den Beispielen in @fig-sec04-12-kombinierte_darstellung, ist die farbcodierte Zonendarstellung ungeeignet und kann zu **irreführenden Farbzuordnungen** führen.*
 
-*Aufgrund ihrer großen **Ähnlichkeit zur Poldarstellung** besteht zudem eine erhöhte Verwechslungsgefahr. Daher sollte stets eindeutig angegeben werden, welche Darstellungsform verwendet wird.*
+*Aufgrund ihrer großen optischen Ähnlichkeit kann die farbcodierte Zonendarstellung leicht mit einer Felddarstellung nach @sec-05-felddarstellung verwechselt werden. Da beide Darstellungsformen unterschiedliche Informationen vermitteln, sollte stets eindeutig angegeben werden, welche Darstellungsform verwendet wird.*
 :::
 
 Spuren können bei Bedarf durch eine **Umrahmung** und durch die Hervorhebung nichtmagnetisierter Bereiche gekennzeichnet werden. Die Kennzeichnung ermöglicht die eindeutige Zuordnung der zugehörigen Zonen und Pole und verdeutlicht, ob sich eine Spur auch über nichtmagnetisierte Abschnitte erstreckt.
@@ -143,6 +144,11 @@ Spuren können bei Bedarf durch eine **Umrahmung** und durch die Hervorhebung ni
 ![Darstellungsbeispiele Spuren](figures/sec04/14-darstellung_spuren.png){#fig-sec04-14-darstellung_spuren width=100% fig-pos="h"}
 
 @fig-sec04-14-darstellung_spuren zeigt drei exemplarische Darstellungen magnetischer Maßstäbe. Teilbild (a) zeigt einen typischen Linearmaßstab zur Positionserfassung von Linearachsen. Er weist eine inkrementelle OOP-Spur auf, die in reiner Zonendarstellung gezeigt ist. Teilbild (b) zeigt einen Rotationsmaßstab mit einer radial außen liegenden inkrementellen IP-Spur in farbcodierter Zonendarstellung. Derartige Maßverkörperungen werden häufig in Drehgebern eingesetzt. Teilbild (c) zeigt einen Rotationsmaßstab mit zwei axial angeordneten Spuren in Poldarstellung. Die äußere Spur ist eine vollbeschriebene Inkrementalspur. Die innere Spur ist eine teilbeschriebene Spur mit Referenzpolen. Eine solche Kombination wird oft zur absoluten Positionserfassung eingesetzt.
+
+::: {#tip-04-rot-grun .callout-tip}
+
+*In wissenschaftlich-technischen Darstellungen wird die Farbkombination Rot–Grün üblicherweise vermieden, da sie für viele Personen mit einer häufig auftretenden Rot-Grün-Sehschwäche nur eingeschränkt unterscheidbar ist [@crameri2020misuse]. In dieser Richtlinie wird diese Farbwahl jedoch aus historischen Gründen beibehalten. Die hier gewählten Farben unterscheiden sich deutlich in Helligkeit und Sättigung, um eine zuverlässige visuelle Unterscheidbarkeit sicherzustellen.*
+:::
 
 ## Magnetische Struktur {#sec-04-magnetische_strukturbeschreibung}
 
@@ -162,8 +168,7 @@ Als zweckmäßige **Konvention** wird empfohlen, den Ursprung $O_T$ in $o$-Richt
 
 Lage und Abmessungen magnetisierter Zonen, von Magnetpolen und magnetischen Spuren können in vielen Fällen näherungsweise durch **Begrenzungsboxkörper** erfasst werden. In kartesischen Koordinaten sind dies achsenparallele Quader, bei zylindrischer Koordinatendarstellung Zylinder- oder Ringsegmente. Angaben in $p$-Richtung können dabei nach @sec-03 als Länge oder Winkel angegeben werden.
 
-::: {.callout-tip}
-## Hinweis
+::: {#tip-04-begrenzungsbox .callout-tip}
 
 *Die nachfolgenden Strukturbegriffe werden verwendet, soweit sich die magnetische Struktur mit der zugrunde liegenden Begrenzungsbox-Geometrie zweckmäßig beschreiben lässt. Für andere Geometrien sind geeignete alternative Größen zu verwenden, wie beispielhaft in @fig-sec04-17-struktur_mp_ring gezeigt.*
 :::

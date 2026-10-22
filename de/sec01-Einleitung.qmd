@@ -6,8 +6,7 @@
 
 Typischerweise bestehen magnetische Weg- und Winkelmesssysteme aus einem felderzeugenden Dauermagneten – der **magnetischen Maßverkörperung** – und einem **magnetischen Sensor**. Der Sensor erfasst das von der Maßverkörperung erzeugte Magnetfeld und wandelt es in elektrische Ausgangssignale um. Aus diesen Signalen bestimmt das Messsystem die darin enthaltene relative Positionsinformation.
 
-::: {.callout-tip}
-## Hinweis
+::: {#tip-01-sensor .callout-tip}
 
 *Der Begriff **Sensor** wird in der Praxis uneinheitlich für Sensorelemente als Wandlerelemente und für Sensormodule als funktionale Gesamteinheiten verwendet. In dieser Richtlinie wird er eingesetzt, wenn eine genaue Unterscheidung nicht erforderlich ist.*
 :::
@@ -26,8 +25,7 @@ Unvollständige Informationen und uneinheitliche Bezeichnungen können an den Sc
 
 **Ziel dieser Richtlinie** ist es, eine einheitliche Terminologie sowie Regeln zur Beschreibung, Darstellung, Vermessung und Bewertung magnetischer Maßverkörperungen zu schaffen. Es handelt sich um eine Weiterentwicklung der DIN SPEC 91411 [@DIN91411] und richtet sich an Komponentenlieferanten, Hersteller und Anwender magnetischer Weg- und Winkelmesssysteme.
 
-::: {.callout-tip}
-## Hinweis
+::: {#tip-01-lebend .callout-tip}
 
 *Diese Richtlinie ist als **lebendes Dokument** angelegt. In der vorliegenden Fassung 1.x liegt der Schwerpunkt auf Terminologie, Beschreibung, Darstellung, Einteilung und Grundlagen der Vermessung magnetischer Maßverkörperungen. Weiterführende Inhalte, insbesondere zu Prüfaufbau und Bewertung, werden in späteren Fassungen ergänzt.*
 :::

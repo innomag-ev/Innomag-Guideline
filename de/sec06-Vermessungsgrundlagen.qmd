@@ -12,8 +12,7 @@ Unmittelbar **experimentell erfasst** werden die Komponenten des Magnetfeldes. A
 
 Die ermittelten Feldgrößen sind stets gemeinsam mit den zugehörigen **Ermittlungsbedingungen** anzugeben. Dazu zählen insbesondere die betrachtete Feldkomponente oder Feldamplitude, die Messhöhe, Lage und Orientierung des Ermittlungsbereichs sowie gegebenenfalls der verwendete Amplitudengrenzwert. Eigenschaften des eingesetzten Prüfsystems können das Messergebnis zusätzlich beeinflussen, sind jedoch nicht Gegenstand der in diesem Kapitel diskutierten sensorunabhängigen Ermittlungs- und Auswerteprozeduren.
 
-::: {.callout-tip}
-## HINWEIS
+::: {#tip-06-begriffliche-zuordnung .callout-tip}
 
 *Die experimentell ermittelten Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den Strukturgrößen nach @sec-04 zu unterscheiden. Eine **begriffliche Zuordnung** wird in @sec-06-strukturbegriffe-feldgroessen behandelt.*
 
@@ -53,8 +52,7 @@ Die Lage von $O_F$ im Maßverkörperungs-KS bildet den **magneto-mechanischen Be
 
 In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nullstelle (blau), in $o$-Richtung durch die Mitte des Nutzbereichs (gelb) und in $n$-Richtung durch die funktionale Oberfläche der Maßverkörperung festgelegt. Markierungen an der Seite der Maßverkörperung zeigen die ungefähre Lage der ersten Nullstelle und der Mitte des Nutzbereichs an. Zur besseren Sichtbarkeit des Koordinatenkreuzes des Feld-KS, das auf der funktionalen Oberfläche der Maßverkörperung liegt, sind die ersten beiden Halbwellen der Felddarstellung transparent ausgeführt.
 
-::: {.callout-tip}
-## HINWEIS
+::: {#tip-06-feld-struktur-KS .callout-tip}
 
 *Das **Feld-KS** ist grundsätzlich gleich aufgebaut wie das **Struktur-KS** nach @sec-04-darstellungskonventionen. Sie unterscheiden sich in der Festlegung des Ursprungs und in ihrem Verwendungszweck. Der Ursprung $O_T$ wird anhand der magnetischen Strukturmerkmale festgelegt. Das Struktur-KS dient der Beschreibung der magnetischen Struktur einer Maßverkörperung. Der Ursprung $O_F$ wird dagegen anhand von Feldmerkmalen festgelegt. Das Feld-KS dient der Vermessung des Streufeldes.*
 
@@ -124,8 +122,7 @@ Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhal
 
 Experimentell ermittelte magnetische Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den in @sec-04 eingeführten Strukturgrößen der Maßverkörperung zu unterscheiden. In der Praxis werden beide Begriffsebenen aufgrund ihrer engen physikalischen Zusammenhänge jedoch häufig miteinander vermischt. Dies kann zu **Missverständnissen** führen und insbesondere dazu, dass die für feldbezogene Größen wesentlichen Ermittlungsbedingungen nicht ausreichend berücksichtigt werden.
 
-::: {.callout-tip}
-## HINWEIS
+::: {#tip-06-struktur-feld-trennung .callout-tip}
 
 *Für eine **eindeutige Kommunikation** wird empfohlen, Strukturbegriffe und Feldgrößen in endlicher Messhöhe konsequent voneinander zu unterscheiden.*
 
