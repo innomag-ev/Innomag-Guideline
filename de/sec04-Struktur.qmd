@@ -30,7 +30,7 @@ In vielen Fällen ist die **Zoneneinteilung nicht eindeutig**; häufig existiere
 
 ![Wahl der Zoneneinteilung](figures/sec04/03-zone_sketch3.png){#fig-sec04-03-zone_sketch3 width=90% fig-pos="h"}
 
-In @fig-sec04-03-zone_sketch3 sind Beispiele für verschiedene sinnvolle Zerlegungen derselben Polarisation skizziert. In (a) und (b) wird eine harmonische Polarisation einmal in IP-Zonen und einmal in OOP-Zonen unterteilt. Die Teilbilder (c) und (d) zeigen, dass auch die Polarisation eines Quadrupolrings sinnvoll sowohl in IP-Zonen als auch in OOP-Zonen zerlegt werden kann.
+In @fig-sec04-03-zone_sketch3 sind Beispiele für verschiedene sinnvolle Zerlegungen derselben Polarisation skizziert. In (a) und (b) wird eine harmonische Polarisation einmal in IP-Zonen und einmal in OOP-Zonen unterteilt. Die Teilbilder (c) und (d) zeigen, dass auch die Polarisation eines Quadrupolrings bezüglich der Mantelfläche sinnvoll sowohl in IP-Zonen als auch in OOP-Zonen zerlegt werden kann.
 
 ## Magnetpole {#sec-04-magnetpole}
 
@@ -94,7 +94,7 @@ Dieses Unterkapitel legt **Empfehlungen zur Zonendarstellung** und **Poldarstell
 
 Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrische Form** einer Maßverkörperung sowie die ihrer Elemente vollständig erkennbar ist. Hierbei sollten normative Vorgaben, beispielsweise nach ISO 5456, berücksichtigt werden, in denen zulässige Projektionsmethoden geometrischer Körper festgelegt sind.
 
-Für die **Zonendarstellung** sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche, nicht feldbezogene Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole „⊙“ (heraus) und „⊗“ (hinein) Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
+Für die **Zonendarstellung** sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche, nicht feldbezogene Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole „$\odot$“ (heraus) und „$\otimes$“ (hinein) Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
 
 ![Konvention für die Zonendarstellung](figures/sec04/09-darstellung_J.png){#fig-sec04-09-darstellung_J width=65% fig-pos="h"}
 
@@ -143,7 +143,7 @@ Spuren können bei Bedarf durch eine **Umrahmung** und durch die Hervorhebung ni
  
 ![Darstellungsbeispiele Spuren](figures/sec04/14-darstellung_spuren.png){#fig-sec04-14-darstellung_spuren width=100% fig-pos="h"}
 
-@fig-sec04-14-darstellung_spuren zeigt drei exemplarische Darstellungen magnetischer Maßstäbe. Teilbild (a) zeigt einen typischen Linearmaßstab zur Positionserfassung von Linearachsen. Er weist eine inkrementelle OOP-Spur auf, die in reiner Zonendarstellung gezeigt ist. Teilbild (b) zeigt einen Rotationsmaßstab mit einer radial außen liegenden inkrementellen IP-Spur in farbcodierter Zonendarstellung. Derartige Maßverkörperungen werden häufig in Drehgebern eingesetzt. Teilbild (c) zeigt einen Rotationsmaßstab mit zwei axial angeordneten Spuren in Poldarstellung. Die äußere Spur ist eine vollbeschriebene Inkrementalspur. Die innere Spur ist eine teilbeschriebene Spur mit Referenzpolen. Eine solche Kombination wird oft zur absoluten Positionserfassung eingesetzt.
+@fig-sec04-14-darstellung_spuren zeigt drei exemplarische Darstellungen magnetischer Maßstäbe. Teilbild (a) zeigt einen typischen Linearmaßstab zur Positionserfassung von Linearachsen. Er weist eine inkrementelle OOP-Spur auf, die in reiner Zonendarstellung gezeigt ist. Teilbild (b) zeigt einen Rotationsmaßstab mit einer radial außen liegenden inkrementellen IP-Spur in farbcodierter Zonendarstellung. Derartige Maßverkörperungen werden häufig in Drehgebern eingesetzt. Teilbild (c) zeigt einen Rotationsmaßstab mit zwei axial angeordneten Spuren in Poldarstellung. Die äußere Spur ist eine vollbeschriebene Inkrementalspur; die Innere eine teilbeschriebene Referenzspur. Eine solche Kombination wird oft zur absoluten Positionserfassung eingesetzt.
 
 ::: {#tip-04-rot-grun .callout-tip}
 
@@ -189,7 +189,7 @@ Die **Zonenlage** $\vec{r}_Z$ bezeichnet die Position des geometrischen Mittelpu
  
 ![Strukturbeschreibung des Zonenmusters eines axialen Multipolrings](figures/sec04/17-struktur_mp_ring.png){#fig-sec04-17-struktur_mp_ring width=80% fig-pos="h"}
 
-In @fig-sec04-17-struktur_mp_ring ist das Zonenmuster eines axial gestapelten Multipolrings mit $N_Z=8$ dargestellt. Derartige Maßverkörperungen können zur Detektion axialer Verschiebungen entlang der Systemachse eingesetzt werden. Der Ursprung des Struktur-KS ist auf der Mantelfläche in $o$-Richtung mittig und in $p$-Richtung am Beginn der ersten Zone festgelegt.
+In @fig-sec04-17-struktur_mp_ring ist ein axial gestapelter Multipolring mit $N_Z=8$ in farbcodierter Zondendarstellung gezeigt. Derartige Maßverkörperungen können zur Detektion axialer Verschiebungen entlang der Systemachse eingesetzt werden. Der Ursprung des Struktur-KS ist auf der Mantelfläche in $o$-Richtung mittig und in $p$-Richtung am Beginn der ersten Zone festgelegt.
 
 Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine lineare Anordnung. In diesem Beispiel ist der Begriff der Zonenlänge sinnvoll anwendbar, da die Zonen entlang der $p$-Richtung gestapelt sind. Die Begriffe Zonenbreite und Zonentiefe sind aufgrund der ringförmigen Geometrie hingegen nicht zweckmäßig. Zur Beschreibung der Geometrie der Maßverkörperung werden stattdessen Innen- und Außenradius des Rings genutzt.
 

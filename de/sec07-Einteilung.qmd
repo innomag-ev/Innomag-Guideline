@@ -88,7 +88,7 @@ Die Bestimmung der Absolutlage ist auch mit **gedrehten Elementgrenzen** „V“
 
 Auch bei der Kombination einer Inkrementalspur mit einer abstandscodierten Referenzspur kann eine absolute Lage bestimmt werden. Dies ist gegenüber der Kombination mit einfacher Referenzspur bereits nach kürzerer Relativbewegung möglich. Ein entsprechendes Beispiel ist in @fig-sec07-10-inkremental-referenz2 gezeigt.
 
-![Spurtypen – Inkrementalspur mit abstandscodierter Referenzspur I24:RC](figures/sec07/10-inkremental-referenz2.png){#fig-sec07-10-inkremental-referenz2 width=70%  fig-pos="H"}
+![Spurtypen – Inkrementalspur mit abstandscodierter Referenzspur I24:RC3](figures/sec07/10-inkremental-referenz2.png){#fig-sec07-10-inkremental-referenz2 width=70%  fig-pos="H"}
 
 Wenn zwei Inkrementalspuren nebeneinander angeordnet sind und sich ihre Elementanzahlen in einem definierten Verhältnis unterscheiden, kann aus dem Phasenbezug zwischen den beiden Spuren die Absolutlage bestimmt werden. Die Kombination wird häufig als **Noniusmuster** bezeichnet. Ein Beispiel ist in @fig-sec07-11-nonius gezeigt.
 
