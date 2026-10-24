@@ -18,67 +18,67 @@ Zur kompakten Kennzeichnung wird eine **Kurznotation** eingeführt. Sie fasst di
 
 ![Kurznotation zur Einteilung](figures/sec07/01-kurznotation.png){#fig-sec07-01-kurznotation width=100% fig-pos="h"}
 
-Die Einteilung in fünf Ebenen bezieht sich auf die **Repräsentation einer Maßverkörperung**. Insbesondere auf der vierten Ebene kann dieselbe Maßverkörperung je nach Zweck zonenbezogen über ein Zonenmuster oder feldbezogen über ein Polmuster beziehungsweise die Ausprägung der Halbwellen beschrieben werden. Beispielsweise können Ra[OOP]48 und Ra(iP)48 dieselbe Maßverkörperung einmal in zonenbezogener und einmal in feldbezogener Repräsentation bezeichnen.
+Die Einteilung in fünf Ebenen bezieht sich auf die **Repräsentation einer Maßverkörperung**. Insbesondere auf der vierten Ebene kann dieselbe Maßverkörperung je nach Zweck zonenbezogen über ein Zonenmuster oder feldbezogen über ein Polmuster beziehungsweise die Ausprägung der Halbwellen beschrieben werden. Beispielsweise können Ra[OOP]48 und Ra(IP)48 dieselbe Maßverkörperung einmal in zonenbezogener und einmal in feldbezogener Repräsentation bezeichnen.
 
 Das Einteilungssystem ist in der **Taxonomie magnetischer Maßverkörperungen** in @fig-sec07-14-taxonomie übersichtlich dargestellt. Die folgenden Unterkapitel beschreiben die Einteilungsebenen für jede der drei Hauptgruppen im Detail.
 
 ## Dipolmagnete {#sec-07-dipolmagnete}
 
-**Dipolmagnete** (D) sind magnetische Maßverkörperungen, deren Polarisation durch eine einzelne magnetisierte Zone beschrieben werden kann. Im Außenraum wird das Magnetfeld typischerweise durch den Dipolanteil dominiert. Sie stellen damit hinsichtlich ihrer magnetischen Struktur die einfachste Art dar.
+**Dipolmagnete** „D“ sind magnetische Maßverkörperungen, deren Polarisation durch eine einzelne magnetisierte Zone beschrieben werden kann. Im Außenraum wird das Magnetfeld typischerweise durch den Dipolanteil dominiert. Sie stellen damit hinsichtlich ihrer magnetischen Struktur die einfachste Art dar.
 
-Auf der **zweiten Einteilungsebene** werden Dipolmagnete anhand ihrer geometrischen **Form** unterschieden. Die gängigste Ausführung ist der Quader (Q). Abhängig vom Verhältnis seiner Kantenlängen werden quaderförmige Magnete häufig auch als Würfel-, Platten- oder Stabmagnete bezeichnet. Weitere verbreitete Formen sind Zylinder (Z), Ringe (R), Ringsegmente (S) und Trapezprismen (T). Trapezprismen werden insbesondere als Einzelmagnete zum Aufbau zusammengesetzter magnetischer Strukturen, beispielsweise von Halbach-Anordnungen, eingesetzt.
+Auf der **zweiten Einteilungsebene** werden Dipolmagnete anhand ihrer geometrischen **Form** unterschieden. Die gängigste Ausführung ist der Quader „Q“. Abhängig vom Verhältnis seiner Kantenlängen werden quaderförmige Magnete häufig auch als Würfel-, Platten- oder Stabmagnete bezeichnet. Weitere verbreitete Formen sind Zylinder „Z“, Ringe „R“, Ringsegmente „S“ und Trapezprismen „T“. Trapezprismen werden insbesondere als Einzelmagnete zum Aufbau zusammengesetzter magnetischer Strukturen, beispielsweise von Halbach-Anordnungen, eingesetzt.
 
 Die **dritte** und die **fünfte Einteilungsebene** entfallen bei Dipolmagneten, da sie nur aus einer einzelnen Zone bestehen.
 
-Die magnetische Ausprägung auf der **vierten Einteilungsebene** wird durch die **Polarisationsrichtung** beschrieben. Quaderförmige Dipolmagnete sind typischerweise entlang einer ihrer Hauptachsen polarisiert. Bei Zylindern und Ringen werden insbesondere axiale (a), diametrale (d) und radiale (r) Polarisation unterschieden. Axiale Polarisation verläuft parallel zur Zylinderachse, diametrale Polarisation senkrecht dazu und radiale Polarisation in radialer Richtung. Freie Polarisationsrichtungen (f) werden angegeben, wenn die Polarisation keiner der definierten Standardrichtungen entspricht.
+Die magnetische Ausprägung auf der **vierten Einteilungsebene** wird durch die **Polarisationsrichtung** in eckiger Klammer beschrieben. Quaderförmige Dipolmagnete sind typischerweise entlang einer ihrer Hauptachsen axial polarisiert „a“. Bei Zylindern und Ringen werden insbesondere axiale „a“, diametrale „d“ und radiale „r“ Polarisation unterschieden. Axiale Polarisation verläuft parallel zur Zylinderachse, diametrale Polarisation senkrecht dazu und radiale Polarisation in radialer Richtung. Freie Polarisationsrichtungen „f“ werden angegeben, wenn die Polarisation keiner der definierten Standardrichtungen entspricht.
 
-@fig-sec07-02-dipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen in farbcodierter Zonendarstellung.
+@fig-sec07-02-dipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen, großteils in der beliebten farbcodierten Zonendarstellung.
 
 ![Beispielhafte Dipolmagnete](figures/sec07/02-dipolmagnete.png){#fig-sec07-02-dipolmagnete width=100% fig-pos="h"}
 
 ## Multipolmagnete {#sec-07-multipolmagnete}
 
-**Multipolmagnete** (M) sind magnetische Maßverkörperungen, die aus mehreren Zonen bestehen. Im Unterschied zu magnetischen Maßstäben ist ihre magnetische Struktur weniger komplex und nicht in magnetische Spuren gegliedert.
+**Multipolmagnete** „M“ sind magnetische Maßverkörperungen, die aus mehreren Zonen bestehen. Im Unterschied zu magnetischen Maßstäben ist ihre magnetische Struktur weniger komplex und nicht in magnetische Spuren gegliedert.
 
-Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben. Analog zu Dipolmagneten werden insbesondere Quader (Q), Zylinder (Z), Ringe (R) und Ringsegmente (S) unterschieden. Entspricht die Form der Maßverkörperung wegen komplexer Zusammensetzung keiner der hier beschriebenen Formen, kann man sich auch auf die Zonenform beziehen, siehe MTs[h]8 in @fig-sec07-03-multipolmagnete.
+Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben. Analog zu Dipolmagneten werden insbesondere Quader „Q“, Zylinder „Z“, Ringe „R“, Ringsegmente „S“ und Trapezprismen „T“ unterschieden. Entspricht die Form der Maßverkörperung wegen komplexer Zusammensetzung keiner der hier beschriebenen Formen, kann man sich auch auf die Zonenform beziehen, siehe MTs[h]8 in @fig-sec07-03-multipolmagnete.
 
-Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen beschrieben. Die Zonen können geradlinig beziehungsweise axial (a) oder sektoral beziehungsweise kreisförmig (s) gestapelt sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden. Die Zonenform der Maßverkörperung ergibt sich aus ihrer geometrischen Form und der Stapelung.
+Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen beschrieben. Die Zonen können geradlinig beziehungsweise axial „a“ oder sektoral beziehungsweise kreisförmig „s“ gestapelt sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden. Die Zonenform der Maßverkörperung ergibt sich aus ihrer geometrischen Form und der Stapelung.
 
-Die **magnetische Ausprägung** von Multipolmagneten auf der **vierten Einteilungsebene** ist typischerweise durch das Zonenmuster oder das Polmuster gegeben. Bei quaderförmigen und sektoral gestapelten Anordnungen wird zwischen out-of-plane (OOP), in-plane (IP) und Halbach-Anordnungen (h) unterschieden. Bei rotationssymmetrischen Formen werden analog zu Dipolmagneten axiale (a), diametrale (d) und radiale (r) Polarisationsrichtungen unterschieden. Die Polarisation benachbarter Zonen ist dabei alternierend ausgerichtet. Zonen- und Polmuster, die keiner dieser Klassen zugeordnet werden können, werden als frei (f) gekennzeichnet.
+Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogene in eckigen Klammern und feldbezogene in runden Klammern angegeben. Unterschieden werden Out-of-Plane „OOP“, In-Plane „IP“ und Halbach-Anordnungen „h“. Bei rotationssymmetrischen Maßverkörperungen können alternativ die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden. Die Bezeichnungen beschreiben jeweils entsprechende alternierenden magnetischen Anordnungen der Elemente. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
 
 Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Zonen** oder Pole weiter spezifiziert. Bei mehrreihigen Anordnungen wird sie für jede Reihe getrennt angegeben.
 
-@fig-sec07-03-multipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen.
+@fig-sec07-03-multipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen in Zonen- und Poldarstellungen.
 
 ![Beispielhafte Multipolmagnete](figures/sec07/03-multipolmagnete.png){#fig-sec07-03-multipolmagnete width=100%  fig-pos="h"}
 
 ## Magnetische Maßstäbe {#sec-07-massstaebe}
 
-**Magnetische Maßstäbe** sind Maßverkörperungen mit komplexer magnetischer Struktur, die in eine oder mehrere magnetische Spuren gegliedert ist. Auf **zweiter Ebene** unterscheidet man Linearmaßstäbe (L) und Rotationsmaßstäbe (R). Auf **dritter Ebene** werden Rotationsmaßstäbe in Maßstäbe mit innenliegender Radialspuren (i), außenliegender Radialspuren (o) und Axialspuren (a) eingeteilt.
+**Magnetische Maßstäbe** sind Maßverkörperungen mit komplexer magnetischer Struktur, die in eine oder mehrere magnetische Spuren gegliedert ist. Auf **zweiter Ebene** unterscheidet man Linearmaßstäbe „L“ und Rotationsmaßstäbe „R“. Auf **dritter Ebene** werden Rotationsmaßstäbe in Maßstäbe mit innenliegenden Radialspuren „i“, außenliegenden Radialspuren „o“ und Axialspuren „a“ eingeteilt.
 
-Die Beschreibung der **magnetischen Ausprägung** auf der **vierten Einteilungsebene** kann zonen- oder feldbezogen erfolgen. Typische Zonenmuster sind in-plane (IP), out-of-plane (OOP) und Halbach-Anordnungen (h). Feldbezogen erfolgt die Beschreibung über das Polmuster oder über die Halbwellen einer ausgewählten Komponente des Streufeldes. Dabei werden in-plane- (IP) und out-of-plane-Komponenten (OOP) unterschieden.
+Die Beschreibung der **magnetischen Ausprägung** auf der **vierten Einteilungsebene** erfolgt entweder zonen- oder feldbezogen. Zonenbezogene Angaben werden durch eckige Klammern, feldbezogene Angaben durch runden Klammern gekennzeichnet. Die zonenbezogene Beschreibung erfolgt anhand des Zonenmusters. Typische Anordnungen sind In-Plane „IP“, Out-of-Plane „OOP“ und Halbach „h“. Die feldbezogene Beschreibung erfolgt anhand des Polmusters oder der Halbwellen einer ausgewählten Streufeldkomponente. Dabei werden In-Plane-Komponenten „IP“ und Out-of-Plane-Komponenten „OOP“ unterschieden.
 
 Auf der **fünften Einteilungsebene** wird die magnetische Struktur durch den **Spurtyp** sowie gegebenenfalls eine zugehörige Kenngröße gekennzeichnet, die die **Anzahl** der Elemente oder Referenzlagen angibt. Bei mehrspurigen Maßstäben werden die Angaben für die einzelnen Spuren durch Doppelpunkte getrennt angegeben.
 
 Die **Spurtypen** beschreiben die magnetische Strukturierung einer Spur und dienen ihrer funktionalen Unterscheidung. Ein Spurtyp kann durch unterschiedliche Zonenmuster, beispielsweise IP, OOP oder Halbach, realisiert und sowohl zonen- als auch feldbezogen beschrieben werden. In den nachfolgend dargestellten schematischen Mustern werden Zonen, Pole und Halbwellen abstrahierend als Elemente bezeichnet; Richtungssymbole werden nicht verwendet. Im Zweifelsfall beziehen sich die dargestellten Elemente auf Halbwellen.
 
-**Inkrementalspuren** (I$x$) bestehen aus $x$ alternierenden Elementen gleicher Länge. Das daraus resultierende periodische Spurfeld ermöglicht die Erfassung relativer Lage-, Winkel- oder Geschwindigkeitsänderungen mit hoher Ortsauflösung. Ein Beispiel ist in @fig-sec07-04-inkremental gezeigt.
+**Inkrementalspuren** „I$x$“ bestehen aus $x$ alternierenden Elementen gleicher Länge. Das daraus resultierende periodische Spurfeld ermöglicht die Erfassung relativer Lage-, Winkel- oder Geschwindigkeitsänderungen mit hoher Ortsauflösung. Ein Beispiel ist in @fig-sec07-04-inkremental gezeigt.
 
 ![Spurtypen – Inkrementalspur I24](figures/sec07/04-inkremental.png){#fig-sec07-04-inkremental width=70% fig-pos="H"}
 
-**Referenzspuren** (R$x$) kennzeichnen $x$ definierte Referenzlagen, beispielsweise Start- oder Endlagen. Eine Referenz wird typischerweise nicht durch ein einzelnes Element, sondern durch eine charakteristische Kombination mehrerer Elemente gebildet. Ein Beispiel ist in @fig-sec07-05-referenz gezeigt. 
+**Referenzspuren** „R$x$“ kennzeichnen $x$ definierte Referenzlagen, beispielsweise Start- oder Endlagen. Eine Referenz wird typischerweise nicht durch ein einzelnes Element, sondern durch eine charakteristische Kombination mehrerer Elemente gebildet. Ein Beispiel ist in @fig-sec07-05-referenz gezeigt. 
 
 ![Spurtypen – Referenzspur R1](figures/sec07/05-referenz.png){#fig-sec07-05-referenz width=70% fig-pos="H"}
 
-Eine Sonderform bilden **abstandscodierte Referenzspuren** (RC$x$) mit $x$ Referenzlagen. Die Lage wird dabei aus dem Abstand zwischen aufeinanderfolgenden Referenzen bestimmt. Ein Beispiel ist in @fig-sec07-06-referenz2 gezeigt.
+Eine Sonderform bilden **abstandscodierte Referenzspuren** „RC$x$“ mit $x$ Referenzlagen. Die Lage wird dabei aus dem Abstand zwischen aufeinanderfolgenden Referenzen bestimmt. Ein Beispiel ist in @fig-sec07-06-referenz2 gezeigt.
 
 ![Spurtypen – Abstandscodierte Referenzspur RC3](figures/sec07/06-referenz2.png){#fig-sec07-06-referenz2 width=70% fig-pos="H"}
 
-Für bestimmte Anwendungen können Spuren mit variablen Elementlängen eingesetzt werden. Ein wichtiger Vertreter ist der **Pseudorandomcode** (P), auch als pseudo-random binary sequence bezeichnet. Dabei handelt es sich um eine Codierung, aus der mit geeigneter Sensorik die absolute Lage bestimmt werden kann. Ein Beispiel ist in @fig-sec07-07-pseudorandom gezeigt.
+Für bestimmte Anwendungen können Spuren mit variablen Elementlängen eingesetzt werden. Ein wichtiger Vertreter ist der **Pseudorandomcode** „P“, auch als pseudo-random binary sequence bezeichnet. Dabei handelt es sich um eine Codierung, aus der mit geeigneter Sensorik die absolute Lage bestimmt werden kann. Ein Beispiel ist in @fig-sec07-07-pseudorandom gezeigt.
 
 ![Spurtypen – Pseudorandomcode P](figures/sec07/07-pseudorandom.png){#fig-sec07-07-pseudorandom width=70% fig-pos="H"}
 
-Die Bestimmung der Absolutlage ist auch mit **gedrehten Elementgrenzen** (V) möglich. Ein Beispiel ist in @fig-sec07-08-gedreht gezeigt.
+Die Bestimmung der Absolutlage ist auch mit **gedrehten Elementgrenzen** „V“ möglich. Ein Beispiel ist in @fig-sec07-08-gedreht gezeigt.
 
 ![Spurtypen – Gedrehte Grenzen V](figures/sec07/08-gedreht.png){#fig-sec07-08-gedreht width=70%  fig-pos="H"}
 

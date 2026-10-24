@@ -177,7 +177,7 @@ Zur eindeutigen Kennzeichnung der dargestellten Streufeldkomponente werden **Ric
 
 ![Konvention für binäre Felddarstellung](figures/sec05/07a-konvention_felddarstellung.png){#fig-sec05-07a-felddarstellung width=95% fig-pos="h"}
 
-@fig-sec05-07a-felddarstellung veranschaulicht die Konventionen der binären Felddarstellung. Teilbild (a) zeigt die verwendeten Farben und Richtungssymbole für positive und negative IP- und OOP-Komponenten. Insbesondere unterscheiden sich die OOP-Symbole durch das Fehlen der Kreisumrandung von den entsprechenden Polarisationssymbolen der Zonendarstellung. Die Teilbilder (b) und (c) zeigen schematische Felddarstellungen der OOP-Komponente $B_n$ beziehungsweise der IP-Komponente $B_p$ auf einer $p$-$o$-Messfläche oberhalb einer Maßverkörperung.
+@fig-sec05-07a-felddarstellung veranschaulicht die Konventionen der binären Felddarstellung. Teilbild (a) zeigt die verwendeten Farben und Richtungssymbole für positive und negative IP- und OOP-Komponenten. Insbesondere unterscheiden sich die OOP-Symbole durch das Fehlen der Kreisumrandung von den entsprechenden Polarisationssymbolen der Zonendarstellung. Die Teilbilder (b) und (c) zeigen schematische Felddarstellungen der OOP-Komponente $B_n$ beziehungsweise der IP-Komponente $B_p$ auf $p$-$o$-Messflächen oberhalb einer Maßverkörperung.
 
 ::: {#tip-05-poldarstellung .callout-tip}
 
@@ -189,7 +189,7 @@ Die binäre Felddarstellung auf einer $p$-$o$-Messfläche ist besonders **zweckm
 
 ![Felddarstellung von IP- und OOP-Komponenten](figures/sec05/07-feldprofil_ip_op.png){#fig-sec05-07-feldprofil_ip_op width=85% fig-pos="h"}
 
-@fig-sec05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt.
+@fig-sec05-07-feldprofil_ip_op zeigt binäre Felddarstellungen der in @sec-05-streufeld_einer_massverkoerperung beschriebenen Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 0{,}5\,\mathrm{mm}$. Die Felddarstellungen sind jeweils auf den durch den Amplitudengrenzwert $B_G = 15\,\mathrm{mT}$ festgelegten Nutzbereich beschränkt. Teilbild (a) zeigt die IP-Komponente $B_p$, Teilbild (b) die OOP-Komponente $B_n$. Die Richtungssymbole sind entsprechend der Darstellungskonvention ausgeführt und die Messhöhe ist rechts unten angegeben.
 
 Eine Felddarstellung wird häufig auf die funktionale Oberfläche der Maßverkörperung **projiziert**, um einen unmittelbaren örtlichen Bezug zwischen Feldmerkmalen und Bauteilgeometrie herzustellen. Je nach Bedarf kann sie dabei unabhängig von Amplitudengrenzen auf einen **relevanten Ausschnitt** beschränkt werden.
 
@@ -203,11 +203,11 @@ Die bisher gezeigten Felddarstellungen geben ermittelte Feldverläufe konkreter 
 
 ![Felddarstellung Soll und Ist](figures/sec05/09-felddarstellung_soll_ist.png){#fig-sec05-09-felddarstellung_soll_ist width=100% fig-pos="h"}
 
-@fig-sec05-09-felddarstellung_soll_ist zeigt ein magnetisches Schachbrettmuster in verschiedenen Darstellungsformen. Teilbild (a) zeigt die Maßverkörperung in farbcodierter Zonendarstellung. Zu sehen ist eine graue Halterung mit eingepressten kubischen Magneten, zwischen denen schmale Spalte erkennbar sind. Die Magnete bilden drei parallele Spuren. Die Darstellung beschreibt den strukturellen Aufbau und die Anordnung der magnetisierten Zonen, welche in etwa dem Polmuster entsprechen.
+@fig-sec05-09-felddarstellung_soll_ist zeigt ein magnetisches Schachbrettmuster in verschiedenen Darstellungsformen. Teilbild (a) zeigt die Maßverkörperung in farbcodierter Zonendarstellung. Zu sehen ist eine graue Halterung mit eingepressten kubischen Magneten, zwischen denen schmale Spalte erkennbar sind. Teilbild (b) zeigt die gleiche Maßverkörperung in Poldarstellung. Beide Darstellungen sind nach @sec-04 strukturbezogen.
 
-Teilbild (b) zeigt eine Ist-Felddarstellung in binärer Form. Sie ist auf einen amplitudenbezogenen Nutzbereich beschränkt und auf die Maßverkörperung projiziert. Der zugrunde liegende Feldverlauf wurde durch Simulation des Magnetfeldes der in Teilbild (a) gezeigten Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 1\,\mathrm{mm}$ ermittelt.
+Teilbild (c) zeigt eine Ist-Felddarstellung in binärer Form. Sie ist auf einen amplitudenbezogenen Nutzbereich beschränkt und auf die Maßverkörperung projiziert. Der zugrunde liegende Feldverlauf wurde durch Simulation des Magnetfeldes der in Teilbild (a) gezeigten Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 1\,\mathrm{mm}$ ermittelt.
 
-Teilbild (c) zeigt eine Soll-Felddarstellung in binärer Form. Sie stellt weder einen Ausschnitt des in Teilbild (b) dargestellten Feldverlaufs noch das Ergebnis einer Messung oder Simulation dar. Vielmehr dient sie der Beschreibung gewünschter Feldmerkmale und könnte beispielsweise eine Bedarfsanforderung oder Zielvorgabe für die Auslegung einer Maßverkörperung repräsentieren.
+Teilbild (d) zeigt eine Soll-Felddarstellung in binärer Form. Sie stellt weder einen Ausschnitt des in Teilbild (c) dargestellten Feldverlaufs noch das Ergebnis einer Messung oder Simulation dar. Vielmehr dient sie der Beschreibung gewünschter Feldmerkmale und könnte beispielsweise eine Bedarfsanforderung oder Zielvorgabe für die Auslegung einer Maßverkörperung repräsentieren.
 
 ::: {#tip-05-darstellung_zonen-soll .callout-tip}
 
