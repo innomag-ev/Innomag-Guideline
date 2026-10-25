@@ -32,7 +32,7 @@ Die **dritte** und die **fünfte Einteilungsebene** entfallen bei Dipolmagneten,
 
 Die magnetische Ausprägung auf der **vierten Einteilungsebene** wird durch die **Polarisationsrichtung** in eckiger Klammer beschrieben. Quaderförmige Dipolmagnete sind typischerweise entlang einer ihrer Hauptachsen axial polarisiert „a“. Bei Zylindern und Ringen werden insbesondere axiale „a“, diametrale „d“ und radiale „r“ Polarisation unterschieden. Axiale Polarisation verläuft parallel zur Zylinderachse, diametrale Polarisation senkrecht dazu und radiale Polarisation in radialer Richtung. Freie Polarisationsrichtungen „f“ werden angegeben, wenn die Polarisation keiner der definierten Standardrichtungen entspricht.
 
-@fig-sec07-02-dipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen, großteils in der beliebten farbcodierten Zonendarstellung.
+@fig-sec07-02-dipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen, großteils in der farbcodierten Zonendarstellung.
 
 ![Beispielhafte Dipolmagnete](figures/sec07/02-dipolmagnete.png){#fig-sec07-02-dipolmagnete width=100% fig-pos="h"}
 
@@ -40,9 +40,9 @@ Die magnetische Ausprägung auf der **vierten Einteilungsebene** wird durch die 
 
 **Multipolmagnete** „M“ sind magnetische Maßverkörperungen, die aus mehreren Zonen bestehen. Im Unterschied zu magnetischen Maßstäben ist ihre magnetische Struktur weniger komplex und nicht in magnetische Spuren gegliedert.
 
-Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben. Analog zu Dipolmagneten werden insbesondere Quader „Q“, Zylinder „Z“, Ringe „R“, Ringsegmente „S“ und Trapezprismen „T“ unterschieden. Entspricht die Form der Maßverkörperung wegen komplexer Zusammensetzung keiner der hier beschriebenen Formen, kann man sich auch auf die Zonenform beziehen, siehe MTs[h]8 in @fig-sec07-03-multipolmagnete.
+Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben. Analog zu Dipolmagneten werden insbesondere Quader „Q“, Zylinder „Z“, Ringe „R“, Ringsegmente „S“ und Trapezprismen „T“ unterschieden. Entspricht die Form der Maßverkörperung wegen komplexer Zusammensetzung keiner der hier beschriebenen Formen, kann alternativ die Zonenform herangezogen werden, siehe MTs[h]8 in @fig-sec07-03-multipolmagnete.
 
-Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen beschrieben. Die Zonen können geradlinig beziehungsweise axial „a“ oder sektoral beziehungsweise kreisförmig „s“ gestapelt sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden. Die Zonenform der Maßverkörperung ergibt sich aus ihrer geometrischen Form und der Stapelung.
+Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen oder Pole beschrieben. Sie können geradlinig beziehungsweise axial „a“ oder sektoral beziehungsweise kreisförmig „s“ angeordnet sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden.
 
 Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogen in eckigen Klammern und feldbezogen in runden Klammern angegeben. In der feldbezogenen Einteilung werden Out-of-Plane „OOP“ und In-Plane „IP“ unterschieden; in der zonenbezogenen Einteilung sind zusätzlich Halbach-Anordnungen „h“ möglich. Bei rotationssymmetrischen Maßverkörperungen können alternativ in beiden Fällen die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden, die jeweils die entsprechende Ausrichtung des magnetischen Musters beschreiben. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
 
@@ -98,7 +98,7 @@ Mit einem Pseudorandomcode kann die absolute Lage direkt bestimmt werden. Die er
 
 ![Spurtypen – Inkrementalspur mit Pseudorandomcode I24:P](figures/sec07/12-inkremental-pseudo.png){#fig-sec07-12-inkremental_pseudo width=70% fig-pos="H"}
 
-Die nachfolgende @fig-sec07-13-massstabe zeigt Beispiele typischer magnetischer Maßstäbe mit der jeweils zugehörigen Kurznotation.
+@fig-sec07-13-massstabe zeigt Beispiele typischer magnetischer Maßstäbe mit der jeweils zugehörigen Kurznotation.
 
 ![Beispielhafte magnetische Maßstäbe](figures/sec07/13-massstabe.png){#fig-sec07-13-massstabe width=100% fig-pos="h"}
 

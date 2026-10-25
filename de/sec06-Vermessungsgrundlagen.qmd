@@ -22,7 +22,7 @@ Die ermittelten Feldgrößen sind stets gemeinsam mit den zugehörigen **Ermittl
 
 Für die eindeutige Beschreibung der Lage magnetischer Strukturen und Feldmerkmale gegenüber der Bauteilgeometrie ist ein reproduzierbarer **mechanischer Bezug** erforderlich. Dieser wird durch ein mechanisches Datumssystem der Maßverkörperung festgelegt.
 
-Das **Datumssystem** wird nach ISO 5459 [@ISO5459] ausschließlich aus geometrischen Datumsmerkmalen der Maßverkörperung abgeleitet, beispielsweise aus Flächen, Kanten, Achsen oder geeigneten Markierungen. Es beschreibt damit die mechanische Lage und Orientierung der Maßverkörperung unabhängig von ihren magnetischen Eigenschaften. Die Wahl des Datumssystems sollte sich nach den für Herstellung, Montage und Vermessung relevanten geometrischen Bezugsmerkmalen richten.
+Das **Datumssystem** wird nach ISO 5459 [@ISO5459] aus geometrischen Merkmalen der Maßverkörperung abgeleitet, beispielsweise aus Flächen oder anderen geeigneten geometrischen Elementen. Es beschreibt damit die mechanische Lage und Orientierung der Maßverkörperung unabhängig von ihren magnetischen Eigenschaften. Die Wahl des Datumssystems sollte sich nach den für Herstellung, Montage und Vermessung relevanten geometrischen Bezugsmerkmalen richten.
 
 Der **Koordinatenursprung** der Maßverkörperung $O_M$ wird aus diesem Datumssystem abgeleitet. Gemeinsam mit der Orientierung der Koordinatenrichtungen nach @sec-03-koordinatensystem_der_massverkoerperung können damit die magnetische Struktur und das Streufeld auf die experimentell ermittelte Bauteilgeometrie bezogen werden.
 
@@ -106,14 +106,14 @@ Die folgende @fig-sec06-04-spurfeldbreite zeigt den magnetischen Maßstab aus @f
 
 In der Abbildung sind die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ auf die funktionale Oberfläche des Maßstabs projiziert und blau dargestellt. Die darunterliegenden Spuren sind gelb umrandet; ihre Betriebsabschnitte sind gelb ausgefüllt.
 
-Die **Spurfeldbreite** ergibt sich aus der kleinsten Nutzbereichsbreite innerhalb der Betriebsabschnitte. Die Positionen, an denen diese Mindestbreiten auftreten, sind durch rote Sterne markiert. Die sich daraus ergebenden feldbezogenen Spurabmessungen sind grün strichliert umrandet. Breiten und Abstände von Nutzbereich (lokal), Spur und Spurfeld sind entsprechend eingezeichnet.
+Die Spurfeldbreite ergibt sich aus der minimalen Breite des Gesamtnutzbereichs aller Betriebsabschnitte. Die Positionen, an denen diese Mindestbreiten auftreten, sind durch rote Sterne markiert. Die sich daraus ergebenden feldbezogenen Spurabmessungen sind grün strichliert umrandet. Breiten und Abstände von Nutzbereich (lokal), Spur und Spurfeld sind entsprechend eingezeichnet.
 
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Spurfeldlage** | $\vec{r}_F^{(i)}$ | Lage des Ursprungs des Spurfeld-KS $i$ im Maßverkörperungs-KS |
 | **Spurfeld-Längsversatz**, **Spurfeld-**$\symbfit{p}$**-Versatz** | $p_{FF}^{(i_1,i_2)}$ | Versatz in $p$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
 | **Spurfeld-Querversatz**, **Spurfeld-**$\symbfit{o}$**-Versatz** | $o_{FF}^{(i_1,i_2)}$ | Versatz in $o$-Richtung vom Spurfeld $i_1$ zum Spurfeld $i_2$ |
-| **Spurfeldbreite** | $w_F^{(i)}$ | Kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte des Spurfeldes $i$ |
+| **Spurfeldbreite** | $w_F^{(i)}$ | Minimale Breite des Gesamtnutzbereichs aller Betriebsabschnitte des Spurfeldes $i$ |
 | **Spurfeldabstand** | $w_{FF}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spurfeldern |
 
 : Begriffe Spurfeld {#tbl-begriffe-spurfeld .zebra_blue tbl-colwidths="[26,15,59]"}

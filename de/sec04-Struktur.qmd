@@ -54,7 +54,7 @@ Eine wichtige Folge der feldbezogenen Poldefinition ist, dass alle Zonen der Ma�
 
 ## Zonenmuster und Polmuster {#sec-04-zonenmuster_und_polmuster}
 
-Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte und häufig vereinfachte, Darstellung der Polarisationsstruktur dar.
+Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte und häufig vereinfachte Darstellung der Polarisationsstruktur dar.
 
 Die Gesamtheit aller Pole einer Maßverkörperung wird als **Polmuster** bezeichnet. Es dient der qualitativen Beschreibung der Streufeldverteilung. Obwohl das Polmuster aus dem Magnetfeld abgeleitet wird, wird es in dieser Richtlinie aus praktischen Gründen als **strukturbezogenes Oberflächenmerkmal** der Maßverkörperung behandelt und in @sec-04-strukturbegriffe_pole geometrisch beschrieben, dimensioniert und indiziert.
 
@@ -92,7 +92,7 @@ Einen wichtigen Sonderfall stellt dabei die **Halbach-Polarisation** dar. Hier r
 
 Dieses Unterkapitel legt **Empfehlungen zur Zonendarstellung** und **Poldarstellung** magnetischer Maßverkörperungen fest. Die Zonendarstellung dient der Veranschaulichung der Polarisationsstruktur, während die Poldarstellung die räumliche Anordnung der Magnetpole auf der Oberfläche der Maßverkörperung beschreibt. Die farbcodierte Darstellung des Streufeldes auf definierten Messflächen wird als **Felddarstellung** bezeichnet und in @sec-05-felddarstellung behandelt.
 
-Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrische Form** einer Maßverkörperung sowie die ihrer Elemente vollständig erkennbar ist. Hierbei sollten normative Vorgaben, beispielsweise nach ISO 5456-2 [@ISO5456-2], berücksichtigt werden, in denen zulässige Projektionsmethoden geometrischer Körper festgelegt sind.
+Wenn erforderlich, sollte zunächst sichergestellt werden, dass die **geometrische Form** einer Maßverkörperung sowie die ihrer Elemente vollständig erkennbar sind. Hierbei sollten normative Vorgaben, beispielsweise nach ISO 5456-2 [@ISO5456-2], berücksichtigt werden, in denen zulässige Projektionsmethoden geometrischer Körper festgelegt sind.
 
 Für die **Zonendarstellung** sollten benachbarte Zonen eindeutig unterscheidbar sein. Dies kann beispielsweise durch Trennlinien, unterschiedliche, nicht feldbezogene Füllfarben oder Schraffuren erreicht werden. Die mittlere Polarisationsrichtung jeder Zone sollte durch Richtungspfeile gekennzeichnet werden. Vorzugsweise wird eine Ansicht gewählt, in der die Richtungspfeile unmittelbar auf den dargestellten Zonenflächen eingetragen und eindeutig räumlich zugeordnet werden können. Dabei kennzeichnen Pfeile Richtungen parallel zur Darstellungsebene und die Symbole „$\odot$“ (heraus) und „$\otimes$“ (hinein) Richtungen senkrecht zur Darstellungsebene. Kann die Polarisationsrichtung in der gewählten Ansicht so nicht eindeutig vermittelt werden, können ihre Komponenten in einer geeigneten orthogonalen Projektion eingezeichnet werden.
 

@@ -4,13 +4,13 @@
 
 **Version**: {{< meta version >}}
 
-**Publication date**: 2026-XX-XX
+**Publication date**: 2026-10-01
 
 **DOI**: 10.5281/zenodo.XXXXXXX
 
 **Authors**: Michael Ortner, Rolf Slatter
 
-**Publisher**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
+**Publisher**: INNOMAG e. V., Ruhe Almend 8, 67655 Kaiserslautern
 
 **Licensed** under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Third-party content is excluded unless explicitly stated otherwise.
 

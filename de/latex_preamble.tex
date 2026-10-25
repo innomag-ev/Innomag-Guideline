@@ -85,6 +85,7 @@
   praxis-relevante
   Referenz-bereichen
   Nutz-bereiche
+  Nutz-bereich
   Nutz-bereichs-breite
   Ermittlungs-bereich
   Polarisations-symbolen
@@ -109,6 +110,7 @@
   Pola-risation
   Polarisations-richtung
   Model-lierung
+  aus-schließlich
 }
 
 
@@ -121,13 +123,27 @@
 
 
 % ---------------------------------------------------------
-% PDF bookmarks for unnumbered chapters
+% Fix PDF bookmarks for unnumbered chapters
 % ---------------------------------------------------------
 
+\usepackage{xstring}
+
 \makeatletter
-\AtBeginDocument{%
-  \apptocmd{\@schapter}{\phantomsection}
-    {}
-    {\PackageWarning{INNOMAG}{Bookmark patch failed}}%
+
+\newcommand{\innomag@addcontentsline}[3]{%
+  \ifstrequal{#1}{toc}{%
+    \ifstrequal{#2}{chapter}{%
+      \IfBeginWith{\@currentHref}{chapter.}{}{%
+        \phantomsection
+      }%
+    }{}%
+  }{}%
+  \innomag@originaladdcontentsline{#1}{#2}{#3}%
 }
+
+\AtBeginDocument{%
+  \let\innomag@originaladdcontentsline\addcontentsline
+  \let\addcontentsline\innomag@addcontentsline
+}
+
 \makeatother
