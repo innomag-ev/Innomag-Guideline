@@ -11,7 +11,7 @@
 
 **DOI**: {{< meta doi >}}
 
-**Lizenziert** unter Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
+**Lizensiert** unter Creative Commons Namensnennung 4.0 International (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
 
 Das Werk darf vervielfältigt, verbreitet, bearbeitet und für beliebige
 Zwecke, einschließlich kommerzieller Zwecke, verwendet werden, sofern eine
@@ -79,7 +79,7 @@ Magnetische Weg- und Winkelmesssysteme sind aus der modernen Automatisierungs-, 
 
 Einen ersten wichtigen Schritt zur Abhilfe stellte die DIN SPEC 91411 [@DIN91411] dar. Die praktische Arbeit mit dieser Spezifikation in den vergangenen Jahren hat den Wert einer einheitlichen Beschreibung eindrücklich bestätigt – zugleich aber gezeigt, dass einige zentrale Begriffe in der täglichen Anwendung unterschiedlich verstanden und ausgelegt wurden. Aus diesem Erfahrungsschatz heraus entstand der Wunsch, bestehende Definitionen zu schärfen, Lücken zu schließen und die Darstellungsregeln konsistent auf physikalische Grundlagen zurückzuführen.
 
-Die vorliegende Richtlinie ist das Ergebnis dieser Weiterentwicklung. Sie wurde von einem Konsortium aus Mitgliedsfirmen und -instituten des INNOMAG e. V. erarbeitet, dass Hersteller, Anwender und Forschungseinrichtungen an einen Tisch gebracht hat. In dieser Zusammensetzung spiegelt das Dokument die geballte Praxiserfahrung der Fachgemeinschaft wider und verfolgt ein klares Ziel: eine gemeinsame, allgemein verständliche Terminologie für magnetische Maßverkörperungen zu etablieren, die Missverständnisse vermeidet und den fachlichen Austausch über Unternehmens- und Ländergrenzen hinweg erleichtert.
+Die vorliegende Richtlinie ist das Ergebnis dieser Weiterentwicklung. Sie wurde von einem Konsortium aus Mitgliedsfirmen und -instituten des INNOMAG e. V. erarbeitet, das Hersteller, Anwender und Forschungseinrichtungen an einen Tisch gebracht hat. In dieser Zusammensetzung spiegelt das Dokument die geballte Praxiserfahrung der Fachgemeinschaft wider und verfolgt ein klares Ziel: eine gemeinsame, allgemein verständliche Terminologie für magnetische Maßverkörperungen zu etablieren, die Missverständnisse vermeidet und den fachlichen Austausch über Unternehmens- und Ländergrenzen hinweg erleichtert.
 
 Ein besonderer Dank gilt Herrn Dr. Michael Ortner von den Silicon Austria Labs, der sich in maßgeblicher Weise an der Erstellung dieser Richtlinie beteiligt hat. Ebenso danken wir allen mitwirkenden Autorinnen und Autoren sowie den beteiligten Unternehmen und Instituten, ohne deren Engagement dieses Dokument nicht möglich gewesen wäre.
 
@@ -129,7 +129,7 @@ Dr. Jürgen Gerber, Geschäftsführer, INNOMAG e. V.
 | $p$ | Koordinate in Längsrichtung | m bzw. ° |
 | $o$ | Koordinate in Querrichtung | m |
 | $n$ | Koordinate in Abstandsrichtung; Messhöhe bei entsprechender Verwendung | m |
-| $o$ | Ursprung eines Koordinatensystems | – |
+| $O$ | Ursprung eines Koordinatensystems | – |
 | $\vec{e}_p$ | Einheitsvektor in $p$-Richtung | – |
 | $\vec{e}_o$ | Einheitsvektor in $o$-Richtung | – |
 | $\vec{e}_n$ | Einheitsvektor in $n$-Richtung | – |

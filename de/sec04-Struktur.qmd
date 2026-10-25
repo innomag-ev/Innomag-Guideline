@@ -54,7 +54,7 @@ Eine wichtige Folge der feldbezogenen Poldefinition ist, dass alle Zonen der Ma�
 
 ## Zonenmuster und Polmuster {#sec-04-zonenmuster_und_polmuster}
 
-Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte, häufig vereinfachte, Darstellung der Polarisationsstruktur dar.
+Die Gesamtheit aller Zonen einer Maßverkörperung wird als **Zonenmuster** bezeichnet. Es stellt eine für Kommunikations- und Referenzierungszwecke geeignete abstrahierte und häufig vereinfachte, Darstellung der Polarisationsstruktur dar.
 
 Die Gesamtheit aller Pole einer Maßverkörperung wird als **Polmuster** bezeichnet. Es dient der qualitativen Beschreibung der Streufeldverteilung. Obwohl das Polmuster aus dem Magnetfeld abgeleitet wird, wird es in dieser Richtlinie aus praktischen Gründen als **strukturbezogenes Oberflächenmerkmal** der Maßverkörperung behandelt und in @sec-04-strukturbegriffe_pole geometrisch beschrieben, dimensioniert und indiziert.
 
@@ -86,7 +86,7 @@ Der **Beschreibungsgrad** einer Spur kennzeichnet, in welchem Maß sie entlang d
 
 Die **Polarisationsart einer Spur** ergibt sich aus der Polarisationsrichtung ihrer Zonen. Besteht die Spur ausschließlich aus IP-Zonen, spricht man von einer IP-polarisierten Spur oder **IP-Spur**. Ist sie ausschließlich aus OOP-Zonen zusammengesetzt, spricht man von einer OOP-polarisierten Spur oder **OOP-Spur**.
 
-Einen wichtigen Sonderfall stellt dabei die **Halbach-Polarisation** dar. Hier rotiert die Polarisationsrichtung von Zone zu Zone in der $p$-$n$-Ebene. Dadurch entsteht eine asymmetrische Feldverteilung, bei der das Streufeld auf einer bevorzugten Seite der Maßverkörperung verstärkt wird, während es auf der gegenüberliegenden Seite weitgehend unterdrückt ist . Entsprechend spricht man von einer **Halbach-Spur**.
+Einen wichtigen Sonderfall stellt dabei die **Halbach-Polarisation** dar. Hier rotiert die Polarisationsrichtung von Zone zu Zone in der $p$-$n$-Ebene. Dadurch entsteht eine asymmetrische Feldverteilung, bei der das Streufeld auf einer bevorzugten Seite der Maßverkörperung verstärkt wird, während es auf der gegenüberliegenden Seite weitgehend unterdrückt ist. Entsprechend spricht man von einer **Halbach-Spur**.
 
 ## Darstellungskonventionen {#sec-04-darstellungskonventionen}
 
@@ -130,7 +130,7 @@ Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zone
 
 ![Darstellungsbeispiele farbcodierte Zonendarstellung](figures/sec04/13-farbcodierte_zonendarstellung.png){#fig-sec04-13-farbcodierte_zonendarstellung width=100% fig-pos="h"}
 
-@fig-sec04-13-farbcodierte_zonendarstellung demonstriert die farbcodierte Zonendarstellung anhand verschiedener Beispiele. Teilbild (a) zeigt unterschiedliche Dipolmagnete, deren erwartete Feldwirkung durch die Einfärbung der Körperflächen hervorgehoben wird. Teilbild (b) zeigt zweireihig axial gestapelte Würfelmagnete. Die einzelnen Zonen sind klar voneinander abgegrenzt; ihre Einfärbung veranschaulicht das auf Ober- und Unterseite erwartete Polmuster. Teilbild (c) zeigt, wie mit der farbcodierten Zonendarstellung eine einseitige Ausprägung der Pole vermittelt werden kann. Die mögliche zugrunde liegende inhomogene Polarisationsverteilung wird in den @sec-04-magnetisierte_zonen und @sec-04-magnetpole näher beschrieben.
+@fig-sec04-13-farbcodierte_zonendarstellung demonstriert die farbcodierte Zonendarstellung anhand verschiedener Beispiele. Teilbild (a) zeigt unterschiedliche Dipolmagnete, deren erwartete Feldwirkung durch die Einfärbung der Körperflächen hervorgehoben wird. Teilbild (b) zeigt zweireihig axial gestapelte Würfelmagnete. Die einzelnen Zonen sind klar voneinander abgegrenzt; ihre Einfärbung veranschaulicht das auf Ober- und Unterseite erwartete Polmuster. Teilbild (c) zeigt, wie mit der farbcodierten Zonendarstellung eine einseitige Ausprägung der Pole vermittelt werden kann. Die mögliche zugrunde liegende inhomogene Polarisationsverteilung wird in @sec-04-magnetisierte_zonen und @sec-04-magnetpole näher beschrieben.
 
 ::: {#tip-04-polverschiebung_darstellung .callout-tip}
 
@@ -143,7 +143,7 @@ Spuren können bei Bedarf durch eine **Umrahmung** und durch die Hervorhebung ni
  
 ![Darstellungsbeispiele Spuren](figures/sec04/14-darstellung_spuren.png){#fig-sec04-14-darstellung_spuren width=100% fig-pos="h"}
 
-@fig-sec04-14-darstellung_spuren zeigt drei exemplarische Darstellungen magnetischer Maßstäbe. Teilbild (a) zeigt einen typischen Linearmaßstab zur Positionserfassung von Linearachsen. Er weist eine inkrementelle OOP-Spur auf, die in reiner Zonendarstellung gezeigt ist. Teilbild (b) zeigt einen Rotationsmaßstab mit einer radial außen liegenden inkrementellen IP-Spur in farbcodierter Zonendarstellung. Derartige Maßverkörperungen werden häufig in Drehgebern eingesetzt. Teilbild (c) zeigt einen Rotationsmaßstab mit zwei axial angeordneten Spuren in Poldarstellung. Die äußere Spur ist eine vollbeschriebene Inkrementalspur; die Innere eine teilbeschriebene Referenzspur. Eine solche Kombination wird oft zur absoluten Positionserfassung eingesetzt.
+@fig-sec04-14-darstellung_spuren zeigt drei exemplarische Darstellungen magnetischer Maßstäbe. Teilbild (a) zeigt einen typischen Linearmaßstab zur Positionserfassung von Linearachsen. Er weist eine inkrementelle OOP-Spur auf, die in reiner Zonendarstellung gezeigt ist. Teilbild (b) zeigt einen Rotationsmaßstab mit einer radial außen liegenden inkrementellen IP-Spur in farbcodierter Zonendarstellung. Derartige Maßverkörperungen werden häufig in Drehgebern eingesetzt. Teilbild (c) zeigt einen Rotationsmaßstab mit zwei axial angeordneten Spuren in Poldarstellung. Die äußere Spur ist eine vollbeschriebene Inkrementalspur; die innere eine teilbeschriebene Referenzspur. Eine solche Kombination wird oft zur absoluten Positionserfassung eingesetzt.
 
 ::: {#tip-04-rot-grun .callout-tip}
 
@@ -189,7 +189,7 @@ Die **Zonenlage** $\vec{r}_Z$ bezeichnet die Position des geometrischen Mittelpu
  
 ![Strukturbeschreibung des Zonenmusters eines axialen Multipolrings](figures/sec04/17-struktur_mp_ring.png){#fig-sec04-17-struktur_mp_ring width=80% fig-pos="h"}
 
-In @fig-sec04-17-struktur_mp_ring ist ein axial gestapelter Multipolring mit $N_Z=8$ in farbcodierter Zondendarstellung gezeigt. Derartige Maßverkörperungen können zur Detektion axialer Verschiebungen entlang der Systemachse eingesetzt werden. Der Ursprung des Struktur-KS ist auf der Mantelfläche in $o$-Richtung mittig und in $p$-Richtung am Beginn der ersten Zone festgelegt.
+In @fig-sec04-17-struktur_mp_ring ist ein axial gestapelter Multipolring mit $N_Z=8$ in farbcodierter Zonendarstellung gezeigt. Derartige Maßverkörperungen können zur Detektion axialer Verschiebungen entlang der Systemachse eingesetzt werden. Der Ursprung des Struktur-KS ist auf der Mantelfläche in $o$-Richtung mittig und in $p$-Richtung am Beginn der ersten Zone festgelegt.
 
 Obwohl die Maßverkörperung ringförmig ist, handelt es sich dabei um eine lineare Anordnung. In diesem Beispiel ist der Begriff der Zonenlänge sinnvoll anwendbar, da die Zonen entlang der $p$-Richtung gestapelt sind. Die Begriffe Zonenbreite und Zonentiefe sind aufgrund der ringförmigen Geometrie hingegen nicht zweckmäßig. Zur Beschreibung der Geometrie der Maßverkörperung werden stattdessen Innen- und Außenradius des Rings genutzt.
 
@@ -273,8 +273,8 @@ Die Ordnungsindizes der Pole steigen in positiver $p$-Richtung an. Exemplarisch 
 | **Spurbreite** | $w_T^{(i)}$ | Ausdehnung der Spur $i$ in $o$-Richtung |
 | **Spurtiefe** | $d_T^{(i)}$ | Ausdehnung der Spur $i$ in $n$-Richtung |
 | **Spurlage** | $\vec{r}_T^{(i)}$ | Position des Spur-KS-Ursprungs $O_T^{(i)}$ der Spur $i$ im Maßverkörperungs-KS; Koordinaten $p_T^{(i)}$, $o_T^{(i)}$ und $n_T^{(i)}$ |
-| **Spur-Längsversatz**, **Spur-**$symbfit{p}$**-Versatz** | $p_{TT}^{(i_1,i_2)}$ | Versatz in $p$-Richtung von Spur $i_1$ zu Spur $i_2$ |
-| **Spur-Querversatz**, **Spur-**$symbfit{o}$**-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
+| **Spur-Längsversatz**, **Spur-**$\symbfit{p}$**-Versatz** | $p_{TT}^{(i_1,i_2)}$ | Versatz in $p$-Richtung von Spur $i_1$ zu Spur $i_2$ |
+| **Spur-Querversatz**, **Spur-**$\symbfit{o}$**-Versatz** | $o_{TT}^{(i_1,i_2)}$ | Versatz in $o$-Richtung von Spur $i_1$ zu Spur $i_2$ |
 | **Spurabstand** | $w_{TT}^{(i,i+1)}$ | Abstand in $o$-Richtung zwischen benachbarten Spuren |
 
 : Begriffe Spuren {#tbl-begriffe_spuren .zebra_blue tbl-colwidths="[25,15,60]"}

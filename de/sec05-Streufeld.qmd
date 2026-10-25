@@ -22,7 +22,7 @@ Die Parametrisierung $(p,o,n) = (t,u,1\,\mathrm{mm})$ mit $t \in [0^\circ, 360^\
 
 Wie in @sec-04-magnetpole erläutert, lässt sich die Streufeldcharakteristik einer magnetischen Maßverkörperung qualitativ durch den Austritt der magnetischen Feldlinien an den Nordpolen und ihren Eintritt an den Südpolen beschreiben. Die einzelnen Komponenten $B_p$ und $B_n$ weisen dabei in $p$-Richtung typischerweise einen wellenförmigen Verlauf mit Maxima, Minima und Nullstellen auf. Mit zunehmendem Abstand von der magnetischen Struktur nimmt die Amplitude des Streufeldes ab. Dieser Abfall erfolgt im Fernfeld einzelner Zonen näherungsweise kubisch und bei der Überlagerung der Streufelder mehrerer alternierender Zonen näherungsweise exponentiell [@ausserlechner2012closed].
 
-![Ermittlungsbereiche](figures/sec05/01-streufeldcharakteristik.png){#fig-sec05-01-streufeldcharakteristik width=100% fig-pos="h"}
+![Streufeldcharakteristik einer magnetischen Maßverkörperung](figures/sec05/01-streufeldcharakteristik.png){#fig-sec05-01-streufeldcharakteristik width=100% fig-pos="h"}
 
 @fig-sec05-01-streufeldcharakteristik zeigt das **Simulationsergebnis** eines Multipolmagneten aus acht homogenen, alternierend OOP-polarisierten Zonen mit Polarisationsamplituden $J_Z = 300\,\mathrm{mT}$, Längen $\ell_Z = 1\,\mathrm{mm}$, Breiten $w_Z = 3\,\mathrm{mm}$ und Tiefen $d_Z = 200\,\mu\mathrm{m}$. Die Maßverkörperung ist in Poldarstellung gezeigt. Das resultierende Streufeld ist in Form von Feldlinien mittig über der Maßverkörperung sowie einer blauen Konturdarstellung der Streufeldamplitude in einer $o$-$n$-Ebene dargestellt. In beiden Darstellungen codiert die blaue Farbskala den Wert der Streufeldamplitude in Millitesla. Zur Veranschaulichung der Streufeldcharakteristik sind zusätzlich Feldverläufe entlang der eingezeichneten Messpfade in den Teilbildern abgebildet.
 
@@ -181,7 +181,7 @@ Zur eindeutigen Kennzeichnung der dargestellten Streufeldkomponente werden **Ric
 
 ::: {#tip-05-poldarstellung .callout-tip}
 
-*Die Poldarstellung nach @sec-04-darstellungskonventionen ist ein **Spezialfall der Felddarstellung** in der die OOP-Komponente des Streufeldes binär auf der Oberfläche der Maßverkörperung ($n = 0$) gezeigt ist. Bei gleicher Wahl der Amplitudengrenzwerte entsprechen die innerhalb des Nutzbereichs liegenden positiven und negativen Halbwellen den Nord- und Südpolbereichen.*
+*Die Poldarstellung nach @sec-04-darstellungskonventionen ist ein **Spezialfall der Felddarstellung**, in der die OOP-Komponente des Streufeldes binär auf der Oberfläche der Maßverkörperung ($n = 0$) gezeigt ist. Bei gleicher Wahl der Amplitudengrenzwerte entsprechen die innerhalb des Nutzbereichs liegenden positiven und negativen Halbwellen den Nord- und Südpolbereichen.*
 
 :::
 

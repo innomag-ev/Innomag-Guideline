@@ -6,7 +6,7 @@ Dieses Kapitel führt eine systematische Einteilung magnetischer Maßverkörperu
 
 Die Einteilung magnetischer Maßverkörperungen erfolgt auf mehreren Beschreibungsebenen. Auf der **ersten Ebene** werden sie anhand ihrer strukturellen Komplexität in drei **Arten** eingeteilt: Dipolmagnete, Multipolmagnete und magnetische Maßstäbe.
 
-Auf der **zweiten Ebene** wird die geometrische **Form** der Maßverkörperung beschrieben. Hierzu werden die Begrenzungsbox-Geometrien nach @sec-04-darstellungskonventionen verwendet.
+Auf der **zweiten Ebene** wird die geometrische **Form** der Maßverkörperung beschrieben. Hierzu werden die Begrenzungsbox-Geometrien nach @sec-04-magnetische_strukturbeschreibung verwendet.
 
 Auf der **dritten Ebene** wird die geometrische **Anordnung** der magnetischen Struktur beschrieben. Bei magnetischen Maßstäben entspricht diese der Spurausrichtung, bei Multipolmagneten der Zonen-Stapelung.
 
@@ -44,7 +44,7 @@ Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben
 
 Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen beschrieben. Die Zonen können geradlinig beziehungsweise axial „a“ oder sektoral beziehungsweise kreisförmig „s“ gestapelt sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden. Die Zonenform der Maßverkörperung ergibt sich aus ihrer geometrischen Form und der Stapelung.
 
-Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogene in eckigen Klammern und feldbezogene in runden Klammern angegeben. Unterschieden werden Out-of-Plane „OOP“, In-Plane „IP“ und Halbach-Anordnungen „h“. Bei rotationssymmetrischen Maßverkörperungen können alternativ die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden. Die Bezeichnungen beschreiben jeweils entsprechende alternierenden magnetischen Anordnungen der Elemente. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
+Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogen in eckigen Klammern und feldbezogen in runden Klammern angegeben. Unterschieden werden Out-of-Plane „OOP“, In-Plane „IP“ und Halbach-Anordnungen „h“. Bei rotationssymmetrischen Maßverkörperungen können alternativ die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden. Die Bezeichnungen beschreiben jeweils entsprechende alternierende magnetische Anordnungen der Elemente. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
 
 Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Zonen** oder Pole weiter spezifiziert. Bei mehrreihigen Anordnungen wird sie für jede Reihe getrennt angegeben.
 
@@ -56,7 +56,7 @@ Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Z
 
 **Magnetische Maßstäbe** sind Maßverkörperungen mit komplexer magnetischer Struktur, die in eine oder mehrere magnetische Spuren gegliedert ist. Auf **zweiter Ebene** unterscheidet man Linearmaßstäbe „L“ und Rotationsmaßstäbe „R“. Auf **dritter Ebene** werden Rotationsmaßstäbe in Maßstäbe mit innenliegenden Radialspuren „i“, außenliegenden Radialspuren „o“ und Axialspuren „a“ eingeteilt.
 
-Die Beschreibung der **magnetischen Ausprägung** auf der **vierten Einteilungsebene** erfolgt entweder zonen- oder feldbezogen. Zonenbezogene Angaben werden durch eckige Klammern, feldbezogene Angaben durch runden Klammern gekennzeichnet. Die zonenbezogene Beschreibung erfolgt anhand des Zonenmusters. Typische Anordnungen sind In-Plane „IP“, Out-of-Plane „OOP“ und Halbach „h“. Die feldbezogene Beschreibung erfolgt anhand des Polmusters oder der Halbwellen einer ausgewählten Streufeldkomponente. Dabei werden In-Plane-Komponenten „IP“ und Out-of-Plane-Komponenten „OOP“ unterschieden.
+Die Beschreibung der **magnetischen Ausprägung** auf der **vierten Einteilungsebene** erfolgt entweder zonen- oder feldbezogen. Zonenbezogene Angaben werden durch eckige Klammern, feldbezogene Angaben durch runde Klammern gekennzeichnet. Die zonenbezogene Beschreibung erfolgt anhand des Zonenmusters. Typische Anordnungen sind In-Plane „IP“, Out-of-Plane „OOP“ und Halbach „h“. Die feldbezogene Beschreibung erfolgt anhand des Polmusters oder der Halbwellen einer ausgewählten Streufeldkomponente. Dabei werden In-Plane-Komponenten „IP“ und Out-of-Plane-Komponenten „OOP“ unterschieden.
 
 Auf der **fünften Einteilungsebene** wird die magnetische Struktur durch den **Spurtyp** sowie gegebenenfalls eine zugehörige Kenngröße gekennzeichnet, die die **Anzahl** der Elemente oder Referenzlagen angibt. Bei mehrspurigen Maßstäben werden die Angaben für die einzelnen Spuren durch Doppelpunkte getrennt angegeben.
 

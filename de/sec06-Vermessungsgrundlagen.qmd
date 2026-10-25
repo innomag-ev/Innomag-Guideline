@@ -54,7 +54,7 @@ In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nu
 
 ::: {#tip-06-feld-struktur-KS .callout-tip}
 
-*Das **Feld-KS** ist grundsätzlich gleich aufgebaut wie das **Struktur-KS** nach @sec-04-darstellungskonventionen. Sie unterscheiden sich in der Festlegung des Ursprungs und in ihrem Verwendungszweck. Der Ursprung $O_T$ wird anhand der magnetischen Strukturmerkmale festgelegt. Das Struktur-KS dient der Beschreibung der magnetischen Struktur einer Maßverkörperung. Der Ursprung $O_F$ wird dagegen anhand von Feldmerkmalen festgelegt. Das Feld-KS dient der Vermessung des Streufeldes.*
+*Das **Feld-KS** ist grundsätzlich gleich aufgebaut wie das **Struktur-KS** nach @sec-04-magnetische_strukturbeschreibung. Sie unterscheiden sich in der Festlegung des Ursprungs und in ihrem Verwendungszweck. Der Ursprung $O_T$ wird anhand der magnetischen Strukturmerkmale festgelegt. Das Struktur-KS dient der Beschreibung der magnetischen Struktur einer Maßverkörperung. Der Ursprung $O_F$ wird dagegen anhand von Feldmerkmalen festgelegt. Das Feld-KS dient der Vermessung des Streufeldes.*
 
 :::
 
@@ -132,7 +132,7 @@ Die Felddarstellung nach @sec-05-felddarstellung unterstützt die Trennung der B
 
 Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Bereiche an der physischen Oberfläche der Maßverkörperung und die Normalkomponente des Streufeldes. In der Praxis wird er häufig auch zur Beschreibung von Feldmerkmalen von OOP- und IP-Komponenten in endlicher Messhöhe verwendet.
 
-| **Begriff** | **Empfehlung für feldbezogene Größen in endlicher Messhöhe** |
+| **Begriff Alt** | **Empfehlung für feldbezogene Größen in endlicher Messhöhe** |
 |:--------|:----------------------------------------------------------|
 | **Magnetpol** | Zur Beschreibung von OOP- und IP-Feldkomponenten in endlicher Messhöhe wird der Begriff **Halbwelle** nach @sec-05-feldmerkmale_flaechen_raum empfohlen. |
 | **Pollänge** | Zur Beschreibung der Länge einer Halbwelle wird der Begriff **Halbperiode** nach @sec-05-feldmerkmale_auf_messpfaden empfohlen. |
@@ -143,7 +143,7 @@ Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Be
 
 Der Begriff **Spur** bezeichnet in diesem Dokument ausschließlich ein Strukturelement der Maßverkörperung. In der Praxis werden dessen Lage und Abmessungen häufig mit Lage und Abmessungen des zugehörigen Spurfeldes gleichgesetzt. In diesem Fall ermöglicht die symmetrische Benennung der struktur- und feldbezogenen Größen eine einfache Zuordnung.
 
-| **Begriff** | **Empfehlung für feldbezogene Größen in endlicher Messhöhe** |
+| **Begriff Alt** | **Empfehlung für feldbezogene Größen in endlicher Messhöhe** |
 |:--------|:----------------------------------------------------------|
 | **Spur** | Zur Beschreibung des Streufeldes wird der Begriff **Spurfeld** nach @sec-05-spurfelder empfohlen. |
 | **Spurbreite** | Zur Beschreibung der Breite des Spurfeldes wird der Begriff **Spurfeldbreite** nach @sec-06-spurfeldlage_abmessungen empfohlen. |

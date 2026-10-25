@@ -110,3 +110,24 @@
   Polarisations-richtung
   Model-lierung
 }
+
+
+% ---------------------------------------------------------
+% Page breaking
+% ---------------------------------------------------------
+
+% Prevent page breaks within hyphenated words
+\brokenpenalty=10000
+
+
+% ---------------------------------------------------------
+% PDF bookmarks for unnumbered chapters
+% ---------------------------------------------------------
+
+\makeatletter
+\AtBeginDocument{%
+  \apptocmd{\@schapter}{\phantomsection}
+    {}
+    {\PackageWarning{INNOMAG}{Bookmark patch failed}}%
+}
+\makeatother
