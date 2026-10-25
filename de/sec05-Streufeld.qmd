@@ -42,7 +42,7 @@ Zur Beschreibung des Streufeldes wird in der Praxis auf bestimmte Merkmale von F
 
 **Entlang eines** $\symbfit{p}$**-Pfades** stellen insbesondere die lokalen Maxima und Minima einer betrachteten Feldkomponente $B_\alpha$, insbesondere $B_p$ und $B_n$, die im Folgenden zusammenfassend als **Peaks** (Bezugsindex „A“) bezeichnet werden, sowie die **Nullstellen** (Bezugsindex „N“) charakteristische Merkmale eines Feldverlaufs dar. Sie werden in vielen Anwendungen für die Positionserkennung genutzt.
 
-Die $p$-Position eines Peaks wird als **Peaklage** $p_A$, die einer Nullstelle als **Nullstellenlage** $p_N$ bezeichnet. Der Wert der betrachteten Feldkomponente an einem Peak wird als **Peakamplitude** $B_A$ bezeichnet. Zur eindeutigen Kennzeichnung werden Peaks und Nullstellen beginnend mit 1, entlang der positiven $p$-Richtung fortlaufend nummeriert. Die Indizierung wird im Normalfall so gewählt, dass auf die Nullstelle $j$ der Peak $j$ folgt. Die **Peakanzahl** $N_A$ und die **Nullstellenanzahl** $N_N$ geben die Gesamtzahl der jeweils indizierten Merkmale an. Eine vollständige Indizierung aller Peaks und Nullstellen ist nicht erforderlich.
+Die $p$-Position eines Peaks wird als **Peaklage** $p_A$, die einer Nullstelle als **Nullstellenlage** $p_N$ bezeichnet. Der Wert der betrachteten Feldkomponente an einem Peak wird als **Peakwert** $B_A$ bezeichnet. Zur eindeutigen Kennzeichnung werden Peaks und Nullstellen beginnend mit 1, entlang der positiven $p$-Richtung fortlaufend nummeriert. Die Indizierung wird im Normalfall so gewählt, dass auf die Nullstelle $j$ der Peak $j$ folgt. Die **Peakanzahl** $N_A$ und die **Nullstellenanzahl** $N_N$ geben die Gesamtzahl der jeweils indizierten Merkmale an. Eine vollständige Indizierung aller Peaks und Nullstellen ist nicht erforderlich.
 
 Ein weiteres wichtiges Merkmal eines Feldverlaufs entlang eines $p$-Pfades ist die Länge seiner Schwingungen. Die **magnetische Halbperiode** bezeichnet den Abstand in $p$-Richtung zwischen zwei benachbarten Merkmalen gleicher Art. Dabei bezeichnet $\ell_A$ den Abstand zwischen zwei benachbarten Peaks entgegengesetzten Vorzeichens und $\ell_N$ den Abstand zwischen zwei benachbarten Nullstellen:
 
@@ -98,7 +98,7 @@ Die Amplitudengrenzpunkte begrenzen den Nutzbereich entlang des betrachteten Mes
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
 | **Peaklage** | $p_A^{(j)}$ | $p$-Position des Peaks $j$ |
-| **Peakamplitude** | $B_A^{(j)}$ | Wert der betrachteten Feldkomponente am Peak $j$ |
+| **Peakwert** | $B_A^{(j)}$ | Wert der betrachteten Feldkomponente am Peak $j$ |
 | **Nullstellenlage** | $p_N^{(j)}$ | $p$-Position der Nullstelle $j$ |
 | **Magnetische Halbperiode** | $\ell_A^{(j)}$, $\ell_N^{(j)}$ | Lokale Länge einer halben Schwingung, bestimmt aus Peaks bzw. Nullstellen mit Indizes $j$ und $j + 1$ |
 | **Magnetische Periode** | $L_A^{(j)}$, $L_N^{(j)}$ | Lokale Länge einer vollständigen Schwingung, bestimmt aus Peaks bzw. Nullstellen mit Indizes $j$ und $j + 2$ |

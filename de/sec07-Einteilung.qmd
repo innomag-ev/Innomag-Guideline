@@ -44,9 +44,9 @@ Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben
 
 Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen beschrieben. Die Zonen können geradlinig beziehungsweise axial „a“ oder sektoral beziehungsweise kreisförmig „s“ gestapelt sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden. Die Zonenform der Maßverkörperung ergibt sich aus ihrer geometrischen Form und der Stapelung.
 
-Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogen in eckigen Klammern und feldbezogen in runden Klammern angegeben. Unterschieden werden Out-of-Plane „OOP“, In-Plane „IP“ und Halbach-Anordnungen „h“. Bei rotationssymmetrischen Maßverkörperungen können alternativ die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden. Die Bezeichnungen beschreiben jeweils entsprechende alternierende magnetische Anordnungen der Elemente. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
+Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogen in eckigen Klammern und feldbezogen in runden Klammern angegeben. In der feldbezogenen Einteilung werden Out-of-Plane „OOP“ und In-Plane „IP“ unterschieden; in der zonenbezogenen Einteilung sind zusätzlich Halbach-Anordnungen „h“ möglich. Bei rotationssymmetrischen Maßverkörperungen können alternativ in beiden Fällen die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden, die jeweils die entsprechende Ausrichtung des magnetischen Musters beschreiben. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
 
-Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Zonen** oder Pole weiter spezifiziert. Bei mehrreihigen Anordnungen wird sie für jede Reihe getrennt angegeben.
+Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Elemente** weiter spezifiziert. Je nach gewählter Repräsentation kann es sich dabei um Zonen oder Pole handeln. Bei mehrreihigen Anordnungen wird sie für jede Reihe getrennt angegeben.
 
 @fig-sec07-03-multipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen in Zonen- und Poldarstellungen.
 

@@ -4,13 +4,39 @@ project:
 
 lang: de
 
-version: 1.1
-date: 2026-10-01
+version: "1.1"
+date: "2026-XX-XX"
 doi: 10.5281/zenodo.XXXXXXX
 
+google-scholar: true
+
+keywords:
+  - Magnetische Maßverkörperungen
+  - Magnetische Positionsmesssysteme
+  - Magnetische Wegmesssysteme
+  - Magnetische Winkelmesssysteme
+  - Magnetische Maßstäbe
+  - Magnetic measurement scales
+  - Magnetic encoders
+  - Magnetic position sensing
+  - Magnetic field characterization
+  - Magnetic pole patterns
+
+license: "CC BY 4.0"
+
+citation:
+  type: report
+  title: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
+  author:
+    - "Michael Ortner"
+    - "Rolf Slatter"
+  publisher: "INNOMAG e.V."
+  issued: "2026-XX-XX"
+
 book:
-  title: "Magnetischen Maßverkörperungen für Weg- und Winkelmesssysteme"
+  title: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
   subtitle: "Terminologie, technische Darstellung, Einteilung, Messaufbau, Vermessung und Bewertung"
+  site-url: "https://XXX"
 
   sidebar:
     title: "INNOMAG Guideline"
@@ -58,6 +84,7 @@ format:
     number-sections: true
     theme: cosmo
     css: styles.css
+    description-meta: "Technische Richtlinie zur Terminologie, Beschreibung und Charakterisierung magnetischer Maßverkörperungen."
 
   pdf:
     documentclass: scrbook
@@ -83,3 +110,8 @@ format:
 
     template-partials:
       - before-body.tex
+
+    title-meta: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
+    author-meta: "Michael Ortner, Rolf Slatter"
+    date-meta: "2026-XX-XX"
+    subject: "INNOMAG Richtlinie - Magnetische Maßverkörperungen"

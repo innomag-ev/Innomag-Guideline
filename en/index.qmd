@@ -4,7 +4,7 @@
 
 **Version**: {{< meta version >}}
 
-**Publication date**: 2026-10-01
+**Publication date**: 2026-XX-XX
 
 **DOI**: 10.5281/zenodo.XXXXXXX
 
