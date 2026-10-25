@@ -22,7 +22,7 @@ Die ermittelten Feldgrößen sind stets gemeinsam mit den zugehörigen **Ermittl
 
 Für die eindeutige Beschreibung der Lage magnetischer Strukturen und Feldmerkmale gegenüber der Bauteilgeometrie ist ein reproduzierbarer **mechanischer Bezug** erforderlich. Dieser wird durch ein mechanisches Datumssystem der Maßverkörperung festgelegt.
 
-Das **Datumssystem** wird nach ISO 5459:2024 ausschließlich aus geometrischen Datumsmerkmalen der Maßverkörperung abgeleitet, beispielsweise aus Flächen, Kanten, Achsen oder geeigneten Markierungen. Es beschreibt damit die mechanische Lage und Orientierung der Maßverkörperung unabhängig von ihren magnetischen Eigenschaften. Die Wahl des Datumssystems sollte sich nach den für Herstellung, Montage und Vermessung relevanten geometrischen Bezugsmerkmalen richten.
+Das **Datumssystem** wird nach ISO 5459 [@ISO5459] ausschließlich aus geometrischen Datumsmerkmalen der Maßverkörperung abgeleitet, beispielsweise aus Flächen, Kanten, Achsen oder geeigneten Markierungen. Es beschreibt damit die mechanische Lage und Orientierung der Maßverkörperung unabhängig von ihren magnetischen Eigenschaften. Die Wahl des Datumssystems sollte sich nach den für Herstellung, Montage und Vermessung relevanten geometrischen Bezugsmerkmalen richten.
 
 Der **Koordinatenursprung** der Maßverkörperung $O_M$ wird aus diesem Datumssystem abgeleitet. Gemeinsam mit der Orientierung der Koordinatenrichtungen nach @sec-03-koordinatensystem_der_massverkoerperung können damit die magnetische Struktur und das Streufeld auf die experimentell ermittelte Bauteilgeometrie bezogen werden.
 
@@ -88,7 +88,7 @@ Die **Abmessungen eines Spurfeldes** werden aus den Abmessungen seiner Nutzberei
 
 Dazu werden entlang einer Spur ein oder mehrere **Betriebsabschnitte** festgelegt. Sie bezeichnen zusammenhängende Bereiche in $p$-Richtung, innerhalb derer das Spurfeld bewertet wird. Die Ermittlung der Spurfeldabmessungen erfolgt ausschließlich innerhalb dieser Betriebsabschnitte.
 
-Da die Nutzbereichsbreite $w_G(p)$ innerhalb der Betriebsabschnitte variieren kann, wird die **Spurfeldbreite** $w_F$ als die kleinste Nutzbereichsbreite innerhalb aller Betriebsabschnitte einer Spur festgelegt. Die für den magneto-mechanischen Bezug genutzte **Mitte des Nutzbereichs** sollte sich auf diese kleinste Nutzbereichsbreite beziehen. Eine entsprechende Spurfeldlänge wird nicht definiert, da die relevante Ausdehnung in $p$-Richtung bereits durch die Betriebsabschnitte festgelegt ist.
+Die **Spurfeldbreite** $w_F$ ergibt sich aus der Breite eines gemeinsamen Nutzbereichs, der sich über sämtliche Betriebsabschnitte einer Spur erstreckt. Die für den magneto-mechanischen Bezug genutzte **Mitte des Nutzbereichs** ergibt sich aus der Mitte dieses gemeinsamen Bereichs. Eine entsprechende Spurfeldlänge wird nicht definiert, da die relevante Ausdehnung in $p$-Richtung bereits durch die Betriebsabschnitte festgelegt ist.
 
 Der sich aus den Spurfeldbreiten und dem Spurfeld-Querversatz ergebende Abstand zwischen zwei benachbarten, räumlich getrennten Spurfeldern wird als **Spurfeldabstand** $w_{FF}$ bezeichnet. Es gilt:
 
