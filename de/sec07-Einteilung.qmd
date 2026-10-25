@@ -8,11 +8,11 @@ Die Einteilung magnetischer Maßverkörperungen erfolgt auf mehreren Beschreibun
 
 Auf der **zweiten Ebene** wird die geometrische **Form** der Maßverkörperung beschrieben. Hierzu werden die Begrenzungsbox-Geometrien nach @sec-04-magnetische_strukturbeschreibung verwendet.
 
-Auf der **dritten Ebene** wird die geometrische **Anordnung** der magnetischen Struktur beschrieben. Bei magnetischen Maßstäben entspricht diese der Spurausrichtung, bei Multipolmagneten der Zonen-Stapelung.
+Auf der **dritten Ebene** wird die geometrische **Anordnung** der magnetischen Struktur beschrieben. Bei magnetischen Maßstäben entspricht diese der Spurausrichtung, bei Multipolmagneten der Anordnung der Zonen beziehungsweise Pole.
 
 Auf der **vierten Ebene** wird die **magnetische Ausprägung** der Maßverkörperung beschrieben. Zonenbezogen erfolgt dies über Zonenmuster, beispielsweise über die Polarisationsrichtung eines Dipolmagneten oder die Polarisationsart einer Spur. Feldbezogen erfolgt die Beschreibung über das Polmuster oder die Ausprägung der Halbwellen.
 
-Auf der **fünften Ebene** wird die Beschreibung weiter spezifiziert und **quantifiziert**. Bei Multipolmagneten wird die Anzahl der gestapelten Zonen angegeben. Bei magnetischen Maßstäben werden Spurtypen sowie die Anzahl der Zonen, Pole, Halbwellen oder Referenzlagen angegeben.
+Auf der **fünften Ebene** wird die Beschreibung weiter spezifiziert und **quantifiziert**. Bei Multipolmagneten wird je nach gewählter Repräsentation die Anzahl der Zonen oder Pole angegeben. Bei magnetischen Maßstäben werden Spurtypen sowie gegebenenfalls die Anzahl der Zonen, Pole, Halbwellen oder Referenzlagen angegeben.
 
 Zur kompakten Kennzeichnung wird eine **Kurznotation** eingeführt. Sie fasst die wesentlichen Merkmale in der Reihenfolge der Einteilungsebenen zusammen. Zunächst werden die Angaben zu Art, Form und geometrischer Anordnung aufgeführt. Anschließend wird die magnetische Ausprägung angegeben, bei zonenbezogener Beschreibung in eckigen Klammern und bei feldbezogener Beschreibung in runden Klammern. Abschließend werden weiterführende Spezifikation und Quantifizierung angehängt. Sind innerhalb einer Einteilungsebene mehrere Angaben erforderlich, beispielsweise bei mehreren Spuren, werden diese durch einen Doppelpunkt getrennt. Beispiele für die Kurznotation sind in @fig-sec07-01-kurznotation gezeigt.
 

@@ -41,7 +41,7 @@ Technical exchange and discussion; technical contributions to individual chapter
 | Bernd Böhle | ELSOMA GmbH | Technical contribution |
 | Florian Slanovc | Silicon Austria Labs GmbH | Technical contribution |
 | Heiko Knoll | ITK Precisioning GmbH | Technical contribution |
-| Jürgen Gerber | INNOMAG e.V. | Technical contribution; coordination |
+| Jürgen Gerber | INNOMAG e. V. | Technical contribution; coordination |
 | Magnus Meier | IC-Haus GmbH | Technical contribution |
 | Mattias Pelkner | Bundesanstalt für Materialforschung und -prüfung | Technical contribution |
 | Michael Melzer | Bundesanstalt für Materialforschung und -prüfung | Technical contribution |
