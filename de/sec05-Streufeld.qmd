@@ -213,6 +213,10 @@ Teilbild (d) zeigt eine Soll-Felddarstellung in binärer Form. Sie stellt weder 
 
 *Die vorgestellten **Darstellungsformen** können sich in ihrer grafischen Erscheinung stark ähneln, unterscheiden sich jedoch grundlegend hinsichtlich ihrer Bedeutung und ihres Informationsgehalts. Bei der **Interpretation** ist besonders darauf zu achten, welche Darstellungsform vorliegt.*
 
+```{=latex}
+\vspace{0.7\baselineskip}
+```
+
 *Die in @sec-04-magnetische_strukturbeschreibung mittels Begrenzungsbox-Geometrien beschriebenen **Zonen- und Polmuster** stellen häufig idealisierte Soll-Beschreibungen dar. Ihnen können entsprechend ermittelte Ist-Beschreibungen gegenübergestellt werden.*
 
 :::

@@ -136,6 +136,10 @@ Eine häufig verwendete kombinierte Darstellungsform ist die **farbcodierte Zone
 
 *Weicht das resultierende Polmuster deutlich von der Zonenstruktur ab, wie bei den Beispielen in @fig-sec04-12-kombinierte_darstellung, ist die farbcodierte Zonendarstellung ungeeignet und kann zu **irreführenden Farbzuordnungen** führen.*
 
+```{=latex}
+\vspace{0.7\baselineskip}
+```
+
 *Aufgrund ihrer großen optischen Ähnlichkeit kann die farbcodierte Zonendarstellung leicht mit einer Felddarstellung nach @sec-05-felddarstellung **verwechselt** werden. Da beide Darstellungsformen unterschiedliche Informationen vermitteln, sollte stets eindeutig angegeben werden, welche Darstellungsform verwendet wird.*
 :::
 
@@ -171,6 +175,7 @@ Lage und Abmessungen magnetisierter Zonen, von Magnetpolen und magnetischen Spur
 ::: {#tip-04-begrenzungsbox .callout-tip}
 
 *Die nachfolgenden Strukturbegriffe werden verwendet, soweit sich die magnetische Struktur mit der zugrunde liegenden Begrenzungsbox-Geometrie zweckmäßig beschreiben lässt. Für andere Geometrien sind geeignete alternative Größen zu verwenden, wie beispielhaft in @fig-sec04-17-struktur_mp_ring gezeigt.*
+
 :::
 
 ### Strukturbegriffe magnetisierter Zonen {#sec-04-strukturbegriffe_zonen}

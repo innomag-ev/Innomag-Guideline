@@ -5,7 +5,7 @@ project:
 lang: de
 
 version: 1.1
-date: 2026-XX-XX
+date: 2026-11
 doi: 10.5281/zenodo.XXXXXXX
 
 google-scholar: true
@@ -31,7 +31,7 @@ citation:
     - "Michael Ortner"
     - "Rolf Slatter"
   publisher: "INNOMAG e. V."
-  issued: "2026-XX-XX"
+  issued: "2026-11"
 
 book:
   title: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
@@ -78,6 +78,9 @@ language:
   callout-tip-title: "Hinweis"
   crossref-tip-prefix: "Hinweis"
 
+crossref:
+  chapters: true
+
 format:
   html:
     toc: true
@@ -102,7 +105,7 @@ format:
     toc-depth: 2
     lof: true
     lot: true
-    keep-tex: false
+    keep-tex: true
     number-sections: true
 
     include-in-header:
@@ -113,5 +116,5 @@ format:
 
     title-meta: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
     author-meta: "Michael Ortner, Rolf Slatter"
-    date-meta: "2026-XX-XX"
+    date-meta: "2026-11"
     subject: "INNOMAG Richtlinie - Magnetische Maßverkörperungen"

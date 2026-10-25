@@ -5,7 +5,7 @@
 
 **Autoren**: Michael Ortner, Rolf Slatter
 
-**Herausgeber**: INNOMAG e.V., Ruhe Almend 8, 67655 Kaiserslautern
+**Herausgeber**: INNOMAG e. V., Ruhe Almend 8, 67655 Kaiserslautern
 
 **Publikationsdatum**: {{< meta date >}}
 
@@ -55,7 +55,7 @@ Fachlicher Austausch und Diskussion; fachliche Beiträge zu einzelnen Kapiteln; 
 | Bernd Böhle | ELSOMA GmbH | Fachliche Mitwirkung |
 | Florian Slanovc | Silicon Austria Labs GmbH | Fachliche Mitwirkung |
 | Heiko Knoll | ITK Precisioning GmbH | Fachliche Mitwirkung |
-| Jürgen Gerber | INNOMAG e.V. | Fachliche Mitwirkung; Koordination; Buchdruck |
+| Jürgen Gerber | INNOMAG e. V. | Fachliche Mitwirkung; Koordination; Buchdruck |
 | Magnus Meier | IC-Haus GmbH | Fachliche Mitwirkung |
 | Mattias Pelkner | Bundesanstalt für Materialforschung und -prüfung | Fachliche Mitwirkung |
 | Michael Melzer | Bundesanstalt für Materialforschung und -prüfung | Fachliche Mitwirkung |

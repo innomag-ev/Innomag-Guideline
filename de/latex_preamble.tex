@@ -7,6 +7,9 @@
 \usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{placeins}
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{xcolor}
 
 % ---------------------------------------------------------
 % Callouts
@@ -147,3 +150,48 @@
 }
 
 \makeatother
+
+
+% ---------------------------------------------------------
+% Two-color background for PDF title page
+% ---------------------------------------------------------
+
+% Background colors
+\definecolor{titlebg1}{HTML}{FFF8E8} % upper
+\definecolor{titlebg2}{HTML}{E4EFF8} % lower
+
+% Background for the first page only
+\AtBeginDocument{%
+  \AddToShipoutPictureBG*{%
+    \begin{tikzpicture}[
+      remember picture,
+      overlay
+    ]
+      % Entire page: upper color
+      \fill[titlebg1]
+        (current page.south west)
+        rectangle
+        (current page.north east);
+
+      % Lower area: slightly diagonal edge
+      \fill[titlebg2]
+        (current page.south west)
+        --
+        ([yshift=-0.6\paperheight]current page.north west)
+        --
+        ([yshift=-0.3\paperheight]current page.north east)
+        --
+        (current page.south east)
+        -- cycle;
+    \end{tikzpicture}%
+  }%
+}
+
+
+% ---------------------------------------------------------
+% Chapter-based numbering of Quarto tip callouts
+% ---------------------------------------------------------
+
+\AtBeginDocument{%
+  \counterwithin{quartocallouttipno}{chapter}%
+}
