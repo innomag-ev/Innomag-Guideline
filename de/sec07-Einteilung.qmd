@@ -1,6 +1,6 @@
 # Einteilung magnetischer Maßverkörperungen {#sec-07}
 
-Dieses Kapitel führt eine systematische Einteilung magnetischer Maßverkörperungen nach struktureller Komplexität, geometrischer Anordnung und magnetischer Ausprägung ein. Sie erfasst typische praxisrelevante Ausführungsformen, ohne Anspruch auf Vollständigkeit, und unterstützt eine einheitliche Bezeichnung. Es handelt sich um eine Weiterentwicklung der in DIN SPEC 91411 [@DIN91411] vorgeschlagenen Einteilung.
+Dieses Kapitel führt eine systematische Einteilung magnetischer Maßverkörperungen nach struktureller Komplexität, geometrischer Anordnung und magnetischer Ausprägung ein. Sie erfasst typische praxisrelevante Ausführungsformen, ohne Anspruch auf Vollständigkeit. Es handelt sich um eine Weiterentwicklung der in DIN SPEC 91411 [@DIN91411] vorgeschlagenen Einteilung.
 
 ## Grundlegende Einteilung und Kurznotation {#sec-07-grundlegende-einteilung}
 
@@ -74,7 +74,7 @@ Eine Sonderform bilden **abstandscodierte Referenzspuren** „RC$x$“ mit $x$ R
 
 ![Spurtypen – Abstandscodierte Referenzspur RC3](figures/sec07/06-referenz2.png){#fig-sec07-06-referenz2 width=70% fig-pos="H"}
 
-Für bestimmte Anwendungen können Spuren mit variablen Elementlängen eingesetzt werden. Ein wichtiger Vertreter ist der **Pseudorandomcode** „P“, auch als pseudo-random binary sequence bezeichnet. Dabei handelt es sich um eine Codierung, aus der mit geeigneter Sensorik die absolute Lage bestimmt werden kann. Ein Beispiel ist in @fig-sec07-07-pseudorandom gezeigt.
+Für bestimmte Anwendungen können Spuren mit variablen Elementlängen eingesetzt werden. Ein wichtiger Vertreter ist der **Pseudorandomcode** „P“, der beispielsweise auf einer Pseudozufalls-Binärfolge (pseudo-random binary sequence, PRBS) beruhen kann. Dabei handelt es sich um eine Codierung, aus der mit geeigneter Sensorik die absolute Lage bestimmt werden kann. Ein Beispiel ist in @fig-sec07-07-pseudorandom gezeigt.
 
 ![Spurtypen – Pseudorandomcode P](figures/sec07/07-pseudorandom.png){#fig-sec07-07-pseudorandom width=70% fig-pos="H"}
 

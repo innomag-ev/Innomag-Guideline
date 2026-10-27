@@ -161,6 +161,7 @@
 \usepackage{tikz}
 \usepackage{xcolor}
 
+
 % ---------------------------------------------------------
 % Callouts
 % ---------------------------------------------------------
@@ -264,6 +265,9 @@
   Polarisations-richtung
   Model-lierung
   aus-schließlich
+  Referenz-lagen
+
+  Geo-metrical
 }
 
 
@@ -307,8 +311,11 @@
 % ---------------------------------------------------------
 
 % Background colors
-\definecolor{titlebg1}{HTML}{FFF8E8} % upper
-\definecolor{titlebg2}{HTML}{E4EFF8} % lower
+%\definecolor{titlebg1}{HTML}{FFF8E8} % upper
+%\definecolor{titlebg2}{HTML}{E4EFF8} % lower
+
+\definecolor{titlebg1}{HTML}{#F8E2DF} % aus Rot aufgehellt
+\definecolor{titlebg2}{HTML}{DDF3F0} % aus Türkis aufgehellt
 
 % Background for the first page only
 \AtBeginDocument{%
@@ -469,56 +476,72 @@ Winkelmesssysteme}
 \thispagestyle{empty}
 \raggedright
 
-\vspace*{1.0cm}
+% ---------------------------------------------------------
+% Coverpage: Logo (upper right)
+% ---------------------------------------------------------
 
-% ---------------------------------------------------------
-% Header: Richtlinie + Logo
-% ---------------------------------------------------------
+\vspace*{-10mm}
 
 \noindent
-\hfill
-\begin{minipage}[t]{0.35\textwidth}
-  \vspace{0pt}
-  \centering
 
+\makebox[\textwidth][r]{%
   \includegraphics[
-    width=0.85\linewidth
-  ]{figures/coverpage/innomag_logo.png}
-\end{minipage}
+    width=0.30\textwidth
+  ]{figures/coverpage/coverpage_logo.png}%
+}
 
+\par
 
-\begin{minipage}[t]{0.55\textwidth}
-  
-  
-  \vspace{2.0cm}
-
-  {\LARGE\bfseries\sffamily \guidelinetitle \par}
-  \vspace{0.45cm}
-
-  {\large\sffamily Terminologie, technische Darstellung, Einteilung,\\ Messaufbau, Vermessung und Bewertung\par}
-  \vspace{0.45cm}
-
-  {\normalsize\sffamily Version \guidelineversion\par}
-\end{minipage}
-
+\vspace{30mm}
 
 % ---------------------------------------------------------
-% Main cover image
+% Coverpage: Title (left aligned)
 % ---------------------------------------------------------
 
-\vspace{2.5cm}
+{\fontsize{19pt}{23pt}\selectfont\bfseries\sffamily
+  Magnetische Maßverkörperungen\\
+  für Weg- und Winkelmesssysteme\par}
 
-\begin{center}
-\includegraphics[
-  width=0.65\textwidth,
-  keepaspectratio
-]{figures/coverpage/coverpage_image.png}
-\end{center}
+\vspace{3mm}
 
+{\fontsize{12pt}{16pt}\selectfont\sffamily
+  Terminologie, technische Darstellung, Einteilung,\\
+  Messaufbau, Vermessung und Bewertung\par}
+
+\vspace{2mm}
+
+{\fontsize{11pt}{14pt}\selectfont\sffamily
+  Version \guidelineversion\par}
 
 \vfill
 
+% ---------------------------------------------------------
+% Coverpage: Main image (centered in text area)
+% ---------------------------------------------------------
+
+\makebox[\textwidth][c]{%
+  \includegraphics[
+    width=0.85\textwidth,
+    keepaspectratio
+  ]{figures/coverpage/coverpage_image.png}%
+}
+
+\vspace*{10mm}
+
 \end{titlepage}
+
+
+% ---------------------------------------------------------
+% Frontmatter: no forced blank pages
+% ---------------------------------------------------------
+
+\KOMAoptions{open=any}
+
+% Restore right-hand chapter openings in the main part
+\AddToHook{cmd/mainmatter/after}{%
+  \KOMAoptions{open=right}%
+}
+
 
 % ---------------------------------------------------------
 % Impressum
@@ -1298,7 +1321,7 @@ jedoch deutliche Abweichungen zeigt.
 
 Dauermagnete können komplexe Polarisation aufweisen.
 \textbf{Dipolmagnete} sind Dauermagnete, deren Magnetfeld im
-betrachteten Bereich vom Dipolanteil dominiert wird, siehe auch
+betrachteten Bereich meist vom Dipolanteil dominiert wird, siehe auch
 Abbildung~\ref{fig-sec03-01-magnet_und_magnetfeld} (b). Typischerweise
 handelt es sich dabei um Körper mit quasi-homogener Polarisation.
 \textbf{Multipolmagnete} weisen mehrere Polarisationsbereiche auf. Sie
@@ -1612,13 +1635,13 @@ Um diese strukturellen Einheiten präzise beschreiben und individuell
 referenzieren zu können, wird der Begriff der \textbf{magnetisierten
 Zone} eingeführt. Eine magnetisierte Zone ist ein zusammenhängendes,
 geometrisch einfaches magnetisiertes Volumen, in dem die magnetische
-Polarisation in ihrer räumlichen Verteilung bekannt ist und einen
-endlichen Mittelwert aufweist. Zonen dienen der systematischen Zerlegung
-der Polarisation einer Maßverkörperung in klar definierte Abschnitte,
-die einzeln analysiert, nummeriert und im Zuge einer Vermessung oder
-Modellbildung charakterisiert werden. Die Zerlegung einer
-Polarisationsverteilung in Zonen kann als räumliche Diskretisierung
-aufgefasst werden.
+Polarisation in ihrer räumlichen Verteilung bekannt ist und einen von
+null verschiedenen Mittelwert aufweist. Zonen dienen der systematischen
+Zerlegung der Polarisation einer Maßverkörperung in klar definierte
+Abschnitte, die einzeln analysiert, nummeriert und im Zuge einer
+Vermessung oder Modellbildung charakterisiert werden. Die Zerlegung
+einer Polarisationsverteilung in Zonen kann als räumliche
+Diskretisierung aufgefasst werden.
 
 \begin{tcolorbox}[enhanced jigsaw, arc=.35mm, bottomrule=.15mm, bottomtitle=1mm, breakable, colback=white, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, coltitle=black, left=2mm, leftrule=.75mm, opacityback=0, opacitybacktitle=0.6, rightrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Hinweis \ref*{tip-04-domain}}, titlerule=0mm, toprule=.15mm, toptitle=1mm]
 
@@ -3577,7 +3600,7 @@ in einer endlichen Messhöhe. Dazu werden Magnetfeldsensoren in
 entsprechenden Ermittlungsbereichen bewegt. Für Weg- und
 Winkelmesssysteme handelt es sich dabei meist um \(p\)-Messpfade und
 \(p\)-\(o\)-Messflächen bei Messhöhen, die in der Größenordnung einer
-halben bis weniger Pollängen liegen. Bei diesen Messhöhen ist die
+halben bis wenigen Pollängen liegen. Bei diesen Messhöhen ist die
 Feldamplitude typischerweise noch ausreichend groß für die Sensorik,
 während höhere räumliche Harmonische der betrachteten Feldkomponente
 bereits weniger ausgeprägt sind.
@@ -4100,10 +4123,9 @@ Kapitel~\ref{sec-06-spurfeldlage_abmessungen} empfohlen. \\
 Dieses Kapitel führt eine systematische Einteilung magnetischer
 Maßverkörperungen nach struktureller Komplexität, geometrischer
 Anordnung und magnetischer Ausprägung ein. Sie erfasst typische
-praxisrelevante Ausführungsformen, ohne Anspruch auf Vollständigkeit,
-und unterstützt eine einheitliche Bezeichnung. Es handelt sich um eine
-Weiterentwicklung der in DIN SPEC 91411 (Innomag 2022) vorgeschlagenen
-Einteilung.
+praxisrelevante Ausführungsformen, ohne Anspruch auf Vollständigkeit. Es
+handelt sich um eine Weiterentwicklung der in DIN SPEC 91411 (Innomag
+2022) vorgeschlagenen Einteilung.
 
 \section{Grundlegende Einteilung und
 Kurznotation}\label{sec-07-grundlegende-einteilung}
@@ -4366,10 +4388,11 @@ Referenzspur RC3}
 
 Für bestimmte Anwendungen können Spuren mit variablen Elementlängen
 eingesetzt werden. Ein wichtiger Vertreter ist der
-\textbf{Pseudorandomcode} „P``, auch als pseudo-random binary sequence
-bezeichnet. Dabei handelt es sich um eine Codierung, aus der mit
-geeigneter Sensorik die absolute Lage bestimmt werden kann. Ein Beispiel
-ist in Abbildung~\ref{fig-sec07-07-pseudorandom} gezeigt.
+\textbf{Pseudorandomcode} „P``, der beispielsweise auf einer
+Pseudozufalls-Binärfolge (pseudo-random binary sequence, PRBS) beruhen
+kann. Dabei handelt es sich um eine Codierung, aus der mit geeigneter
+Sensorik die absolute Lage bestimmt werden kann. Ein Beispiel ist in
+Abbildung~\ref{fig-sec07-07-pseudorandom} gezeigt.
 
 \begin{figure}[H]
 
@@ -4812,7 +4835,7 @@ Fundamentals, Products, Properties, Applications}. Publicis Publishing.
 \bibitem[\citeproctext]{ref-DIN91411}
 Innomag. 2022. \emph{Anforderungen an die technische Darstellung von
 magnetischen Maßverkörperungen in Konstruktionszeichnungen}. DIN SPEC
-91411:2022-08. DIN Deutsches Institut für Normung e.V.
+91411:2022-08. DIN Deutsches Institut für Normung e. V.
 \url{https://doi.org/10.31030/3359425}.
 
 \bibitem[\citeproctext]{ref-ISO5456-2}

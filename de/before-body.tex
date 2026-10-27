@@ -36,56 +36,72 @@ $endif$
 \thispagestyle{empty}
 \raggedright
 
-\vspace*{1.0cm}
+% ---------------------------------------------------------
+% Coverpage: Logo (upper right)
+% ---------------------------------------------------------
 
-% ---------------------------------------------------------
-% Header: Richtlinie + Logo
-% ---------------------------------------------------------
+\vspace*{-10mm}
 
 \noindent
-\hfill
-\begin{minipage}[t]{0.35\textwidth}
-  \vspace{0pt}
-  \centering
 
+\makebox[\textwidth][r]{%
   \includegraphics[
-    width=0.85\linewidth
-  ]{figures/coverpage/innomag_logo.png}
-\end{minipage}
+    width=0.30\textwidth
+  ]{figures/coverpage/coverpage_logo.png}%
+}
 
+\par
 
-\begin{minipage}[t]{0.55\textwidth}
-  
-  
-  \vspace{2.0cm}
-
-  {\LARGE\bfseries\sffamily \guidelinetitle \par}
-  \vspace{0.45cm}
-
-  {\large\sffamily Terminologie, technische Darstellung, Einteilung,\\ Messaufbau, Vermessung und Bewertung\par}
-  \vspace{0.45cm}
-
-  {\normalsize\sffamily Version \guidelineversion\par}
-\end{minipage}
-
+\vspace{30mm}
 
 % ---------------------------------------------------------
-% Main cover image
+% Coverpage: Title (left aligned)
 % ---------------------------------------------------------
 
-\vspace{2.5cm}
+{\fontsize{19pt}{23pt}\selectfont\bfseries\sffamily
+  Magnetische Maßverkörperungen\\
+  für Weg- und Winkelmesssysteme\par}
 
-\begin{center}
-\includegraphics[
-  width=0.65\textwidth,
-  keepaspectratio
-]{figures/coverpage/coverpage_image.png}
-\end{center}
+\vspace{3mm}
 
+{\fontsize{12pt}{16pt}\selectfont\sffamily
+  Terminologie, technische Darstellung, Einteilung,\\
+  Messaufbau, Vermessung und Bewertung\par}
+
+\vspace{2mm}
+
+{\fontsize{11pt}{14pt}\selectfont\sffamily
+  Version \guidelineversion\par}
 
 \vfill
 
+% ---------------------------------------------------------
+% Coverpage: Main image (centered in text area)
+% ---------------------------------------------------------
+
+\makebox[\textwidth][c]{%
+  \includegraphics[
+    width=0.85\textwidth,
+    keepaspectratio
+  ]{figures/coverpage/coverpage_image.png}%
+}
+
+\vspace*{10mm}
+
 \end{titlepage}
+
+
+% ---------------------------------------------------------
+% Frontmatter: no forced blank pages
+% ---------------------------------------------------------
+
+\KOMAoptions{open=any}
+
+% Restore right-hand chapter openings in the main part
+\AddToHook{cmd/mainmatter/after}{%
+  \KOMAoptions{open=right}%
+}
+
 
 % ---------------------------------------------------------
 % Impressum
