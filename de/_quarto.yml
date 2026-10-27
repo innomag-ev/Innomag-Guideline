@@ -111,6 +111,9 @@ format:
     include-in-header:
       - latex_preamble.tex
 
+    include-after-body:
+      - latex_backcover.tex
+
     template-partials:
       - before-body.tex
 
