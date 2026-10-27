@@ -95,10 +95,17 @@ $endif$
 % Frontmatter: no forced blank pages
 % ---------------------------------------------------------
 
+% Im Vorwerk keine erzwungenen rechten Seiten
 \KOMAoptions{open=any}
 
-% Restore right-hand chapter openings in the main part
-\AddToHook{cmd/mainmatter/after}{%
+% Doppelseitenumbrüche im Vorwerk durch
+% einfache Seitenumbrüche ersetzen
+\let\originalcleardoublepage\cleardoublepage
+\let\cleardoublepage\clearpage
+
+% Ab dem Hauptteil normales Buchlayout wiederherstellen
+\AddToHook{cmd/mainmatter/before}{%
+  \let\cleardoublepage\originalcleardoublepage
   \KOMAoptions{open=right}%
 }
 
