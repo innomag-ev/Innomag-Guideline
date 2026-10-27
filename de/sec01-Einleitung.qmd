@@ -23,7 +23,7 @@ Da die einzelnen Prozessschritte häufig von unterschiedlichen Akteuren durchgef
 
 Unvollständige Informationen und uneinheitliche Bezeichnungen können an den Schnittstellen zu **Missverständnissen und Fehlern** führen und dadurch zusätzlichen Entwicklungsaufwand und Kosten verursachen. Werden Anforderungen an magnetische Maßverkörperungen nicht eindeutig beschrieben, erschwert dies zudem den Vergleich von Komponenten unterschiedlicher Hersteller sowie die Auswahl geeigneter Alternativprodukte oder Ersatzteile (Second Source).
 
-**Ziel dieser Richtlinie** ist es, eine einheitliche Terminologie sowie Regeln zur Beschreibung, Darstellung, Vermessung und Bewertung magnetischer Maßverkörperungen zu schaffen. Es handelt sich um eine Weiterentwicklung der DIN SPEC 91411 [@DIN91411] und richtet sich an Komponentenlieferanten, Hersteller und Anwender magnetischer Weg- und Winkelmesssysteme.
+**Ziel dieser Richtlinie** ist es, eine einheitliche Terminologie sowie Regeln zur Beschreibung, Darstellung, Vermessung und Bewertung magnetischer Maßverkörperungen zu schaffen. Die Richtlinie stellt eine Weiterentwicklung der DIN SPEC 91411 [@DIN91411] dar und richtet sich an Komponentenlieferanten, Hersteller und Anwender magnetischer Weg- und Winkelmesssysteme.
 
 ::: {#tip-01-lebend .callout-tip}
 

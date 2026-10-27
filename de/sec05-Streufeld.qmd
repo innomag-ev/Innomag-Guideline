@@ -205,7 +205,7 @@ Die bisher gezeigten Felddarstellungen geben ermittelte Feldverläufe konkreter 
 
 @fig-sec05-09-felddarstellung_soll_ist zeigt ein magnetisches Schachbrettmuster in verschiedenen Darstellungsformen. Teilbild (a) zeigt die Maßverkörperung in farbcodierter Zonendarstellung. Zu sehen ist eine graue Halterung mit eingepressten kubischen Magneten, zwischen denen schmale Spalte erkennbar sind. Teilbild (b) zeigt die gleiche Maßverkörperung in Poldarstellung. Beide Darstellungen sind nach @sec-04 strukturbezogen.
 
-Teilbild (c) zeigt eine Ist-Felddarstellung in binärer Form. Sie ist auf einen amplitudenbezogenen Nutzbereich beschränkt und auf die Maßverkörperung projiziert. Der zugrunde liegende Feldverlauf wurde durch Simulation des Magnetfeldes der in Teilbild (a) gezeigten Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 1\,\mathrm{mm}$ ermittelt.
+Teilbild (c) zeigt eine Ist-Felddarstellung die auf einen amplitudenbezogenen Nutzbereich beschränkt und auf die Maßverkörperung projiziert ist. Der Feldverlauf wurde durch Simulation des Magnetfeldes der in Teilbild (a) gezeigten Maßverkörperung auf einer $p$-$o$-Messfläche bei der Messhöhe $n = 1\,\mathrm{mm}$ ermittelt.
 
 Teilbild (d) zeigt eine Soll-Felddarstellung in binärer Form. Sie stellt weder einen Ausschnitt des in Teilbild (c) dargestellten Feldverlaufs noch das Ergebnis einer Messung oder Simulation dar. Vielmehr dient sie der Beschreibung gewünschter Feldmerkmale und könnte beispielsweise eine Bedarfsanforderung oder Zielvorgabe für die Auslegung einer Maßverkörperung repräsentieren.
 
