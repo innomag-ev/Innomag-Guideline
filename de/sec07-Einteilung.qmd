@@ -102,8 +102,16 @@ Mit einem Pseudorandomcode kann die absolute Lage direkt bestimmt werden. Die er
 
 ![Beispielhafte magnetische Maßstäbe](figures/sec07/13-massstabe.png){#fig-sec07-13-massstabe width=100% fig-pos="h"}
 
+
 ```{=latex}
 \clearpage
+
+% Disable automatic PDF page rotation
+\makeatletter
+\let\savedPLSRotate\PLS@Rotate
+\let\PLS@Rotate\@gobble
+\makeatother
+
 \begin{landscape}
 ```
 
@@ -113,5 +121,11 @@ Mit einem Pseudorandomcode kann die absolute Lage direkt bestimmt werden. Die er
 
 ```{=latex}
 \end{landscape}
+
+% Restore normal pdflscape behavior
+\makeatletter
+\let\PLS@Rotate\savedPLSRotate
+\makeatother
+
 \clearpage
 ```
