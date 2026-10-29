@@ -6,7 +6,7 @@
 
 **Publication date**: 2026-10-01
 
-**DOI**: 10.5281/zenodo.XXXXXXX
+**DOI**: 10.5281/zenodo.xxx
 
 **Authors**: Michael Ortner, Rolf Slatter
 

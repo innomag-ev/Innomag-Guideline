@@ -1,31 +1,23 @@
-"""
-Create INNOMAG hardcover print PDF from Quarto output.
 
-Input:
-    _site/de/Innomag-Guideline-de.pdf
+"""Create INNOMAG hardcover print PDF from Quarto output.
 
-Output:
-    Innomag-Guideline-de-print.pdf
+Input:  _site/de/Innomag-Guideline-de.pdf
+Output: Innomag-Guideline-de-print.pdf
 
-Page 1:
-    Hardcover spread: 468 x 332 mm
-    Back cover + 8 mm spine + front cover
-    15 mm bleed
+Page 1:   Hardcover spread, 468 x 332 mm
+Pages 2–77: 76 interior pages, 216 x 303 mm
 
-Pages 2-77:
-    76 interior pages: 216 x 303 mm
-    3 mm bleed
+Background colors are automatically extracted from
+the original Quarto PDF.
 
-Install:
+Requires:
     python -m pip install pymupdf
-
-Run:
-    python innomag_make_print_pdf.py
 """
 
 from pathlib import Path
 import sys
 import pymupdf as fitz
+
 
 # -------------------------------------------------------
 # Files
@@ -35,6 +27,7 @@ ROOT = Path(__file__).resolve().parent
 
 SOURCE = ROOT / "_site" / "de" / "Innomag-Guideline-de.pdf"
 TARGET = ROOT / "Innomag-Guideline-de-print.pdf"
+
 
 # -------------------------------------------------------
 # Dimensions (mm)
@@ -54,16 +47,9 @@ INNER_W = 210
 INNER_H = 297
 INNER_BLEED = 3
 
-# Seam overlaps to hide PDF rendering edges
 BOTTOM_OVERLAP = 0.5
 RIGHT_OVERLAP = 2.0
 
-# -------------------------------------------------------
-# Colors
-# -------------------------------------------------------
-
-PINK = (248 / 255, 226 / 255, 223 / 255)
-MINT = (221 / 255, 243 / 255, 240 / 255)
 
 # -------------------------------------------------------
 # Helpers
@@ -77,8 +63,59 @@ def rect_mm(x0, y0, x1, y1):
         y1 * MM,
     )
 
-def draw_polygon(page, points, color, overlay=True):
-    """Draw a filled polygon using coordinates in mm."""
+
+# -------------------------------------------------------
+# Automatically detect cover colors
+# -------------------------------------------------------
+
+def get_cover_colors(back_page):
+    """
+    Extract the two background colors directly from
+    the original PDF's back cover.
+
+    Samples:
+        Upper color: x=5%, y=10%
+        Lower color: x=5%, y=90%
+
+    These positions should contain only background.
+    """
+
+    pix = back_page.get_pixmap(
+        matrix=fitz.Matrix(1, 1),
+        colorspace=fitz.csRGB,
+        alpha=False,
+    )
+
+    def pixel_at(x_fraction, y_fraction):
+        x = round((pix.width - 1) * x_fraction)
+        y = round((pix.height - 1) * y_fraction)
+
+        red, green, blue = pix.pixel(x, y)[:3]
+
+        return (
+            red / 255,
+            green / 255,
+            blue / 255,
+        )
+
+    upper = pixel_at(0.05, 0.10)
+    lower = pixel_at(0.05, 0.90)
+
+    if max(
+        abs(a - b)
+        for a, b in zip(upper, lower)
+    ) < 0.015:
+        raise ValueError(
+            "The two background color samples are "
+            "almost identical. Check the original PDF."
+        )
+
+    return upper, lower
+
+
+def draw_polygon(page, points, color):
+    """Draw a filled polygon using millimeter coordinates."""
+
     shape = page.new_shape()
 
     coords = [
@@ -86,7 +123,10 @@ def draw_polygon(page, points, color, overlay=True):
         for x, y in points
     ]
 
-    for a, b in zip(coords, coords[1:] + coords[:1]):
+    for a, b in zip(
+        coords,
+        coords[1:] + coords[:1],
+    ):
         shape.draw_line(a, b)
 
     shape.finish(
@@ -95,111 +135,89 @@ def draw_polygon(page, points, color, overlay=True):
         closePath=True,
     )
 
-    shape.commit(overlay=overlay)
+    shape.commit(overlay=True)
 
-# -------------------------------------------------------
-# Cover geometry
-# -------------------------------------------------------
-
-def cover_geometry():
-    """Calculate cover boundaries and transition positions."""
-
-    spine_left = COVER_BLEED + PANEL_W
-    front_left = spine_left + SPINE_W
-    front_right = front_left + PANEL_W
-
-    # Horizontal transition across back and spine
-    y_back = COVER_BLEED + 0.60 * PANEL_H
-
-    # Diagonal transition on front
-    y_front_right = COVER_BLEED + 0.30 * PANEL_H
-
-    slope = (y_front_right - y_back) / PANEL_W
-
-    return (
-        spine_left,
-        front_left,
-        front_right,
-        y_back,
-        y_front_right,
-        slope,
-    )
 
 # -------------------------------------------------------
 # Cover background
 # -------------------------------------------------------
 
-def draw_cover_background(page):
+def draw_cover_background(page, upper, lower):
     """
-    Draw continuous background behind the cover artwork.
+    Draw a continuous two-color cover background.
 
-    Back cover:
-        Horizontal color transition at 60%.
+    Back:
+        Horizontal boundary at 60%.
 
     Spine:
-        Horizontal transition at same height.
+        Horizontal continuation.
 
-    Front cover:
-        Diagonal transition from 60% to 30%.
+    Front:
+        Diagonal from 60% at the spine
+        to 30% at the outside edge.
 
     Bleed:
-        Continue colors beyond the trim area.
+        Continue the colors beyond the trim area.
     """
 
-    (
-        spine_left,
-        front_left,
-        front_right,
-        y_back,
-        y_front_right,
-        slope,
-    ) = cover_geometry()
+    spine_left = COVER_BLEED + PANEL_W
+    front_left = spine_left + SPINE_W
+    front_right = front_left + PANEL_W
 
-    y_bleed_right = y_front_right + slope * (COVER_W - front_right)
+    y_spine = COVER_BLEED + 0.60 * PANEL_H
+    y_right = COVER_BLEED + 0.30 * PANEL_H
 
-    # Pink background everywhere
-    page.draw_rect(
-        rect_mm(0, 0, COVER_W, COVER_H),
-        fill=PINK,
-        color=None,
-        overlay=True,
+    slope = (y_right - y_spine) / PANEL_W
+
+    y_outside = (
+        y_right
+        + slope * (COVER_W - front_right)
     )
 
-    # Mint area below the transition
+    # Upper color across the complete cover
+    page.draw_rect(
+        rect_mm(0, 0, COVER_W, COVER_H),
+        color=None,
+        fill=upper,
+    )
+
+    # Lower color with horizontal and diagonal boundary
     draw_polygon(
         page,
         [
-            (0, y_back),
-            (front_left, y_back),
-            (front_right, y_front_right),
-            (COVER_W, y_bleed_right),
+            (0, y_spine),
+            (front_left, y_spine),
+            (front_right, y_right),
+            (COVER_W, y_outside),
             (COVER_W, COVER_H),
             (0, COVER_H),
         ],
-        MINT,
-        overlay=True,
+        lower,
     )
 
+    return front_right, y_right, slope
+
+
 # -------------------------------------------------------
-# Remove cover-edge seams
+# Remove visible PDF rendering seams
 # -------------------------------------------------------
 
-def fix_cover_bleed(page):
+def fix_cover_bleed(
+    page,
+    lower,
+    front_right,
+    y_right,
+    slope,
+):
     """
-    Extend the mint background into the bottom
-    and right bleed without creating a pink seam.
+    Extend the lower background color into the
+    bottom and right bleed areas.
+
+    The upper background is not repainted,
+    avoiding visible seams at the right edge.
     """
 
-    (
-        spine_left,
-        front_left,
-        front_right,
-        y_back,
-        y_front_right,
-        slope,
-    ) = cover_geometry()
-
-    # Bottom bleed: solid mint
+    # Bottom bleed
     bottom = COVER_BLEED + PANEL_H
 
     page.draw_rect(
@@ -210,33 +228,34 @@ def fix_cover_bleed(page):
             COVER_H,
         ),
         color=None,
-        fill=MINT,
+        fill=lower,
         overlay=True,
     )
 
-    # Right bleed: extend only the mint area.
-    # Pink is already present in the original background.
-    x_start = front_right - RIGHT_OVERLAP
+    # Right bleed: diagonal continuation
+    start_x = front_right - RIGHT_OVERLAP
 
-    y_start = y_front_right + slope * (
-        x_start - front_right
+    start_y = (
+        y_right
+        + slope * (start_x - front_right)
     )
 
-    y_outer = y_front_right + slope * (
-        COVER_W - front_right
+    outside_y = (
+        y_right
+        + slope * (COVER_W - front_right)
     )
 
     draw_polygon(
         page,
         [
-            (x_start, y_start),
-            (COVER_W, y_outer),
+            (start_x, start_y),
+            (COVER_W, outside_y),
             (COVER_W, COVER_H),
-            (x_start, COVER_H),
+            (start_x, COVER_H),
         ],
-        MINT,
-        overlay=True,
+        lower,
     )
+
 
 # -------------------------------------------------------
 # Create print PDF
@@ -245,7 +264,7 @@ def fix_cover_bleed(page):
 def create_print_pdf(source_file, target_file):
 
     if source_file.resolve() == target_file.resolve():
-        raise ValueError("Input and output files must differ.")
+        raise ValueError("Input and output must differ.")
 
     with fitz.open(source_file) as original:
 
@@ -255,10 +274,34 @@ def create_print_pdf(source_file, target_file):
                 f"Found {len(original)}."
             )
 
+        # Verify cover pages
+        for page_number in (0, 77):
+            size = original[page_number].rect
+
+            if (
+                abs(size.width / MM - 210) > 1
+                or abs(size.height / MM - 297) > 1
+            ):
+                raise ValueError(
+                    f"Cover page {page_number + 1} "
+                    "must be A4 portrait."
+                )
+
+        # Detect colors from original back cover
+        upper, lower = get_cover_colors(original[-1])
+
+        print(
+            "Upper RGB:",
+            tuple(round(v * 255) for v in upper),
+        )
+        print(
+            "Lower RGB:",
+            tuple(round(v * 255) for v in lower),
+        )
+
         output = fitz.open()
 
         try:
-
             # -------------------------------------------
             # Page 1: Hardcover cover
             # -------------------------------------------
@@ -268,58 +311,53 @@ def create_print_pdf(source_file, target_file):
                 height=COVER_H * MM,
             )
 
-            # Full background including bleed and spine
-            draw_cover_background(cover)
+            # Continuous background
+            front_right, y_right, slope = (
+                draw_cover_background(
+                    cover,
+                    upper,
+                    lower,
+                )
+            )
 
             # Back cover: left
             cover.show_pdf_page(
-                rect_mm(
-                    COVER_BLEED,
-                    COVER_BLEED,
-                    COVER_BLEED + PANEL_W,
-                    COVER_BLEED + PANEL_H,
-                ),
+                rect_mm(15, 15, 230, 317),
                 original,
-                len(original) - 1,
+                77,
                 keep_proportion=False,
             )
 
             # Front cover: right
-            front_x = COVER_BLEED + PANEL_W + SPINE_W
-
             cover.show_pdf_page(
-                rect_mm(
-                    front_x,
-                    COVER_BLEED,
-                    front_x + PANEL_W,
-                    COVER_BLEED + PANEL_H,
-                ),
+                rect_mm(238, 15, 453, 317),
                 original,
                 0,
                 keep_proportion=False,
             )
 
-            # Correct seams at outer edges
-            fix_cover_bleed(cover)
+            # Remove outer-edge rendering seams
+            fix_cover_bleed(
+                cover,
+                lower,
+                front_right,
+                y_right,
+                slope,
+            )
 
             # -------------------------------------------
-            # Pages 2-77: Interior
+            # Pages 2–77: Interior
             # -------------------------------------------
 
             for page_number in range(1, 77):
 
                 page = output.new_page(
-                    width=(INNER_W + 2 * INNER_BLEED) * MM,
-                    height=(INNER_H + 2 * INNER_BLEED) * MM,
+                    width=216 * MM,
+                    height=303 * MM,
                 )
 
                 page.show_pdf_page(
-                    rect_mm(
-                        INNER_BLEED,
-                        INNER_BLEED,
-                        INNER_BLEED + INNER_W,
-                        INNER_BLEED + INNER_H,
-                    ),
+                    rect_mm(3, 3, 213, 300),
                     original,
                     page_number,
                     keep_proportion=False,
@@ -331,10 +369,6 @@ def create_print_pdf(source_file, target_file):
 
             output.set_metadata({
                 "title": "INNOMAG Guideline - Druckfassung",
-                "subject": (
-                    "Hardcover cover 468 x 332 mm; "
-                    "76 interior pages 216 x 303 mm"
-                ),
             })
 
             output.save(
@@ -354,18 +388,23 @@ def create_print_pdf(source_file, target_file):
 
         assert len(result) == 77
 
-        assert abs(result[0].rect.width / MM - 468) < 0.1
-        assert abs(result[0].rect.height / MM - 332) < 0.1
+        assert abs(
+            result[0].rect.width / MM - 468
+        ) < 0.1
 
-        for i in range(1, 77):
-            assert abs(result[i].rect.width / MM - 216) < 0.1
-            assert abs(result[i].rect.height / MM - 303) < 0.1
+        assert abs(
+            result[0].rect.height / MM - 332
+        ) < 0.1
+
+        for page in result.pages(1, 77):
+            assert abs(page.rect.width / MM - 216) < 0.1
+            assert abs(page.rect.height / MM - 303) < 0.1
 
     print(f"\nCreated: {target_file}")
-    print("Pages: 77")
+    print("77 pages")
     print("Cover: 468 x 332 mm, 8 mm spine")
     print("Interior: 76 pages, 216 x 303 mm")
-    print("Bleed: 15 mm cover, 3 mm interior")
+
 
 # -------------------------------------------------------
 # Main
