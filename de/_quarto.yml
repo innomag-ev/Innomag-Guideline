@@ -86,7 +86,6 @@ format:
     theme: cosmo
     css: styles.css
     description-meta: "Technische Richtlinie zur Terminologie, Beschreibung und Charakterisierung magnetischer Maßverkörperungen."
-    include-in-header: scholar-metadata.html
 
   pdf:
     documentclass: scrbook
