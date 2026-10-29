@@ -42,7 +42,7 @@ jobs:
 
       - name: Compress PDF for web
         run: |
-          python script_pdf_image_compression.py --dpi 240
+          python script_pdf_image_compression.py --dpi 220
 
           mv _site/de/Innomag-Guideline-de-web.pdf \
              _site/de/Innomag-Guideline-de.pdf
