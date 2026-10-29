@@ -1,6 +1,8 @@
 
 ::: {.content-visible when-format="html"}
 
+**Zusammenfassung**: Diese Richtlinie schafft einen einheitlichen Rahmen für die technische Beschreibung magnetischer Maßverkörperungen in Weg- und Winkelmesssystemen und dient als Grundlage für deren Spezifikation und Vermessung. Sie greift etablierte Fachbegriffe auf, vereinheitlicht deren Verwendung und führt physikalisch fundierte und in sich konsistente Definitionen ein. Darauf aufbauend legt sie Konventionen zur technischen Darstellung magnetischer Strukturen und Streufelder fest und führt eine systematische Einteilung und Kurznotation gängiger magnetischer Maßverkörperungen ein.
+
 **Version**: {{< meta version >}}
 
 **Autoren**: Michael Ortner, Rolf Slatter
@@ -9,9 +11,9 @@
 
 **Publikationsdatum**: {{< meta date >}}
 
-**DOI**: {{< meta doi >}}
+**DOI**: <https://doi.org/{{< meta doi >}}>
 
-**Lizensiert** unter Creative Commons Namensnennung 4.0 International (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
+**Lizenziert** unter Creative Commons Namensnennung 4.0 International (CC BY 4.0). Ausgenommen sind Inhalte Dritter, sofern diese nicht ausdrücklich anders gekennzeichnet sind.
 
 Das Werk darf vervielfältigt, verbreitet, bearbeitet und für beliebige
 Zwecke, einschließlich kommerzieller Zwecke, verwendet werden, sofern eine
