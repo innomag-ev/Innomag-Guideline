@@ -12,9 +12,15 @@ google-scholar: true
 
 citation:
   type: book
-  doi: 10.5281/zenodo.23735084
-  publisher: INNOMAG e. V.
-  pdf-url: https://innomag-ev.github.io/Innomag-Guideline/de/Innomag-Guideline-de.pdf
+  title: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
+  author:
+    - Michael Ortner
+    - Rolf Slatter
+  issued: 2026-11-01
+  doi: "10.5281/zenodo.23735084"
+  publisher: "INNOMAG e. V."
+  url: "https://innomag-ev.github.io/Innomag-Guideline/de/"
+  pdf-url: "https://innomag-ev.github.io/Innomag-Guideline/de/Innomag-Guideline-de.pdf"
 
 
 keywords:
