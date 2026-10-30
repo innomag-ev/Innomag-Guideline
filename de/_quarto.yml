@@ -50,15 +50,18 @@ book:
       - icon: translate
         text: English
         href: ../en/index.html
+      
+      - text: Pdf-Web
+        href: Innomag-Guideline-de-web.pdf
 
+      - text: Pdf-HQ
+        href: Innomag-Guideline-de.pdf
+      
       - icon: github
         text: GitHub
         href: https://github.com/innomag-ev/Innomag-Guideline
 
   output-file: "Innomag-Guideline-de"
-
-  downloads:
-    - pdf
 
   chapters:
     - href: index.qmd
