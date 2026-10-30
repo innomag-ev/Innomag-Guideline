@@ -229,3 +229,15 @@ table.zebra_blue tbody tr:nth-child(even),
 .quarto-title-meta > div:has(.doi) {
   display: none;
 }
+
+/* ---------------------------------------------------------
+   INNOMAG Guideline Logo
+   --------------------------------------------------------- */
+
+.sidebar-logo {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain;
+}

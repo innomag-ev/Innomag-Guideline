@@ -43,7 +43,8 @@ book:
   site-url: "https://XXX"
 
   sidebar:
-    title: "INNOMAG Guideline"
+    logo: figures/coverpage/coverpage_logo.png
+    title: " "
     search: true
     tools:
       - icon: translate
