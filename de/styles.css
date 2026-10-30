@@ -91,10 +91,10 @@ a.quarto-navigation-tool[aria-label="Deutsch"] i {
     font-size: 0;
     min-width: 42px;
 
-    background-image: url("figures/webpage/flag-gb.svg");
-    background-size: 24px 16px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("figures/webpage/flag-gb.svg") !important;
+    background-size: 24px 16px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 /* Hide original translation icon */
