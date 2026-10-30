@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: ../_site/de
+  resources:
+    - figures/webpage/flag-gb.svg
 
 lang: de
 
