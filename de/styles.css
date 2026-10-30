@@ -84,29 +84,22 @@ a.quarto-navigation-tool[aria-label="Deutsch"] i {
 
 
 /* =========================================================
-   1. ENGLISH BUTTON - British flag SVG
+   1. ENGLISH BUTTON - British flag
    ========================================================= */
 
 .sidebar-tools-main a.quarto-navigation-tool[href*="/en/index.html"] {
     font-size: 0;
-    min-width: 36px;
-}
+    min-width: 42px;
 
-/* Hide existing translation icon */
-.sidebar-tools-main a[href*="/en/index.html"] .bi {
-    display: none;
-}
-
-/* British flag icon */
-.sidebar-tools-main a[href*="/en/index.html"]::after {
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height: 16px;
     background-image: url("figures/webpage/flag-gb.svg");
-    background-size: contain;
+    background-size: 24px 16px;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* Hide original translation icon */
+.sidebar-tools-main a[href*="/en/index.html"] .bi {
+    display: none;
 }
 
 
