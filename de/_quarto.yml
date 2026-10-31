@@ -44,6 +44,7 @@ book:
   title: "Magnetische Maßverkörperungen für Weg- und Winkelmesssysteme"
   subtitle: "Terminologie, technische Darstellung, Einteilung, Messaufbau, Vermessung und Bewertung"
   site-url: "https://XXX"
+  favicon: figures/webpage/favicon.png
 
   sidebar:
     logo: figures/coverpage/coverpage_logo.png
@@ -98,7 +99,6 @@ format:
     number-sections: true
     theme: cosmo
     css: styles.css
-    favicon: figures/webpage/favicon.png
     description-meta: "Technische Richtlinie zur Terminologie, Beschreibung und Charakterisierung magnetischer Maßverkörperungen."
 
   pdf:
