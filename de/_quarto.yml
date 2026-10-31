@@ -97,6 +97,7 @@ format:
     number-sections: true
     theme: cosmo
     css: styles.css
+    favicon: figures/webpage/favicon.png
     description-meta: "Technische Richtlinie zur Terminologie, Beschreibung und Charakterisierung magnetischer Maßverkörperungen."
 
   pdf:

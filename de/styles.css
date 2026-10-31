@@ -170,6 +170,14 @@ a.quarto-navigation-tool[aria-label="Deutsch"] i {
 }
 
 
+/* =========================================================
+   Hide keywords in HTML title block
+   ========================================================= */
+
+#title-block-header .keywords {
+    display: none;
+}
+
 
 
 /* ---------------------------------------------------------
