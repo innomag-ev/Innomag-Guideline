@@ -3,6 +3,7 @@ project:
   output-dir: ../_site/de
   resources:
     - figures/webpage/flag-gb.svg
+    - figures/webpage/favicon.png
 
 lang: de
 
