@@ -101,8 +101,8 @@ format:
     description-meta: "Technische Richtlinie zur Terminologie, Beschreibung und Charakterisierung magnetischer Maßverkörperungen."
     include-in-header:
       text: |
-        <link rel="shortcut icon" type="image/png" href="figures/webpage/favicon.png">
-        <link rel="icon" type="image/png" href="figures/webpage/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="figures/webpage/favicon.svg">
+        <link rel="icon" type="image/png" href="figures/webpage/favicon.svg">
 
   pdf:
     documentclass: scrbook
