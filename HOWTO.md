@@ -12,4 +12,4 @@ On Github the workflow runs "script_pdf_image_compression" and compresses to 220
 
 Locally one can choose to run "script_pdf_image_compression" for testing.
 
-"script_book_mergeA4covers.py" will take the existing quarto-formated pdf (should be high quality without compressed images) and bring it to "wir-machen-druck" requested print format.
+"script_prepare_print_version.py" will take the existing quarto-formated pdf (should be high quality without compressed images) and bring it to "wir-machen-druck" requested print format.
