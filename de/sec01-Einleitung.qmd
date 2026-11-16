@@ -23,7 +23,7 @@ Da die einzelnen Prozessschritte häufig von unterschiedlichen Akteuren durchgef
 
 Unvollständige Informationen und uneinheitliche Bezeichnungen können an den Schnittstellen zu **Missverständnissen und Fehlern** führen und dadurch zusätzlichen Entwicklungsaufwand und Kosten verursachen. Werden Anforderungen an magnetische Maßverkörperungen nicht eindeutig beschrieben, erschwert dies zudem den Vergleich von Komponenten unterschiedlicher Hersteller sowie die Auswahl geeigneter Alternativprodukte oder Ersatzteile (Second Source).
 
-**Ziel dieser Richtlinie** ist es, eine einheitliche Terminologie sowie Regeln zur Beschreibung, Darstellung, Vermessung und Bewertung magnetischer Maßverkörperungen zu schaffen. Die Richtlinie stellt eine Weiterentwicklung der DIN SPEC 91411 [@DIN91411] dar und richtet sich an Komponentenlieferanten, Hersteller und Anwender magnetischer Weg- und Winkelmesssysteme.
+**Ziel dieser Richtlinie** ist es, eine einheitliche Terminologie sowie Regeln zur Beschreibung, Darstellung, Vermessung und Bewertung magnetischer Maßverkörperungen zu schaffen. Sie stellt eine Weiterentwicklung der DIN SPEC 91411 [@DIN91411] dar und richtet sich an Komponentenlieferanten, Hersteller und Anwender magnetischer Weg- und Winkelmesssysteme.
 
 ::: {#tip-01-lebend .callout-tip}
 
@@ -32,10 +32,8 @@ Unvollständige Informationen und uneinheitliche Bezeichnungen können an den Sc
 
 ## Geltungsbereich
 
-Diese Richtlinie behandelt magnetische Maßverkörperungen als Komponenten magnetischer Weg- und Winkelmesssysteme. Im Mittelpunkt stehen ihre magnetische und geometrische Beschreibung, die Darstellung und Spezifikation ihrer Eigenschaften sowie deren Vermessung und Bewertung.
+Dieses Dokument behandelt magnetische Maßverkörperungen als Komponenten magnetischer Weg- und Winkelmesssysteme. Im **Mittelpunkt** stehen ihre magnetische und geometrische Beschreibung, die Darstellung und Spezifikation ihrer Eigenschaften sowie Grundlagen der Vermessung. Die eingeführte Terminologie und Beschreibungssystematik ist speziell für magnetische Weg- und Winkelmesssysteme ausgelegt. Sie kann jedoch in weiten Teilen auch auf mehrdimensionale magnetische Positionsmesssysteme sowie allgemein auf die technische Beschreibung und Darstellung von Dauermagneten übertragen werden.
 
-Die eingeführte Terminologie und Beschreibungssystematik ist speziell für magnetische Weg- und Winkelmesssysteme ausgelegt. Sie kann jedoch in weiten Teilen auch auf mehrdimensionale magnetische Positionsmesssysteme sowie allgemein auf die technische Beschreibung und Darstellung von Dauermagneten übertragen werden.
-
-Das Messsystem, der magnetische Sensor und der Herstellungsprozess der Maßverkörperung werden nur insoweit betrachtet, wie dies für die Beschreibung, Vermessung oder Bewertung der Maßverkörperung erforderlich ist. Die Bewertung des vollständigen Messsystems bzw. der Endanwendung, insbesondere seiner Positionsgenauigkeit, ist nicht Gegenstand dieser Richtlinie.
+Das Messsystem, der magnetische Sensor und der Herstellungsprozess der Maßverkörperung werden nur insoweit betrachtet, wie dies für die Beschreibung, Vermessung oder Bewertung der Maßverkörperung erforderlich ist. Die Bewertung des vollständigen Messsystems bzw. der Endanwendung, insbesondere seiner Positionsgenauigkeit, ist **nicht Gegenstand dieser Richtlinie**.
 
 Die Maßverkörperung wird damit grundsätzlich unabhängig von einem bestimmten Herstellungsverfahren, Sensortyp oder einer konkreten Anwendung beschrieben. Anforderungen an ihre Eigenschaften können sich jedoch aus Herstellung, Sensorik und Anwendung ergeben.

@@ -44,9 +44,7 @@ Der **Luftspalt** $d_\mathrm{mech}$ bezeichnet den freien mechanischen Abstand z
 
 Der **Wirkabstand** $d_\mathrm{mag}$ bezeichnet den Abstand in lokaler $n$-Richtung zwischen der sensorzugewandten Begrenzung der Zonenstruktur und der Sensorreferenz. Im Gegensatz zum Luftspalt beschreibt er die Distanz zwischen der Oberseite der magnetisch wirksamen Struktur und den Sensorelementen, unabhängig von dazwischenliegenden magnetisch inaktiven Elementen wie Schutzabdeckungen und Packages.
 
-Die **Messhöhe** $n$ bezeichnet die $n$-Koordinate im Maßverkörperungs-KS und damit den Abstand von der funktionalen Oberfläche. Die Messhöhe der Sensorreferenz entspricht dem Wirkabstand,
-
-wenn die Begrenzung der Zonenstruktur mit der funktionalen Oberfläche zusammenfällt, was beispielsweise bei Maßverkörperungen mit Schutzabdeckungen nicht gegeben ist.
+Die **Messhöhe** $n$ bezeichnet die $n$-Koordinate im Maßverkörperungs-KS und damit den Abstand von der funktionalen Oberfläche. Die Messhöhe der Sensorreferenz entspricht dem Wirkabstand, wenn die Begrenzung der Zonenstruktur mit der funktionalen Oberfläche zusammenfällt, was beispielsweise bei Maßverkörperungen mit Schutzabdeckungen nicht gegeben ist.
 
 Die **Sensororientierung** bezeichnet die Orientierung des Sensor-KS relativ zum lokalen Maßverkörperungs-KS an der Sensorlage. Bei nominaler Ausrichtung stimmen die entsprechenden Koordinatenrichtungen beider Koordinatensysteme überein.
 

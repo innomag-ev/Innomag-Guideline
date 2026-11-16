@@ -1,6 +1,6 @@
 # Grundlagen des Messsystems {#sec-03}
 
-In diesem Kapitel werden wichtige Grundlagen magnetischer Weg- und Winkelmesssysteme beschrieben. Insbesondere werden Komponenten wie Sensor und magnetische Maßverkörperung eingeführt und ihre Anordnung im Messsystem beschrieben.
+In diesem Kapitel werden wichtige Grundlagen magnetischer Weg- und Winkelmesssysteme beschrieben. Insbesondere werden Komponenten wie Sensor und magnetische Maßverkörperung und ihre Anordnung im Messsystem eingeführt.
 
 ## Magnet und Magnetfeld {#sec-03-magnet_und_magnetfeld}
 
@@ -11,7 +11,7 @@ Die **Magnetisierung** $\vec{M}$ (Einheit A/m) beschreibt den magnetischen Zusta
 *Für den in diesem Dokument bevorzugt verwendeten Begriff **Polarisation** wird in der Fachliteratur und Praxis meist der proportionale Begriff **Magnetisierung** verwendet. Der Begriff Polarisation wird in dieser Richtlinie bevorzugt, weil er eine eindeutige Abgrenzung gegenüber dem Prozess der Magnetisierung sicherstellt. Darüber hinaus entspricht diese Wahl der in der Praxis verbreiteten Angabe der magnetischen Stärke von Dauermagneten in Tesla.*
 :::
 
-Das **Magnetfeld** ist ein physikalisches Feld, das von bewegten elektrischen Ladungen oder magnetisierten Körpern erzeugt wird. Es beschreibt den Zustand des Raums, in dem magnetische Kräfte wirken, und wird durch die magnetische Feldstärke $\vec{H}$ und die magnetische Flussdichte $\vec{B}$ charakterisiert. Um den häufig auftretenden terminologischen Verwirrungen vorzubeugen, werden diese fundamentalen physikalischen Größen in diesem Dokument vereinfachend als **B-Feld** und **H-Feld** bezeichnet.
+Das **Magnetfeld** ist ein physikalisches Feld, das von bewegten elektrischen Ladungen oder magnetisierten Körpern erzeugt wird. Es beschreibt den Zustand des Raums, in dem magnetische Kräfte wirken, und wird durch die magnetische Feldstärke $\vec{H}$ und die magnetische Flussdichte $\vec{B}$ charakterisiert. Um den häufig auftretenden terminologischen Verwirrungen vorzubeugen, werden diese fundamentalen physikalischen Größen in diesem Dokument als **B-Feld** und **H-Feld** bezeichnet.
 
 Die Felder $\vec{B}$ und $\vec{H}$ unterscheiden sich durch ihre Einheiten und durch die Berücksichtigung der Magnetisierung. Sie stehen in folgender Beziehung: $\vec{B}=μ_0 (\vec{H}+\vec{M})$. Da im Kontext dieser Richtlinie das Magnetfeld ausschließlich außerhalb einer magnetischen Maßverkörperung betrachtet wird, also in einem Bereich, in dem $\vec{M}=0$ gilt, sind B- und H-Feld proportional und werden daher synonym behandelt. Das Magnetfeld im Außenraum eines Dauermagneten wird auch oft als **Streufeld** bezeichnet.
 
@@ -21,9 +21,9 @@ Das Magnetfeld eines Körpers ergibt sich aus der Überlagerung der Magnetfelder
 
 ![Physikalische Grundbegriffe](figures/sec03/01-magnet_und_magnetfeld.png){#fig-sec03-01-magnet_und_magnetfeld width=85% fig-pos="h"}
 
-@fig-sec03-01-magnet_und_magnetfeld (a) zeigt das Feld eines Punktdipols. Teilbild (b) zeigt das Streufeld und die Polarisation eines würfelförmigen Dauermagneten im Querschnitt; die homogene magnetische Polarisation ist durch schwarze Pfeile dargestellt. Die dargestellten Feldlinien basieren auf einer numerischen Simulation. Es wird deutlich, dass das Streufeld eines endlichen Magneten in großem Abstand eine hohe Ähnlichkeit mit dem Dipolfeld aufweist, im Nahbereich jedoch deutliche Abweichungen zeigt.
+@fig-sec03-01-magnet_und_magnetfeld (a) zeigt das Feld eines Punktdipols. Teilbild (b) zeigt das Streufeld und die Polarisation eines würfelförmigen Dauermagneten im Querschnitt; die homogene magnetische Polarisation ist durch schwarze Pfeile dargestellt. Die dargestellten Feldlinien basieren auf einer Simulation [@ortner2020magpylib]. Man erkennt, dass das Streufeld eines endlichen Magneten in großem Abstand eine hohe Ähnlichkeit mit dem Dipolfeld aufweist, im Nahbereich jedoch deutliche Abweichungen zeigt.
 
-Dauermagnete können komplexe Polarisation aufweisen. **Dipolmagnete** sind Dauermagnete, deren Magnetfeld im betrachteten Bereich meist vom Dipolanteil dominiert wird, siehe auch @fig-sec03-01-magnet_und_magnetfeld (b). Typischerweise handelt es sich dabei um Körper mit quasi-homogener Polarisation. **Multipolmagnete** weisen mehrere Polarisationsbereiche auf. Sie können beispielsweise aus mehreren Dipolmagneten zusammengesetzt sein. **Magnetische Maßstäbe** sind hingegen Dauermagnete mit einem typischerweise entlang der Oberfläche verlaufenden streifenförmigen Polarisationsmuster. Diese Einteilung dient vorwiegend der groben Unterscheidung des Komplexitätsgrades eines Dauermagneten und wird in @sec-07 näher ausgeführt.
+**Dipolmagnete** sind Dauermagnete, deren Magnetfeld im betrachteten Bereich meist vom Dipolanteil dominiert wird, siehe auch @fig-sec03-01-magnet_und_magnetfeld (b). Typischerweise handelt es sich dabei um Körper mit quasi-homogener Polarisation. Dauermagnete können aber auch eine wesentlich komplexere Polarisationsstruktur aufweisen. Sogenannte **Multipolmagnete** bestehen aus mehreren unterschiedlich ausgerichteten Polarisationsbereichen. Verläuft eine komplexe magnetische Struktur in streifenförmigen Bereichen entlang der Oberfläche eines Dauermagenten spricht man von einem **Magnetischen Maßstab**. Diese Einteilung dient vorwiegend der groben Unterscheidung des Komplexitätsgrades eines Dauermagneten und wird in @sec-07 näher ausgeführt.
 
 ## Anordnung des Messsystems {#sec-03-anordnung_des_messsystems}
 
@@ -47,17 +47,15 @@ Ausgehend von der Messaufgabe und den damit verbundenen geometrischen Randbeding
 
 ## Koordinatensystem der Maßverkörperung {#sec-03-koordinatensystem_der_massverkoerperung}
 
-Aus der geometrischen Anordnung ergibt sich eine **zweckmäßige Koordinatenwahl** zur Beschreibung des Messsystems.
-
-Für die Beschreibung des Messsystems wird eine Bewegungsrichtung des Sensors oder der Maßverkörperung als **Vorwärtsbewegung** festgelegt. Die $\symbfit{p}$**-Richtung** mit dem Richtungsvektor $\vec{e}_p$ zeigt in Richtung der daraus resultierenden relativen Bewegung des Sensors und wird als **Längsrichtung** bezeichnet.
+Als zweckmäßige Koordinatenwahl für die Beschreibung des Messsystems wird eine Bewegungsrichtung des Sensors oder der Maßverkörperung als **Vorwärtsbewegung** festgelegt. Die $\symbfit{p}$**-Richtung** mit dem Richtungsvektor $\vec{e}_p$ zeigt in Richtung der daraus resultierenden relativen Bewegung des Sensors und wird als **Längsrichtung** bezeichnet.
 
 Die **funktionale Oberfläche** der Maßverkörperung ist die dem Sensor zugewandte, für die magnetische Abtastung maßgebende Bezugsfläche. Bei linearen Anordnungen verläuft sie parallel zur Relativbewegung von Sensor und Maßverkörperung; bei radialen und axialen Anordnungen entspricht sie der dem Sensor zugewandten Mantel- beziehungsweise Stirnfläche. Sie fällt mit einer physischen Oberfläche der Maßverkörperung zusammen und kann darüber hinaus als gedachte Bezugsfläche fortgesetzt werden. Die $\symbfit{n}$**-Richtung** mit dem Richtungsvektor $\vec{e}_n$ steht senkrecht zur funktionalen Oberfläche und zeigt zum Sensor.
 
-Bei linearen, radialen und axialen Anordnungen stehen die Richtungsvektoren $\vec{e}_p$ und $\vec{e}_n$ damit immer senkrecht zueinander. Die $\symbfit{o}$**-Richtung** mit dem Richtungsvektor $\vec{e}_o$ wird als dritte rechtshändige Koordinatenrichtung festgelegt. Sie verläuft parallel zur funktionalen Oberfläche und wird als **Querrichtung** bezeichnet.
+Bei linearen, radialen und axialen Anordnungen stehen die Richtungsvektoren $\vec{e}_p$ und $\vec{e}_n$ damit immer senkrecht zueinander. Die $\symbfit{o}$**-Richtung** mit dem Richtungsvektor $\vec{e}_o$ wird so festgelegt, dass die Richtungen $p$–$o$–$n$ ein rechtshändiges Koordinatensystem bilden (Daumen–Zeigefinger–Mittelfinger-Regel). Sie verläuft parallel zur funktionalen Oberfläche und wird als **Querrichtung** bezeichnet.
 
 Mit einem festgelegten **Ursprung** $O_M$, der auf der funktionalen Oberfläche liegt, bilden die Richtungen $p$, $o$ und $n$ ein rechtshändiges Koordinatensystem (KS), das als **Maßverkörperungs-KS** bezeichnet wird. Es bildet den Bezug für die Beschreibung von Geometrie und magnetischer Struktur der Maßverkörperung, ihres Streufeldes sowie der Positionierung des Sensors.
 
-Die funktionale Oberfläche der Maßverkörperung entspricht dann $n=0$; die $n$-Koordinate gibt den Abstand von ihr an und wird als Messhöhe bezeichnet. Die **Messhöhe** des Sensors ist in linearen, radialen und axialen Anwendungen typischerweise konstant.
+Die funktionale Oberfläche der Maßverkörperung entspricht dann $n=0$; die $n$-Koordinate gibt den Abstand von ihr an und wird als **Messhöhe** bezeichnet. Die Messhöhe des Sensors ist in linearen, radialen und axialen Anwendungen typischerweise konstant.
 
 Bei linearen Anordnungen wird eine kartesische, bei radialen und axialen Anordnungen eine zylindrische Koordinatendarstellung verwendet. In den zylindrischen Fällen beschreibt die $p$-Koordinate die Winkelposition. Da diese in der Praxis häufig als zugehörige Bogenlänge angegeben wird, ist auf die **verwendeten Einheiten** entsprechend zu achten.
 
@@ -76,13 +74,13 @@ Aus der funktionalen Oberfläche und der Vorwärtsbewegung werden die Koordinate
 
 ## Orientierung magnetischer Größen {#sec-03-orientierung_magnetischer_groessen}
 
-Zur Beschreibung der Orientierung magnetischer Größen relativ zur funktionalen Oberfläche werden häufig die Bezeichnungen **in-plane (IP)** und **out-of-plane (OOP)** verwendet. Eine magnetische Größe ist IP-orientiert, wenn sie parallel zur funktionalen Oberfläche liegt, und OOP-orientiert, wenn sie senkrecht dazu steht. Das bedeutet, dass sowohl die $p$- als auch die $o$-Richtung in-plane liegen, während die $n$-Richtung out-of-plane orientiert ist. Entsprechend sind beispielsweise die Polarisationskomponenten $J_p$ und $J_o$ IP-Komponenten und $J_n$ eine OOP-Komponente.
+Zur Beschreibung der Orientierung magnetischer Größen relativ zur funktionalen Oberfläche werden häufig die Bezeichnungen **in-plane (IP)** und **out-of-plane (OOP)** verwendet. Eine magnetische Größe ist IP-orientiert, wenn sie parallel zur funktionalen Oberfläche liegt, und OOP-orientiert, wenn sie senkrecht dazu steht. Das bedeutet, dass sowohl die $p$- als auch die $o$-Richtung in-plane liegen, während die $n$-Richtung out-of-plane orientiert ist. Entsprechend sind beispielsweise die Polarisationskomponenten $J_p$ und $J_o$ IP-Komponenten und $J_n$ die OOP-Komponente.
 
-Bei den in dieser Richtlinie betrachteten linearen, radialen und axialen Anordnungen werden für die Positionsmessung jedoch **überwiegend magnetische Größen in** $\symbfit{p}$**- und** $\symbfit{n}$**-Richtung** genutzt. Die $o$-Komponente der Polarisation beziehungsweise des Magnetfeldes spielt für die betrachteten Messprinzipien in der Regel keine unmittelbare Rolle. Die Bezeichnung IP wird daher in dieser Richtlinie überwiegend für in $p$-Richtung orientierte Polarisationen beziehungsweise für die $p$-Komponente des Magnetfeldes verwendet. Die Bezeichnung OOP bezieht sich entsprechend auf die $n$-Richtung.
+Bei den in dieser Richtlinie betrachteten linearen, radialen und axialen Anordnungen werden für die Positionsmessung jedoch **überwiegend magnetische Größen in** $\symbfit{p}$**- und** $\symbfit{n}$**-Richtung** genutzt. Die $o$-Komponente der Polarisation beziehungsweise des Magnetfeldes spielt für die betrachteten Messprinzipien in der Regel keine unmittelbare Rolle. Die Bezeichnung IP wird daher in dieser Richtlinie überwiegend für in $p$-Richtung orientierte Polarisationen beziehungsweise für die $p$-Komponente des Magnetfeldes verwendet.
 
 ## Indexkonventionen {#sec-03-indexkonvention}
 
-Viele der in diesem Dokument verwendeten Größen beziehen sich auf bestimmte Elemente magnetischer Messsysteme oder auf charakteristische Merkmale des Magnetfeldes. Zur Kennzeichnung dieses Bezugs werden die Kürzel in @tbl-bezugsindizes als untere Bezugsindizes verwendet.
+Viele der in diesem Dokument verwendeten Größen beziehen sich auf bestimmte Elemente magnetischer Messsysteme oder auf charakteristische Merkmale des Magnetfeldes. Zur Kennzeichnung dieses Bezugs werden die Kürzel in @tbl-bezugsindizes als untere **Bezugsindizes** eingesetzt.
 
 | **Kürzel** | **Bezug**             | **Kürzel** | **Bezug**        |
 |:------:|:------------------|:------:|:-------------|
@@ -94,15 +92,13 @@ Viele der in diesem Dokument verwendeten Größen beziehen sich auf bestimmte El
 
 : Kürzel für Bezugsindizes {#tbl-bezugsindizes .zebra}
 
-Darüber hinaus werden **Ordnungsindizes** verwendet, um einzelne Objekte oder Merkmale zu nummerieren und eindeutig zu kennzeichnen. Sie werden als obere Indizes in runden Klammern geführt.
+Darüber hinaus werden **Ordnungsindizes** verwendet, um einzelne Objekte oder Merkmale zu nummerieren und eindeutig zu kennzeichnen. Sie werden als obere Indizes in runden Klammern geführt. Dabei wird der Ordnungsindex $i$ im Allgemeinen für Spuren und Spurfelder verwendet. Für weitere Struktur- und Feldmerkmale wird der Ordnungsindex $j$ eingesetzt. Gleiche Ordnungsindizes stellen dabei nicht grundsätzlich eine Zuordnung zwischen unterschiedlichen Objekttypen dar. Beispielsweise muss Pol 3 nicht notwendigerweise Zone 3 zugeordnet sein.
 
-Der Ordnungsindex $i$ wird für Spuren und Spurfelder verwendet. Für weitere Struktur- und Feldmerkmale wird der Ordnungsindex $j$ eingesetzt. Gleiche Ordnungsindizes stellen dabei nicht grundsätzlich eine Zuordnung zwischen unterschiedlichen Objekttypen dar. Beispielsweise muss Pol 3 nicht notwendigerweise Zone 3 zugeordnet sein.
-
-Sind zur Beschreibung eines Objekts innerhalb einer Spur mehrere Ordnungsindizes erforderlich, werden diese durch ein Komma getrennt. Der erste Ordnungsindex gibt dabei die Spur an. Beispielsweise bezeichnet $l_P^{(2,5)}$ die Länge von Pol 5 der Spur 2.
+Sind zur Beschreibung eines Objekts innerhalb einer Spur mehrere Ordnungsindizes erforderlich, werden diese durch ein Komma getrennt. Der erste Ordnungsindex gibt dabei die Spur an. Beispielsweise bezeichnet $\ell_P^{(2,5)}$ die Länge von Pol 5 der Spur 2.
 
 Bei Größen, die sich auf zwei Spuren oder Spurfelder beziehen, wird der jeweilige Bezugsindex doppelt geführt. So kennzeichnet „TT“ eine Beziehung zwischen zwei Spuren und „FF“ eine Beziehung zwischen zwei Spurfeldern. Beispielsweise bezeichnet $w_{TT}^{(3,4)}$ den Spurabstand zwischen Spur 3 und Spur 4. Bei gerichteten Größen wie dem Versatz ist die Reihenfolge der Ordnungsindizes zu beachten.
 
 ::: {#tip-03-lesbarkeit .callout-tip}
 
-*Zur Verbesserung der **Lesbarkeit** sollen Ordnungsindizes weggelassen werden, sofern die Zuordnung aus dem Kontext eindeutig hervorgeht. Besitzt ein magnetischer Maßstab beispielsweise nur eine Spur, soll anstelle von $w_T^{(1)}$ die verkürzte Schreibweise $w_T$ verwendet werden.*
+*Zur Verbesserung der **Lesbarkeit** sollen Ordnungsindizes weggelassen werden, sofern die Zuordnung aus dem Kontext eindeutig hervorgeht. Besitzt ein magnetischer Maßstab beispielsweise nur eine Spur, soll anstelle von $\ell_P^{(1,5)}$ die verkürzte Schreibweise $\ell_P^{(5)}$ verwendet werden.*
 :::

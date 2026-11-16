@@ -18,7 +18,7 @@ Zur Positionserfassung, insbesondere zur Erfassung der Neutralstellung, ist an d
 
 ![Positionsermittlung bei linearen Wegmesssystemen](figures/sec02/02-linearweg_hinterachsenlenkung2.png){#fig-sec02-02-linearweg_hinterachsenlenkung2 width=100% fig-pos="h"}
 
-@fig-sec02-02-linearweg_hinterachsenlenkung2 (a) zeigt die positionsabhängige Änderung der vom Sensor erfassten Streufeldkomponenten für einen linearen Stellweg von 20 mm in diesem System. Aus den beiden Feldkomponenten wird mit einem üblichen Berechnungsschema ein magnetischer Winkel ermittelt (b). Im betrachteten Stellbereich ist dieser streng monoton und ermöglicht dadurch eine eindeutige Zuordnung der linearen Stellposition zum magnetischen Winkel.
+@fig-sec02-02-linearweg_hinterachsenlenkung2 (a) zeigt die positionsabhängige Änderung der vom Sensor erfassten Streufeldkomponenten für einen linearen Stellweg von 20 mm in diesem System. Aus den beiden Feldkomponenten wird mit einem üblichen Berechnungsschema ein magnetischer Winkel ermittelt (b). Im betrachteten Stellbereich ist dieser streng monoton und ermöglicht dadurch eine eindeutige Zuordnung zu der linearen Stellposition.
 
 Das Beispiel steht für einfach aufgebaute magnetische Wegmesssysteme, die aufgrund ihrer Robustheit und Kosteneffizienz weit verbreitet sind. Trotz des einfachen Grundprinzips kann die konkrete Einbausituation komplex sein und erfordert eine sorgfältige Systemauslegung sowie eine präzise und robuste Erfassung des Streufeldes.
 

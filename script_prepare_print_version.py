@@ -7,6 +7,8 @@ Output: Innomag-Guideline-de-print.pdf
 Page 1:   Hardcover spread, 468 x 332 mm
 Pages 2–77: 76 interior pages, 216 x 303 mm
 
+Quarto page order: front, blank, 76 interior pages, blank, back.
+
 Background colors are automatically extracted from
 the original Quarto PDF.
 
@@ -17,6 +19,7 @@ Requires:
 from pathlib import Path
 import sys
 import pymupdf as fitz
+
 
 
 # -------------------------------------------------------
@@ -268,14 +271,14 @@ def create_print_pdf(source_file, target_file):
 
     with fitz.open(source_file) as original:
 
-        if len(original) != 78:
+        if len(original) != 80:
             raise ValueError(
-                "Expected 78 pages in the original Quarto PDF. "
+                "Expected 80 pages in the original Quarto PDF. "
                 f"Found {len(original)}."
             )
 
         # Verify cover pages
-        for page_number in (0, 77):
+        for page_number in (0, 79):
             size = original[page_number].rect
 
             if (
@@ -285,6 +288,17 @@ def create_print_pdf(source_file, target_file):
                 raise ValueError(
                     f"Cover page {page_number + 1} "
                     "must be A4 portrait."
+                )
+
+        # Expected source order (zero-based):
+        # 0 front cover, 1 blank, 2–77 interior, 78 blank, 79 back cover.
+        # Verify that excluded pages contain no text or images.
+        for blank_index in (1, 78):
+            blank_page = original[blank_index]
+            if blank_page.get_text().strip() or blank_page.get_images(full=True):
+                raise ValueError(
+                    f"Expected Quarto page {blank_index + 1} to be blank. "
+                    "Check the source PDF page order."
                 )
 
         # Detect colors from original back cover
@@ -324,7 +338,7 @@ def create_print_pdf(source_file, target_file):
             cover.show_pdf_page(
                 rect_mm(15, 15, 230, 317),
                 original,
-                77,
+                79,
                 keep_proportion=False,
             )
 
@@ -349,7 +363,9 @@ def create_print_pdf(source_file, target_file):
             # Pages 2–77: Interior
             # -------------------------------------------
 
-            for page_number in range(1, 77):
+            # Skip blank Quarto pages 2 and 79 (indices 1 and 78).
+            # Keep 76 interior pages: Quarto pages 3–78.
+            for page_number in range(2, 78):
 
                 page = output.new_page(
                     width=216 * MM,
@@ -362,6 +378,7 @@ def create_print_pdf(source_file, target_file):
                     page_number,
                     keep_proportion=False,
                 )
+
 
             # -------------------------------------------
             # Save
@@ -404,6 +421,7 @@ def create_print_pdf(source_file, target_file):
     print("77 pages")
     print("Cover: 468 x 332 mm, 8 mm spine")
     print("Interior: 76 pages, 216 x 303 mm")
+
 
 
 # -------------------------------------------------------

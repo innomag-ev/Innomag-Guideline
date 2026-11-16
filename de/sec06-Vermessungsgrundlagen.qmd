@@ -6,7 +6,7 @@ Aufbauend auf der Beschreibung von Geometrie und Anordnung des Messsystems in @s
 
 Die **magnetische Struktur** nach @sec-04 wird in der Praxis typischerweise **nicht vermessen**. Die experimentelle Ermittlung des Zonenmusters ist nur mit speziellen Verfahren und hohem messtechnischen Aufwand möglich. Auch das Polmuster ist nicht unmittelbar zugänglich, da es die Normalkomponente des Streufeldes direkt an der physischen Oberfläche der Maßverkörperung bei $n = 0$ beschreibt, was den Einsatz realer Magnetfeldsensoren mit endlichen Abmessungen verhindert.
 
-Die magnetische Vermessung von Maßverkörperungen beschränkt sich im Allgemeinen auf die **Erfassung und Auswertung ihres Streufeldes** in einer endlichen Messhöhe. Dazu werden Magnetfeldsensoren in entsprechenden Ermittlungsbereichen bewegt. Für Weg- und Winkelmesssysteme handelt es sich dabei meist um $p$-Messpfade und $p$-$o$-Messflächen bei Messhöhen, die in der Größenordnung einer halben bis wenigen Pollängen liegen. Bei diesen Messhöhen ist die Feldamplitude typischerweise noch ausreichend groß für die Sensorik, während höhere räumliche Harmonische der betrachteten Feldkomponente bereits weniger ausgeprägt sind.
+Die magnetische Vermessung von Maßverkörperungen beschränkt sich im Allgemeinen auf die **Erfassung und Auswertung ihres Streufeldes** in einer endlichen Messhöhe. Dazu werden Magnetfeldsensoren in entsprechenden Ermittlungsbereichen bewegt. Für Weg- und Winkelmesssysteme handelt es sich dabei meist um $p$-Messpfade und $p$-$o$-Messflächen bei Messhöhen, die in der Größenordnung einer halben bis wenigen Pollängen liegen. Bei diesen Messhöhen ist die Feldamplitude typischerweise noch ausreichend groß für die Sensorik, während unerwünschte höhere räumliche Harmonische der betrachteten Feldkomponente bereits weniger ausgeprägt sind.
 
 Unmittelbar **experimentell erfasst** werden die Komponenten des Magnetfeldes. Aus den resultierenden Feldverläufen können Feldmerkmale wie Nullstellen, Peaks, Amplituden- und Nutzbereichsgrenzen, Halbwellen, magnetische Perioden sowie weitere Eigenschaften des Streufeldes abgeleitet werden.
 
@@ -14,7 +14,7 @@ Die ermittelten Feldgrößen sind stets gemeinsam mit den zugehörigen **Ermittl
 
 ::: {#tip-06-begriffliche-zuordnung .callout-tip}
 
-*Die experimentell ermittelten Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den Strukturgrößen nach @sec-04 zu unterscheiden. Eine **begriffliche Zuordnung** wird in @sec-06-strukturbegriffe-feldgroessen behandelt.*
+*Die experimentell ermittelten Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den Strukturgrößen nach @sec-04 zu unterscheiden. Eine **begriffliche Zuordnung** aus historischen Gründenwird in @sec-06-strukturbegriffe-feldgroessen behandelt.*
 
 :::
 
@@ -28,7 +28,7 @@ Der **Koordinatenursprung** der Maßverkörperung $O_M$ wird aus diesem Datumssy
 
 ![Mechanischer Bezug](figures/sec06/01-mech_bezug.png){#fig-sec06-01-mech_bezug width=80% fig-pos="h"}
 
-@fig-sec06-01-mech_bezug zeigt zwei Beispiele zur Ableitung des Koordinatenursprungs $O_M$ aus geometrischen Datumssystemen. Teilbild (a) zeigt eine rotationssymmetrische Maßverkörperung, deren Datumssystem durch die Oberseite (rot), die Mantelfläche (grün) und eine Markierung auf der Mantelfläche (gelb) festgelegt ist. Teilbild (b) zeigt eine quaderförmige Maßverkörperung, bei der das Datumssystem aus drei orthogonalen Seitenflächen abgeleitet wird. Die Datumselemente können beispielsweise mit taktilen oder optischen Messverfahren ermittelt werden. Die farbliche Hervorhebung in der Abbildung dient ausschließlich ihrer besseren Unterscheidbarkeit.
+@fig-sec06-01-mech_bezug zeigt zwei Beispiele zur Ableitung eines Koordinatenursprungs $O_M$ aus geometrischen Datumssystemen. Teilbild (a) zeigt eine rotationssymmetrische Maßverkörperung, deren Datumssystem durch die Oberseite (rot), die Mantelfläche (grün) und eine Markierung auf der Mantelfläche (gelb) festgelegt ist. Teilbild (b) zeigt eine quaderförmige Maßverkörperung, bei der das Datumssystem aus drei orthogonalen Seitenflächen abgeleitet wird. Die Datumselemente können beispielsweise mit taktilen oder optischen Messverfahren ermittelt werden. Die farbliche Hervorhebung in der Abbildung dient ausschließlich ihrer besseren Unterscheidbarkeit.
 
 ## Magneto-mechanischer Bezug und Feld-KS {#sec-06-mag_mech_bezug}
 
@@ -54,7 +54,7 @@ In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nu
 
 ::: {#tip-06-feld-struktur-KS .callout-tip}
 
-*Das **Feld-KS** ist grundsätzlich gleich aufgebaut wie das **Struktur-KS** nach @sec-04-magnetische_strukturbeschreibung. Sie unterscheiden sich in der Festlegung des Ursprungs und in ihrem Verwendungszweck. Der Ursprung $O_T$ wird anhand der magnetischen Strukturmerkmale festgelegt. Das Struktur-KS dient der Beschreibung der magnetischen Struktur einer Maßverkörperung. Der Ursprung $O_F$ wird dagegen anhand von Feldmerkmalen festgelegt. Das Feld-KS dient der Vermessung des Streufeldes.*
+*Das **Feld-KS** ist grundsätzlich gleich aufgebaut wie das **Struktur-KS** nach @sec-04-magnetische_strukturbeschreibung. Sie unterscheiden sich in der Festlegung des Ursprungs und in ihrem Verwendungszweck. Der Ursprung $O_T$ wird anhand der magnetischen Strukturmerkmale festgelegt. Das Struktur-KS dient der Beschreibung der magnetischen Struktur einer Maßverkörperung. Der Ursprung $O_F$ wird dagegen anhand von Feldmerkmalen festgelegt. Das Feld-KS dient der Beschreibung des Streufeldes.*
 
 :::
 
@@ -62,7 +62,7 @@ In der Abbildung ist der Ursprung des Feld-KS in $p$-Richtung durch die erste Nu
 
 Bei mehrspurigen Maßstäben werden die nachfolgend beschriebenen Spurfeldgrößen aus den dem jeweiligen Spurfeld zugeordneten Bereichen des gemessenen Gesamtfeldes bestimmt.
 
-Um mehrere Spurfelder räumlich zueinander in Bezug zu setzen, wird die **Spurfeldlage** $\vec{r}_F^{(i)}$ als Lage des Ursprungs $O_F^{(i)}$ des $i$-ten Spurfeld-KS im Maßverkörperungs-KS festgelegt. Ihre Koordinaten sind $p_F^{(i)}$, $o_F^{(i)}$ und $n_F^{(i)}$. Da $O_F^{(i)}$ auf der funktionalen Oberfläche liegt, gilt $n_F^{(i)} = 0$.
+Um mehrere Spurfelder räumlich zueinander in Bezug zu setzen, wird die **Spurfeldlage** $\vec{r}_F^{(i)}$ als Lage des Ursprungs $O_F^{(i)}$ des $i$-ten Spurfeld-KS im Maßverkörperungs-KS festgelegt. Ihre Koordinaten sind $p_F^{(i)}$, $o_F^{(i)}$ und $n_F^{(i)}$. Wenn $O_F^{(i)}$ entsprechend der Konventionauf der funktionalen Oberfläche liegt, gilt $n_F^{(i)} = 0$.
 
 Die relative Lage zweier Spurfelder wird durch ihre Versätze beschrieben. Als **Spurfeld-Längsversatz** $p_{FF}$, auch **Spurfeld-**$\symbfit{p}$**-Versatz**, wird der Versatz in $p$-Richtung bezeichnet. Es gilt
 
@@ -80,7 +80,7 @@ Da sich ein Versatz auf zwei Spurfelder bezieht, wird nach Indexkonvention in @s
 
 ![Spurfeldlage](figures/sec06/03-spurfeldlage.png){#fig-sec06-03-spurfeldlage width=100% fig-pos="h"}
 
-@fig-sec06-03-spurfeldlage zeigt den in @fig-sec05-10-spurfeld dargestellten magnetischen Maßstab in Aufsicht. Die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ sind auf die funktionale Oberfläche des Maßstabs projiziert. Innerhalb der Nutzbereiche ist die $B_n$-Komponente des Magnetfeldes in binärer Darstellung wiedergegeben.
+@fig-sec06-03-spurfeldlage zeigt den in @fig-sec05-10-spurfeld dargestellten magnetischen Maßstab in Aufsicht. Die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ sind auf die funktionale Oberfläche des Maßstabs projiziert. Innerhalb der Nutzbereiche ist die $B_n$-Komponente des Magnetfeldes in aufgehellter binärer Darstellung wiedergegeben.
 
 Für jede Spur ist ein zugehöriges Spurfeld-KS eingezeichnet. Die Ursprünge $O_F^{(1)}$ und $O_F^{(2)}$ werden im Maßverkörperungs-KS durch die blau eingezeichneten Spurfeldlagen $\vec{r}_F^{(1)}$ und $\vec{r}_F^{(2)}$ beschrieben. Im dargestellten Beispiel werden ihre Lagen in $p$-Richtung durch die jeweils erste Nullstelle und in $o$-Richtung durch die Mitte des zugehörigen Nutzbereichs (gelb) festgelegt.
 
@@ -88,7 +88,7 @@ Die **Abmessungen eines Spurfeldes** werden aus den Abmessungen seiner Nutzberei
 
 Dazu werden entlang einer Spur ein oder mehrere **Betriebsabschnitte** festgelegt. Sie bezeichnen zusammenhängende Bereiche in $p$-Richtung, innerhalb derer das Spurfeld bewertet wird. Die Ermittlung der Spurfeldabmessungen erfolgt ausschließlich innerhalb dieser Betriebsabschnitte.
 
-Die **Spurfeldbreite** $w_F$ ergibt sich aus der Breite eines gemeinsamen Nutzbereichs, der sich über sämtliche Betriebsabschnitte einer Spur erstreckt. Die für den magneto-mechanischen Bezug genutzte **Mitte des Nutzbereichs** ergibt sich aus der Mitte dieses gemeinsamen Bereichs. Eine entsprechende Spurfeldlänge wird nicht definiert, da die relevante Ausdehnung in $p$-Richtung bereits durch die Betriebsabschnitte festgelegt ist.
+Die **Spurfeldbreite** $w_F$ ergibt sich aus der Breite eines gemeinsamen Nutzbereichs, der sich über sämtliche Betriebsabschnitte einer Spur erstreckt, und ist damit ähnlich wie die Halbwellenbreite $w_G^{(j)}$ definiert. Die für den magneto-mechanischen Bezug genutzte **Mitte des Nutzbereichs** ergibt sich aus der Mitte dieses gemeinsamen Bereichs. Eine entsprechende Spurfeldlänge wird nicht definiert, da die relevante Ausdehnung in $p$-Richtung bereits durch die Betriebsabschnitte festgelegt ist.
 
 Der sich aus den Spurfeldbreiten und dem Spurfeld-Querversatz ergebende Abstand zwischen zwei benachbarten, räumlich getrennten Spurfeldern wird als **Spurfeldabstand** $w_{FF}$ bezeichnet. Es gilt:
 
@@ -106,7 +106,7 @@ Die folgende @fig-sec06-04-spurfeldbreite zeigt den magnetischen Maßstab aus @f
 
 In der Abbildung sind die Nutzbereiche bei einer Messhöhe von $n = 0{,}5\,\mathrm{mm}$ auf die funktionale Oberfläche des Maßstabs projiziert und blau dargestellt. Die darunterliegenden Spuren sind gelb umrandet; ihre Betriebsabschnitte sind gelb ausgefüllt.
 
-Die Spurfeldbreite ergibt sich aus der minimalen Breite des Gesamtnutzbereichs aller Betriebsabschnitte. Die Positionen, an denen diese Mindestbreiten auftreten, sind durch rote Sterne markiert. Die sich daraus ergebenden feldbezogenen Spurabmessungen sind grün strichliert umrandet. Breiten und Abstände von Nutzbereich (lokal), Spur und Spurfeld sind entsprechend eingezeichnet.
+Die Spurfeldbreite ergibt sich aus der minimalen Breite des Gesamtnutzbereichs aller Betriebsabschnitte. Die Positionen, an denen diese Mindestbreiten auftreten, sind durch rote Sterne markiert und befinden sich in diesem Beispiel an der Stelle des Materialdefekts. Die sich daraus ergebenden feldbezogenen Spurabmessungen sind grün strichliert umrandet. Breiten und Abstände von Nutzbereich (lokal), Spur und Spurfeld sind entsprechend eingezeichnet.
 
 | **Begriff** | **Symbol** | **Beschreibung** |
 |:--------|:------:|:-------------|
@@ -120,7 +120,7 @@ Die Spurfeldbreite ergibt sich aus der minimalen Breite des Gesamtnutzbereichs a
 
 ## Strukturbegriffe und Feldgrößen {#sec-06-strukturbegriffe-feldgroessen}
 
-Experimentell ermittelte magnetische Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den in @sec-04 eingeführten Strukturgrößen der Maßverkörperung zu unterscheiden. In der Praxis werden beide Begriffsebenen aufgrund ihrer engen physikalischen Zusammenhänge jedoch häufig miteinander vermischt. Dies kann zu **Missverständnissen** führen und insbesondere dazu, dass die für feldbezogene Größen wesentlichen Ermittlungsbedingungen nicht ausreichend berücksichtigt werden.
+Experimentell ermittelte magnetische Größen beziehen sich auf das Streufeld nach @sec-05 und sind von den in @sec-04 eingeführten Strukturgrößen der Maßverkörperung zu unterscheiden. In der Praxis werden beide **Begriffsebenen** aufgrund ihrer engen physikalischen Zusammenhänge und historischen Entwicklung jedoch häufig miteinander vermischt. Das betrifft besonders die Begriffe Magnetpol und Spur. Diese Vermischung kann zu **Missverständnissen** führen und insbesondere dazu, dass die für feldbezogene Größen wesentlichen Ermittlungsbedingungen nicht ausreichend berücksichtigt werden.
 
 ::: {#tip-06-struktur-feld-trennung .callout-tip}
 
@@ -128,7 +128,7 @@ Experimentell ermittelte magnetische Größen beziehen sich auf das Streufeld na
 
 :::
 
-Die Felddarstellung nach @sec-05-felddarstellung unterstützt die Trennung der Begriffsebenen, indem in Abbildungen die Messhöhe angegeben wird und für Feldkomponenten unterschiedliche Richtungssymbole eingesetzt werden.
+Die Felddarstellung nach @sec-05-felddarstellung unterstützt die Trennung der Begriffsebenen, indem in Abbildungen die Messhöhe angegeben wird und sich die Richtungssymbole von denen der Zonendarstellung unterscheiden.
 
 Der Begriff **Magnetpol** bezieht sich in diesem Dokument ausschließlich auf Bereiche an der physischen Oberfläche der Maßverkörperung und die Normalkomponente des Streufeldes. In der Praxis wird er häufig auch zur Beschreibung von Feldmerkmalen von OOP- und IP-Komponenten in endlicher Messhöhe verwendet.
 

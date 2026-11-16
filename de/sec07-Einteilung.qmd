@@ -6,7 +6,7 @@ Dieses Kapitel führt eine systematische Einteilung magnetischer Maßverkörperu
 
 Die Einteilung magnetischer Maßverkörperungen erfolgt auf mehreren Beschreibungsebenen. Auf der **ersten Ebene** werden sie anhand ihrer strukturellen Komplexität in drei **Arten** eingeteilt: Dipolmagnete, Multipolmagnete und magnetische Maßstäbe.
 
-Auf der **zweiten Ebene** wird die geometrische **Form** der Maßverkörperung beschrieben. Hierzu werden die Begrenzungsbox-Geometrien nach @sec-04-magnetische_strukturbeschreibung verwendet.
+Auf der **zweiten Ebene** wird die geometrische **Form** der Maßverkörperung beschrieben.
 
 Auf der **dritten Ebene** wird die geometrische **Anordnung** der magnetischen Struktur beschrieben. Bei magnetischen Maßstäben entspricht diese der Spurausrichtung, bei Multipolmagneten der Anordnung der Zonen beziehungsweise Pole.
 
@@ -20,7 +20,7 @@ Zur kompakten Kennzeichnung wird eine **Kurznotation** eingeführt. Sie fasst di
 
 Die Einteilung in fünf Ebenen bezieht sich auf die **Repräsentation einer Maßverkörperung**. Insbesondere auf der vierten Ebene kann dieselbe Maßverkörperung je nach Zweck zonenbezogen über ein Zonenmuster oder feldbezogen über ein Polmuster beziehungsweise die Ausprägung der Halbwellen beschrieben werden. Beispielsweise können Ra[OOP]48 und Ra(IP)48 dieselbe Maßverkörperung einmal in zonenbezogener und einmal in feldbezogener Repräsentation bezeichnen.
 
-Das Einteilungssystem ist in der **Taxonomie magnetischer Maßverkörperungen** in @fig-sec07-14-taxonomie übersichtlich dargestellt. Die folgenden Unterkapitel beschreiben die Einteilungsebenen für jede der drei Hauptgruppen im Detail.
+Das Einteilungssystem ist in der **Taxonomie magnetischer Maßverkörperungen** in @fig-sec07-14-taxonomie übersichtlich dargestellt. Die folgenden Unterkapitel führen die Einteilungsebenen für jede der drei Hauptgruppen im Detail aus.
 
 ## Dipolmagnete {#sec-07-dipolmagnete}
 
@@ -44,9 +44,9 @@ Auf der **zweiten Einteilungsebene** wird ihre geometrische **Form** beschrieben
 
 Auf der **dritten Einteilungsebene** wird die geometrische **Anordnung** der Zonen oder Pole beschrieben. Sie können geradlinig beziehungsweise axial „a“ oder sektoral beziehungsweise kreisförmig „s“ angeordnet sein. Darüber hinaus wird zwischen einreihigen und mehrreihigen Anordnungen unterschieden.
 
-Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogen in eckigen Klammern und feldbezogen in runden Klammern angegeben. In der feldbezogenen Einteilung werden Out-of-Plane „OOP“ und In-Plane „IP“ unterschieden; in der zonenbezogenen Einteilung sind zusätzlich Halbach-Anordnungen „h“ möglich. Bei rotationssymmetrischen Maßverkörperungen können alternativ in beiden Fällen die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden, die jeweils die entsprechende Ausrichtung des magnetischen Musters beschreiben. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
+Die **magnetische Ausprägung** von Multipolmagneten wird auf der **vierten Einteilungsebene** zonenbezogen in eckigen Klammern und feldbezogen in runden Klammern angegeben. In der feldbezogenen Einteilung werden Out-of-Plane „OOP“ und In-Plane „IP“ unterschieden; in der zonenbezogenen Einteilung sind zusätzlich Halbach-Anordnungen „h“ möglich. Bei rotationssymmetrischen Maßverkörperungen können alternativ in beiden Fällen die Bezeichnungen axial „a“, diametral „d“ und radial „r“ verwendet werden, die jeweils die entsprechend alternierende Ausrichtung des magnetischen Musters beschreiben. Anordnungen, die keiner dieser Klassen zugeordnet werden können, werden als frei „f“ gekennzeichnet.
 
-Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Elemente** weiter spezifiziert. Je nach gewählter Repräsentation kann es sich dabei um Zonen oder Pole handeln. Bei mehrreihigen Anordnungen wird sie für jede Reihe getrennt angegeben.
+Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der Elemente** weiter spezifiziert. Bei mehrreihigen Anordnungen wird sie für jede Reihe getrennt angegeben.
 
 @fig-sec07-03-multipolmagnete zeigt typische Beispiele der hier beschriebenen Ausführungen in Zonen- und Poldarstellungen.
 
@@ -56,11 +56,11 @@ Auf der **fünften Einteilungsebene** wird die Struktur durch die **Anzahl der E
 
 **Magnetische Maßstäbe** sind Maßverkörperungen mit komplexer magnetischer Struktur, die in eine oder mehrere magnetische Spuren gegliedert ist. Auf **zweiter Ebene** unterscheidet man Linearmaßstäbe „L“ und Rotationsmaßstäbe „R“. Auf **dritter Ebene** werden Rotationsmaßstäbe in Maßstäbe mit innenliegenden Radialspuren „i“, außenliegenden Radialspuren „o“ und Axialspuren „a“ eingeteilt.
 
-Die Beschreibung der **magnetischen Ausprägung** auf der **vierten Einteilungsebene** erfolgt entweder zonen- oder feldbezogen. Zonenbezogene Angaben werden durch eckige Klammern, feldbezogene Angaben durch runde Klammern gekennzeichnet. Die zonenbezogene Beschreibung erfolgt anhand des Zonenmusters. Typische Anordnungen sind In-Plane „IP“, Out-of-Plane „OOP“ und Halbach „h“. Die feldbezogene Beschreibung erfolgt anhand des Polmusters oder der Halbwellen einer ausgewählten Streufeldkomponente. Dabei werden In-Plane-Komponenten „IP“ und Out-of-Plane-Komponenten „OOP“ unterschieden.
+Die Beschreibung der **magnetischen Ausprägung** auf der **vierten Einteilungsebene** erfolgt entweder zonen- oder feldbezogen. Die zonenbezogene Beschreibung erfolgt in eckigen Klammern anhand des Zonenmusters. Typische Anordnungen sind In-Plane „IP“, Out-of-Plane „OOP“ und Halbach „h“. Die feldbezogene Beschreibung erfolgt in runden Klammern anhand des Polmusters oder der Halbwellen einer ausgewählten Streufeldkomponente. Dabei werden In-Plane-Komponenten „IP“ und Out-of-Plane-Komponenten „OOP“ unterschieden.
 
 Auf der **fünften Einteilungsebene** wird die magnetische Struktur durch den **Spurtyp** sowie gegebenenfalls eine zugehörige Kenngröße gekennzeichnet, die die **Anzahl** der Elemente oder Referenzlagen angibt. Bei mehrspurigen Maßstäben werden die Angaben für die einzelnen Spuren durch Doppelpunkte getrennt angegeben.
 
-Die **Spurtypen** beschreiben die magnetische Strukturierung einer Spur und dienen ihrer funktionalen Unterscheidung. Ein Spurtyp kann durch unterschiedliche Zonenmuster, beispielsweise IP, OOP oder Halbach, realisiert und sowohl zonen- als auch feldbezogen beschrieben werden. In den nachfolgend dargestellten schematischen Mustern werden Zonen, Pole und Halbwellen abstrahierend als Elemente bezeichnet; Richtungssymbole werden nicht verwendet. Im Zweifelsfall beziehen sich die dargestellten Elemente auf Halbwellen.
+Die **Spurtypen** beschreiben die magnetische Strukturierung einer Spur und dienen ihrer funktionalen Unterscheidung. Ein Spurtyp kann durch unterschiedliche Zonenmuster, beispielsweise IP, OOP oder Halbach, realisiert und sowohl zonen- als auch feldbezogen beschrieben werden. In den nachfolgend dargestellten schematischen Mustern werden Zonen, Pole und Halbwellen abstrahierend als Elemente bezeichnet; Richtungssymbole werden nicht verwendet. Vermessungsbezogen handelt es sich also um Halbwellen, strukturbezogen um Zonen- oder Polmuster.
 
 **Inkrementalspuren** „I$x$“ bestehen aus $x$ alternierenden Elementen gleicher Länge. Das daraus resultierende periodische Spurfeld ermöglicht die Erfassung relativer Lage-, Winkel- oder Geschwindigkeitsänderungen mit hoher Ortsauflösung. Ein Beispiel ist in @fig-sec07-04-inkremental gezeigt.
 
@@ -98,7 +98,7 @@ Mit einem Pseudorandomcode kann die absolute Lage direkt bestimmt werden. Die er
 
 ![Spurtypen – Inkrementalspur mit Pseudorandomcode I24:P](figures/sec07/12-inkremental-pseudo.png){#fig-sec07-12-inkremental_pseudo width=70% fig-pos="H"}
 
-@fig-sec07-13-massstabe zeigt Beispiele typischer magnetischer Maßstäbe mit der jeweils zugehörigen Kurznotation.
+Magnetische Maßstäbe können vielseitig ausgelegt werden und auch auch mit mehr als zwei Spuren ausgeführt sein. @fig-sec07-13-massstabe zeigt Beispiele typischer magnetischer Maßstäbe mit der jeweils zugehörigen Kurznotation.
 
 ![Beispielhafte magnetische Maßstäbe](figures/sec07/13-massstabe.png){#fig-sec07-13-massstabe width=100% fig-pos="h"}
 
